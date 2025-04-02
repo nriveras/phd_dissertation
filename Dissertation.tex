@@ -1,0 +1,207 @@
+%%
+%% Copyright (C) 2010 by Andreas Dräger
+%%
+%% This file may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either
+%% version 1.2 of this license or (at your option) any later
+%% version. The latest version of this license is in:
+%%
+%% http://www.latex-project.org/lppl.txt
+%%
+%% and version 1.2 or later is part of all distributions of
+%% LaTeX version 1999/12/01 or later.
+%%
+\documentclass[
+  a4paper,
+  12pt,
+  headsepline,
+  numbers=noenddot,
+  captions=oneline,
+  captions=tableheading,
+  BCOR12mm,
+  headinclude,
+  chapterprefix,
+  appendixprefix,
+  index=totoc,
+  bibliography=totoc
+]{scrbook}
+
+\usepackage{dissertation}
+\usepackage{scrhack}
+\usepackage{float}
+\usepackage{svg}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage{ragged2e} % Needed for justified environment
+
+\usepackage{siunitx} % for SI units
+\DeclareSIUnit{\year}{yr}
+\DeclareSIUnit{\hour}{h}
+\DeclareSIUnit{\liter}{L}
+\usepackage{enumitem} % Required for easy list customization
+\usepackage[T1]{fontenc}    % Font encoding
+% For chemical symbols and complicated figures
+% \usepackage[version=3]{mhchem}
+% \usepackage[all]{xy}
+% \usepackage[toc=true, number=none, style=altlist]{glossary}
+%                      % Allows creation of a glossary
+% For tables:
+% --- Required Packages ---
+\usepackage{booktabs}       % For \toprule, \midrule, \bottomrule, \addlinespace
+\usepackage{siunitx}        % For S column type (number alignment), units (\si{}), \pm symbol
+\usepackage{caption}        % For table caption and label
+\usepackage{makecell}       % For multi-line cells (headers with units)
+\usepackage{threeparttable} % For table notes (like the significance letter explanation)
+\usepackage{rotating}       % For sidewaystable environment
+\usepackage{etoolbox}       % For robust commands if needed (e.g., \robustify)
+% --- Required Packages ---
+\usepackage{graphicx}       % For \includegraphics
+\usepackage{rotating}       % *** For sidewaysfigure environment ***
+\usepackage{placeins}       % *** Provides \FloatBarrier *** (Ensure this is loaded)
+
+% --- Optional nice-to-have packages ---
+\usepackage{amsmath}        % For math mode symbols 
+
+% --- Optional nice-to-have packages ---
+\usepackage{hyperref}       % Make references clickable
+\usepackage{cleveref}       % Smarter references (\cref)
+
+% --- siunitx Settings ---
+\sisetup{
+  separate-uncertainty = true,
+  table-align-uncertainty = true,
+  table-align-exponent = false,
+}
+
+% Make \pm robust
+\robustify{\pm}
+% END: For tables:
+%
+% P L E A S E
+%
+% Enter your name, the title and some kewords for this document here:
+%
+\degree{M.Sc.}
+\name{Nicolás Riveras Muñoz}
+\thesis{Biological soil crust and climate effects on soil stabilization, erosion, and nutrient dynamics across the Chilean Coastal Range}
+\keywordlist{list, of, comma, separated, keywords}
+\hometown{Puente Alto}
+\dean{Prof.~Dr.~Thilo Stehle}
+\reviewerone{Prof.~Dr.~Thomas Scholten}
+\reviewertwo{Dr.~Peter Kühn}
+
+% \doublespacing
+
+% Type the hyphonation of important words here:
+\selectlanguage{english}
+\hyphenation{
+Gen-ome
+sub-stan-ce
+me-ta-bo-li-sm
+con-cen-tra-ti-ons
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\hypersetup{
+              %bookmarks={true},
+              bookmarksopen={true},
+              bookmarksopenlevel={0},
+              bookmarksnumbered={true},
+              breaklinks={true},
+              colorlinks={false},
+              pdfpagemode={UseOutlines},
+              pdftitle={\thethesis},
+              pdfauthor={\thename},
+              pdfsubject={Dissertation},
+              pdfkeywords={\thekeywordlist},
+              pdfview={FitV},
+              %pdftex,
+              pdffitwindow={true},
+              pdfstartview={FitV},
+              pdfnewwindow={false},
+              pdfdisplaydoctitle={true},
+              pdfhighlight={/P},
+              plainpages={false},
+              unicode={true},
+              urlcolor={blue}
+}
+%\extratitle{\begin{center}\normalfont\sffamily\thethesis\end{center}}
+\title{\thethesis}
+\author{\Large Dissertation\\
+\normalsize der Mathematisch-Naturwissenschaftlichen Fakult\"at\\
+\normalsize der Eberhard Karls Universit\"at T\"ubingen\\
+\normalsize zur Erlangung des Grades eines\\
+\normalsize Doktors der Naturwissenschaften\\
+\normalsize (Dr.~rer.~nat.)}
+\date{\ \\[2ex]\normalsize  vorgelegt von\\
+\thedegree~\thename\\
+\normalsize aus \thehometown}
+\publishers{\normalsize T\"ubingen\\\normalsize 2025}
+\lowertitleback{
+	Gedruckt mit Genehmigung der Mathematisch-Naturwissenschaftlichen Fakult\"at der
+	Eberhard Karls Universit\"at T\"ubingen. \\ \\ \\
+	\begin{tabular}{lp{.85\textwidth}}
+	Tag der m\"undlichen Qualifikation:& XX.XX.2025\\
+	Dekan:                             & \thedean\\
+	1.~Berichterstatter:               & \thereviewerone\\
+	2.~Berichterstatter:               & \thereviewertwo\\
+\end{tabular}}
+% This command is useful to edit and compile only one or a selection of some
+% files instead of the whole document. This is very useful and facilitates
+% editing these large documents.
+% \includeonly{tex/Fil1 tex/File2...}
+
+\begin{document}
+\frontmatter
+\selectlanguage{ngerman}
+\maketitle
+\selectlanguage{english}
+
+%
+% Caution: Abstract, Kurzfassung, and Acknowledgements are chapter* (in this
+%          way they don't occur in the table of contents)! However, this
+%          means, you have to set the headline manually (see the example files)
+%
+\include{tex/Abstract}        % In case this work is to be written in German,
+                              % no English abstract is required.
+\selectlanguage{ngerman}
+\include{tex/Kurzfassung}     % In any case you have to write a German abstract.
+\selectlanguage{english}
+% \include{tex/Acknowledgments} % If you want to write your acknowledgements in
+                              % German please move the selectlanguage command
+
+\tableofcontents
+\listoftables
+\listoffigures
+\include{tex/Publications}
+\mainmatter
+
+% Content
+% Just some example files...
+\include{tex/Introduction}
+\include{tex/Methodology}
+\include{tex/Results_Discussion}
+
+\include{tex/Conclusions}
+
+\bibliographystyle{natbib}    % References
+\bibliography{literatur}
+
+\appendix
+\include{tex/Appendices}
+
+% \include{tex/Abbreviations}
+% \include{tex/Glossary}
+% \include{tex/Supplementary}
+
+\backmatter
+
+% Optional overviews
+
+% \listofalgorithms
+% \lstlistoflistings
+
+
+% Index to be created...
+
+\end{document}

@@ -1,0 +1,216 @@
+%%
+%% Copyright (C) 2010 by Andreas Dr?er
+%%
+%% This file may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either
+%% version 1.2 of this license or (at your option) any later
+%% version. The latest version of this license is in:
+%%
+%% http://www.latex-project.org/lppl.txt
+%%
+%% and version 1.2 or later is part of all distributions of
+%% LaTeX version 1999/12/01 or later.
+%%
+\NeedsTeXFormat{LaTeX2e}[1999/12/01]
+\ProvidesPackage{dissertation}
+
+\newcommand{\degree}[1]{\def\thedegree{#1}}
+\newcommand{\name}[1]{\def\thename{#1}}
+\newcommand{\thesis}[1]{\def\thethesis{#1}}
+\newcommand{\keywordlist}[1]{\def\thekeywordlist{#1}}
+\newcommand{\hometown}[1]{\def\thehometown{#1}}
+\newcommand{\dean}[1]{\def\thedean{#1}}
+\newcommand{\reviewerone}[1]{\def\thereviewerone{#1}}
+\newcommand{\reviewertwo}[1]{\def\thereviewertwo{#1}}
+
+%
+% Inclusion of required LaTeX packages
+%
+
+% Case distinction whether compiling with PDFLaTeX or LaTeX
+\RequirePackage{ifpdf}
+
+% Mathematics
+\RequirePackage{amsmath}
+\RequirePackage{amsfonts} % Special mathematical fonts
+\RequirePackage{mathrsfs} % More fonts; includes the font \mathscr{...}
+\RequirePackage{amssymb}  % Contains several mathematical symbols
+\RequirePackage{nicefrac} % Creates a nicer frac in texts; use $\nicefrac{a}{b}$
+\RequirePackage{upgreek}  % Non-italicalized greek symbols in math mode
+
+% Fonts
+\RequirePackage{textcomp} % Provides several additional characters and symbols
+\RequirePackage{mathptmx} % Times font in main text and mathematical formulas
+\RequirePackage{wasysym}  % Contains several special symbols
+\RequirePackage{pifont}   % Enables Zapf dingbats (special symbols)
+\RequirePackage[scaled=.95]{helvet} % Sans serif font to be used
+\RequirePackage{rotating} % Allows setting sideways tables and figures, and to
+                      % rotate text.
+
+
+
+% Language definitions
+\RequirePackage[english, ngerman]{babel}
+
+% PDFLaTeX- or. LaTeX-specific settings
+\ifpdf
+  % for landscape texts
+  \RequirePackage{pdflscape}        % Landscape pages in PDF output
+  % Encoding
+  \RequirePackage[unicode]{hyperref}
+  \usepackage{hyperref}
+  \hypersetup{
+  	hidelinks
+  }
+  \RequirePackage[all]{hypcap}
+
+  \pdfcompresslevel=9
+\else
+  \RequirePackage{epsfig}   % Inclusion of EPS graphics
+  \RequirePackage{psfig}    % Inclusion of PS graphics
+  \RequirePackage[plainpages={false}]{hyperref} % Hyperreferences
+  \RequirePackage{lscape}   % For landscape pages
+\fi
+
+% References
+\RequirePackage{cleveref} % better references with \Cref
+
+% Figures
+\RequirePackage{graphicx} % Inclusion of graphic files in PNG, JPG format
+\RequirePackage{subfig}   % subfigures
+\RequirePackage{sidecap}  % caption on the side instead of below
+\RequirePackage{wrapfig}  % figures surrounded by text
+\RequirePackage{float}    % can force LaTeX to place figures H (here)
+\RequirePackage{placeins} % can stop items from floating past a certain point
+
+\RequirePackage{natbib}   % Citation style: see commands \citep, \citet etc.
+
+\RequirePackage{listings}    % Source code listing support
+\RequirePackage{algorithm}   % A floating environment to embed psudo code
+\RequirePackage{algorithmic} % Provides commands for pseudo code generation
+
+
+\RequirePackage{color}       % Allows using colored text
+\RequirePackage[table]{xcolor} % rowcolors for your tables
+\RequirePackage{relsize}
+\RequirePackage{caption}
+
+% Tables
+\RequirePackage{tabularx}
+\RequirePackage{booktabs}
+\RequirePackage{longtable}
+\RequirePackage{dcolumn}
+\RequirePackage{multirow}
+\RequirePackage{array}
+\RequirePackage{hhline}
+
+% for correction mode: use  
+% \singlespacing, \onehalfspacing, or \doublespacing
+% to change the line spacing for proofreading
+\RequirePackage{setspace}
+
+% Index and glossary
+\RequirePackage{makeidx} % Allows the creation of an index
+
+%
+% Definitions
+%
+
+%
+% Layout
+%
+\pagestyle{headings}
+% Titles and descriptions are set to the default bold face font.
+\setkomafont{descriptionlabel}{\bfseries}
+\setkomafont{sectioning}{\bfseries}
+
+% Some nice colors
+\definecolor{royalblue}{cmyk}{.93, .79, 0, 0}
+\definecolor{lightblue}{cmyk}{.10, .017, 0, 0}
+\definecolor{darkgreen}{rgb}{0,.7,0}
+\definecolor{darkred}{rgb}{.7,0,0}
+\definecolor{lightgray}{gray}{0.97}
+
+%
+% Definitions for the math mode.
+%
+% the derivative symbol for differential equations
+\newcommand{\D}{\mathrm{d}}
+% the nice English No. symbol
+\newcommand{\numero}{N\hspace{-0.075em}\raisebox{0.25em}{\relsize{-2}\b{o}}}
+% the norm symbol for vectors
+\newcommand{\vectornorm}[1]{\left|\left|#1\right|\right|}
+% alternative definition of the norm
+\newcommand{\norm}[1]{\lVert#1\rVert}
+% Important for correction mode to simplify writing text in red; just type
+
+\newcommand{\species}[3]{%
+	\newcommand{#1}{\gdef#1{\textit{#3}\xspace}\textit{#2}\xspace}}
+
+\species{\ath}{Arabidopsis thaliana}{A.~thaliana}
+\species{\yeast}{Saccharomyces cerevisiae}{S. ~cerevisiae}
+\species{\cele}{Caenorhabditis elegans}{C. ~elegans}
+\species{\drom}{Drosophila melanogaster}{D. ~melanogaster}
+\species{\ara}{Arabidopsis arenosa}{A. ~arenosa}
+\species{\sol}{Solanum lycopersicuma}{S. ~lycopersicum}
+\species{\bev}{Beta vulgaris}{B. ~vulgaris}
+\species{\aly}{Arabidopsis lyrata}{A. ~lyrata}
+\species{\cbp}{Capsella bursa-pastoris}{C. ~bursa-pastoris}
+\species{\cru}{Capsella rubella}{C. ~rubella}
+\species{\cor}{Capsella orientalis}{C. ~orientalis}
+
+
+
+
+%
+% Definitions for tables
+%
+% centered columns with fixed width
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+% right adjusted columns with fixed width
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+% left adjusted columns with fixed width
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+% brakets around equation numbers when using \vref instead of \ref
+\labelformat{equation}{(#1)}
+
+% This is the rank function for matrices.
+\DeclareMathOperator{\rank}{rank}
+
+% Additional fonts in math mode
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+\DeclareMathAlphabet{\mathcalligra}{T1}{calligra}{m}{n}
+\DeclareMathAlphabet{\mathcal}{OMS}{cmsy}{m}{n}
+
+
+
+%
+% Layout for listings
+%
+\lstset{
+captionpos=b,
+basicstyle=\footnotesize\ttfamily\bfseries,
+stringstyle=\color{darkred}\footnotesize\ttfamily,
+keywordstyle=\color{royalblue}\bfseries\ttfamily,
+ndkeywordstyle=\color{darkgreen},
+numbers=left,
+numberstyle=\footnotesize,
+breaklines=true,
+tabsize=2,
+frame=single,
+breakatwhitespace=true
+}
+
+\usepackage[labelfont=bf]{caption}
+
+
+% When using hyperref and referencing algorithms latex gives an error: !
+% Undefined control sequence. <argument> algorithm.\theHalgorithm This can
+% be solved adding at the preamble:
+% \newcommand{\theHalgorithm}{\arabic{algorithm}}
+
+% The indent for the captions in figures and tables
+\setcapindent{0em}
+\captionsetup{font=footnotesize} % reduce font size of all 
+

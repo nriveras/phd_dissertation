@@ -1,0 +1,208 @@
+% This file was created with JabRef 2.4.2.
+% Encoding: UTF8
+
+@BOOK{Alberty2003,
+  title = {{Thermodynamics of Biochemical Reactions}},
+  publisher = {John Wiley \& Sons},
+  year = {2003},
+  author = {Alberty, Robert A.},
+  address = {New Jersey, NJ, USA},
+  doi = {10.1002/0471332607}
+}
+
+@INPROCEEDINGS{procAKL2000,
+  author = {Althaus, Erns and Kohlbacher, Oliver and Lenhof, Hans-Peter and M{\"u}ller,
+	Peter},
+  title = {A Combinatorial Approach to Protein Docking with Flexible Side-Chains},
+  booktitle = {RECOMB 2000 -- Proceedings of the Fourth Annual International Conference
+	on Computational Molecular Biology},
+  year = {2000},
+  editor = {Ron Shamir and Satoru Miyano and Sorin Istrail and Pavel Pevzner
+	and Michael Waterman},
+  pages = {15--24},
+  publisher = {ACM press}
+}
+
+@ARTICLE{Altschul1990,
+  author = {Altschul, Stephen F. and Gish, Warren and Miller, Webb and Meyers,
+	Eugene W. and Lipman, David J.},
+  title = {Basic Local Alignment Search Tool},
+  journal = {Journal of Molecular Biology},
+  year = {1990},
+  volume = {215},
+  pages = {403--410},
+  month = {October}
+}
+
+@TECHREPORT{Beazley1996,
+  author = {Beazley, David M.},
+  title = {{SWIG : An Easy to Use Tool for Integrating Scripting Languages with
+	C and C++}},
+  institution = {Department of Computer Science, University of Utah},
+  year = {1996},
+  address = {Salt Lake City, Utah, USA},
+  month = {February},
+  abstract = {I present SWIG (Simplified Wrapper and Interface Generator), a program
+	development tool that automatically generates the bindings between
+	C/C++ code and common scripting languages including Tcl, Python,
+	Perl and Guile. SWIG supports most C/C++ datatypes including pointers,
+	structures, and classes. Unlike many other approaches, SWIG uses
+	ANSI C/C++ declarations and requires the user to make virtually no
+	modifications to the underlying C code. In addition, SWIG automatically
+	produces documentation in HTML, LaTeX, or ASCII format. SWIG has
+	been primarily designed for scientists, engineers, and application
+	developers who would like to use scripting languages with their C/C++
+	programs without worrying about the underlying implementation details
+	of each language or using a complicated software development tool.
+	This paper concentrates on SWIG's use with Tcl/Tk.},
+  file = {:/home/draeger/Documents/Literatur/B/SWIG_Doc1.pdf:PDF},
+  organization = {Department of Computer Science, University of Utah},
+  url = {http://www.swig.org}
+}
+
+@ARTICLE{Beigi2006,
+  author = {Beigi, Majid and Zell, Andreas},
+  title = {{SPSO: Synthetic Protein Sequence Oversampling for imbalanced protein
+	data and remote homilogy detection}},
+  journal = {VII international symposium on Biological and Medical Data Analysis,
+	ISBMDA},
+  year = {2006}
+}
+
+
+@INPROCEEDINGS{Andreasson_etal:ICRA:2005,
+  author = {Andreasson, Henrik and Treptow, Andr\'{e} and Duckett, Tom},
+  title = {Self-Localization in Non-Stationary Environments using Omni-Directional
+	Vision},
+  booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+  year = {2005},
+  pages = {3348--3353},
+  owner = {mkron},
+  timestamp = {2009.02.12}
+}
+
+@ARTICLE{arnold03ES-loc-noise,
+  author = {Arnold, Dirk V. and Beyer, Hans-Georg},
+  title = {{A comparison of evolution strategies with other direct search methods
+	in the presence of noise}},
+  journal = {Computational Optimization and Applications},
+  year = {2003},
+  volume = {24},
+  pages = {135--159},
+  number = {1},
+  owner = {mkron},
+  publisher = {Springer},
+  timestamp = {2011.03.21}
+}
+
+@BOOK{Engelbrecht02CompInt,
+  title = {Computational Intelligence: An Introduction},
+  publisher = {Halsted Press},
+  year = {2002},
+  author = {Andries Engelbrecht},
+  address = {New York, NY, USA},
+  isbn = {0470848707},
+  owner = {mkron},
+  timestamp = {2009.08.14}
+}
+
+@PATENT{graycode53,
+  nationality = {U.S.A.},
+  year = {1953},
+  yearfiled = {1947},
+  author = {Frank Gray},
+  title = {Pulse Code Communication, {U.S. Patent} 2,632,058},
+  dayfiled = {13},
+  monthfiled = {#nov#},
+  owner = {mkron},
+  timestamp = {2010.12.02}
+}
+
+@MISC{CEC05benchResults,
+  author = {Nikolaus Hansen},
+  title = {Compilation of Results on the 2005 {CEC} Benchmark Function Set},
+  howpublished = {on-line, http://www.ntu.edu.sg/home/epnsugan/index\_files/CEC-05/compareresults.pdf},
+  month = may,
+  year = {2006},
+  note = {Accessed 2010-09-15},
+  owner = {mkron},
+  timestamp = {2011.03.21},
+  url = {http://www.ntu.edu.sg/home/epnsugan/index\_files/CEC-05/compareresults.pdf}
+}
+
+@INCOLLECTION{Koh2000,
+  author = {Oliver Kohlbacher},
+  title = {BALL - A Framework for Rapid Application Development in Molecular
+	Modeling},
+  booktitle = {Beiträge zum Heinz-Billing-Preis 2000},
+  publisher = {Gesellschaft für wissenschaftliche Datenverarbeitung mbH},
+  year = {2001},
+  pages = {13-28},
+  address = {Göttingen},
+  owner = {mkron},
+  timestamp = {2011.03.21},
+  url = {http://www.billingpreis.mpg.de/hbp00/kohlbacher.pdf}
+}
+
+@INBOOK{lourenco03ILS,
+  chapter = {{Iterated Local Search}},
+  pages = {320--353},
+  title = {Handbook of Metaheuristics},
+  publisher = {Springer},
+  year = {2003},
+  editor = {Fred Glover and Gary Kochenberger},
+  author = {Lourenco, Helena and Martin, Olivier and St{\"u}tzle, Thomas},
+  volume = {57},
+  series = {International Series in Operations Research \& Management Science},
+  doi = {10.1007/b101874},
+  journal = {Handbook of metaheuristics},
+  owner = {mkron},
+  timestamp = {2011.03.21}
+}
+
+@UNPUBLISHED{Maier2003,
+  author = {Maier, Klaus},
+  title = {{Sch{\"a}tzung der kinetischen Parameter metabolischer Netzwerke
+	aus Zeitreihendaten}},
+  note = {Studienarbeit},
+  year = {2003},
+  owner = {draeger},
+  timestamp = {2006.03.03}
+}
+
+@MANUAL{Nicholas1998,
+  title = {{A Tutorial on Searching Sequence Databases and Sequence Scoring
+	Methods}},
+  author = {Nicholas Jr., Hugh B. and Deerfield, David W.~II and Ropelewski,
+	Alexander J.},
+  organization = {{Biomedical Supercomputing Initiative of the Pittsburgh Supercomputing
+	Center}},
+  month = {March},
+  year = {1998},
+  owner = {mkron},
+  timestamp = {2011.03.21}
+}
+
+@TECHREPORT{CEC2005Benches,
+  author = {P. N. Suganthan and N. Hansen and J.J. Liang and K. Deb and Y.P.
+	Chen and A. Auger and A. Tiwari},
+  title = {{Problem Definitions and Evaluation Criteria for the {CEC} 2005 Special
+	Session on Real-Parameter Optimization}},
+  institution = {Nanyang Technological University, Singapore, and KanGAL Report, IIT
+	Kanpur, India},
+  year = {2005},
+  number = {2005005},
+  owner = {mkron},
+  timestamp = {2009.02.12}
+}
+
+@PHDTHESIS{Ulmer2005,
+  author = {Ulmer, Holger},
+  title = {Modellunterst{\"u}tzte Evolution{\"a}re Optimierungsverfahren in
+	JavaEvA},
+  school = {Eberhard Karls Universit{\"a}t T{\"u}bingen},
+  year = {2005},
+  month = {June},
+  owner = {draeger},
+  timestamp = {2006.04.07}
+}

@@ -1,0 +1,53 @@
+% --- Custom Appendix Overview Page ---
+% Adds "Appendix" to the Table of Contents
+\addcontentsline{toc}{chapter}{Appendix}
+% Creates an unnumbered chapter heading for the list
+\chapter*{Appendix}
+\label{chap:appendix_overview} % Label for reference if needed
+
+% --- List of Manuscripts (Manual Entry) ---
+% This section manually lists the manuscripts like in your example.
+% You will need to MANUALLY UPDATE THE PAGE RANGES (pp. X - Y)
+% after compiling the document fully at least twice.
+
+\noindent % Prevents paragraph indentation
+\textbf{Manuscript 1} \hfill \textbf{pp. 59 - 72} \\ % <-- UPDATE PAGE NUMBERS MANUALLY
+GALL, C.; OHAN, J.; GLASER, K.; KARSTEN, U.; SCHLOTER, M.; SCHOLTEN, T.; SCHULZ, S.; SEITZ, S. \& KURTH, J. K. (2022): \\
+\textit{Biocrusts: Overlooked hotspots of managed soils in mesic environments.} \\
+Journal of Plant Nutrition and Soil Science, 185 (6), 745-751. DOI: 10.1002/jpln.202200252.
+
+\vspace{\baselineskip} % Adds a line space between entries
+
+\noindent
+\textbf{Manuscript 2} \hfill \textbf{pp. 73 - 111} \\ % <-- UPDATE PAGE NUMBERS MANUALLY
+GALL, C.; NEBEL, M.; QUANDT, D.; SCHOLTEN, T. \& SEITZ, S. (2022): \\
+\textit{Pioneer biocrust communities prevent soil erosion in temperate forests after disturbances.} \\
+Biogeosciences, 19, 3225–3245. DOI: 10.5194/bg-19-3225-2022.
+
+\vspace{\baselineskip}
+
+\noindent
+\textbf{Manuscript 3} \hfill \textbf{pp. 112 - 126} \\ % <-- UPDATE PAGE NUMBERS MANUALLY
+GALL, C.; NEBEL, M.; SCHOLTEN, T.; THIELEN, S. M. \& SEITZ, S. (in preparation): \\
+\textit{On the impact of soil-moss combinations on surface runoff, percolation, soil erosion, and temporal dynamics of soil water content.}
+
+\vspace{\baselineskip}
+
+\noindent
+\textbf{Manuscript 4} \hfill \textbf{pp. 127 - 159} \\ % <-- UPDATE PAGE NUMBERS MANUALLY
+THIELEN, S. M.; GALL, C.; EBNER, M.; NEBEL, M.; SCHOLTEN, T. \& SEITZ, S. (2021): \\
+\textit{Water`s path from moss to soil: A multi-methodological study on water absorption and evaporation of soil moss combinations.} \\
+Journal of Hydrology and Hydromechanics, 69 (4), 421-435. DOI: 10.2478/johh-2021-0021.
+
+% --- Include the Manuscript Files as Chapters ---
+% The \include command starts each file on a new page and uses the
+% chapter numbering defined by \appendix (A, B, C...)
+\input{tex/Manuscript-1}
+\input{tex/Manuscript-2}
+\input{tex/Manuscript-3}
+\input{tex/Manuscript-4}
+\input{tex/Manuscript-5}
+
+% --- Add Bibliography, Index etc. if needed ---
+% \bibliographystyle{plain} % Or your chosen style
+% \bibliography{your_bib_file}

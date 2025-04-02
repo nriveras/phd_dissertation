@@ -1,0 +1,33 @@
+\chapter{Abbreviations \& Glossary}
+
+\begin{longtable}[l]{p{.2\textwidth}p{.75\textwidth}}
+% \endfirsthead
+\endhead
+\endfoot
+% \endlastfoot
+\textit{Bubble} & A structure in the graph topology that is being formed by variable sequence. It is defined as a closed subgraph with an upstream and downstream anchor \textit{node} and a set of \textit{nodes} in between them that represent variable sequence (\autoref{fig:basictube}). A looser formulation of this concept are \textit{snarls} \citep{Paten2018-qj}. \\
+\textit{Core} & Part of a \textit{pan-genome} or \textit{pan-proteome} that is shared by all, or a large fraction of the accessions that are part of it \\
+\textit{Core level} & A concept used by \textit{panSV} to describe the sharedness of a \textit{node} in the \textit{pan-genome}. The core level is defined as the number of genomes that contain the sequence stored in this \textit{node} and can differ from the number of \textit{paths} that traverse through it, e.g. in the case of a duplication event. \\
+\textit{DAG} & Directed Acyclic Graph - A type of graph that prohibits loops in its structure to go back to previous \textit{nodes}. \\ 
+\textit{Edge} & Connective feature of a genome graph that orders and connects the \textit{nodes}. \\
+\textit{GFA} & Graphical Fragment Assembly - a file format to store graphs in a human readable form \citep{gfa_2021}. \\
+\textit{HDR} & Highly Diverged Region - region in a genome that contains a multitude of smaller variants, above the average of the surrounding sequence. As defined by the pairwise variant detection tool SyRI \citep{Goel2019-rx}. \\
+\textit{InDel} & Insertion-Deletion variation events in a reference framework that induces the polarity of sequence being inserted, or deleted from it. This term is slowly being replaced by \textit{PAV}. \\
+\textit{Mobilome} & Fraction of the genome that consists of mobile elements such as \textit{TEs}. \\
+\textit{MUM} & Maximal Unique Match - largest possible unique alignment between sequences \\
+\textit{Node} & Element of a genome graph that stores the sequence. \\
+\textit{OG} & Orthogroup - Group of orthologous genes. \\
+\textit{Path} & Colored traversal through a set of consecutive \textit{nodes}, and \textit{edges} of a graph. A path represents longer sequences in the graph, such as the input genomes. By following it through the graph the full sequence can be recovered. \\
+\textit{Pan-genome} & Combined collection of genetic sequence of multiple individuals to represent a larger population. \\
+\textit{Pan-proteome} & Collection of genes, or transcripts from multiple individuals that represent an enriched collection and the frequency of their occurrence in a larger population. \\
+\textit{PAV} & Presence-Absence variation events. A type of genetic variation where sequence has been gained or lost. \\
+\textit{Private} &Part of a \textit{pan-genome} or \textit{pan-proteome} that is shared by no other, or very few other individuals. \\
+\textit{Shell} & Part of a \textit{pan-genome} or \textit{pan-proteome} that is niether \textit{core}, nor \textit{private}. \\
+\textit{Snarl} & A structure in the graph topology that represents variable sequence in the graph. In contrast to a \textit{bubble} this structure does not have to be a closed subgraph with up- and downstream anchors, but can have additional connections into it, or lack one of the anchors \citep{Paten2018-qj}. \\
+\textit{SNP} & Single-Nucleotide-Polymorphism - Variation between two DNA sequences where a single base is replaced by another single base. \\
+\textit{Superbubble} & A large substructure of the graph. It follows the definition of a \textit{bubble}, but contains at least one smaller \textit{bubble} inside. \\
+\textit{SV} & Structural Variation - Large sequence variation that alters the structure of the genome, for example PAVs, duplications, or translocations. \\
+\textit{TE} & Transposable Element - Mobile elements in the DNA sequence that are able to replicate themselves and insert into the genome. \\
+\textit{Traversal} & A collection of consecutive \textit{nodes}, and \textit{edges} in a graph that has a defined start and end \textit{node}. 
+\end{longtable}
+
