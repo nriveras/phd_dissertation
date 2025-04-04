@@ -1,4 +1,5 @@
 % NOTE: NO \documentclass, NO \begin{document}, NO \end{document} in this file!
+\usepackage{subcaption} % Add this package for subfigure support
 
 \chapter{Biocrust-linked changes in soil aggregate stability along a climatic gradient in the Chilean Coastal Range}
 \label{chap:manuscript1} % Label for potential cross-referencing (start page)
@@ -130,106 +131,79 @@ The influence of the climatic gradient (study site) and biocrust presence on phy
 
 Soil pH was significantly affected by the climatic gradient (Figure \cref{fig:soil_properties_panel}), with mean values of 7.7 in PA, 6.2 in SG, 5.9 in LC, and 4.4 in NA, with acidification levels of 6.2 in BSC- to 5.9 in BSC+. In terms of electrical conductivity (EC), a remarkably higher value of \SI{2646.1}{\micro\siemens\per\centi\meter} in PA is outstanding in comparison with the low and homogeneous values of \SI{109.3}{\micro\siemens\per\centi\meter} for SG, \SI{153.8}{\micro\siemens\per\centi\meter} for LC, and \SI{102.3}{\micro\siemens\per\centi\meter} for NA. EC did not differ for the biocrust treatment. Nevertheless, when looking at the site and biocrust in combination, the BSC+ results in a reduction of the EC in PA; meanwhile, in SG, LC, and NA there was no noticeable change.
 
-\begin{figure}[htbp] % You can adjust placement specifiers [htbp] as needed
-    \centering % Center the content within the figure environment
+\begin{figure}[htbp] % Adjust placement specifiers [htbp] as needed
+    \centering % Center the entire block of subfigures
 
-    % --- Row 1 ---
-    \begin{subfigure}[b]{0.48\textwidth} % Adjust width slightly less than 0.5 for spacing
+    % --- Row 1 (3 figures) ---
+    \begin{subfigure}[b]{0.32\textwidth} % Width suitable for 3 across
         \centering
         \includegraphics[width=\linewidth]{img/M1-Figure_2-01.png}
-        \caption[]{} % Auto-label (a)
-        \label{fig:m1_fig2_01}
+        % No caption or label needed here
     \end{subfigure}
-    \hfill % Pushes the next subfigure to the right
-    \begin{subfigure}[b]{0.48\textwidth}
+    \hfill % Distribute space
+    \begin{subfigure}[b]{0.32\textwidth}
         \centering
         \includegraphics[width=\linewidth]{img/M1-Figure_2-02.png}
-        \caption[]{} % Auto-label (b)
-        \label{fig:m1_fig2_02}
     \end{subfigure}
-
-    \vspace{0.5cm} % Add some vertical space between rows
-
-    % --- Row 2 ---
-    \begin{subfigure}[b]{0.48\textwidth}
+    \hfill
+    \begin{subfigure}[b]{0.32\textwidth}
         \centering
         \includegraphics[width=\linewidth]{img/M1-Figure_2-03.png}
-        \caption[]{} % Auto-label (c)
-        \label{fig:m1_fig2_03}
     \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.48\textwidth}
+
+    \vspace{0.3cm} % Adjust vertical space between rows if needed
+
+    % --- Row 2 (3 figures) ---
+    \begin{subfigure}[b]{0.32\textwidth}
         \centering
         \includegraphics[width=\linewidth]{img/M1-Figure_2-04.png}
-        \caption[]{} % Auto-label (d)
-        \label{fig:m1_fig2_04}
     \end{subfigure}
-
-    \vspace{0.5cm}
-
-    % --- Row 3 ---
-    \begin{subfigure}[b]{0.48\textwidth}
+    \hfill
+    \begin{subfigure}[b]{0.32\textwidth}
         \centering
         \includegraphics[width=\linewidth]{img/M1-Figure_2-05.png}
-        \caption[]{} % Auto-label (e)
-        \label{fig:m1_fig2_05}
     \end{subfigure}
     \hfill
-    \begin{subfigure}[b]{0.48\textwidth}
+    \begin{subfigure}[b]{0.32\textwidth}
         \centering
         \includegraphics[width=\linewidth]{img/M1-Figure_2-06.png}
-        \caption[]{} % Auto-label (f)
-        \label{fig:m1_fig2_06}
     \end{subfigure}
 
-    \vspace{0.5cm}
+    \vspace{0.3cm}
 
-    % --- Row 4 ---
-    \begin{subfigure}[b]{0.48\textwidth}
+    % --- Row 3 (3 figures) ---
+    \begin{subfigure}[b]{0.32\textwidth}
         \centering
         \includegraphics[width=\linewidth]{img/M1-Figure_2-07.png}
-        \caption[]{} % Auto-label (g)
-        \label{fig:m1_fig2_07}
     \end{subfigure}
     \hfill
-    \begin{subfigure}[b]{0.48\textwidth}
+    \begin{subfigure}[b]{0.32\textwidth}
         \centering
         \includegraphics[width=\linewidth]{img/M1-Figure_2-08.png}
-        \caption[]{} % Auto-label (h)
-        \label{fig:m1_fig2_08}
     \end{subfigure}
-
-    \vspace{0.5cm}
-
-    % --- Row 5 ---
-    \begin{subfigure}[b]{0.48\textwidth}
+    \hfill
+    \begin{subfigure}[b]{0.32\textwidth}
         \centering
         \includegraphics[width=\linewidth]{img/M1-Figure_2-09.png}
-        \caption[]{} % Auto-label (i)
-        \label{fig:m1_fig2_09}
+    \end{subfigure}
+
+    \vspace{0.3cm}
+
+    % --- Row 4 (2 figures, centered) ---
+    % Use slightly wider subfigures here, pushed apart by \hfill
+    \begin{subfigure}[b]{0.48\textwidth} % Width suitable for 2 across
+        \centering
+        \includegraphics[width=\linewidth]{img/M1-Figure_2-10.png}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.48\textwidth}
         \centering
-        \includegraphics[width=\linewidth]{img/M1-Figure_2-10.png}
-        \caption[]{} % Auto-label (j)
-        \label{fig:m1_fig2_10}
-    \end{subfigure}
-
-    \vspace{0.5cm}
-
-    % --- Row 6 (Centered) ---
-    % Since it's the only one on this line within the main \centering, it will be centered.
-    \begin{subfigure}[b]{0.48\textwidth} % Width can be adjusted if needed
-        \centering
-        \includegraphics[width=0.8\linewidth]{img/M1-Figure_2-11.png} % Optional: make slightly narrower than others
-        \caption[]{} % Auto-label (k)
-        \label{fig:m1_fig2_11}
+        \includegraphics[width=\linewidth]{img/M1-Figure_2-11.png}
     \end{subfigure}
 
     % --- Main Caption and Label for the entire figure ---
     \caption{Mean and standard error of soil properties for Pan de Azúcar (PA), Santa Gracia (SG), La Campana (LC) and Nahuelbuta (NA), without (BSC-) and with biocrust cover (BSC+), and the interaction of both factors. (EC = electrical conductivity, BD = bulk density, C\textsubscript{t} = total carbon, SOC = soil organic carbon, SIC = soil inorganic carbon, N\textsubscript{t} = total nitrogen, CN = carbon to nitrogen ratio). Significant factors include Tukey's Post-hoc-Test indicated by letters on the top of the bars. Different letters represent significant differences at p <0.05.}
-    \label{fig:soil_properties_panel} % A descriptive label for the whole figure
+    \label{fig:soil_properties_panel} % Use the same descriptive label
 
 \end{figure}
 
