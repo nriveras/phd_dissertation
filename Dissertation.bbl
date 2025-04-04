@@ -1,5 +1,16 @@
 \begin{thebibliography}{}
 
+\bibitem[Abed et~al., 2019]{Abed2019}
+Abed, R. M.~M., Tamm, A., Hassenrück, C., Al-Rawahi, A.~N., Rodríguez-Caballero, E., Fiedler, S., Maier, S., and Weber, B. (2019).
+\newblock Habitat-dependent composition of bacterial and fungal communities in biological soil crusts from oman.
+\newblock {\em Scientific Reports}, 9(1):6468.
+
+\bibitem[Allison and Richards, 1954]{Allison1954}
+Allison, L.~E. and Richards, L.~A. (1954).
+\newblock {\em Diagnosis and Improvement of Saline and Alkali Soils}.
+\newblock Number~60. Soil and Water Conservative Research Branch, Agricultural Research Service, U.S. Department of Agriculture.
+\newblock Last accessed: 30 November 2022.
+
 \bibitem[Amundson et~al., 2007]{Amundson2007}
 Amundson, R., Richter, D.~D., Humphreys, G.~S., Jobbagy, E.~G., and Gaillardet, J. (2007).
 \newblock Coupling between biota and earth materials in the critical zone.
@@ -98,6 +109,11 @@ Bowker, M.~A., Belnap, J., and Miller, M.~E. (2006).
 \newblock Spatial modeling of biological soil crusts to support rangeland assessment and monitoring.
 \newblock {\em Rangeland Ecology & Management}, 59(5):519--529.
 
+\bibitem[Bowker et~al., 2014]{Bowker2014}
+Bowker, M.~A., Maestre, F.~T., Eldridge, D., Belnap, J., Castillo-Monroy, A., Escolar, C., and Soliveres, S. (2014).
+\newblock Biological soil crusts (biocrusts) as a model system in community, landscape and ecosystem ecology.
+\newblock {\em Biodiversity and Conservation}, 23(7):1619--1637.
+
 \bibitem[Brantley et~al., 2017]{Brantley2017}
 Brantley, S.~L., Eissenstat, D.~M., Marshall, J.~A., Godsey, S.~E., Balogh-Brunstad, Z., Karwan, D.~L., Papuga, S.~A., Roering, J., Dawson, T.~E., Evaristo, J., Chadwick, O., McDonnell, J.~J., and Weathers, K.~C. (2017).
 \newblock Reviews and syntheses: on the roles trees play in building and plumbing the critical zone.
@@ -113,10 +129,20 @@ Bruand, A., Cousin, I., Nicoullaud, B., Duval, O., and Begon, J.~C. (1996).
 \newblock Backscattered electron scanning images of soil porosity for analyzing soil compaction around roots.
 \newblock {\em Soil Science Society of America Journal}, 60(3):895--901.
 
+\bibitem[Brust, 2019]{Brust2019}
+Brust, G.~E. (2019).
+\newblock {\em Management strategies for organic vegetable fertility}, pages 193--212.
+\newblock Elsevier.
+
 \bibitem[Burford et~al., 2003]{Burford2003}
 Burford, E., Fomina, M., and Gadd, G. (2003).
 \newblock Fungal involvement in bioweathering and biotransformation of rocks and minerals.
 \newblock {\em Mineralogical Magazine}, 67(6):1127--1155.
+
+\bibitem[Büdel et~al., 2016]{Budel2016}
+Büdel, B., Dulić, T., Darienko, T., Rybalka, N., and Friedl, T. (2016).
+\newblock {\em Cyanobacteria and Algae of Biological Soil Crusts}, book section Chapter 4, pages 55--80.
+\newblock Ecological Studies. Springer International Publishing, Cham.
 
 \bibitem[Chamizo et~al., 2012]{Chamizo2012}
 Chamizo, S., Cantón, Y., Lázaro, R., Solé-Benet, A., and Domingo, F. (2012).
@@ -127,6 +153,11 @@ Chamizo, S., Cantón, Y., Lázaro, R., Solé-Benet, A., and Domingo, F. (2012).
 Chamizo, S., Cantón, Y., Rodríguez‐Caballero, E., and Domingo, F. (2016).
 \newblock Biocrusts positively affect the soil water balance in semiarid ecosystems.
 \newblock {\em Ecohydrology}, 9(7):1208--1221.
+
+\bibitem[Chen et~al., 2000]{Chen2000}
+Chen, J., Blume, H.-P., and Beyer, L. (2000).
+\newblock Weathering of rocks induced by lichen colonization — a review.
+\newblock {\em CATENA}, 39(2):121--146.
 
 \bibitem[Chen et~al., 2018]{Chen2018}
 Chen, N., Wang, X., Zhang, Y., Yu, K., and Zhao, C. (2018).
@@ -157,10 +188,20 @@ Corbin, J.~D. and Thiet, R.~K. (2020).
 \newblock Temperate biocrusts: mesic counterparts to their better‐known dryland cousins.
 \newblock {\em Frontiers in Ecology and the Environment}, 18(8):456--464.
 
+\bibitem[Corwin, 2021]{Corwin2021}
+Corwin, D.~L. (2021).
+\newblock Climate change impacts on soil salinity in agricultural areas.
+\newblock {\em European Journal of Soil Science}, 72(2):842--862.
+
 \bibitem[Costa et~al., 2018]{Costa2018}
 Costa, O. Y.~A., Raaijmakers, J.~M., and Kuramae, E.~E. (2018).
 \newblock Microbial extracellular polymeric substances: Ecological function and impact on soil aggregation.
 \newblock {\em Front Microbiol}, 9:1636.
+
+\bibitem[Cox, 1992]{Cox1992}
+Cox, D.~R. (1992).
+\newblock Causality: Some statistical aspects.
+\newblock {\em Journal of the Royal Statistical Society. Series A (Statistics in Society)}, 155:291--301.
 
 \bibitem[Csardi and Nepusz, 2006]{Csardi2006}
 Csardi, G. and Nepusz, T. (2006).
@@ -181,6 +222,11 @@ Dietrich, W.~E. and Perron, J.~T. (2006).
 Drahorad, S.~L., Steckenmesser, D., Felix-Henningsen, P., Lichner, �., and Rodný, M. (2013).
 \newblock Ongoing succession of biological soil crusts increases water repellency — a case study on arenosols in sekule, slovakia.
 \newblock {\em Biologia}, 68(6):1089--1093.
+
+\bibitem[Dufrêne and Legendre, 1997]{Dufrene1997}
+Dufrêne, M. and Legendre, P. (1997).
+\newblock Species assemblages and indicator species: the need for a flexible asymmetrical approach.
+\newblock {\em Ecological monographs}, 67(3):345--366.
 
 \bibitem[Dunn, 2017]{Dunn2017}
 Dunn, P.~K. (2017).
@@ -242,10 +288,20 @@ Garcia-Pichel, F., Felde, V. J. M. N.~L., Drahorad, S.~L., and Weber, B. (2016).
 \newblock {\em Microstructure and Weathering Processes Within Biological Soil Crusts}, book section Chapter 13, pages 237--255.
 \newblock Ecological Studies. Springer International Publishing, Cham.
 
+\bibitem[Gardner, 1956]{Gardner1956}
+Gardner, W.~R. (1956).
+\newblock Representation of {{Soil Aggregate-Size Distribution}} by a {{Logarithmic-Normal Distribution}}.
+\newblock {\em Soil Science Society of America Journal}, 20(2):151--153.
+
 \bibitem[Goebes et~al., 2015]{Goebes2015}
 Goebes, P., Seitz, S., Kühn, P., Li, Y., Niklaus, P.~A., von Oheimb, G., and Scholten, T. (2015).
 \newblock Throughfall kinetic energy in young subtropical forests: Investigation on tree species richness effects and spatial variability.
 \newblock {\em Agricultural and Forest Meteorology}, 213:148--159.
+
+\bibitem[Govers, 1985]{Govers1985}
+Govers, G. (1985).
+\newblock Selectivity and transport capacity of thin flows in relation to rill erosion.
+\newblock {\em CATENA}, 12(1):35--49.
 
 \bibitem[Grote et~al., 2010]{Grote2010}
 Grote, E.~E., Belnap, J., Housman, D.~C., and Sparks, J.~P. (2010).
@@ -257,6 +313,11 @@ Harrell~Jr, F.~E. and Harrell~Jr, M. F.~E. (2019).
 \newblock Hmisc: Harrell miscellaneous.
 \newblock {\em R package version}, 2019:235--236.
 
+\bibitem[Hatch and Choate, 1929]{Hatch1929}
+Hatch, T. and Choate, S.~P. (1929).
+\newblock Statistical description of the size properties of non uniform particulate substances.
+\newblock {\em Journal of the Franklin Institute}, 207(3):369--387.
+
 \bibitem[He, 1998]{He1998}
 He, S. (1998).
 \newblock A checklist of the mosses of {Chile}.
@@ -266,6 +327,11 @@ He, S. (1998).
 Hinsinger, P., Bengough, A.~G., Vetterlein, D., and Young, I.~M. (2009).
 \newblock Rhizosphere: biophysics, biogeochemistry and ecological relevance.
 \newblock {\em Plant and Soil}.
+
+\bibitem[Hooper and Johnson, 1999]{Hooper1999}
+Hooper, D.~U. and Johnson, L. (1999).
+\newblock Nitrogen limitation in dryland ecosystems: Responses to geographical and temporal variation in precipitation.
+\newblock {\em Biogeochemistry}, 46(1):247--293.
 
 \bibitem[Horn, 2009]{Hartge2009}
 Horn, K. H. H.~R. (2009).
@@ -331,6 +397,11 @@ Kidron, G.~J., Lichner, L., Fischer, T., Starinsky, A., and Or, D. (2022).
 Kidron, G.~J., Veste, M., and Lichner, �. (2021).
 \newblock Biological factors impacting hydrological processes: Pecularities of plants and biological soil crusts.
 \newblock {\em Journal of Hydrology and Hydromechanics}, 69(4):357--359.
+
+\bibitem[Kleber et~al., 2007]{Kleber2007}
+Kleber, M., Sollins, P., and Sutton, R. (2007).
+\newblock A conceptual model of organo-mineral interactions in soils: self-assembly of organic molecular fragments into zonal structures on mineral surfaces.
+\newblock {\em Biogeochemistry}, 85(1):9--24.
 
 \bibitem[Köhn, 1929]{Kohn1929}
 Köhn, M. (1929).
@@ -467,6 +538,11 @@ Oliver, M.~J., Velten, J., and Mishler, B.~D. (2005).
 \newblock Desiccation tolerance in bryophytes: a reflection of the primitive strategy for plant survival in dehydrating habitats?
 \newblock {\em Integr Comp Biol}, 45(5):788--99.
 
+\bibitem[Orchard and Cook, 1983]{Orchard1983}
+Orchard, V.~A. and Cook, F. (1983).
+\newblock Relationship between soil respiration and soil moisture.
+\newblock {\em Soil Biology and Biochemistry}, 15(4):447--453.
+
 \bibitem[Pearce et~al., 2012]{Pearce2012}
 Pearce, D.~A., Newsham, K.~K., Thorne, M.~A., Calvo-Bado, L., Krsek, M., Laskaris, P., Hodson, A., and Wellington, E.~M. (2012).
 \newblock Metagenomic analysis of a southern maritime antarctic soil.
@@ -502,6 +578,11 @@ Rasse, D.~P., Rumpel, C., and Dignac, M.-F. (2005).
 \newblock Is soil carbon mostly root carbon? mechanisms for a specific stabilisation.
 \newblock {\em Plant and soil}, 269(1):341--356.
 
+\bibitem[Rillig, 2004]{Rillig2004}
+Rillig, M.~C. (2004).
+\newblock Arbuscular mycorrhizae, glomalin, and soil aggregation.
+\newblock {\em Canadian Journal of Soil Science}, 84(4):355--363.
+
 \bibitem[Roberts and Roberts, 2016]{Roberts2016}
 Roberts, D.~W. and Roberts, M. D.~W. (2016).
 \newblock labdsv: Ordination and multivariate analysis for ecology.
@@ -511,6 +592,11 @@ Roberts, D.~W. and Roberts, M. D.~W. (2016).
 Rodríguez‐Caballero, E., Chamizo, S., Roncero‐Ramos, B., Román, R., and Cantón, Y. (2018).
 \newblock Runoff from biocrust: A vital resource for vegetation performance on mediterranean steppes.
 \newblock {\em Ecohydrology}, 11(6):e1977.
+
+\bibitem[Rosenbaum, 2005]{Rosenbaum2005}
+Rosenbaum, P.~R. (2005).
+\newblock {\em Sensitivity Analysis in Observational Studies}.
+\newblock John Wiley & Sons, Ltd.
 
 \bibitem[Rosentreter et~al., 2016]{Rosentreter2016}
 Rosentreter, R., Eldridge, D.~J., Westberg, M., Williams, L., and Grube, M. (2016).
@@ -547,6 +633,11 @@ Scholten, T., Goebes, P., Kühn, P., Seitz, S., Assmann, T., Bauhus, J., Bruelhe
 \newblock On the combined effect of soil fertility and topography on tree growth in subtropical forest ecosystems—a study from {SE China}.
 \newblock {\em Journal of Plant Ecology}, 10(1):111--127.
 
+\bibitem[Scholten and Seitz, 2019]{Scholten2019}
+Scholten, T. and Seitz, S. (2019).
+\newblock Soil erosion and land degradation.
+\newblock {\em Soil Systems}, 3(4):68.
+
 \bibitem[Schweizer et~al., 2018]{Schweizer2018}
 Schweizer, S., Hoeschen, C., Schlüter, S., Kögel-Knabner, I., and Mueller, C. (2018).
 \newblock Rapid soil structure formation after glacial retreat driven by organic matter accrual at the microscale.
@@ -576,6 +667,11 @@ Six, J., Bossuyt, H., Degryze, S., and Denef, K. (2004).
 Six, J., Elliott, E.~T., and Paustian, K. (2000).
 \newblock Soil macroaggregate turnover and microaggregate formation: a mechanism for {C} sequestration under no-tillage agriculture.
 \newblock {\em Soil Biology and Biochemistry}, 32(14):2099--2103.
+
+\bibitem[Slessarev et~al., 2016]{Slessarev2016}
+Slessarev, E.~W., Lin, Y., Bingham, N.~L., Johnson, J.~E., Dai, Y., Schimel, J.~P., and Chadwick, O.~A. (2016).
+\newblock Water balance creates a threshold in soil {{pH}} at the global scale.
+\newblock {\em Nature}, 540(7634):567--569.
 
 \bibitem[Steven et~al., 2013]{Steven2013}
 Steven, B., Gallegos-Graves, L.~V., Belnap, J., and Kuske, C.~R. (2013).
@@ -621,6 +717,11 @@ Weber, B., Belnap, J., Büdel, B., Antoninka, A.~J., Barger, N.~N., Chaudhary, V
 \newblock What is a biocrust? a refined, contemporary definition for a broadening research community.
 \newblock {\em Biological Reviews}, 97(5):1768--1785.
 
+\bibitem[Whitney et~al., 2017]{Whitney2017}
+Whitney, K.~M., Vivoni, E.~R., Duniway, M.~C., Bradford, J.~B., Reed, S.~C., and Belnap, J. (2017).
+\newblock Ecohydrological role of biological soil crusts across a gradient in levels of development.
+\newblock {\em Ecohydrology}, 10(7):e1875.
+
 \bibitem[Wickam, 2016]{Wickam2016}
 Wickam, H. (2016).
 \newblock {\em ggplot2: elegant graphics for data analysis}, volume~16 of {\em Springer-V erlag. Accessed March}.
@@ -635,6 +736,11 @@ Xiao, B., Bowker, M.~A., Zhao, Y., Chamizo, S., and Issa, O.~M. (2022).
 Young, K.~E., Ferrenberg, S., Reibold, R., Reed, S.~C., Swenson, T., Northen, T., and Darrouzet-Nardi, A. (2022).
 \newblock Vertical movement of soluble carbon and nutrients from biocrusts to subsurface mineral soils.
 \newblock {\em Geoderma}, 405:115495.
+
+\bibitem[Zhang et~al., 2013]{Zhang2013}
+Zhang, Z.-S., Song, X.-L., Lu, X.-G., and Xue, Z.-S. (2013).
+\newblock Ecological stoichiometry of carbon, nitrogen, and phosphorus in estuarine wetland soils: influences of vegetation coverage, plant communities, geomorphology, and seawalls.
+\newblock {\em Journal of Soils and Sediments}, 13(6):1043--1051.
 
 \bibitem[Štyriaková et~al., 2012]{Styriakova2012}
 Štyriaková, I., Mockovčiaková, A., Štyriak, I., Kraus, I., Uhlík, P., Madejová, J., and Orolínová, Z. (2012).
