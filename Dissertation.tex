@@ -34,6 +34,9 @@
 \usepackage{hyperref} % For \href if used elsewhere, though not in table notes now
 \usepackage{scrhack}
 
+% --- Load chapterbib ---
+\usepackage{chapterbib}
+
 % --- Custom Dissertation Style ---
 % Loads most packages as defined in dissertation.sty
 \usepackage{dissertation}
@@ -157,28 +160,34 @@ bio-crusts
 
 % --- Tables of Contents, Figures, Tables ---
 \tableofcontents
-% \listoftables
-% \listoffigures
+\listoftables
+\listoffigures
 
-% --- List of Publications ---
-\include{tex/Publications}
-
-\mainmatter
-
-% --- Main Content Chapters ---
 \include{tex/Introduction}
 \include{tex/Methodology}
 \include{tex/Results_Discussion}
 \include{tex/Conclusions}
 
-% --- Bibliography ---
-\bibliographystyle{apalike} % Or other natbib style
+% --- Main Bibliography ---
+% This bibliography will ONLY include citations made in the files
+% included ABOVE this point (Introduction, Methodology, etc.)
+\bibliographystyle{apalike}
 \bibliography{literatur}
 
-\appendix
+\appendix % Start the appendix environment (changes chapter numbering to A, B, ...)
 
+% Adds "Appendix" to the Table of Contents
+\addcontentsline{toc}{chapter}{Appendix}
 % --- Appendices ---
-\include{tex/Appendices}
+% REMOVE the include for Appendices.tex
+% \include{tex/Appendices}
+
+% INCLUDE each manuscript file DIRECTLY
+\include{tex/Manuscript-1}
+\include{tex/Manuscript-2}
+\include{tex/Manuscript-3}
+\include{tex/Manuscript-4}
+\include{tex/Manuscript-5}
 
 % Other potential appendix sections:
 % \include{tex/Abbreviations}
@@ -187,8 +196,4 @@ bio-crusts
 
 \backmatter
 
-% Index
-% \printindex
-
 \end{document}
-% ==============================================================================
