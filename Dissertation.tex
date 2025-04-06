@@ -33,6 +33,7 @@
 \usepackage{geometry} % Optional, for margins
 \usepackage{hyperref} % For \href if used elsewhere, though not in table notes now
 \usepackage{scrhack}
+\usepackage{natbib}
 
 % --- Load chapterbib ---
 \usepackage{chapterbib}
@@ -170,28 +171,70 @@ bio-crusts
 \include{tex/Conclusions}
 
 % --- Main Bibliography ---
-% This bibliography will ONLY include citations made in the files
-% included ABOVE this point (Introduction, Methodology, etc.)
-\bibliographystyle{natbib}
-\bibliography{literatur}
 
-\appendix % Start the appendix environment (changes chapter numbering to A, B, ...)
+\bibliographystyle{natbib} % Consider changing to a style compatible with KOMA/natbib if issues arise
+\bibliography{literatur_all_clean}
 
-% Adds "Appendix" to the Table of Contents
-\addcontentsline{toc}{chapter}{Appendix}
+\appendix % Start the appendix environment
+
+% --- Code to Suppress Appendix Chapter Titles on First Page ---
+\makeatletter % Need access to internal KOMA commands
+
+% Store the original definitions
+\let\originalchapterlinesformat\chapterlinesformat
+\let\originalchapterlineswithprefixformat\chapterlineswithprefixformat
+
+% Redefine the commands to do nothing *only for chapters*
+% This prevents the "Appendix A: Title" text from being printed on the page
+\renewcommand{\chapterlinesformat}[3]{%
+    \ifstr{#1}{chapter}{% Check if the sectioning level is 'chapter'
+        % If it IS a chapter, do nothing to suppress the heading on the page
+        \@afterindentfalse % Standard KOMA internal setting
+        \@afterheading     % Standard KOMA internal command
+    }{% If it's NOT a chapter (e.g., part), use the original command
+        \originalchapterlinesformat{#1}{#2}{#3}%
+    }%
+}
+\renewcommand{\chapterlineswithprefixformat}[4]{%
+     \ifstr{#1}{chapter}{% Check if the sectioning level is 'chapter'
+        % If it IS a chapter, do nothing to suppress the heading on the page
+        \@afterindentfalse % Standard KOMA internal setting
+        \@afterheading     % Standard KOMA internal command
+     }{% If it's NOT a chapter (e.g., part), use the original command
+        \originalchapterlineswithprefixformat{#1}{#2}{#3}{#4}%
+     }%
+}
+\makeatother
+% --- End of Suppression Code ---
+
+% REMOVE the general "Appendix" ToC entry if you don't want it,
+% as each \chapter inside the included files will add its own entry like "Appendix A Title".
+% \addcontentsline{toc}{chapter}{Appendix} % <<< Consider removing this line
+
 % --- Appendices ---
-% REMOVE the include for Appendices.tex
-% \include{tex/Appendices}
-
 % INCLUDE each manuscript file DIRECTLY
+% These files should contain their own \chapter{Manuscript Title} command.
+% That command will now correctly number (A, B, ...), add to ToC, and set headers,
+% but the redefinition above prevents the title from printing on the first page.
 \include{tex/Manuscript-1}
 \include{tex/Manuscript-2}
 \include{tex/Manuscript-3}
 \include{tex/Manuscript-4}
 \include{tex/Manuscript-5}
 
+% --- Restore Original Chapter Formatting ---
+% IMPORTANT: If you have any \chapter commands *after* this point
+% (e.g., in \backmatter) that you *want* to have titles printed,
+% you MUST restore the original definitions.
+\makeatletter
+\let\chapterlinesformat\originalchapterlinesformat
+\let\chapterlineswithprefixformat\originalchapterlineswithprefixformat
+\makeatother
+% --- End of Restoration Code ---
+
+
 % Other potential appendix sections:
-% \include{tex/Abbreviations}
+% \include{tex/Abbreviations} % If these use \chapter, their titles would also be suppressed unless placed after restoration
 % \include{tex/Glossary}
 % \include{tex/Supplementary}
 

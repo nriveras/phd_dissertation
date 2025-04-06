@@ -14,6 +14,13 @@ pdflatex Dissertation
 pdflatex Dissertation
 ```
 
+```bash
+pdflatex Dissertation
+bibtex Dissertation
+pdflatex Dissertation
+pdflatex Dissertation
+```
+
 ## Fast render
 
 The `img_sd` folder contain low resolution version of all the images in order to render it with the free tier of [overleaf](https://www.overleaf.com/) restricted to 20 seconds of rendering time.
