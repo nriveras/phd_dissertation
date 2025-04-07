@@ -3,22 +3,10 @@
 To compile the .pdf file in local:
 
 ```bash
-pdflatex Dissertation
-bibtex Dissertation
-bibtex tex/Manuscript-1
-bibtex tex/Manuscript-2
-bibtex tex/Manuscript-3
-bibtex tex/Manuscript-4
-bibtex tex/Manuscript-5
-pdflatex Dissertation
-pdflatex Dissertation
-```
-
-```bash
-pdflatex Dissertation
-bibtex Dissertation
-pdflatex Dissertation
-pdflatex Dissertation
+pdflatex Dissertation.tex
+biber Dissertation
+pdflatex Dissertation.tex
+pdflatex Dissertation.tex
 ```
 
 ## Fast render

@@ -52,6 +52,26 @@
 \usepackage[version=4]{mhchem}
 \usepackage{float}
 
+\usepackage{csquotes}
+
+% Citaitons
+% Use biblatex with biber as backend
+\usepackage[
+    backend=biber,
+    style=apa,
+    natbib=true,
+    url=false, 
+    doi=true,
+    eprint=false,
+    % sorting by name -> year -> title
+    sorting=nyt]{biblatex}
+
+\addbibresource{literatur_all_clean.bib}
+
+% Define aliases for natbib-style commands
+\let\citet\textcite
+\let\citep\parencite
+
 % --- SIunitx Configuration ---
 \DeclareSIUnit{\year}{yr}
 \DeclareSIUnit{\hour}{h}
@@ -164,15 +184,17 @@ bio-crusts
 \listoffigures
 
 \mainmatter
-\include{tex/Introduction}
-\include{tex/Methodology}
-\include{tex/Results_Discussion}
-\include{tex/Conclusions}
 
-% --- Main Bibliography ---
+\begin{refsection}
+    \include{tex/Introduction}
+    \include{tex/Methodology}
+    \include{tex/Results_Discussion}
+    \include{tex/Conclusions}
 
-\bibliographystyle{natbib} % Consider changing to a style compatible with KOMA/natbib if issues arise
-\bibliography{literatur_all_clean}
+    % --- Main Bibliography ---
+    % \nocite{*} % This will include every entry from literatur_all_clean.bib
+    \printbibliography[heading=subbibliography, title={Bibliography}]
+\end{refsection}
 
 \appendix % Start the appendix environment
 
@@ -215,11 +237,50 @@ bio-crusts
 % These files should contain their own \chapter{Manuscript Title} command.
 % That command will now correctly number (A, B, ...), add to ToC, and set headers,
 % but the redefinition above prevents the title from printing on the first page.
-\include{tex/Manuscript-1}
-\include{tex/Manuscript-2}
-\include{tex/Manuscript-3}
-\include{tex/Manuscript-4}
-\include{tex/Manuscript-5}
+%========================
+% Manuscript 1 Bibliography
+%========================
+\begin{refsection}
+    \include{tex/Manuscript-1}
+    
+    \printbibliography[heading=subbibliography, title={Bibliography for Manuscript 1}]
+  \end{refsection}
+  
+  %========================
+  % Manuscript 2 Bibliography
+  %========================
+  \begin{refsection}
+    \include{tex/Manuscript-2}
+    
+    \printbibliography[heading=subbibliography, title={Bibliography for Manuscript 2}]
+  \end{refsection}
+  
+  %========================
+  % Manuscript 3 Bibliography
+  %========================
+  \begin{refsection}
+    \include{tex/Manuscript-3}
+    
+    \printbibliography[heading=subbibliography, title={Bibliography for Manuscript 3}]
+  \end{refsection}
+  
+  %========================
+  % Manuscript 4 Bibliography
+  %========================
+  \begin{refsection}
+    \include{tex/Manuscript-4}
+    
+    \printbibliography[heading=subbibliography, title={Bibliography for Manuscript 4}]
+  \end{refsection}
+  
+  %========================
+  % Manuscript 5 Bibliography
+  %========================
+  \begin{refsection}
+    \include{tex/Manuscript-5}
+    
+    \printbibliography[heading=subbibliography, title={Bibliography for Manuscript 5}]
+  \end{refsection}
 
 % --- Restore Original Chapter Formatting ---
 % IMPORTANT: If you have any \chapter commands *after* this point
