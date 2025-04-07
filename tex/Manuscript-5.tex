@@ -225,11 +225,11 @@ Although not significant, the fPOM fraction in the subsoil rhizosphere was furth
 Microbially derived FAs increased in the rhizosphere of the topsoil substrate (from \num{24.62} to \SI{32.66}{nmol\,C\text{-}FA\,\gram^{-1}}\,soil; \(P=0.005\)) into the detritusphere phase, with the elevated microbial abundance being maintained in rooted topsoil samples compared to controls (\num{29.64} versus \SI{20.00}{nmol\,C\text{-}FA\,\gram^{-1}}\,soil; \(P=0.002\); Figure \ref{fig:M5-F3}a). Around living roots, both fungi and bacteria increased uniformly in the topsoil (Figure \ref{fig:M5-F3}b and Figure \ref{fig:M5-F3}c), as reflected by the fungi:bacteria ratio, which remained similar to controls despite the overall increase in FAs (Figure \ref{fig:M5-F3}d). However, as decomposition progressed, the fungal abundance around decaying roots decreased, while bacterial abundance was maintained. This was associated with a relative increase in Gram-positive bacteria around the decaying roots, as reflected in the elevated Gram+:Gram- ratio (from \num{0.70} to \num{0.90}; \(P=0.009\); Figure \ref{fig:M5-F3}e). In the subsoil, fungal abundance increased significantly around living roots compared to controls (\(P=0.007\)), similar to the differences observed in topsoil, with a shift in the fungi:bacteria ratio from \num{0.58} to \num{0.75} (\(P=0.005\)). During the detritusphere phase, no difference between roots and controls was observed in the subsoil.
 
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{img/M5-Figure_3.png}
-	\caption{PLFA profiling of microbial community structure. The a) total content of extracted fatty acids (in \si{nmol\,C\text{-}FA\,\gram^{-1}}), the content of markers associated with b) fungi (\si{nmol\,C\text{-}FA\,\gram^{-1}}) and c) bacteria (\si{nmol\,C\text{-}FA\,\gram^{-1}}) and the d) fungi:bacteria ratio and e) Gram+:Gram− ratio in a topsoil and subsoil. Green boxes represent the living root phase (rhizosphere) and brown the decaying root phase (detritusphere) together with corresponding controls in faded colors. Asterisks denote significant differences between rooted and control samples (\(.P < 0.1\), *\(P < 0.05\), **\(P < 0.01\), ***\(P < 0.001\)). Box plots indicate medians (line) and means (x), where the first (Q1) and third (Q3) quartile are represented by the lower, respectively upper bounds of the box. Error bars represent the data range, bounded to \(1.5 \times (\text{Q3}-\text{Q1})\); (\(n = 6\) independent replicates).}
-	\label{fig:M5-F3}
+\begin{figure}[H] % Requires float package
+  \centering
+  \includegraphics[width=1\textwidth]{img/M5-Figure_3.png} % Requires graphicx
+  \caption{PLFA profiling of microbial community structure. The a) total content of extracted fatty acids (in \si{nmol\,C\text{-}FA\,\gram^{-1}}), the content of markers associated with b) fungi (\si{nmol\,C\text{-}FA\,\gram^{-1}}) and c) bacteria (\si{nmol\,C\text{-}FA\,\gram^{-1}}) and the d) fungi:bacteria ratio and e) $\text{Gram}^{+}:\text{Gram}^{-}$ ratio in a topsoil and subsoil. Green boxes represent the living root phase (rhizosphere) and brown the decaying root phase (detritusphere) together with corresponding controls in faded colors. Asterisks denote significant differences between rooted and control samples (\textbullet\(P < 0.1\), *\(P < 0.05\), **\(P < 0.01\), ***\(P < 0.001\)). Box plots indicate medians (line) and means (x), where the first (Q1) and third (Q3) quartile are represented by the lower, respectively upper bounds of the box. Error bars represent the data range, bounded to \(1.5 \times (\text{Q3}-\text{Q1})\); (\(n = 6\) independent replicates).} % Requires siunitx, amsmath
+  \label{fig:M5-F3} % Label placed after caption
 \end{figure}
 
 \section{Discussion}
@@ -238,7 +238,7 @@ The purpose of this study was to investigate how plant roots drive soil structur
 
 \subsection{The rhizosphere: rhizodeposition as C input}
 
-In the studied dryland soil, roots induced a shift in soil aggregation in the rhizosphere, leading to an increased contribution of water-stable macroaggregates to the total mass and an increased allocation of C and N to macroaggregates in both topsoil and subsoil (Figure \ref{fig:M5-F1}c and Figure \ref{fig:M5-F4}d; Figure \ref{fig:figure_4a_label}). This root effect is consistent with the well-established consensus that plant roots drive the formation of coarser aggregate structures, for example via root-derived gluing agents or direct entanglement of soil particles \citep{Tisdall1982, Six2004, Angst2018, Gregory2022}.
+In the studied dryland soil, roots induced a shift in soil aggregation in the rhizosphere, leading to an increased contribution of water-stable macroaggregates to the total mass and an increased allocation of C and N to macroaggregates in both topsoil and subsoil (Figure \ref{fig:M5-F1}c and Figure \ref{fig:M5-F4}d; Figure \ref{fig:M5-F4}a). This root effect is consistent with the well-established consensus that plant roots drive the formation of coarser aggregate structures, for example via root-derived gluing agents or direct entanglement of soil particles \citep{Tisdall1982, Six2004, Angst2018, Gregory2022}.
 
 \begin{figure}[H]
 	\centering
@@ -313,6 +313,3 @@ We also thank Josef Reischenbeck who built the machine used for aggregate fracti
 \section*{Supplementary data}
 
 Supplementary data to this article can be found online at \url{https://doi.org/10.1016/j.soilbio.2024.109503}.
-
-\bibliographystyle{natbib} % Consider changing to a style compatible with KOMA/natbib if issues arise
-\bibliography{literatur_all_clean}
