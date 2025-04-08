@@ -182,8 +182,10 @@ bio-crusts
 
 % --- Tables of Contents, Figures, Tables ---
 \tableofcontents
-\listoftables
 \listoffigures
+\listoftables
+% \include{tex/Abbreviations}
+\include{tex/Publications}
 
 \mainmatter
 
@@ -199,6 +201,7 @@ bio-crusts
 \end{refsection}
 
 \appendix % Start the appendix environment
+\include{tex/Appendices}
 
 % --- Code to Suppress Appendix Chapter Titles on First Page ---
 \makeatletter % Need access to internal KOMA commands
@@ -301,5 +304,5 @@ bio-crusts
 % \include{tex/Supplementary}
 
 \backmatter
-
+\include{tex/Acknowledgements}
 \end{document}

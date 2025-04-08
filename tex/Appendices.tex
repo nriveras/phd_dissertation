@@ -1,41 +1,53 @@
-% --- Custom Appendix Overview Page ---
-% Adds "Appendix" to the Table of Contents
-\addcontentsline{toc}{chapter}{Appendix}
-% Creates an unnumbered chapter heading for the list
-\chapter*{Appendix}
-\label{chap:appendix_overview} % Label for reference if needed
+% --- Appendix Overview Page ---
+
+% Adds "Appendix" to the Table of Contents (if not already done elsewhere)
+% Consider if you want this generic entry in addition to specific Manuscript entries.
+% If your included manuscripts already add "Appendix A: Title", "Appendix B: Title", etc.
+% to the ToC, you might want to comment out the next line.
+\addcontentsline{toc}{chapter}{Appendix Overview}
+
+% Creates an unnumbered chapter heading for this overview page
+\chapter*{Appendix Overview}
+\label{chap:appendix_overview} % Optional label for reference
+
+% Add some vertical space before the list
+\vspace{\baselineskip}
 
 % --- List of Manuscripts (Manual Entry) ---
-% This section manually lists the manuscripts like in your example.
-% You will need to MANUALLY UPDATE THE PAGE RANGES (pp. X - Y)
+% This section manually lists the manuscripts based on your provided list.
+% You MUST MANUALLY UPDATE THE PAGE RANGES (pp. X - Y)
 % after compiling the document fully at least twice.
 
 \noindent % Prevents paragraph indentation
-\textbf{Manuscript 1} \hfill \textbf{pp. 59 - 72} \\ % <-- UPDATE PAGE NUMBERS MANUALLY
-GALL, C.; OHAN, J.; GLASER, K.; KARSTEN, U.; SCHLOTER, M.; SCHOLTEN, T.; SCHULZ, S.; SEITZ, S. \& KURTH, J. K. (2022): \\
-\textit{Biocrusts: Overlooked hotspots of managed soils in mesic environments.} \\
-Journal of Plant Nutrition and Soil Science, 185 (6), 745-751. DOI: 10.1002/jpln.202200252.
+\textbf{Manuscript 1} \hfill \textbf{pp. 55 - 84} \\ % <-- UPDATE PAGE NUMBERS MANUALLY
+\textbf{Riveras-Muñoz, N.}; Seitz, S.; Witzgall, K.; Rodríguez, V.; Kühn, P.; Mueller, C. W.; Oses, R.; Seguel, O.; Wagner, D.; and Scholten, T. (2022): Biocrust-linked changes in soil aggregate stability along a climatic gradient in the Chilean Coastal Range. \textit{SOIL}, 8, 717--731. DOI: \href{https://doi.org/10.5194/soil-8-717-2022}{10.5194/soil-8-717-2022}.
 
 \vspace{\baselineskip} % Adds a line space between entries
 
 \noindent
-\textbf{Manuscript 2} \hfill \textbf{pp. 73 - 111} \\ % <-- UPDATE PAGE NUMBERS MANUALLY
-GALL, C.; NEBEL, M.; QUANDT, D.; SCHOLTEN, T. \& SEITZ, S. (2022): \\
-\textit{Pioneer biocrust communities prevent soil erosion in temperate forests after disturbances.} \\
-Biogeosciences, 19, 3225–3245. DOI: 10.5194/bg-19-3225-2022.
+\textbf{Manuscript 2} \hfill \textbf{pp. 85 - 116} \\ % <-- UPDATE PAGE NUMBERS MANUALLY
+\textbf{Riveras-Muñoz, N.}; Seitz, S.; Gall, C.; Rodríguez, V.; Witzgall, K.; Kühn, P.; Mueller, C.W.; Oses, R.; Seguel, O.; Wagner, D.; Scholten, T. (submitted): Biocrusts as climate-dependent regulators of erosion, water and nutrient cycling. \textit{Geoderma}.
 
 \vspace{\baselineskip}
 
 \noindent
-\textbf{Manuscript 3} \hfill \textbf{pp. 112 - 126} \\ % <-- UPDATE PAGE NUMBERS MANUALLY
-GALL, C.; NEBEL, M.; SCHOLTEN, T.; THIELEN, S. M. \& SEITZ, S. (in preparation): \\
-\textit{On the impact of soil-moss combinations on surface runoff, percolation, soil erosion, and temporal dynamics of soil water content.}
+\textbf{Manuscript 3} \hfill \textbf{pp. 117 - 166} \\ % <-- UPDATE PAGE NUMBERS MANUALLY
+Rodríguez, V.; Bartholomäus, A.; Witzgall, K.; \textbf{Riveras-Muñoz, N.}; Oses, R.; Liebner, S.; Kallmeyer, J.; Rach, O.; Mueller, C.W.; Seguel, O.; Scholten, T. and Wagner. D. (2024): Microbial impact on initial soil formation in arid and semiarid environments under simulated climate change. \textit{Frontiers in Microbiology}, 15:1319997. DOI: \href{https://doi.org/10.3389/fmicb.2024.1319997}{10.3389/fmicb.2024.1319997}.
 
 \vspace{\baselineskip}
 
 \noindent
-\textbf{Manuscript 4} \hfill \textbf{pp. 127 - 159} \\ % <-- UPDATE PAGE NUMBERS MANUALLY
-THIELEN, S. M.; GALL, C.; EBNER, M.; NEBEL, M.; SCHOLTEN, T. \& SEITZ, S. (2021): \\
-\textit{Water`s path from moss to soil: A multi-methodological study on water absorption and evaporation of soil moss combinations.} \\
-Journal of Hydrology and Hydromechanics, 69 (4), 421-435. DOI: 10.2478/johh-2021-0021.
+\textbf{Manuscript 4} \hfill \textbf{pp. 167 - 208} \\ % <-- UPDATE PAGE NUMBERS MANUALLY
+Mitzscherling, J.; Oses, R.; \textbf{Riveras-Muñoz, N.}; Mueller, C. W.; Seguel, O. and Kühn, P.; Scholten, T. and Wagner, D. (2024): Microbially Induced Soil Aggregate Turnover Across Different Climates and Moisture Regimes. SSRN: DOI: \href{https://doi.org/10.2139/ssrn.4740477}{10.2139/ssrn.4740477}.
+
+\vspace{\baselineskip}
+
+\noindent
+\textbf{Manuscript 5} \hfill \textbf{pp. 209 - 243} \\ % <-- UPDATE PAGE NUMBERS MANUALLY
+Witzgall, K.; Steiner, F.A.; Hesse, B.D.; \textbf{Riveras-Muñoz, N.}; Rodríguez, V.; Teixeira, P.P.C.; Li, M.; Oses, R.; Seguel, O.; Seitz, S.; Wagner, D.; Scholten, T.; Buegger, F.; Angst, G.; Mueller, C.W. (2024): Living and decaying roots as regulators of soil aggregation and organic matter formation---from the rhizosphere to the detritusphere. \textit{Soil Biology and Biochemistry}, 197, 109503. DOI: \href{https://doi.org/10.1016/j.soilbio.2024.109503}{10.1016/j.soilbio.2024.109503}.
+
+% --- End of Manual List ---
+
+% Add a clear page break before the actual manuscripts start, if desired
+\cleardoublepage % Ensures next included manuscript starts on a right-hand page
 
