@@ -195,71 +195,73 @@ The sediment load in the runoff, measured as sediment concentration in water, wa
   \end{table}
   
 % --- Table 2 Code (Percolation Fluxes) ---
-  \begin{table}[htbp] % Changed from sidewaystable
-    \centering
-    \footnotesize % Reduced font size for the table
-    \sisetup{separate-uncertainty = true, table-align-uncertainty = true}
-    \begin{threeparttable}
-      \caption{Percolating water fluxes on the study sites (SG: Santa Gracia, QdT: Quebrada de Talca, LC: La Campana, NA: Nahuelbuta) with (+) and without (-) biocrust (BSC) cover. Values correspond to mean $\pm$ standard deviation (SD) of five field replicates. A letter-based display of Šidák correction accompanies surface runoff parameters\tnote{a}, and the significance of the studied factor is shown as a p-value and list of covariates (C\textsubscript{T}, N\textsubscript{T}: total carbon and nitrogen content). Different letters indicate statistically significant different values based on our data, ns: non-significant.}
-      \label{tab:M2-percolation_fluxes}
-      \setlength{\tabcolsep}{3pt} % Reduced further slightly
-  
-      \begin{tabular}{@{} l l S[table-format=3.2, table-figures-uncertainty=4] @{\,} c
-                             S[table-format=2.2, table-figures-uncertainty=3] @{\,} c
-                             S[table-format=2.0, table-figures-uncertainty=2] @{\,} c
-                             S[table-format=1.1, table-figures-uncertainty=3] @{\,} c
-                          @{}}
-        \toprule
-        \multicolumn{2}{@{}l}{\multirow{3}{*}{\textbf{Factor}}} &
-        {\makecell{\textbf{Time to start}\\\textbf{percolation}\\\textbf{flow}}} & & % Added line break
-        {\makecell{\textbf{Percolation}}} & &
-        {\makecell{\textbf{Sediments in}\\\textbf{percolation}\\\textbf{flow}}} & & % Added line breaks
-        {\makecell{\textbf{Sediment load}\\\textbf{in percolation}}} & \\ % Added line break
-        \cmidrule(lr){3-3} \cmidrule(lr){5-5} \cmidrule(lr){7-7} \cmidrule(lr){9-9}
-        \multicolumn{2}{@{}l}{} & {[\si{\second}]} & & {[\si{L.h^{-1}}]} & & {[\si{g.m^{-2}.h^{-1}}]} & & {[\si{g.L^{-1}.m^{-2}}]} & \\
-        \midrule
-        \multicolumn{2}{@{}l}{\textbf{Mean} $\pm$ \textbf{SD}} & & & & & & & & \\
-        & Site \quad SG  & 223 \pm 190   &        & 18.0 \pm 14 & {(a)}  & 19 \pm 34 &        & 4.2 \pm 19.7 &       \\
-        & \phantom{Site \quad} QdT & 175 \pm 94.5  &        & 22.8 \pm 15 & {(a)}  & 7 \pm 10  &        & 0.2 \pm 0.3  &       \\
-        & \phantom{Site \quad} LC  & 234 \pm 183   &        & 22.4 \pm 13 & {(a)}  & 13 \pm 15 &        & 0.5 \pm 0.5  &       \\
-        & \phantom{Site \quad} NA  & 145 \pm 169   &        & 65.0 \pm 39 & {(b)}  & 23 \pm 25 &        & 0.4 \pm 0.4  &       \\
-        \addlinespace
-        & Biocrust \quad BSC+ & 171 \pm 133   &        & 42.6 \pm 34 & {(b)}  & 19 \pm 22 & {(b)}  & 0.5 \pm 0.5  &       \\
-        & \phantom{Biocrust \quad} BSC- & 218 \pm 190   &        & 21.5 \pm 21 & {(a)}  & 12 \pm 24 & {(a)}  & 2.1 \pm 13.7 &       \\
-        \midrule
-        \multicolumn{2}{@{}l}{\textbf{Site*Biocrust}} & & & & & & & & \\
-        & SG \quad BSC+  & 202 \pm 103   &        & 24.8 \pm 15 & {(ab)} & 19 \pm 18 &        & 0.7 \pm 0.5  &       \\
-        & SG \quad BSC-  & 244 \pm 251   &        & 11.1 \pm 10 & {(a)}  & 18 \pm 46 &        & 7.5 \pm 27.5 &       \\
-        & QdT \quad BSC+ & 148 \pm 63.9  &        & 30.5 \pm 13 & {(b)}  & 9 \pm 13  &        & 0.3 \pm 0.3  &       \\
-        & QdT \quad BSC- & 202 \pm 113   &        & 15.1 \pm 13 & {(ab)} & 5 \pm 6   &        & 0.2 \pm 0.2  &       \\
-        & LC \quad BSC+  & 226 \pm 223   &        & 23.5 \pm 14 & {(ab)} & 17 \pm 19 &        & 0.6 \pm 0.5  &       \\
-        & LC \quad BSC-  & 241 \pm 139   &        & 21.3 \pm 14 & {(ab)} & 9 \pm 9   &        & 0.4 \pm 0.3  &       \\
-        & NA \quad BSC+  & 107 \pm 35.6  &        & 91.5 \pm 28 & {(c)}  & 30 \pm 32 &        & 0.4 \pm 0.4  &       \\
-        & NA \quad BSC-  & 183 \pm 234   &        & 38.5 \pm 30 & {(b)}  & 16 \pm 15 &        & 0.4 \pm 0.3  &       \\
-        \midrule
-        \multicolumn{2}{@{}l}{\textbf{Significance} ($p$-value)} & & & & & & & & \\
-        & Site         & \multicolumn{2}{c}{(ns)} & \num{1.78e-12} & \tnote{*} & \multicolumn{2}{c}{(ns)} & \multicolumn{2}{c}{(ns)} \\
-        & Biocrust     & \multicolumn{2}{c}{(ns)} & \num{8.11e-08} & \tnote{*} & \num{0.00946} & \tnote{*} & \multicolumn{2}{c}{(ns)} \\
-        & Site*Biocrust& \multicolumn{2}{c}{(ns)} & \num{0.00164} & \tnote{*} & \multicolumn{2}{c}{(ns)} & \multicolumn{2}{c}{(ns)} \\
-        \midrule
-        \multicolumn{2}{@{}l}{\textbf{Covariates}} &
-        \multicolumn{2}{@{}l}{clay} &
-        \multicolumn{2}{@{}l}{} &
-        \multicolumn{2}{@{}l}{\makecell[tl]{clay + silt + sand +\\ C\textsubscript{T} + SOC}} &
-        \multicolumn{2}{@{}l}{\makecell[tl]{clay + silt + sand\\ + C\textsubscript{T} + SOC}} \\
-        \bottomrule
-      \end{tabular}
-      \begin{tablenotes}[para,flushleft]
-        \item[a] Letters indicate significant differences between means according to post-hoc tests with Šidák correction for multiple comparisons. Levels not sharing any letter are significantly different (p < 0.05).
-        \item[*] Statistically significant effect (p < 0.05).
-        \item[ns] Non-significant (p >= 0.05).
-        \item[SD] Standard Deviation.
-        \item[C\textsubscript{T}] Total Carbon content.
-        \item[N\textsubscript{T}] Total Nitrogen content.
-        \item[SOC] Soil Organic Carbon.
-      \end{tablenotes}
-    \end{threeparttable}
-  \end{table}
+ 
+
+\begin{table}[htbp] % Changed from sidewaystable
+  \centering
+  \footnotesize % Reduced font size for the table
+  \sisetup{separate-uncertainty = true, table-align-uncertainty = true}
+  \begin{threeparttable}
+    \caption{Percolating water fluxes on the study sites (SG: Santa Gracia, QdT: Quebrada de Talca, LC: La Campana, NA: Nahuelbuta) with (+) and without (-) biocrust (BSC) cover. Values correspond to mean $\pm$ standard deviation (SD) of five field replicates. A letter-based display of Šidák correction accompanies surface runoff parameters\tnote{a}, and the significance of the studied factor is shown as a p-value and list of covariates (C\textsubscript{T}, N\textsubscript{T}: total carbon and nitrogen content). Different letters indicate statistically significant different values based on our data, ns: non-significant.}
+    \label{tab:M2-percolation_fluxes}
+    \setlength{\tabcolsep}{3pt} % Reduced further slightly
+
+    \begin{tabular}{@{} l l S[table-format=3.2, table-figures-uncertainty=4] @{\,} c
+                           S[table-format=2.2, table-figures-uncertainty=4] @{\,} c
+                           S[table-format=2.0, table-figures-uncertainty=2] @{\,} c
+                           S[table-format=1.1, table-figures-uncertainty=3] @{\,} c
+                        @{}}
+      \toprule
+      \multicolumn{2}{@{}l}{\multirow{3}{*}{\textbf{Factor}}} &
+      {\makecell{\textbf{Time to start}\\\textbf{percolation}\\\textbf{flow}}} & & % Added line break
+      {\makecell{\textbf{Percolation}}} & &
+      {\makecell{\textbf{Sediments in}\\\textbf{percolation}\\\textbf{flow}}} & & % Added line breaks
+      {\makecell{\textbf{Sediment load}\\\textbf{in percolation}}} & \\ % Added line break
+      \cmidrule(lr){3-3} \cmidrule(lr){5-5} \cmidrule(lr){7-7} \cmidrule(lr){9-9}
+      \multicolumn{2}{@{}l}{} & {[\si{\second}]} & & {[\si{L.h^{-1}}]} & & {[\si{g.m^{-2}.h^{-1}}]} & & {[\si{g.L^{-1}.m^{-2}}]} & \\
+      \midrule
+      \multicolumn{2}{@{}l}{\textbf{Mean} $\pm$ \textbf{SD}} & & & & & & & & \\
+      & Site \quad SG  & 223 \pm 190   &        & 18.0 \pm 14 & {(a)}  & 19 \pm 34 &        & 4.2 \pm 19.7 &       \\
+      & \phantom{Site \quad} QdT & 175 \pm 94.5  &        & 22.8 \pm 15 & {(a)}  & 7 \pm 10  &        & 0.2 \pm 0.3  &       \\
+      & \phantom{Site \quad} LC  & 234 \pm 183   &        & 22.4 \pm 13 & {(a)}  & 13 \pm 15 &        & 0.5 \pm 0.5  &       \\
+      & \phantom{Site \quad} NA  & 145 \pm 169   &        & 65.0 \pm 39 & {(b)}  & 23 \pm 25 &        & 0.4 \pm 0.4  &       \\
+      \addlinespace
+      & Biocrust \quad BSC+ & 171 \pm 133   &        & 42.6 \pm 34 & {(b)}  & 19 \pm 22 & {(b)}  & 0.5 \pm 0.5  &       \\
+      & \phantom{Biocrust \quad} BSC- & 218 \pm 190   &        & 21.5 \pm 21 & {(a)}  & 12 \pm 24 & {(a)}  & 2.1 \pm 13.7 &       \\
+      \midrule
+      \multicolumn{2}{@{}l}{\textbf{Site*Biocrust}} & & & & & & & & \\
+      & SG \quad BSC+  & 202 \pm 103   &        & 24.8 \pm 15.0 & {(ab)} & 19 \pm 18 &        & 0.7 \pm 0.5  &       \\
+      & SG \quad BSC-  & 244 \pm 251   &        & 11.1 \pm 10.0 & {(a)}  & 18 \pm 46 &        & 7.5 \pm 27.5 &       \\
+      & QdT \quad BSC+ & 148 \pm 63.9  &        & 30.5 \pm 13.0 & {(b)}  & 9 \pm 13  &        & 0.3 \pm 0.3  &       \\
+      & QdT \quad BSC- & 202 \pm 113   &        & 15.1 \pm 13.0 & {(ab)} & 5 \pm 6   &        & 0.2 \pm 0.2  &       \\
+      & LC \quad BSC+  & 226 \pm 223   &        & 23.5 \pm 14.0 & {(ab)} & 17 \pm 19 &        & 0.6 \pm 0.5  &       \\
+      & LC \quad BSC-  & 241 \pm 139   &        & 21.3 \pm 14.0 & {(ab)} & 9 \pm 9   &        & 0.4 \pm 0.3  &       \\
+      & NA \quad BSC+  & 107 \pm 35.6  &        & 91.5 \pm 28.0 & {(c)}  & 30 \pm 32 &        & 0.4 \pm 0.4  &       \\
+      & NA \quad BSC-  & 183 \pm 234   &        & 38.5 \pm 30.0 & {(b)}  & 16 \pm 15 &        & 0.4 \pm 0.3  &       \\
+      \midrule
+      \multicolumn{2}{@{}l}{\textbf{Significance} ($p$-value)} & & & & & & & & \\
+      & Site         & \multicolumn{2}{c}{(ns)} & \num{1.78e-12} & \tnote{*} & \multicolumn{2}{c}{(ns)} & \multicolumn{2}{c}{(ns)} \\
+      & Biocrust     & \multicolumn{2}{c}{(ns)} & \num{8.11e-08} & \tnote{*} & \num{0.00946} & \tnote{*} & \multicolumn{2}{c}{(ns)} \\
+      & Site*Biocrust& \multicolumn{2}{c}{(ns)} & \num{0.00164} & \tnote{*} & \multicolumn{2}{c}{(ns)} & \multicolumn{2}{c}{(ns)} \\
+      \midrule
+      \multicolumn{2}{@{}l}{\textbf{Covariates}} &
+      \multicolumn{2}{@{}l}{clay} &
+      \multicolumn{2}{@{}l}{} &
+      \multicolumn{2}{@{}l}{\makecell[tl]{clay + silt + sand +\\ C\textsubscript{T} + SOC}} &
+      \multicolumn{2}{@{}l}{\makecell[tl]{clay + silt + sand\\ + C\textsubscript{T} + SOC}} \\
+      \bottomrule
+    \end{tabular}
+    \begin{tablenotes}[para,flushleft]
+      \item[a] Letters indicate significant differences between means according to post-hoc tests with Šidák correction for multiple comparisons. Levels not sharing any letter are significantly different (p < 0.05).
+      \item[*] Statistically significant effect (p < 0.05).
+      \item[ns] Non-significant (p >= 0.05).
+      \item[SD] Standard Deviation.
+      \item[C\textsubscript{T}] Total Carbon content.
+      \item[N\textsubscript{T}] Total Nitrogen content.
+      \item[SOC] Soil Organic Carbon.
+    \end{tablenotes}
+  \end{threeparttable}
+\end{table}
 
 \subsection{Influence of biocrust on C and N fluxes along a climatic gradient}
 

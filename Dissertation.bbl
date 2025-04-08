@@ -549,7 +549,7 @@
         {Berlin Heidelberg}%
       }
       \list{publisher}{1}{%
-        {Springer}%
+        {Springer Berlin, Heidelberg}%
       }
       \strng{namehash}{70dce803c67e03af6c0d1322b8b606eb}
       \strng{fullhash}{70dce803c67e03af6c0d1322b8b606eb}
@@ -7043,7 +7043,7 @@
         {Berlin Heidelberg}%
       }
       \list{publisher}{1}{%
-        {Springer}%
+        {Springer Berlin, Heidelberg}%
       }
       \strng{namehash}{70dce803c67e03af6c0d1322b8b606eb}
       \strng{fullhash}{70dce803c67e03af6c0d1322b8b606eb}
@@ -13517,7 +13517,7 @@
         {Berlin Heidelberg}%
       }
       \list{publisher}{1}{%
-        {Springer}%
+        {Springer Berlin, Heidelberg}%
       }
       \strng{namehash}{70dce803c67e03af6c0d1322b8b606eb}
       \strng{fullhash}{70dce803c67e03af6c0d1322b8b606eb}
@@ -19237,7 +19237,7 @@
         {Berlin Heidelberg}%
       }
       \list{publisher}{1}{%
-        {Springer}%
+        {Springer Berlin, Heidelberg}%
       }
       \strng{namehash}{70dce803c67e03af6c0d1322b8b606eb}
       \strng{fullhash}{70dce803c67e03af6c0d1322b8b606eb}
@@ -24803,7 +24803,7 @@
         {Berlin Heidelberg}%
       }
       \list{publisher}{1}{%
-        {Springer}%
+        {Springer Berlin, Heidelberg}%
       }
       \strng{namehash}{70dce803c67e03af6c0d1322b8b606eb}
       \strng{fullhash}{70dce803c67e03af6c0d1322b8b606eb}
@@ -31534,7 +31534,7 @@
         {Berlin Heidelberg}%
       }
       \list{publisher}{1}{%
-        {Springer}%
+        {Springer Berlin, Heidelberg}%
       }
       \strng{namehash}{70dce803c67e03af6c0d1322b8b606eb}
       \strng{fullhash}{70dce803c67e03af6c0d1322b8b606eb}
@@ -52919,82 +52919,6 @@
 
 \refsection{5}
   \datalist[entry]{nyt/apasortcite//global/global/global}
-    \entry{Albuquerque2005}{article}{}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=cc051509a89f462d21bf27c3682b4c98}{%
-           family={Albuquerque},
-           familyi={A\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=711b089d7632314243c4a936654c9d17}{%
-           family={Simões},
-           familyi={S\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=334a8cab05c41e2ac14e32f3e45013a0}{%
-           family={Nobre},
-           familyi={N\bibinitperiod},
-           given={M.F.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=083fd14da9bd407e17999e0ffa1e3e97}{%
-           family={Pino},
-           familyi={P\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bc4aad0e78c7acaacd95b7d76d9de8f1}{%
-           family={Battista},
-           familyi={B\bibinitperiod},
-           given={J.R.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cf62016adfa070e707a7595892636b64}{%
-           family={Silva},
-           familyi={S\bibinitperiod},
-           given={M.T.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f5aca72e0a441985b9e1d759010f039c}{%
-           family={Rainey},
-           familyi={R\bibinitperiod},
-           given={F.A.},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ae880f7e5d3882817a1a546941059eec}{%
-           family={Da\bibnamedelima Costa},
-           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={M.S.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{817b859b6770fb9f67a7ad9fe318ceda}
-      \strng{fullhash}{f90359f3925ea00a83f05142cc3d8cb1}
-      \strng{fullhashraw}{f90359f3925ea00a83f05142cc3d8cb1}
-      \strng{bibnamehash}{f90359f3925ea00a83f05142cc3d8cb1}
-      \strng{authorbibnamehash}{f90359f3925ea00a83f05142cc3d8cb1}
-      \strng{authornamehash}{817b859b6770fb9f67a7ad9fe318ceda}
-      \strng{authorfullhash}{f90359f3925ea00a83f05142cc3d8cb1}
-      \strng{authorfullhashraw}{f90359f3925ea00a83f05142cc3d8cb1}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{FEMS Microbiology Letters}
-      \field{title}{{<}span class="nocase"{>}{Truepera} radiovictrix{<}/span{>} gen. nov., sp. nov., a new radiation resistant species and the proposal of {Trueperaceae} fam. nov.}
-      \field{volume}{247}
-      \field{year}{2005}
-      \field{pages}{161\bibrangedash 169}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1016/j.femsle.2005.05.002
-      \endverb
-    \endentry
     \entry{AlKaisi2014}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=e99ebb724265df0df3c8f7e92f45782e}{%
@@ -60072,82 +59996,6 @@
     \endentry
   \enddatalist
   \datalist[entry]{nyt/global//global/global/global}
-    \entry{Albuquerque2005}{article}{}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=cc051509a89f462d21bf27c3682b4c98}{%
-           family={Albuquerque},
-           familyi={A\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=711b089d7632314243c4a936654c9d17}{%
-           family={Simões},
-           familyi={S\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=334a8cab05c41e2ac14e32f3e45013a0}{%
-           family={Nobre},
-           familyi={N\bibinitperiod},
-           given={M.F.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=083fd14da9bd407e17999e0ffa1e3e97}{%
-           family={Pino},
-           familyi={P\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bc4aad0e78c7acaacd95b7d76d9de8f1}{%
-           family={Battista},
-           familyi={B\bibinitperiod},
-           given={J.R.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cf62016adfa070e707a7595892636b64}{%
-           family={Silva},
-           familyi={S\bibinitperiod},
-           given={M.T.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f5aca72e0a441985b9e1d759010f039c}{%
-           family={Rainey},
-           familyi={R\bibinitperiod},
-           given={F.A.},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ae880f7e5d3882817a1a546941059eec}{%
-           family={Da\bibnamedelima Costa},
-           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={M.S.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{817b859b6770fb9f67a7ad9fe318ceda}
-      \strng{fullhash}{f90359f3925ea00a83f05142cc3d8cb1}
-      \strng{fullhashraw}{f90359f3925ea00a83f05142cc3d8cb1}
-      \strng{bibnamehash}{f90359f3925ea00a83f05142cc3d8cb1}
-      \strng{authorbibnamehash}{f90359f3925ea00a83f05142cc3d8cb1}
-      \strng{authornamehash}{817b859b6770fb9f67a7ad9fe318ceda}
-      \strng{authorfullhash}{f90359f3925ea00a83f05142cc3d8cb1}
-      \strng{authorfullhashraw}{f90359f3925ea00a83f05142cc3d8cb1}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{FEMS Microbiology Letters}
-      \field{title}{{<}span class="nocase"{>}{Truepera} radiovictrix{<}/span{>} gen. nov., sp. nov., a new radiation resistant species and the proposal of {Trueperaceae} fam. nov.}
-      \field{volume}{247}
-      \field{year}{2005}
-      \field{pages}{161\bibrangedash 169}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1016/j.femsle.2005.05.002
-      \endverb
-    \endentry
     \entry{AlKaisi2014}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=e99ebb724265df0df3c8f7e92f45782e}{%
@@ -67224,6 +67072,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{Albuquerque2005}
 \endrefsection
 
 \refsection{6}
@@ -69142,7 +68991,7 @@
       \field{pages}{245\bibrangedash 266}
       \range{pages}{22}
       \verb{doi}
-      \verb 10.1201/9780203739273
+      \verb 10.1201/9780203739273-17
       \endverb
     \endentry
     \entry{Gregory2022}{article}{}{}
@@ -69362,7 +69211,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{World Soil Resources Report No. 106}
       \field{title}{World reference base for soil resources 2014, {Update} 2015. {International} soil classification system for naming soils and creating legends for soil maps}
       \field{year}{2015}
       \verb{urlraw}
@@ -69455,7 +69303,7 @@
       \field{pages}{5\bibrangedash 33}
       \range{pages}{29}
       \verb{doi}
-      \verb 10.1007/s11104-009-9942-0
+      \verb 10.1007/s11104-009-9925-0
       \endverb
     \endentry
     \entry{KoegelKnabner1988}{article}{}{}
@@ -69617,7 +69465,7 @@
       \field{pages}{2021\bibrangedash 2025}
       \range{pages}{5}
       \verb{doi}
-      \verb 10.1890/02-0422
+      \verb 10.1890/02-3097
       \endverb
     \endentry
     \entry{Kramer2013}{article}{}{}
@@ -69880,18 +69728,18 @@
     \endentry
     \entry{MinisterioObrasPublicas2017}{misc}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=200571936584957a2a0940b295f54a32}{%
-           family={{Ministerio de Obras Públicas, M.}},
+        {{un=0,uniquepart=base,hash=849a52454ec9fbfb643d6d4f3bdb02ff}{%
+           family={{Ministerio de Obras Públicas. Dirección General de Aguas (DGA)}},
            familyi={M\bibinitperiod}}}%
       }
-      \strng{namehash}{200571936584957a2a0940b295f54a32}
-      \strng{fullhash}{200571936584957a2a0940b295f54a32}
-      \strng{fullhashraw}{200571936584957a2a0940b295f54a32}
-      \strng{bibnamehash}{200571936584957a2a0940b295f54a32}
-      \strng{authorbibnamehash}{200571936584957a2a0940b295f54a32}
-      \strng{authornamehash}{200571936584957a2a0940b295f54a32}
-      \strng{authorfullhash}{200571936584957a2a0940b295f54a32}
-      \strng{authorfullhashraw}{200571936584957a2a0940b295f54a32}
+      \strng{namehash}{849a52454ec9fbfb643d6d4f3bdb02ff}
+      \strng{fullhash}{849a52454ec9fbfb643d6d4f3bdb02ff}
+      \strng{fullhashraw}{849a52454ec9fbfb643d6d4f3bdb02ff}
+      \strng{bibnamehash}{849a52454ec9fbfb643d6d4f3bdb02ff}
+      \strng{authorbibnamehash}{849a52454ec9fbfb643d6d4f3bdb02ff}
+      \strng{authornamehash}{849a52454ec9fbfb643d6d4f3bdb02ff}
+      \strng{authorfullhash}{849a52454ec9fbfb643d6d4f3bdb02ff}
+      \strng{authorfullhashraw}{849a52454ec9fbfb643d6d4f3bdb02ff}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -69899,7 +69747,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{Dirección General de Aguas (DGA)}
       \field{title}{Información oficial hidrometeorológica y de calidad de aguas en línea}
       \field{year}{2017}
     \endentry
@@ -74209,7 +74056,7 @@
       \field{pages}{245\bibrangedash 266}
       \range{pages}{22}
       \verb{doi}
-      \verb 10.1201/9780203739273
+      \verb 10.1201/9780203739273-17
       \endverb
     \endentry
     \entry{Gregory2022}{article}{}{}
@@ -74429,7 +74276,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{World Soil Resources Report No. 106}
       \field{title}{World reference base for soil resources 2014, {Update} 2015. {International} soil classification system for naming soils and creating legends for soil maps}
       \field{year}{2015}
       \verb{urlraw}
@@ -74522,7 +74368,7 @@
       \field{pages}{5\bibrangedash 33}
       \range{pages}{29}
       \verb{doi}
-      \verb 10.1007/s11104-009-9942-0
+      \verb 10.1007/s11104-009-9925-0
       \endverb
     \endentry
     \entry{KoegelKnabner1988}{article}{}{}
@@ -74684,7 +74530,7 @@
       \field{pages}{2021\bibrangedash 2025}
       \range{pages}{5}
       \verb{doi}
-      \verb 10.1890/02-0422
+      \verb 10.1890/02-3097
       \endverb
     \endentry
     \entry{Kramer2013}{article}{}{}
@@ -74947,18 +74793,18 @@
     \endentry
     \entry{MinisterioObrasPublicas2017}{misc}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=200571936584957a2a0940b295f54a32}{%
-           family={{Ministerio de Obras Públicas, M.}},
+        {{un=0,uniquepart=base,hash=849a52454ec9fbfb643d6d4f3bdb02ff}{%
+           family={{Ministerio de Obras Públicas. Dirección General de Aguas (DGA)}},
            familyi={M\bibinitperiod}}}%
       }
-      \strng{namehash}{200571936584957a2a0940b295f54a32}
-      \strng{fullhash}{200571936584957a2a0940b295f54a32}
-      \strng{fullhashraw}{200571936584957a2a0940b295f54a32}
-      \strng{bibnamehash}{200571936584957a2a0940b295f54a32}
-      \strng{authorbibnamehash}{200571936584957a2a0940b295f54a32}
-      \strng{authornamehash}{200571936584957a2a0940b295f54a32}
-      \strng{authorfullhash}{200571936584957a2a0940b295f54a32}
-      \strng{authorfullhashraw}{200571936584957a2a0940b295f54a32}
+      \strng{namehash}{849a52454ec9fbfb643d6d4f3bdb02ff}
+      \strng{fullhash}{849a52454ec9fbfb643d6d4f3bdb02ff}
+      \strng{fullhashraw}{849a52454ec9fbfb643d6d4f3bdb02ff}
+      \strng{bibnamehash}{849a52454ec9fbfb643d6d4f3bdb02ff}
+      \strng{authorbibnamehash}{849a52454ec9fbfb643d6d4f3bdb02ff}
+      \strng{authornamehash}{849a52454ec9fbfb643d6d4f3bdb02ff}
+      \strng{authorfullhash}{849a52454ec9fbfb643d6d4f3bdb02ff}
+      \strng{authorfullhashraw}{849a52454ec9fbfb643d6d4f3bdb02ff}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -74966,7 +74812,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{Dirección General de Aguas (DGA)}
       \field{title}{Información oficial hidrometeorológica y de calidad de aguas en línea}
       \field{year}{2017}
     \endentry
