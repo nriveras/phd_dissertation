@@ -128,7 +128,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Aquatic Microbial Ecology}
-      \field{title}{Minor revision to {V4} region {Ssu} {<}span class="nocase"{>}rrna{<}/span{>} {806R} gene primer greatly increases detection of {Sar11} bacterioplankton}
+      \field{title}{Minor revision to {V4} region {SSU rRNA} {806R} gene primer greatly increases detection of {SAR11} bacterioplankton}
       \field{volume}{75}
       \field{year}{2015}
       \field{pages}{129\bibrangedash 137}
@@ -7603,7 +7603,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Aquatic Microbial Ecology}
-      \field{title}{Minor revision to {V4} region {Ssu} {<}span class="nocase"{>}rrna{<}/span{>} {806R} gene primer greatly increases detection of {Sar11} bacterioplankton}
+      \field{title}{Minor revision to {V4} region {SSU rRNA} {806R} gene primer greatly increases detection of {SAR11} bacterioplankton}
       \field{volume}{75}
       \field{year}{2015}
       \field{pages}{129\bibrangedash 137}
@@ -40067,7 +40067,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Aquatic Microbial Ecology}
-      \field{title}{Minor revision to {V4} region {Ssu} {<}span class="nocase"{>}rrna{<}/span{>} {806R} gene primer greatly increases detection of {Sar11} bacterioplankton}
+      \field{title}{Minor revision to {V4} region {SSU rRNA} {806R} gene primer greatly increases detection of {SAR11} bacterioplankton}
       \field{volume}{75}
       \field{year}{2015}
       \field{pages}{129\bibrangedash 137}
@@ -42702,8 +42702,8 @@
            given={S.},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=fffbdcb66165167d870fd621a2e550f4}{%
-           family={Torres-Diaz},
+        {{un=0,uniquepart=base,hash=146bd8ce9eb150730d65ff8da6182aa0}{%
+           family={Torres-Díaz},
            familyi={T\bibinithyphendelim D\bibinitperiod},
            given={C.},
            giveni={C\bibinitperiod},
@@ -42716,13 +42716,13 @@
            givenun=0}}%
       }
       \strng{namehash}{8f1ae4d99f1625a2647da7903084e2a9}
-      \strng{fullhash}{9a8b7923b9dc4ef10f068f6d0390ddee}
-      \strng{fullhashraw}{9a8b7923b9dc4ef10f068f6d0390ddee}
-      \strng{bibnamehash}{9a8b7923b9dc4ef10f068f6d0390ddee}
-      \strng{authorbibnamehash}{9a8b7923b9dc4ef10f068f6d0390ddee}
+      \strng{fullhash}{ecfe2a882df9f525fc03beebcfdccd6f}
+      \strng{fullhashraw}{ecfe2a882df9f525fc03beebcfdccd6f}
+      \strng{bibnamehash}{ecfe2a882df9f525fc03beebcfdccd6f}
+      \strng{authorbibnamehash}{ecfe2a882df9f525fc03beebcfdccd6f}
       \strng{authornamehash}{8f1ae4d99f1625a2647da7903084e2a9}
-      \strng{authorfullhash}{9a8b7923b9dc4ef10f068f6d0390ddee}
-      \strng{authorfullhashraw}{9a8b7923b9dc4ef10f068f6d0390ddee}
+      \strng{authorfullhash}{ecfe2a882df9f525fc03beebcfdccd6f}
+      \strng{authorfullhashraw}{ecfe2a882df9f525fc03beebcfdccd6f}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -42732,7 +42732,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Gayana Botánica}
       \field{number}{1}
-      \field{title}{The effects of fi re-related cues on seed germination and viability of {<}span class="nocase"{>}{Helenium} aromaticum{<}/span{>} ({Hook}.) {HL} {Bailey} ({Asteraceae})}
+      \field{title}{The effects of fire-related cues on seed germination and viability of \textit{Helenium aromaticum} (Hook.) H.~L.~Bailey (Asteraceae)}
       \field{volume}{68}
       \field{year}{2011}
       \field{pages}{86\bibrangedash 88}
@@ -45326,7 +45326,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{PeerJ}
-      \field{title}{Shifts in community composition and co-occurrence patterns of phyllosphere fungi inhabiting {<}span class="nocase"{>}{Mussaenda} shikokiana{<}/span{>} along an elevation gradient}
+      \field{title}{Shifts in community composition and co-occurrence patterns of phyllosphere fungi inhabiting \textit{Mussaenda shikokiana} along an elevation gradient}
       \field{volume}{6}
       \field{year}{2018}
       \field{pages}{e5767}
@@ -47566,7 +47566,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Aquatic Microbial Ecology}
-      \field{title}{Minor revision to {V4} region {Ssu} {<}span class="nocase"{>}rrna{<}/span{>} {806R} gene primer greatly increases detection of {Sar11} bacterioplankton}
+      \field{title}{Minor revision to {V4} region {SSU rRNA} {806R} gene primer greatly increases detection of {SAR11} bacterioplankton}
       \field{volume}{75}
       \field{year}{2015}
       \field{pages}{129\bibrangedash 137}
@@ -50201,8 +50201,8 @@
            given={S.},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=fffbdcb66165167d870fd621a2e550f4}{%
-           family={Torres-Diaz},
+        {{un=0,uniquepart=base,hash=146bd8ce9eb150730d65ff8da6182aa0}{%
+           family={Torres-Díaz},
            familyi={T\bibinithyphendelim D\bibinitperiod},
            given={C.},
            giveni={C\bibinitperiod},
@@ -50215,13 +50215,13 @@
            givenun=0}}%
       }
       \strng{namehash}{8f1ae4d99f1625a2647da7903084e2a9}
-      \strng{fullhash}{9a8b7923b9dc4ef10f068f6d0390ddee}
-      \strng{fullhashraw}{9a8b7923b9dc4ef10f068f6d0390ddee}
-      \strng{bibnamehash}{9a8b7923b9dc4ef10f068f6d0390ddee}
-      \strng{authorbibnamehash}{9a8b7923b9dc4ef10f068f6d0390ddee}
+      \strng{fullhash}{ecfe2a882df9f525fc03beebcfdccd6f}
+      \strng{fullhashraw}{ecfe2a882df9f525fc03beebcfdccd6f}
+      \strng{bibnamehash}{ecfe2a882df9f525fc03beebcfdccd6f}
+      \strng{authorbibnamehash}{ecfe2a882df9f525fc03beebcfdccd6f}
       \strng{authornamehash}{8f1ae4d99f1625a2647da7903084e2a9}
-      \strng{authorfullhash}{9a8b7923b9dc4ef10f068f6d0390ddee}
-      \strng{authorfullhashraw}{9a8b7923b9dc4ef10f068f6d0390ddee}
+      \strng{authorfullhash}{ecfe2a882df9f525fc03beebcfdccd6f}
+      \strng{authorfullhashraw}{ecfe2a882df9f525fc03beebcfdccd6f}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -50231,7 +50231,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Gayana Botánica}
       \field{number}{1}
-      \field{title}{The effects of fi re-related cues on seed germination and viability of {<}span class="nocase"{>}{Helenium} aromaticum{<}/span{>} ({Hook}.) {HL} {Bailey} ({Asteraceae})}
+      \field{title}{The effects of fire-related cues on seed germination and viability of \textit{Helenium aromaticum} (Hook.) H.~L.~Bailey (Asteraceae)}
       \field{volume}{68}
       \field{year}{2011}
       \field{pages}{86\bibrangedash 88}
@@ -52825,7 +52825,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{PeerJ}
-      \field{title}{Shifts in community composition and co-occurrence patterns of phyllosphere fungi inhabiting {<}span class="nocase"{>}{Mussaenda} shikokiana{<}/span{>} along an elevation gradient}
+      \field{title}{Shifts in community composition and co-occurrence patterns of phyllosphere fungi inhabiting \textit{Mussaenda shikokiana} along an elevation gradient}
       \field{volume}{6}
       \field{year}{2018}
       \field{pages}{e5767}
@@ -69321,8 +69321,8 @@
         {{un=0,uniquepart=base,hash=53c7306f441282a73a06d2633de035ee}{%
            family={Mueller},
            familyi={M\bibinitperiod},
-           given={C.W.},
-           giveni={C\bibinitperiod},
+           given={C.\bibnamedelimi W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
            givenun=0}}%
       }
       \strng{namehash}{bca7bbbdd54376b32975ac516a7c9332}
@@ -69342,7 +69342,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Geoderma}
-      \field{title}{Spatial distribution and chemical composition of soil organic matter fractions in rhizosphere and non-rhizosphere soil under {European} beech ({<}span class="nocase"{>}{Fagus} sylvatica{<}/span{>} {L}.)}
+      \field{title}{Spatial distribution and chemical composition of soil organic matter fractions in rhizosphere and non-rhizosphere soil under European beech (\textit{Fagus sylvatica}~L.)}
       \field{volume}{264}
       \field{year}{2016}
       \field{pages}{179\bibrangedash 187}
@@ -74386,8 +74386,8 @@
         {{un=0,uniquepart=base,hash=53c7306f441282a73a06d2633de035ee}{%
            family={Mueller},
            familyi={M\bibinitperiod},
-           given={C.W.},
-           giveni={C\bibinitperiod},
+           given={C.\bibnamedelimi W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
            givenun=0}}%
       }
       \strng{namehash}{bca7bbbdd54376b32975ac516a7c9332}
@@ -74407,7 +74407,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Geoderma}
-      \field{title}{Spatial distribution and chemical composition of soil organic matter fractions in rhizosphere and non-rhizosphere soil under {European} beech ({<}span class="nocase"{>}{Fagus} sylvatica{<}/span{>} {L}.)}
+      \field{title}{Spatial distribution and chemical composition of soil organic matter fractions in rhizosphere and non-rhizosphere soil under European beech (\textit{Fagus sylvatica}~L.)}
       \field{volume}{264}
       \field{year}{2016}
       \field{pages}{179\bibrangedash 187}
