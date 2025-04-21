@@ -1082,6 +1082,66 @@
       \endverb
       \keyw{Climate Topography Soil texture Total organic carbon Carbon isotope ratio (δC) Microbial abundance}
     \endentry
+    \entry{Blake1986}{inbook}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3703707d4d9254ffb04a1cf894287ae8}{%
+           family={Blake},
+           familyi={B\bibinitperiod},
+           given={G.\bibnamedelimi R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79dd14402dd0620bf3c155f5225559c1}{%
+           family={Hartge},
+           familyi={H\bibinitperiod},
+           given={K.\bibnamedelimi H.},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=8bf545a9b115f87a5a82d43c2918c4ea}{%
+           family={Klute},
+           familyi={K\bibinitperiod},
+           given={Arnold},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Madison, Wisconsin, USA}%
+      }
+      \list{publisher}{1}{%
+        {American Society of Agronomy \& Soil Science Society of America}%
+      }
+      \strng{namehash}{7f43df8a347ab6326617e6dc274bc6f9}
+      \strng{fullhash}{7f43df8a347ab6326617e6dc274bc6f9}
+      \strng{fullhashraw}{7f43df8a347ab6326617e6dc274bc6f9}
+      \strng{bibnamehash}{7f43df8a347ab6326617e6dc274bc6f9}
+      \strng{authorbibnamehash}{7f43df8a347ab6326617e6dc274bc6f9}
+      \strng{authornamehash}{7f43df8a347ab6326617e6dc274bc6f9}
+      \strng{authorfullhash}{7f43df8a347ab6326617e6dc274bc6f9}
+      \strng{authorfullhashraw}{7f43df8a347ab6326617e6dc274bc6f9}
+      \strng{editorbibnamehash}{8bf545a9b115f87a5a82d43c2918c4ea}
+      \strng{editornamehash}{8bf545a9b115f87a5a82d43c2918c4ea}
+      \strng{editorfullhash}{8bf545a9b115f87a5a82d43c2918c4ea}
+      \strng{editorfullhashraw}{8bf545a9b115f87a5a82d43c2918c4ea}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Methods of Soil Analysis, Part 1: Physical and Mineralogical Methods}
+      \field{edition}{2nd}
+      \field{isbn}{0891188118}
+      \field{series}{Agronomy Monograph}
+      \field{title}{Bulk Density}
+      \field{volume}{9}
+      \field{year}{1986}
+      \field{pages}{363\bibrangedash 382}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.2134/agronmonogr9.1
+      \endverb
+    \endentry
     \entry{Bowker2006}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=0b031238076ac5b62cb756792fb5f656}{%
@@ -1451,6 +1511,64 @@
       \range{pages}{7}
       \verb{doi}
       \verb 10.2136/sssaj1996.03615995006000030031x
+      \endverb
+    \endentry
+    \entry{Bucka2019}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=e63a5fa49436917d2891abb72779dc41}{%
+           family={Bucka},
+           familyi={B\bibinitperiod},
+           given={F.B.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0545e54c0a17e8d59b1299f80487cce}{%
+           family={Kölbl},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36e56bc1ecf1854a0ba80e50cbb09cbb}{%
+           family={Uteau},
+           familyi={U\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fee4a1829fe978eef68f4bac1645975}{%
+           family={Peth},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=324fccbc7253dd1223b0ae5f366b4f11}{%
+           family={Kögel-Knabner},
+           familyi={K\bibinithyphendelim K\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2c66d0414d13724db2df3e10b1fbfd33}
+      \strng{fullhash}{2d1397235604552f1a54e3cca3d31285}
+      \strng{fullhashraw}{2d1397235604552f1a54e3cca3d31285}
+      \strng{bibnamehash}{2d1397235604552f1a54e3cca3d31285}
+      \strng{authorbibnamehash}{2d1397235604552f1a54e3cca3d31285}
+      \strng{authornamehash}{2c66d0414d13724db2df3e10b1fbfd33}
+      \strng{authorfullhash}{2d1397235604552f1a54e3cca3d31285}
+      \strng{authorfullhashraw}{2d1397235604552f1a54e3cca3d31285}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geoderma}
+      \field{title}{Organic matter input determines structure development and aggregate formation in artificial soils}
+      \field{volume}{354}
+      \field{year}{2019}
+      \field{pages}{113881}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.geoderma.2019.113881
       \endverb
     \endentry
     \entry{Budel2016}{inbook}{}{}
@@ -2025,6 +2143,70 @@
       \verb 10.4067/S0718-16202012000200001
       \endverb
     \endentry
+    \entry{DelgadoBaquerizo2018}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=d834dade6cb11e99d94046c424b3e028}{%
+           family={Delgado-Baquerizo},
+           familyi={D\bibinithyphendelim B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=987e63fd9dd1977a6d6db42257a9d40e}{%
+           family={Eldridge},
+           familyi={E\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db305fba36f4eb0176333aa875495b80}{%
+           family={Travers},
+           familyi={T\bibinitperiod},
+           given={S.\bibnamedelimi K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1290047b3ae67f80a154a325b3a05aee}{%
+           family={Val},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c296587a803e7d6907c53fa77cb8c09}{%
+           family={Oliver},
+           familyi={O\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a1bf7adcb7db5f5a6ff4b6b50b887835}{%
+           family={Bissett},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9359acd6bd086d7cf461224c9199eaa6}
+      \strng{fullhash}{7bffc890d70f890b4db6110179fe68fc}
+      \strng{fullhashraw}{7bffc890d70f890b4db6110179fe68fc}
+      \strng{bibnamehash}{7bffc890d70f890b4db6110179fe68fc}
+      \strng{authorbibnamehash}{7bffc890d70f890b4db6110179fe68fc}
+      \strng{authornamehash}{9359acd6bd086d7cf461224c9199eaa6}
+      \strng{authorfullhash}{7bffc890d70f890b4db6110179fe68fc}
+      \strng{authorfullhashraw}{7bffc890d70f890b4db6110179fe68fc}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Global Change Biology}
+      \field{title}{Effects of climate legacies on above-and belowground community assembly}
+      \field{volume}{24}
+      \field{year}{2018}
+      \field{pages}{4330\bibrangedash 4339}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1111/gcb.14306
+      \endverb
+    \endentry
     \entry{Dietrich2006}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6b225c5eac19be0f32ec27d9c37483dd}{%
@@ -2073,6 +2255,77 @@
       \verb https://www.ncbi.nlm.nih.gov/pubmed/16437104
       \endverb
       \keyw{*Biology Earth,Planet Extraterrestrial Environment *Geography Geological Phenomena *Geology Life}
+    \endentry
+    \entry{Drahorad2020}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=8a42f2bd7d27d085f674013d1d656f50}{%
+           family={Drahorad},
+           familyi={D\bibinitperiod},
+           given={Sylvie\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a48b74556544fa5a21feded16ca2b48}{%
+           family={Jehn},
+           familyi={J\bibinitperiod},
+           given={Florian\bibnamedelima U.},
+           giveni={F\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68cb7394ffcbe9e528b5cd8e5ddf259c}{%
+           family={Ellerbrock},
+           familyi={E\bibinitperiod},
+           given={Ruth\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=767de0a8792acb90798cd1b8a50ed0c4}{%
+           family={Siemens},
+           familyi={S\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=422753fd245b186c986eff78ab973fdd}{%
+           family={Felix-Henningsen},
+           familyi={F\bibinithyphendelim H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{14b854848eee9a0bf4f102f7d629b160}
+      \strng{fullhash}{713fd176b7029dcf1c2827667d1a16a4}
+      \strng{fullhashraw}{713fd176b7029dcf1c2827667d1a16a4}
+      \strng{bibnamehash}{713fd176b7029dcf1c2827667d1a16a4}
+      \strng{authorbibnamehash}{713fd176b7029dcf1c2827667d1a16a4}
+      \strng{authornamehash}{14b854848eee9a0bf4f102f7d629b160}
+      \strng{authorfullhash}{713fd176b7029dcf1c2827667d1a16a4}
+      \strng{authorfullhashraw}{713fd176b7029dcf1c2827667d1a16a4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract In humid areas, biocrusts cover topsoils of inland dunes and influence soil characteristics, which, in turn, may affect the hydrophobicity of soils. The hydrophobicity of topsoils typically increases with increasing organic matter content. In addition, the soil organic matter quality, for example, described by the ratio of its hydrophilic and hydrophobic functional groups, also influences hydrophobicity. Because biocrust development goes along with an increase in the organic matter content and a shift in microbial community composition, the chemical character of soil organic matter likely changes over time, which, in turn, affects the hydrophobicity of the crusts. We hypothesize that the hydrophobicity of biocrusts increases during succession because of increasing amounts and aliphatic character of organic matter. We compared organic matter contents and Fourier-transform infrared spectra of cyanobacterial biocrusts and moss-dominated biocrusts at two European inland dunes. The organic carbon content as well as the hydrophobicity increased during crust development at both sites. Older moss-dominated biocrusts showed the highest hydrophobicity and the highest organic carbon content. Moreover, at one study site, the hydrophobicity of the biocrusts did increase with decreasing ratio between hydrophilic and hydrophobic (i.e., aliphatic) moieties of soil organic matter. At the second study site, this effect was only visible for the moss-dominated biocrust. We conclude that biocrust development and organic matter accumulation go ahead with changes in the organic matter composition and induce increased hydrophobicity with a strong impact on water redistribution in inland dune ecosystems. This knowledge will help to improve nature protection strategies in rare ecosystems.}
+      \field{journaltitle}{Ecohydrology}
+      \field{note}{e2232 ECO-19-0170.R1}
+      \field{number}{6}
+      \field{title}{Soil organic matter content and its aliphatic character define the hydrophobicity of biocrusts in different successional stages}
+      \field{volume}{13}
+      \field{year}{2020}
+      \field{pages}{e2232}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/eco.2232
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/eco.2232
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/eco.2232
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/eco.2232
+      \endverb
+      \keyw{biological soil crusts,early ecosystems,inland dunes,organic matter composition,water repellency}
     \endentry
     \entry{Dufrene1997}{article}{}{}
       \name{author}{2}{}{%
@@ -2435,6 +2688,151 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S0016703706020023
+      \endverb
+    \endentry
+    \entry{Gall2022b}{article}{}{}
+      \name{author}{5}{ul=2}{%
+        {{un=0,uniquepart=base,hash=8631e485eeaabc4381ce20e161253d7a}{%
+           family={Gall},
+           familyi={G\bibinitperiod},
+           given={Corinna},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=050c5b449f07cf70e3f8cd620dabd3f8}{%
+           family={Nebel},
+           familyi={N\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8646595924a64e70cf860e31c4672d8}{%
+           family={Quandt},
+           familyi={Q\bibinitperiod},
+           given={Dietmar},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2051b6bf97d4c94edd6ac8d56c6bb8a9}{%
+           family={Scholten},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e26ec78b4e139f7df423b7c7416b455}{%
+           family={Seitz},
+           familyi={S\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c42c57d72646498625c203da23f2b0fe}
+      \strng{fullhash}{89cefaad1ef9b3664a6e8edec34dc2a3}
+      \strng{fullhashraw}{89cefaad1ef9b3664a6e8edec34dc2a3}
+      \strng{bibnamehash}{89cefaad1ef9b3664a6e8edec34dc2a3}
+      \strng{authorbibnamehash}{89cefaad1ef9b3664a6e8edec34dc2a3}
+      \strng{authornamehash}{c42c57d72646498625c203da23f2b0fe}
+      \strng{authorfullhash}{89cefaad1ef9b3664a6e8edec34dc2a3}
+      \strng{authorfullhashraw}{89cefaad1ef9b3664a6e8edec34dc2a3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1726-4170}
+      \field{journaltitle}{Biogeosciences}
+      \field{number}{13}
+      \field{title}{Pioneer biocrust communities prevent soil erosion in temperate forests after disturbances}
+      \field{type}{Journal Article}
+      \field{volume}{19}
+      \field{year}{2022}
+      \field{pages}{3225\bibrangedash 3245}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.5194/bg-19-3225-2022
+      \endverb
+    \endentry
+    \entry{Gall2022a}{article}{}{}
+      \name{author}{9}{ul=2}{%
+        {{un=0,uniquepart=base,hash=8631e485eeaabc4381ce20e161253d7a}{%
+           family={Gall},
+           familyi={G\bibinitperiod},
+           given={Corinna},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccfcf6b8e8198ec774aafb85c2bd14e9}{%
+           family={Ohan},
+           familyi={O\bibinitperiod},
+           given={Juliette},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84b8d55b14e307a57d1ee48217647f74}{%
+           family={Glaser},
+           familyi={G\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19636af0faf16947bf4cfa945ff06633}{%
+           family={Karsten},
+           familyi={K\bibinitperiod},
+           given={Ulf},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=862efe4e4f57b4956120ecb624e3145d}{%
+           family={Schloter},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2051b6bf97d4c94edd6ac8d56c6bb8a9}{%
+           family={Scholten},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=abe2b78347738d1f76543356a0b8af8a}{%
+           family={Schulz},
+           familyi={S\bibinitperiod},
+           given={Stefanie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e26ec78b4e139f7df423b7c7416b455}{%
+           family={Seitz},
+           familyi={S\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6f907d418141e354ec87c4cd692e56f}{%
+           family={Kurth},
+           familyi={K\bibinitperiod},
+           given={Julia\bibnamedelima Katharina},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5bf5c3dbc8b244cbba6f077477f18c22}
+      \strng{fullhash}{e2d663f6529c75689ad7f3e81f51cb91}
+      \strng{fullhashraw}{e2d663f6529c75689ad7f3e81f51cb91}
+      \strng{bibnamehash}{e2d663f6529c75689ad7f3e81f51cb91}
+      \strng{authorbibnamehash}{e2d663f6529c75689ad7f3e81f51cb91}
+      \strng{authornamehash}{5bf5c3dbc8b244cbba6f077477f18c22}
+      \strng{authorfullhash}{e2d663f6529c75689ad7f3e81f51cb91}
+      \strng{authorfullhashraw}{e2d663f6529c75689ad7f3e81f51cb91}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1436-8730}
+      \field{journaltitle}{Journal of Plant Nutrition and Soil Science}
+      \field{number}{6}
+      \field{title}{Biocrusts: {Overlooked} hotspots of managed soils in mesic environments}
+      \field{volume}{185}
+      \field{year}{2022}
+      \field{pages}{745\bibrangedash 751}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1002/jpln.202200252
       \endverb
     \endentry
     \entry{Galloway2007}{book}{}{}
@@ -3262,6 +3660,55 @@
       \verb{doi}
       \verb 10.1002/jpln.19290140311
       \endverb
+    \endentry
+    \entry{Kuzyakov2015}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e387edcaedf38a20e83157a9a1178a5f}{%
+           family={Kuzyakov},
+           familyi={K\bibinitperiod},
+           given={Yakov},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7eea4a898c5b01541ebd6ccb6ba6702}{%
+           family={Blagodatskaya},
+           familyi={B\bibinitperiod},
+           given={Evgenia},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4bcf20bf05036c28bd267e2396335a85}
+      \strng{fullhash}{4bcf20bf05036c28bd267e2396335a85}
+      \strng{fullhashraw}{4bcf20bf05036c28bd267e2396335a85}
+      \strng{bibnamehash}{4bcf20bf05036c28bd267e2396335a85}
+      \strng{authorbibnamehash}{4bcf20bf05036c28bd267e2396335a85}
+      \strng{authornamehash}{4bcf20bf05036c28bd267e2396335a85}
+      \strng{authorfullhash}{4bcf20bf05036c28bd267e2396335a85}
+      \strng{authorfullhashraw}{4bcf20bf05036c28bd267e2396335a85}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Soils are the most heterogeneous parts of the biosphere, with an extremely high differentiation of properties and processes within nano- to macroscales. The spatial and temporal heterogeneity of input of labile organics by plants creates microbial hotspots over short periods of time – the hot moments. We define microbial hotspots as small soil volumes with much faster process rates and much more intensive interactions compared to the average soil conditions. Such hotspots are found in the rhizosphere, detritusphere, biopores (including drilosphere) and on aggregate surfaces, but hotspots are frequently of mixed origin. Hot moments are short-term events or sequences of events inducing accelerated process rates as compared to the average rates. Thus, hotspots and hot moments are defined by dynamic characteristics, i.e. by process rates. For this hotspot concept we extensively reviewed and examined the localization and size of hotspots, spatial distribution and visualization approaches, transport of labile C to and from hotspots, lifetime and process intensities, with a special focus on process rates and microbial activities. The fraction of active microorganisms in hotspots is 2–20 times higher than in the bulk soil, and their specific activities (i.e. respiration, microbial growth, mineralization potential, enzyme activities, RNA/DNA ratio) may also be much higher. The duration of hot moments in the rhizosphere is limited and is controlled by the length of the input of labile organics. It can last a few hours up to a few days. In the detritusphere, however, the duration of hot moments is regulated by the output – by decomposition rates of litter – and lasts for weeks and months. Hot moments induce succession in microbial communities and intense intra- and interspecific competition affecting C use efficiency, microbial growth and turnover. The faster turnover and lower C use efficiency in hotspots counterbalances the high C inputs, leading to the absence of strong increases in C stocks. Consequently, the intensification of fluxes is much stronger than the increase of pools. Maintenance of stoichiometric ratios by accelerated microbial growth in hotspots requires additional nutrients (e.g. N and P), causing their microbial mining from soil organic matter, i.e. priming effects. Consequently, priming effects are localized in microbial hotspots and are consequences of hot moments. We estimated the contribution of the hotspots to the whole soil profile and suggested that, irrespective of their volume, the hotspots are mainly responsible for the ecologically relevant processes in soil. By this review, we raised the importance of concepts and ecological theory of distribution and functioning of microorganisms in soil.}
+      \field{issn}{0038-0717}
+      \field{journaltitle}{Soil Biology and Biochemistry}
+      \field{title}{Microbial hotspots and hot moments in soil: Concept & review}
+      \field{volume}{83}
+      \field{year}{2015}
+      \field{pages}{184\bibrangedash 199}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.soilbio.2015.01.025
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0038071715000449
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0038071715000449
+      \endverb
+      \keyw{C and N cycles,Microbial activities,Priming effects,Microbial successions,Subsoil processes,Active microorganisms,Microbiota-habitat interactions}
     \endentry
     \entry{Lange2016}{inbook}{}{}
       \name{author}{2}{}{%
@@ -4868,10 +5315,78 @@
       \verb 10.32614/CRAN.package.labdsv
       \endverb
     \endentry
+    \entry{RodriguezCaballero2012}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=85daf053118f41adc5aac16ac4d901f5}{%
+           family={Rodríguez-Caballero},
+           familyi={R\bibinithyphendelim C\bibinitperiod},
+           given={Emilio},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0c849399e9f8e3eccf19a4130ad3b25}{%
+           family={Cantón},
+           familyi={C\bibinitperiod},
+           given={Yolanda},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30a5ff701e846788d25315b6e3bc9fc8}{%
+           family={Chamizo},
+           familyi={C\bibinitperiod},
+           given={Sonia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a63a0613e6ee6693ad28a9bafdbac1bb}{%
+           family={Afana},
+           familyi={A\bibinitperiod},
+           given={Ashraf},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe15ff351687e06c62a441f451191407}{%
+           family={Solé-Benet},
+           familyi={S\bibinithyphendelim B\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c792ae79e31467af52a6b5dd2b511ed7}
+      \strng{fullhash}{572578980a027db8a3f9958dbc3fb429}
+      \strng{fullhashraw}{572578980a027db8a3f9958dbc3fb429}
+      \strng{bibnamehash}{572578980a027db8a3f9958dbc3fb429}
+      \strng{authorbibnamehash}{572578980a027db8a3f9958dbc3fb429}
+      \strng{authornamehash}{c792ae79e31467af52a6b5dd2b511ed7}
+      \strng{authorfullhash}{572578980a027db8a3f9958dbc3fb429}
+      \strng{authorfullhashraw}{572578980a027db8a3f9958dbc3fb429}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Soil surface roughness has a strong influence on runoff and erosion, affecting surface storage capacity, water flow routing and velocity, and modifying runoff rates. It also reduces soil detachment by raindrops and the shear effect of water flow on the soil surface. In arid and semiarid ecosystems, biological soil crusts (BSCs) commonly appear in clearings between plants. Depending on the dominant component in the BSC community, the roughness of the soil surface may vary considerably, changing the hydrologic and erosive response of the soil. The aim of this study is to determine the effect of physical and biological crusts on soil surface roughness and their influence on runoff and erosion. For this purpose, we set up open plots containing different BSC types and treatments and recorded runoff and total erosion from all the events for 18months. Micro-topographic indexes were calculated from high-resolution digital surface models of the plots built from terrestrial laser scanner height data. After comparing different spatial resolutions and indexes, we concluded that only the local Random Roughness index in a 40-mm moving window provided a precise estimation of the roughness induced by BSCs, though it did not have a direct effect on runoff response. The best relationship between microtopography and runoff on biologically crusted soils was found for surface storage capacity, which appears as a powerful predictor of the runoff coefficient on long temporal scales. Sediment yield was not well predicted by any of the micro-topographic indexes studied. The only index that was significantly related to sediment yield was the local Random Roughness in a 40mm moving window, but even this explained only a third of the erosion variance.}
+      \field{issn}{0169-555X}
+      \field{journaltitle}{Geomorphology}
+      \field{title}{Effects of biological soil crusts on surface roughness and implications for runoff and erosion}
+      \field{volume}{145-146}
+      \field{year}{2012}
+      \field{pages}{81\bibrangedash 89}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.geomorph.2011.12.042
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0169555X1100657X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0169555X1100657X
+      \endverb
+      \keyw{Biological soil crust,Roughness,Surface storage,Runoff,Erosion,Laser scanner}
+    \endentry
     \entry{RodriguezCaballero2018}{article}{}{}
       \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=3ce0c23e247c7fe7c0a8b71175a17383}{%
-           family={Rodríguez‐Caballero},
+        {{un=0,uniquepart=base,hash=85daf053118f41adc5aac16ac4d901f5}{%
+           family={Rodríguez-Caballero},
            familyi={R\bibinithyphendelim C\bibinitperiod},
            given={Emilio},
            giveni={E\bibinitperiod},
@@ -4882,8 +5397,8 @@
            given={Sonia},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=6842f7e3d48337a4b421f6d98068d4c9}{%
-           family={Roncero‐Ramos},
+        {{un=0,uniquepart=base,hash=f5f2de26bf134001b3858070ababa55d}{%
+           family={Roncero-Ramos},
            familyi={R\bibinithyphendelim R\bibinitperiod},
            given={Beatriz},
            giveni={B\bibinitperiod},
@@ -4901,14 +5416,15 @@
            giveni={Y\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{cb5c6244182216378d764e9580860020}
-      \strng{fullhash}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{fullhashraw}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{bibnamehash}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{authorbibnamehash}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{authornamehash}{cb5c6244182216378d764e9580860020}
-      \strng{authorfullhash}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{authorfullhashraw}{9bf292673352de3ea27d7e6ae70a1c3b}
+      \strng{namehash}{c792ae79e31467af52a6b5dd2b511ed7}
+      \strng{fullhash}{910fafc606751258b0391984d96f5d06}
+      \strng{fullhashraw}{910fafc606751258b0391984d96f5d06}
+      \strng{bibnamehash}{910fafc606751258b0391984d96f5d06}
+      \strng{authorbibnamehash}{910fafc606751258b0391984d96f5d06}
+      \strng{authornamehash}{c792ae79e31467af52a6b5dd2b511ed7}
+      \strng{authorfullhash}{910fafc606751258b0391984d96f5d06}
+      \strng{authorfullhashraw}{910fafc606751258b0391984d96f5d06}
+      \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -5761,6 +6277,84 @@
       \verb 10.1016/j.clay.2012.02.020
       \endverb
     \endentry
+    \entry{Szyja2023}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=70f36eaed3884d6b80b8c4347c4ea4de}{%
+           family={Szyja},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=372fe1691478293354c1746b8b3d9c39}{%
+           family={Felde},
+           familyi={F\bibinitperiod},
+           given={Vjmnl},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3bf9d296376412f4a9ac23b89e64c74b}{%
+           family={Luckel},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19d6a0961841920ab52a58e4d8174e2a}{%
+           family={Tabarelli},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=309991fbe5768826852d931e89003926}{%
+           family={Leal},
+           familyi={L\bibinitperiod},
+           given={I.\bibnamedelimi R.},
+           giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=408f615da306157817956dd49a3af1ad}{%
+           family={Budel},
+           familyi={B\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7894ff26c2462963c334b6536a5e489f}{%
+           family={Wirth},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bc641124411d51ae3786ab95e52f709a}
+      \strng{fullhash}{9959dabf7d13b750b1029f6f2bc9e3c3}
+      \strng{fullhashraw}{9959dabf7d13b750b1029f6f2bc9e3c3}
+      \strng{bibnamehash}{9959dabf7d13b750b1029f6f2bc9e3c3}
+      \strng{authorbibnamehash}{9959dabf7d13b750b1029f6f2bc9e3c3}
+      \strng{authornamehash}{bc641124411d51ae3786ab95e52f709a}
+      \strng{authorfullhash}{9959dabf7d13b750b1029f6f2bc9e3c3}
+      \strng{authorfullhashraw}{9959dabf7d13b750b1029f6f2bc9e3c3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1664-302X (Print) 1664-302X (Electronic) 1664-302X (Linking)}
+      \field{journaltitle}{Frontiers in microbiology}
+      \field{title}{Biological soil crusts decrease infiltration but increase erosion resistance in a human-disturbed tropical dry forest}
+      \field{volume}{14}
+      \field{year}{2023}
+      \field{pages}{1136322}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fmicb.2023.1136322
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pubmed/37152745
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pubmed/37152745
+      \endverb
+      \keyw{aggregate stability biological soil crust ecosystem engineer ecosystem services regeneration tropical dry forest water infiltration and sorptivity}
+    \endentry
     \entry{RCoreTeam2018}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3bc9f9fface5de5e971d4ab4a4e5823f}{%
@@ -6510,6 +7104,72 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0016706121005759
       \endverb
       \keyw{Soil fertility Nutrient cycling Cryptogam Desert Biogeochemistry Metabolomics}
+    \endentry
+    \entry{Zeng2025}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=e58336e38d4a455085b1d4a2aad372e3}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Zhuo},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54f92e9a7c252fe33b770a627443940b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Dongdong},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c9d5f666ff895ced860fb57d6cecb61}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Quanhou},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43d7c7869c57bf06b334ed14ff16153d}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06a8d31d0287b938d9247815cc954ac0}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a32b6b9d2bc6a2e9778de0a27b726347}
+      \strng{fullhash}{3a330c6440aa00e9e6ecadaf51a7ea89}
+      \strng{fullhashraw}{3a330c6440aa00e9e6ecadaf51a7ea89}
+      \strng{bibnamehash}{3a330c6440aa00e9e6ecadaf51a7ea89}
+      \strng{authorbibnamehash}{3a330c6440aa00e9e6ecadaf51a7ea89}
+      \strng{authornamehash}{a32b6b9d2bc6a2e9778de0a27b726347}
+      \strng{authorfullhash}{3a330c6440aa00e9e6ecadaf51a7ea89}
+      \strng{authorfullhashraw}{3a330c6440aa00e9e6ecadaf51a7ea89}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{03418162}
+      \field{journaltitle}{Catena}
+      \field{title}{Effects of moss patches on the sediment loss, flow hydraulics and surface microtopography of soil slopes in karst mountainous areas}
+      \field{volume}{249}
+      \field{year}{2025}
+      \field{pages}{108672}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.catena.2024.108672
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0341816224008695
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0341816224008695
+      \endverb
+      \keyw{Karst areas Moss patches Runoff Sediment loss Flow hydraulics Surface microtopography}
     \endentry
   \enddatalist
   \datalist[entry]{nyt/global//global/global/global}
@@ -7576,6 +8236,66 @@
       \endverb
       \keyw{Climate Topography Soil texture Total organic carbon Carbon isotope ratio (δC) Microbial abundance}
     \endentry
+    \entry{Blake1986}{inbook}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3703707d4d9254ffb04a1cf894287ae8}{%
+           family={Blake},
+           familyi={B\bibinitperiod},
+           given={G.\bibnamedelimi R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79dd14402dd0620bf3c155f5225559c1}{%
+           family={Hartge},
+           familyi={H\bibinitperiod},
+           given={K.\bibnamedelimi H.},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=8bf545a9b115f87a5a82d43c2918c4ea}{%
+           family={Klute},
+           familyi={K\bibinitperiod},
+           given={Arnold},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Madison, Wisconsin, USA}%
+      }
+      \list{publisher}{1}{%
+        {American Society of Agronomy \& Soil Science Society of America}%
+      }
+      \strng{namehash}{7f43df8a347ab6326617e6dc274bc6f9}
+      \strng{fullhash}{7f43df8a347ab6326617e6dc274bc6f9}
+      \strng{fullhashraw}{7f43df8a347ab6326617e6dc274bc6f9}
+      \strng{bibnamehash}{7f43df8a347ab6326617e6dc274bc6f9}
+      \strng{authorbibnamehash}{7f43df8a347ab6326617e6dc274bc6f9}
+      \strng{authornamehash}{7f43df8a347ab6326617e6dc274bc6f9}
+      \strng{authorfullhash}{7f43df8a347ab6326617e6dc274bc6f9}
+      \strng{authorfullhashraw}{7f43df8a347ab6326617e6dc274bc6f9}
+      \strng{editorbibnamehash}{8bf545a9b115f87a5a82d43c2918c4ea}
+      \strng{editornamehash}{8bf545a9b115f87a5a82d43c2918c4ea}
+      \strng{editorfullhash}{8bf545a9b115f87a5a82d43c2918c4ea}
+      \strng{editorfullhashraw}{8bf545a9b115f87a5a82d43c2918c4ea}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Methods of Soil Analysis, Part 1: Physical and Mineralogical Methods}
+      \field{edition}{2nd}
+      \field{isbn}{0891188118}
+      \field{series}{Agronomy Monograph}
+      \field{title}{Bulk Density}
+      \field{volume}{9}
+      \field{year}{1986}
+      \field{pages}{363\bibrangedash 382}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.2134/agronmonogr9.1
+      \endverb
+    \endentry
     \entry{Bowker2016}{article}{}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=0b031238076ac5b62cb756792fb5f656}{%
@@ -7945,6 +8665,64 @@
       \range{pages}{7}
       \verb{doi}
       \verb 10.2136/sssaj1996.03615995006000030031x
+      \endverb
+    \endentry
+    \entry{Bucka2019}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=e63a5fa49436917d2891abb72779dc41}{%
+           family={Bucka},
+           familyi={B\bibinitperiod},
+           given={F.B.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0545e54c0a17e8d59b1299f80487cce}{%
+           family={Kölbl},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36e56bc1ecf1854a0ba80e50cbb09cbb}{%
+           family={Uteau},
+           familyi={U\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fee4a1829fe978eef68f4bac1645975}{%
+           family={Peth},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=324fccbc7253dd1223b0ae5f366b4f11}{%
+           family={Kögel-Knabner},
+           familyi={K\bibinithyphendelim K\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2c66d0414d13724db2df3e10b1fbfd33}
+      \strng{fullhash}{2d1397235604552f1a54e3cca3d31285}
+      \strng{fullhashraw}{2d1397235604552f1a54e3cca3d31285}
+      \strng{bibnamehash}{2d1397235604552f1a54e3cca3d31285}
+      \strng{authorbibnamehash}{2d1397235604552f1a54e3cca3d31285}
+      \strng{authornamehash}{2c66d0414d13724db2df3e10b1fbfd33}
+      \strng{authorfullhash}{2d1397235604552f1a54e3cca3d31285}
+      \strng{authorfullhashraw}{2d1397235604552f1a54e3cca3d31285}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geoderma}
+      \field{title}{Organic matter input determines structure development and aggregate formation in artificial soils}
+      \field{volume}{354}
+      \field{year}{2019}
+      \field{pages}{113881}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.geoderma.2019.113881
       \endverb
     \endentry
     \entry{Budel2016}{inbook}{}{}
@@ -8519,6 +9297,70 @@
       \verb 10.4067/S0718-16202012000200001
       \endverb
     \endentry
+    \entry{DelgadoBaquerizo2018}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=d834dade6cb11e99d94046c424b3e028}{%
+           family={Delgado-Baquerizo},
+           familyi={D\bibinithyphendelim B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=987e63fd9dd1977a6d6db42257a9d40e}{%
+           family={Eldridge},
+           familyi={E\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db305fba36f4eb0176333aa875495b80}{%
+           family={Travers},
+           familyi={T\bibinitperiod},
+           given={S.\bibnamedelimi K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1290047b3ae67f80a154a325b3a05aee}{%
+           family={Val},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c296587a803e7d6907c53fa77cb8c09}{%
+           family={Oliver},
+           familyi={O\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a1bf7adcb7db5f5a6ff4b6b50b887835}{%
+           family={Bissett},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9359acd6bd086d7cf461224c9199eaa6}
+      \strng{fullhash}{7bffc890d70f890b4db6110179fe68fc}
+      \strng{fullhashraw}{7bffc890d70f890b4db6110179fe68fc}
+      \strng{bibnamehash}{7bffc890d70f890b4db6110179fe68fc}
+      \strng{authorbibnamehash}{7bffc890d70f890b4db6110179fe68fc}
+      \strng{authornamehash}{9359acd6bd086d7cf461224c9199eaa6}
+      \strng{authorfullhash}{7bffc890d70f890b4db6110179fe68fc}
+      \strng{authorfullhashraw}{7bffc890d70f890b4db6110179fe68fc}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Global Change Biology}
+      \field{title}{Effects of climate legacies on above-and belowground community assembly}
+      \field{volume}{24}
+      \field{year}{2018}
+      \field{pages}{4330\bibrangedash 4339}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1111/gcb.14306
+      \endverb
+    \endentry
     \entry{Dietrich2006}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6b225c5eac19be0f32ec27d9c37483dd}{%
@@ -8567,6 +9409,77 @@
       \verb https://www.ncbi.nlm.nih.gov/pubmed/16437104
       \endverb
       \keyw{*Biology Earth,Planet Extraterrestrial Environment *Geography Geological Phenomena *Geology Life}
+    \endentry
+    \entry{Drahorad2020}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=8a42f2bd7d27d085f674013d1d656f50}{%
+           family={Drahorad},
+           familyi={D\bibinitperiod},
+           given={Sylvie\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a48b74556544fa5a21feded16ca2b48}{%
+           family={Jehn},
+           familyi={J\bibinitperiod},
+           given={Florian\bibnamedelima U.},
+           giveni={F\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68cb7394ffcbe9e528b5cd8e5ddf259c}{%
+           family={Ellerbrock},
+           familyi={E\bibinitperiod},
+           given={Ruth\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=767de0a8792acb90798cd1b8a50ed0c4}{%
+           family={Siemens},
+           familyi={S\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=422753fd245b186c986eff78ab973fdd}{%
+           family={Felix-Henningsen},
+           familyi={F\bibinithyphendelim H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{14b854848eee9a0bf4f102f7d629b160}
+      \strng{fullhash}{713fd176b7029dcf1c2827667d1a16a4}
+      \strng{fullhashraw}{713fd176b7029dcf1c2827667d1a16a4}
+      \strng{bibnamehash}{713fd176b7029dcf1c2827667d1a16a4}
+      \strng{authorbibnamehash}{713fd176b7029dcf1c2827667d1a16a4}
+      \strng{authornamehash}{14b854848eee9a0bf4f102f7d629b160}
+      \strng{authorfullhash}{713fd176b7029dcf1c2827667d1a16a4}
+      \strng{authorfullhashraw}{713fd176b7029dcf1c2827667d1a16a4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract In humid areas, biocrusts cover topsoils of inland dunes and influence soil characteristics, which, in turn, may affect the hydrophobicity of soils. The hydrophobicity of topsoils typically increases with increasing organic matter content. In addition, the soil organic matter quality, for example, described by the ratio of its hydrophilic and hydrophobic functional groups, also influences hydrophobicity. Because biocrust development goes along with an increase in the organic matter content and a shift in microbial community composition, the chemical character of soil organic matter likely changes over time, which, in turn, affects the hydrophobicity of the crusts. We hypothesize that the hydrophobicity of biocrusts increases during succession because of increasing amounts and aliphatic character of organic matter. We compared organic matter contents and Fourier-transform infrared spectra of cyanobacterial biocrusts and moss-dominated biocrusts at two European inland dunes. The organic carbon content as well as the hydrophobicity increased during crust development at both sites. Older moss-dominated biocrusts showed the highest hydrophobicity and the highest organic carbon content. Moreover, at one study site, the hydrophobicity of the biocrusts did increase with decreasing ratio between hydrophilic and hydrophobic (i.e., aliphatic) moieties of soil organic matter. At the second study site, this effect was only visible for the moss-dominated biocrust. We conclude that biocrust development and organic matter accumulation go ahead with changes in the organic matter composition and induce increased hydrophobicity with a strong impact on water redistribution in inland dune ecosystems. This knowledge will help to improve nature protection strategies in rare ecosystems.}
+      \field{journaltitle}{Ecohydrology}
+      \field{note}{e2232 ECO-19-0170.R1}
+      \field{number}{6}
+      \field{title}{Soil organic matter content and its aliphatic character define the hydrophobicity of biocrusts in different successional stages}
+      \field{volume}{13}
+      \field{year}{2020}
+      \field{pages}{e2232}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/eco.2232
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/eco.2232
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/eco.2232
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/eco.2232
+      \endverb
+      \keyw{biological soil crusts,early ecosystems,inland dunes,organic matter composition,water repellency}
     \endentry
     \entry{Dufrene1997}{article}{}{}
       \name{author}{2}{}{%
@@ -8929,6 +9842,151 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S0016703706020023
+      \endverb
+    \endentry
+    \entry{Gall2022b}{article}{}{}
+      \name{author}{5}{ul=2}{%
+        {{un=0,uniquepart=base,hash=8631e485eeaabc4381ce20e161253d7a}{%
+           family={Gall},
+           familyi={G\bibinitperiod},
+           given={Corinna},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=050c5b449f07cf70e3f8cd620dabd3f8}{%
+           family={Nebel},
+           familyi={N\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8646595924a64e70cf860e31c4672d8}{%
+           family={Quandt},
+           familyi={Q\bibinitperiod},
+           given={Dietmar},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2051b6bf97d4c94edd6ac8d56c6bb8a9}{%
+           family={Scholten},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e26ec78b4e139f7df423b7c7416b455}{%
+           family={Seitz},
+           familyi={S\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c42c57d72646498625c203da23f2b0fe}
+      \strng{fullhash}{89cefaad1ef9b3664a6e8edec34dc2a3}
+      \strng{fullhashraw}{89cefaad1ef9b3664a6e8edec34dc2a3}
+      \strng{bibnamehash}{89cefaad1ef9b3664a6e8edec34dc2a3}
+      \strng{authorbibnamehash}{89cefaad1ef9b3664a6e8edec34dc2a3}
+      \strng{authornamehash}{c42c57d72646498625c203da23f2b0fe}
+      \strng{authorfullhash}{89cefaad1ef9b3664a6e8edec34dc2a3}
+      \strng{authorfullhashraw}{89cefaad1ef9b3664a6e8edec34dc2a3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1726-4170}
+      \field{journaltitle}{Biogeosciences}
+      \field{number}{13}
+      \field{title}{Pioneer biocrust communities prevent soil erosion in temperate forests after disturbances}
+      \field{type}{Journal Article}
+      \field{volume}{19}
+      \field{year}{2022}
+      \field{pages}{3225\bibrangedash 3245}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.5194/bg-19-3225-2022
+      \endverb
+    \endentry
+    \entry{Gall2022a}{article}{}{}
+      \name{author}{9}{ul=2}{%
+        {{un=0,uniquepart=base,hash=8631e485eeaabc4381ce20e161253d7a}{%
+           family={Gall},
+           familyi={G\bibinitperiod},
+           given={Corinna},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccfcf6b8e8198ec774aafb85c2bd14e9}{%
+           family={Ohan},
+           familyi={O\bibinitperiod},
+           given={Juliette},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84b8d55b14e307a57d1ee48217647f74}{%
+           family={Glaser},
+           familyi={G\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19636af0faf16947bf4cfa945ff06633}{%
+           family={Karsten},
+           familyi={K\bibinitperiod},
+           given={Ulf},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=862efe4e4f57b4956120ecb624e3145d}{%
+           family={Schloter},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2051b6bf97d4c94edd6ac8d56c6bb8a9}{%
+           family={Scholten},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=abe2b78347738d1f76543356a0b8af8a}{%
+           family={Schulz},
+           familyi={S\bibinitperiod},
+           given={Stefanie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e26ec78b4e139f7df423b7c7416b455}{%
+           family={Seitz},
+           familyi={S\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6f907d418141e354ec87c4cd692e56f}{%
+           family={Kurth},
+           familyi={K\bibinitperiod},
+           given={Julia\bibnamedelima Katharina},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5bf5c3dbc8b244cbba6f077477f18c22}
+      \strng{fullhash}{e2d663f6529c75689ad7f3e81f51cb91}
+      \strng{fullhashraw}{e2d663f6529c75689ad7f3e81f51cb91}
+      \strng{bibnamehash}{e2d663f6529c75689ad7f3e81f51cb91}
+      \strng{authorbibnamehash}{e2d663f6529c75689ad7f3e81f51cb91}
+      \strng{authornamehash}{5bf5c3dbc8b244cbba6f077477f18c22}
+      \strng{authorfullhash}{e2d663f6529c75689ad7f3e81f51cb91}
+      \strng{authorfullhashraw}{e2d663f6529c75689ad7f3e81f51cb91}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1436-8730}
+      \field{journaltitle}{Journal of Plant Nutrition and Soil Science}
+      \field{number}{6}
+      \field{title}{Biocrusts: {Overlooked} hotspots of managed soils in mesic environments}
+      \field{volume}{185}
+      \field{year}{2022}
+      \field{pages}{745\bibrangedash 751}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1002/jpln.202200252
       \endverb
     \endentry
     \entry{Galloway2007}{book}{}{}
@@ -9756,6 +10814,55 @@
       \verb{doi}
       \verb 10.1002/jpln.19290140311
       \endverb
+    \endentry
+    \entry{Kuzyakov2015}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e387edcaedf38a20e83157a9a1178a5f}{%
+           family={Kuzyakov},
+           familyi={K\bibinitperiod},
+           given={Yakov},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7eea4a898c5b01541ebd6ccb6ba6702}{%
+           family={Blagodatskaya},
+           familyi={B\bibinitperiod},
+           given={Evgenia},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4bcf20bf05036c28bd267e2396335a85}
+      \strng{fullhash}{4bcf20bf05036c28bd267e2396335a85}
+      \strng{fullhashraw}{4bcf20bf05036c28bd267e2396335a85}
+      \strng{bibnamehash}{4bcf20bf05036c28bd267e2396335a85}
+      \strng{authorbibnamehash}{4bcf20bf05036c28bd267e2396335a85}
+      \strng{authornamehash}{4bcf20bf05036c28bd267e2396335a85}
+      \strng{authorfullhash}{4bcf20bf05036c28bd267e2396335a85}
+      \strng{authorfullhashraw}{4bcf20bf05036c28bd267e2396335a85}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Soils are the most heterogeneous parts of the biosphere, with an extremely high differentiation of properties and processes within nano- to macroscales. The spatial and temporal heterogeneity of input of labile organics by plants creates microbial hotspots over short periods of time – the hot moments. We define microbial hotspots as small soil volumes with much faster process rates and much more intensive interactions compared to the average soil conditions. Such hotspots are found in the rhizosphere, detritusphere, biopores (including drilosphere) and on aggregate surfaces, but hotspots are frequently of mixed origin. Hot moments are short-term events or sequences of events inducing accelerated process rates as compared to the average rates. Thus, hotspots and hot moments are defined by dynamic characteristics, i.e. by process rates. For this hotspot concept we extensively reviewed and examined the localization and size of hotspots, spatial distribution and visualization approaches, transport of labile C to and from hotspots, lifetime and process intensities, with a special focus on process rates and microbial activities. The fraction of active microorganisms in hotspots is 2–20 times higher than in the bulk soil, and their specific activities (i.e. respiration, microbial growth, mineralization potential, enzyme activities, RNA/DNA ratio) may also be much higher. The duration of hot moments in the rhizosphere is limited and is controlled by the length of the input of labile organics. It can last a few hours up to a few days. In the detritusphere, however, the duration of hot moments is regulated by the output – by decomposition rates of litter – and lasts for weeks and months. Hot moments induce succession in microbial communities and intense intra- and interspecific competition affecting C use efficiency, microbial growth and turnover. The faster turnover and lower C use efficiency in hotspots counterbalances the high C inputs, leading to the absence of strong increases in C stocks. Consequently, the intensification of fluxes is much stronger than the increase of pools. Maintenance of stoichiometric ratios by accelerated microbial growth in hotspots requires additional nutrients (e.g. N and P), causing their microbial mining from soil organic matter, i.e. priming effects. Consequently, priming effects are localized in microbial hotspots and are consequences of hot moments. We estimated the contribution of the hotspots to the whole soil profile and suggested that, irrespective of their volume, the hotspots are mainly responsible for the ecologically relevant processes in soil. By this review, we raised the importance of concepts and ecological theory of distribution and functioning of microorganisms in soil.}
+      \field{issn}{0038-0717}
+      \field{journaltitle}{Soil Biology and Biochemistry}
+      \field{title}{Microbial hotspots and hot moments in soil: Concept & review}
+      \field{volume}{83}
+      \field{year}{2015}
+      \field{pages}{184\bibrangedash 199}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.soilbio.2015.01.025
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0038071715000449
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0038071715000449
+      \endverb
+      \keyw{C and N cycles,Microbial activities,Priming effects,Microbial successions,Subsoil processes,Active microorganisms,Microbiota-habitat interactions}
     \endentry
     \entry{Lange2016}{inbook}{}{}
       \name{author}{2}{}{%
@@ -11362,10 +12469,78 @@
       \verb 10.32614/CRAN.package.labdsv
       \endverb
     \endentry
+    \entry{RodriguezCaballero2012}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=85daf053118f41adc5aac16ac4d901f5}{%
+           family={Rodríguez-Caballero},
+           familyi={R\bibinithyphendelim C\bibinitperiod},
+           given={Emilio},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0c849399e9f8e3eccf19a4130ad3b25}{%
+           family={Cantón},
+           familyi={C\bibinitperiod},
+           given={Yolanda},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30a5ff701e846788d25315b6e3bc9fc8}{%
+           family={Chamizo},
+           familyi={C\bibinitperiod},
+           given={Sonia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a63a0613e6ee6693ad28a9bafdbac1bb}{%
+           family={Afana},
+           familyi={A\bibinitperiod},
+           given={Ashraf},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe15ff351687e06c62a441f451191407}{%
+           family={Solé-Benet},
+           familyi={S\bibinithyphendelim B\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c792ae79e31467af52a6b5dd2b511ed7}
+      \strng{fullhash}{572578980a027db8a3f9958dbc3fb429}
+      \strng{fullhashraw}{572578980a027db8a3f9958dbc3fb429}
+      \strng{bibnamehash}{572578980a027db8a3f9958dbc3fb429}
+      \strng{authorbibnamehash}{572578980a027db8a3f9958dbc3fb429}
+      \strng{authornamehash}{c792ae79e31467af52a6b5dd2b511ed7}
+      \strng{authorfullhash}{572578980a027db8a3f9958dbc3fb429}
+      \strng{authorfullhashraw}{572578980a027db8a3f9958dbc3fb429}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Soil surface roughness has a strong influence on runoff and erosion, affecting surface storage capacity, water flow routing and velocity, and modifying runoff rates. It also reduces soil detachment by raindrops and the shear effect of water flow on the soil surface. In arid and semiarid ecosystems, biological soil crusts (BSCs) commonly appear in clearings between plants. Depending on the dominant component in the BSC community, the roughness of the soil surface may vary considerably, changing the hydrologic and erosive response of the soil. The aim of this study is to determine the effect of physical and biological crusts on soil surface roughness and their influence on runoff and erosion. For this purpose, we set up open plots containing different BSC types and treatments and recorded runoff and total erosion from all the events for 18months. Micro-topographic indexes were calculated from high-resolution digital surface models of the plots built from terrestrial laser scanner height data. After comparing different spatial resolutions and indexes, we concluded that only the local Random Roughness index in a 40-mm moving window provided a precise estimation of the roughness induced by BSCs, though it did not have a direct effect on runoff response. The best relationship between microtopography and runoff on biologically crusted soils was found for surface storage capacity, which appears as a powerful predictor of the runoff coefficient on long temporal scales. Sediment yield was not well predicted by any of the micro-topographic indexes studied. The only index that was significantly related to sediment yield was the local Random Roughness in a 40mm moving window, but even this explained only a third of the erosion variance.}
+      \field{issn}{0169-555X}
+      \field{journaltitle}{Geomorphology}
+      \field{title}{Effects of biological soil crusts on surface roughness and implications for runoff and erosion}
+      \field{volume}{145-146}
+      \field{year}{2012}
+      \field{pages}{81\bibrangedash 89}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.geomorph.2011.12.042
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0169555X1100657X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0169555X1100657X
+      \endverb
+      \keyw{Biological soil crust,Roughness,Surface storage,Runoff,Erosion,Laser scanner}
+    \endentry
     \entry{RodriguezCaballero2018}{article}{}{}
       \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=3ce0c23e247c7fe7c0a8b71175a17383}{%
-           family={Rodríguez‐Caballero},
+        {{un=0,uniquepart=base,hash=85daf053118f41adc5aac16ac4d901f5}{%
+           family={Rodríguez-Caballero},
            familyi={R\bibinithyphendelim C\bibinitperiod},
            given={Emilio},
            giveni={E\bibinitperiod},
@@ -11376,8 +12551,8 @@
            given={Sonia},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=6842f7e3d48337a4b421f6d98068d4c9}{%
-           family={Roncero‐Ramos},
+        {{un=0,uniquepart=base,hash=f5f2de26bf134001b3858070ababa55d}{%
+           family={Roncero-Ramos},
            familyi={R\bibinithyphendelim R\bibinitperiod},
            given={Beatriz},
            giveni={B\bibinitperiod},
@@ -11395,14 +12570,15 @@
            giveni={Y\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{cb5c6244182216378d764e9580860020}
-      \strng{fullhash}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{fullhashraw}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{bibnamehash}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{authorbibnamehash}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{authornamehash}{cb5c6244182216378d764e9580860020}
-      \strng{authorfullhash}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{authorfullhashraw}{9bf292673352de3ea27d7e6ae70a1c3b}
+      \strng{namehash}{c792ae79e31467af52a6b5dd2b511ed7}
+      \strng{fullhash}{910fafc606751258b0391984d96f5d06}
+      \strng{fullhashraw}{910fafc606751258b0391984d96f5d06}
+      \strng{bibnamehash}{910fafc606751258b0391984d96f5d06}
+      \strng{authorbibnamehash}{910fafc606751258b0391984d96f5d06}
+      \strng{authornamehash}{c792ae79e31467af52a6b5dd2b511ed7}
+      \strng{authorfullhash}{910fafc606751258b0391984d96f5d06}
+      \strng{authorfullhashraw}{910fafc606751258b0391984d96f5d06}
+      \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -12255,6 +13431,84 @@
       \verb 10.1016/j.clay.2012.02.020
       \endverb
     \endentry
+    \entry{Szyja2023}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=70f36eaed3884d6b80b8c4347c4ea4de}{%
+           family={Szyja},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=372fe1691478293354c1746b8b3d9c39}{%
+           family={Felde},
+           familyi={F\bibinitperiod},
+           given={Vjmnl},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3bf9d296376412f4a9ac23b89e64c74b}{%
+           family={Luckel},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19d6a0961841920ab52a58e4d8174e2a}{%
+           family={Tabarelli},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=309991fbe5768826852d931e89003926}{%
+           family={Leal},
+           familyi={L\bibinitperiod},
+           given={I.\bibnamedelimi R.},
+           giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=408f615da306157817956dd49a3af1ad}{%
+           family={Budel},
+           familyi={B\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7894ff26c2462963c334b6536a5e489f}{%
+           family={Wirth},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bc641124411d51ae3786ab95e52f709a}
+      \strng{fullhash}{9959dabf7d13b750b1029f6f2bc9e3c3}
+      \strng{fullhashraw}{9959dabf7d13b750b1029f6f2bc9e3c3}
+      \strng{bibnamehash}{9959dabf7d13b750b1029f6f2bc9e3c3}
+      \strng{authorbibnamehash}{9959dabf7d13b750b1029f6f2bc9e3c3}
+      \strng{authornamehash}{bc641124411d51ae3786ab95e52f709a}
+      \strng{authorfullhash}{9959dabf7d13b750b1029f6f2bc9e3c3}
+      \strng{authorfullhashraw}{9959dabf7d13b750b1029f6f2bc9e3c3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1664-302X (Print) 1664-302X (Electronic) 1664-302X (Linking)}
+      \field{journaltitle}{Frontiers in microbiology}
+      \field{title}{Biological soil crusts decrease infiltration but increase erosion resistance in a human-disturbed tropical dry forest}
+      \field{volume}{14}
+      \field{year}{2023}
+      \field{pages}{1136322}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fmicb.2023.1136322
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pubmed/37152745
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pubmed/37152745
+      \endverb
+      \keyw{aggregate stability biological soil crust ecosystem engineer ecosystem services regeneration tropical dry forest water infiltration and sorptivity}
+    \endentry
     \entry{RCoreTeam2018}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3bc9f9fface5de5e971d4ab4a4e5823f}{%
@@ -13004,6 +14258,72 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0016706121005759
       \endverb
       \keyw{Soil fertility Nutrient cycling Cryptogam Desert Biogeochemistry Metabolomics}
+    \endentry
+    \entry{Zeng2025}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=e58336e38d4a455085b1d4a2aad372e3}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Zhuo},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54f92e9a7c252fe33b770a627443940b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Dongdong},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c9d5f666ff895ced860fb57d6cecb61}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Quanhou},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43d7c7869c57bf06b334ed14ff16153d}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06a8d31d0287b938d9247815cc954ac0}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a32b6b9d2bc6a2e9778de0a27b726347}
+      \strng{fullhash}{3a330c6440aa00e9e6ecadaf51a7ea89}
+      \strng{fullhashraw}{3a330c6440aa00e9e6ecadaf51a7ea89}
+      \strng{bibnamehash}{3a330c6440aa00e9e6ecadaf51a7ea89}
+      \strng{authorbibnamehash}{3a330c6440aa00e9e6ecadaf51a7ea89}
+      \strng{authornamehash}{a32b6b9d2bc6a2e9778de0a27b726347}
+      \strng{authorfullhash}{3a330c6440aa00e9e6ecadaf51a7ea89}
+      \strng{authorfullhashraw}{3a330c6440aa00e9e6ecadaf51a7ea89}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{03418162}
+      \field{journaltitle}{Catena}
+      \field{title}{Effects of moss patches on the sediment loss, flow hydraulics and surface microtopography of soil slopes in karst mountainous areas}
+      \field{volume}{249}
+      \field{year}{2025}
+      \field{pages}{108672}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.catena.2024.108672
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0341816224008695
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0341816224008695
+      \endverb
+      \keyw{Karst areas Moss patches Runoff Sediment loss Flow hydraulics Surface microtopography}
     \endentry
   \enddatalist
 \endrefsection
@@ -16010,7 +17330,7 @@
       \endverb
       \keyw{gas exchange,ITS,lichen,lichenicolous fungi,rbcL,Trebouxia}
     \endentry
-    \entry{Jung2020b}{article}{}{}
+    \entry{Jung2020a}{article}{}{}
       \name{author}{13}{}{%
         {{un=0,uniquepart=base,hash=8cba1e15d448d8d74b29fcaf0ea1430c}{%
            family={Jung},
@@ -16108,19 +17428,16 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Abstract The Atacama Desert is the driest non-polar desert on Earth, presenting precarious conditions for biological activity. In the arid coastal belt, life is restricted to areas with fog events that cause almost daily wet-dry cycles. In such an area, we discovered a hitherto unknown and unique ground covering biocenosis dominated by lichens, fungi, and algae attached to grit-sized (~6 mm) quartz and granitoid stones. Comparable biocenosis forming a kind of a layer on top of soil and rock surfaces in general is summarized as cryptogamic ground covers (CGC) in literature. In contrast to known CGC from arid environments to which frequent cyclic wetting events are lethal, in the Atacama Desert every fog event is answered by photosynthetic activity of the soil community and thus considered as the desert's breath. Photosynthesis of the new CGC type is activated by the lowest amount of water known for such a community worldwide thus enabling the unique biocenosis to fulfill a variety of ecosystem services. In a considerable portion of the coastal Atacama Desert, it protects the soil from sporadically occurring splash erosion and contributes to the accumulation of soil carbon and nitrogen as well as soil formation through bio-weathering. The structure and function of the new CGC type are discussed, and we suggest the name grit-crust. We conclude that this type of CGC can be expected in all non-polar fog deserts of the world and may resemble the cryptogam communities that shaped ancient Earth. It may thus represent a relevant player in current and ancient biogeochemical cycling.}
+      \field{abstract}{Abstract The Atacama Desert is the driest non-polar desert on Earth, presenting precarious conditions for biological activity. In the arid coastal belt, life is restricted to areas with fog events that cause almost daily wet-dry cycles. In such an area, we discovered a hitherto unknown and unique ground covering biocenosis dominated by lichens, fungi, and algae attached to grit-sized ( 6 mm) quartz and granitoid stones. Comparable biocenosis forming a kind of a layer on top of soil and rock surfaces in general is summarized as cryptogamic ground covers (CGC) in literature. In contrast to known CGC from arid environments to which frequent cyclic wetting events are lethal, in the Atacama Desert every fog event is answered by photosynthetic activity of the soil community and thus considered as the desert's breath. Photosynthesis of the new CGC type is activated by the lowest amount of water known for such a community worldwide thus enabling the unique biocenosis to fulfill a variety of ecosystem services. In a considerable portion of the coastal Atacama Desert, it protects the soil from sporadically occurring splash erosion and contributes to the accumulation of soil carbon and nitrogen as well as soil formation through bio-weathering. The structure and function of the new CGC type are discussed, and we suggest the name grit-crust. We conclude that this type of CGC can be expected in all non-polar fog deserts of the world and may resemble the cryptogam communities that shaped ancient Earth. It may thus represent a relevant player in current and ancient biogeochemical cycling.}
       \field{journaltitle}{Geobiology}
       \field{number}{1}
-      \field{title}{Desert breath—How fog promotes a novel type of soil biocenosis, forming the coastal Atacama Desert's living skin}
+      \field{title}{Desert breath—{How} fog promotes a novel type of soil biocenosis, forming the coastal {Atacama} {Desert}'s living skin}
       \field{volume}{18}
       \field{year}{2020}
       \field{pages}{113\bibrangedash 124}
       \range{pages}{12}
       \verb{doi}
       \verb 10.1111/gbi.12368
-      \endverb
-      \verb{eprint}
-      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/gbi.12368
       \endverb
       \verb{urlraw}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/gbi.12368
@@ -16129,7 +17446,7 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/gbi.12368
       \endverb
     \endentry
-    \entry{Jung2020a}{article}{}{}
+    \entry{Jung2020b}{article}{}{}
       \name{author}{13}{}{%
         {{un=0,uniquepart=base,hash=8cba1e15d448d8d74b29fcaf0ea1430c}{%
            family={Jung},
@@ -16227,16 +17544,19 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Abstract The Atacama Desert is the driest non-polar desert on Earth, presenting precarious conditions for biological activity. In the arid coastal belt, life is restricted to areas with fog events that cause almost daily wet–dry cycles. In such an area, we discovered a hitherto unknown and unique ground covering biocenosis dominated by lichens, fungi, and algae attached to grit-sized ( 6 mm) quartz and granitoid stones. Comparable biocenosis forming a kind of a layer on top of soil and rock surfaces in general is summarized as cryptogamic ground covers (CGC) in literature. In contrast to known CGC from arid environments to which frequent cyclic wetting events are lethal, in the Atacama Desert every fog event is answered by photosynthetic activity of the soil community and thus considered as the desert's breath. Photosynthesis of the new CGC type is activated by the lowest amount of water known for such a community worldwide thus enabling the unique biocenosis to fulfill a variety of ecosystem services. In a considerable portion of the coastal Atacama Desert, it protects the soil from sporadically occurring splash erosion and contributes to the accumulation of soil carbon and nitrogen as well as soil formation through bio-weathering. The structure and function of the new CGC type are discussed, and we suggest the name grit–crust. We conclude that this type of CGC can be expected in all non-polar fog deserts of the world and may resemble the cryptogam communities that shaped ancient Earth. It may thus represent a relevant player in current and ancient biogeochemical cycling.}
+      \field{abstract}{Abstract The Atacama Desert is the driest non-polar desert on Earth, presenting precarious conditions for biological activity. In the arid coastal belt, life is restricted to areas with fog events that cause almost daily wet-dry cycles. In such an area, we discovered a hitherto unknown and unique ground covering biocenosis dominated by lichens, fungi, and algae attached to grit-sized (~6 mm) quartz and granitoid stones. Comparable biocenosis forming a kind of a layer on top of soil and rock surfaces in general is summarized as cryptogamic ground covers (CGC) in literature. In contrast to known CGC from arid environments to which frequent cyclic wetting events are lethal, in the Atacama Desert every fog event is answered by photosynthetic activity of the soil community and thus considered as the desert's breath. Photosynthesis of the new CGC type is activated by the lowest amount of water known for such a community worldwide thus enabling the unique biocenosis to fulfill a variety of ecosystem services. In a considerable portion of the coastal Atacama Desert, it protects the soil from sporadically occurring splash erosion and contributes to the accumulation of soil carbon and nitrogen as well as soil formation through bio-weathering. The structure and function of the new CGC type are discussed, and we suggest the name grit-crust. We conclude that this type of CGC can be expected in all non-polar fog deserts of the world and may resemble the cryptogam communities that shaped ancient Earth. It may thus represent a relevant player in current and ancient biogeochemical cycling.}
       \field{journaltitle}{Geobiology}
       \field{number}{1}
-      \field{title}{Desert breath—{How} fog promotes a novel type of soil biocenosis, forming the coastal {Atacama} {Desert}’s living skin}
+      \field{title}{Desert breath—How fog promotes a novel type of soil biocenosis, forming the coastal Atacama Desert's living skin}
       \field{volume}{18}
       \field{year}{2020}
       \field{pages}{113\bibrangedash 124}
       \range{pages}{12}
       \verb{doi}
       \verb 10.1111/gbi.12368
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/gbi.12368
       \endverb
       \verb{urlraw}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/gbi.12368
@@ -21620,7 +22940,7 @@
       \field{title}{Guidelines for soil description}
       \field{year}{2006}
     \endentry
-    \entry{Jung2020b}{article}{}{}
+    \entry{Jung2020a}{article}{}{}
       \name{author}{13}{}{%
         {{un=0,uniquepart=base,hash=8cba1e15d448d8d74b29fcaf0ea1430c}{%
            family={Jung},
@@ -21718,19 +23038,16 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Abstract The Atacama Desert is the driest non-polar desert on Earth, presenting precarious conditions for biological activity. In the arid coastal belt, life is restricted to areas with fog events that cause almost daily wet-dry cycles. In such an area, we discovered a hitherto unknown and unique ground covering biocenosis dominated by lichens, fungi, and algae attached to grit-sized (~6 mm) quartz and granitoid stones. Comparable biocenosis forming a kind of a layer on top of soil and rock surfaces in general is summarized as cryptogamic ground covers (CGC) in literature. In contrast to known CGC from arid environments to which frequent cyclic wetting events are lethal, in the Atacama Desert every fog event is answered by photosynthetic activity of the soil community and thus considered as the desert's breath. Photosynthesis of the new CGC type is activated by the lowest amount of water known for such a community worldwide thus enabling the unique biocenosis to fulfill a variety of ecosystem services. In a considerable portion of the coastal Atacama Desert, it protects the soil from sporadically occurring splash erosion and contributes to the accumulation of soil carbon and nitrogen as well as soil formation through bio-weathering. The structure and function of the new CGC type are discussed, and we suggest the name grit-crust. We conclude that this type of CGC can be expected in all non-polar fog deserts of the world and may resemble the cryptogam communities that shaped ancient Earth. It may thus represent a relevant player in current and ancient biogeochemical cycling.}
+      \field{abstract}{Abstract The Atacama Desert is the driest non-polar desert on Earth, presenting precarious conditions for biological activity. In the arid coastal belt, life is restricted to areas with fog events that cause almost daily wet-dry cycles. In such an area, we discovered a hitherto unknown and unique ground covering biocenosis dominated by lichens, fungi, and algae attached to grit-sized ( 6 mm) quartz and granitoid stones. Comparable biocenosis forming a kind of a layer on top of soil and rock surfaces in general is summarized as cryptogamic ground covers (CGC) in literature. In contrast to known CGC from arid environments to which frequent cyclic wetting events are lethal, in the Atacama Desert every fog event is answered by photosynthetic activity of the soil community and thus considered as the desert's breath. Photosynthesis of the new CGC type is activated by the lowest amount of water known for such a community worldwide thus enabling the unique biocenosis to fulfill a variety of ecosystem services. In a considerable portion of the coastal Atacama Desert, it protects the soil from sporadically occurring splash erosion and contributes to the accumulation of soil carbon and nitrogen as well as soil formation through bio-weathering. The structure and function of the new CGC type are discussed, and we suggest the name grit-crust. We conclude that this type of CGC can be expected in all non-polar fog deserts of the world and may resemble the cryptogam communities that shaped ancient Earth. It may thus represent a relevant player in current and ancient biogeochemical cycling.}
       \field{journaltitle}{Geobiology}
       \field{number}{1}
-      \field{title}{Desert breath—How fog promotes a novel type of soil biocenosis, forming the coastal Atacama Desert's living skin}
+      \field{title}{Desert breath—{How} fog promotes a novel type of soil biocenosis, forming the coastal {Atacama} {Desert}'s living skin}
       \field{volume}{18}
       \field{year}{2020}
       \field{pages}{113\bibrangedash 124}
       \range{pages}{12}
       \verb{doi}
       \verb 10.1111/gbi.12368
-      \endverb
-      \verb{eprint}
-      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/gbi.12368
       \endverb
       \verb{urlraw}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/gbi.12368
@@ -21739,7 +23056,7 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/gbi.12368
       \endverb
     \endentry
-    \entry{Jung2020a}{article}{}{}
+    \entry{Jung2020b}{article}{}{}
       \name{author}{13}{}{%
         {{un=0,uniquepart=base,hash=8cba1e15d448d8d74b29fcaf0ea1430c}{%
            family={Jung},
@@ -21837,16 +23154,19 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Abstract The Atacama Desert is the driest non-polar desert on Earth, presenting precarious conditions for biological activity. In the arid coastal belt, life is restricted to areas with fog events that cause almost daily wet–dry cycles. In such an area, we discovered a hitherto unknown and unique ground covering biocenosis dominated by lichens, fungi, and algae attached to grit-sized ( 6 mm) quartz and granitoid stones. Comparable biocenosis forming a kind of a layer on top of soil and rock surfaces in general is summarized as cryptogamic ground covers (CGC) in literature. In contrast to known CGC from arid environments to which frequent cyclic wetting events are lethal, in the Atacama Desert every fog event is answered by photosynthetic activity of the soil community and thus considered as the desert's breath. Photosynthesis of the new CGC type is activated by the lowest amount of water known for such a community worldwide thus enabling the unique biocenosis to fulfill a variety of ecosystem services. In a considerable portion of the coastal Atacama Desert, it protects the soil from sporadically occurring splash erosion and contributes to the accumulation of soil carbon and nitrogen as well as soil formation through bio-weathering. The structure and function of the new CGC type are discussed, and we suggest the name grit–crust. We conclude that this type of CGC can be expected in all non-polar fog deserts of the world and may resemble the cryptogam communities that shaped ancient Earth. It may thus represent a relevant player in current and ancient biogeochemical cycling.}
+      \field{abstract}{Abstract The Atacama Desert is the driest non-polar desert on Earth, presenting precarious conditions for biological activity. In the arid coastal belt, life is restricted to areas with fog events that cause almost daily wet-dry cycles. In such an area, we discovered a hitherto unknown and unique ground covering biocenosis dominated by lichens, fungi, and algae attached to grit-sized (~6 mm) quartz and granitoid stones. Comparable biocenosis forming a kind of a layer on top of soil and rock surfaces in general is summarized as cryptogamic ground covers (CGC) in literature. In contrast to known CGC from arid environments to which frequent cyclic wetting events are lethal, in the Atacama Desert every fog event is answered by photosynthetic activity of the soil community and thus considered as the desert's breath. Photosynthesis of the new CGC type is activated by the lowest amount of water known for such a community worldwide thus enabling the unique biocenosis to fulfill a variety of ecosystem services. In a considerable portion of the coastal Atacama Desert, it protects the soil from sporadically occurring splash erosion and contributes to the accumulation of soil carbon and nitrogen as well as soil formation through bio-weathering. The structure and function of the new CGC type are discussed, and we suggest the name grit-crust. We conclude that this type of CGC can be expected in all non-polar fog deserts of the world and may resemble the cryptogam communities that shaped ancient Earth. It may thus represent a relevant player in current and ancient biogeochemical cycling.}
       \field{journaltitle}{Geobiology}
       \field{number}{1}
-      \field{title}{Desert breath—{How} fog promotes a novel type of soil biocenosis, forming the coastal {Atacama} {Desert}’s living skin}
+      \field{title}{Desert breath—How fog promotes a novel type of soil biocenosis, forming the coastal Atacama Desert's living skin}
       \field{volume}{18}
       \field{year}{2020}
       \field{pages}{113\bibrangedash 124}
       \range{pages}{12}
       \verb{doi}
       \verb 10.1111/gbi.12368
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/gbi.12368
       \endverb
       \verb{urlraw}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/gbi.12368
@@ -29354,6 +30674,7 @@
       \strng{authornamehash}{c792ae79e31467af52a6b5dd2b511ed7}
       \strng{authorfullhash}{1109f10521c636dabb096b8a6278d294}
       \strng{authorfullhashraw}{1109f10521c636dabb096b8a6278d294}
+      \field{extraname}{1}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -29382,8 +30703,8 @@
     \endentry
     \entry{RodriguezCaballero2018}{article}{}{}
       \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=3ce0c23e247c7fe7c0a8b71175a17383}{%
-           family={Rodríguez‐Caballero},
+        {{un=0,uniquepart=base,hash=85daf053118f41adc5aac16ac4d901f5}{%
+           family={Rodríguez-Caballero},
            familyi={R\bibinithyphendelim C\bibinitperiod},
            given={Emilio},
            giveni={E\bibinitperiod},
@@ -29394,8 +30715,8 @@
            given={Sonia},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=6842f7e3d48337a4b421f6d98068d4c9}{%
-           family={Roncero‐Ramos},
+        {{un=0,uniquepart=base,hash=f5f2de26bf134001b3858070ababa55d}{%
+           family={Roncero-Ramos},
            familyi={R\bibinithyphendelim R\bibinitperiod},
            given={Beatriz},
            giveni={B\bibinitperiod},
@@ -29413,14 +30734,15 @@
            giveni={Y\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{cb5c6244182216378d764e9580860020}
-      \strng{fullhash}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{fullhashraw}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{bibnamehash}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{authorbibnamehash}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{authornamehash}{cb5c6244182216378d764e9580860020}
-      \strng{authorfullhash}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{authorfullhashraw}{9bf292673352de3ea27d7e6ae70a1c3b}
+      \strng{namehash}{c792ae79e31467af52a6b5dd2b511ed7}
+      \strng{fullhash}{910fafc606751258b0391984d96f5d06}
+      \strng{fullhashraw}{910fafc606751258b0391984d96f5d06}
+      \strng{bibnamehash}{910fafc606751258b0391984d96f5d06}
+      \strng{authorbibnamehash}{910fafc606751258b0391984d96f5d06}
+      \strng{authornamehash}{c792ae79e31467af52a6b5dd2b511ed7}
+      \strng{authorfullhash}{910fafc606751258b0391984d96f5d06}
+      \strng{authorfullhashraw}{910fafc606751258b0391984d96f5d06}
+      \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -36085,6 +37407,7 @@
       \strng{authornamehash}{c792ae79e31467af52a6b5dd2b511ed7}
       \strng{authorfullhash}{1109f10521c636dabb096b8a6278d294}
       \strng{authorfullhashraw}{1109f10521c636dabb096b8a6278d294}
+      \field{extraname}{1}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -36113,8 +37436,8 @@
     \endentry
     \entry{RodriguezCaballero2018}{article}{}{}
       \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=3ce0c23e247c7fe7c0a8b71175a17383}{%
-           family={Rodríguez‐Caballero},
+        {{un=0,uniquepart=base,hash=85daf053118f41adc5aac16ac4d901f5}{%
+           family={Rodríguez-Caballero},
            familyi={R\bibinithyphendelim C\bibinitperiod},
            given={Emilio},
            giveni={E\bibinitperiod},
@@ -36125,8 +37448,8 @@
            given={Sonia},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=6842f7e3d48337a4b421f6d98068d4c9}{%
-           family={Roncero‐Ramos},
+        {{un=0,uniquepart=base,hash=f5f2de26bf134001b3858070ababa55d}{%
+           family={Roncero-Ramos},
            familyi={R\bibinithyphendelim R\bibinitperiod},
            given={Beatriz},
            giveni={B\bibinitperiod},
@@ -36144,14 +37467,15 @@
            giveni={Y\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{cb5c6244182216378d764e9580860020}
-      \strng{fullhash}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{fullhashraw}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{bibnamehash}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{authorbibnamehash}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{authornamehash}{cb5c6244182216378d764e9580860020}
-      \strng{authorfullhash}{9bf292673352de3ea27d7e6ae70a1c3b}
-      \strng{authorfullhashraw}{9bf292673352de3ea27d7e6ae70a1c3b}
+      \strng{namehash}{c792ae79e31467af52a6b5dd2b511ed7}
+      \strng{fullhash}{910fafc606751258b0391984d96f5d06}
+      \strng{fullhashraw}{910fafc606751258b0391984d96f5d06}
+      \strng{bibnamehash}{910fafc606751258b0391984d96f5d06}
+      \strng{authorbibnamehash}{910fafc606751258b0391984d96f5d06}
+      \strng{authornamehash}{c792ae79e31467af52a6b5dd2b511ed7}
+      \strng{authorfullhash}{910fafc606751258b0391984d96f5d06}
+      \strng{authorfullhashraw}{910fafc606751258b0391984d96f5d06}
+      \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -52919,6 +54243,83 @@
 
 \refsection{5}
   \datalist[entry]{nyt/apasortcite//global/global/global}
+    \entry{Albuquerque2005}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=9d130a2e8f9a0284469813386a19cabc}{%
+           family={Albuquerque},
+           familyi={A\bibinitperiod},
+           given={Luciana},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a7bd0bf6d2f0fcc6ba07db9eba8eb15}{%
+           family={Simões},
+           familyi={S\bibinitperiod},
+           given={Catarina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3aff1ca827ea77dcf0beac2d4650c52d}{%
+           family={Nobre},
+           familyi={N\bibinitperiod},
+           given={M.\bibnamedelimi Fernanda},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b750cd0f32159063085018de56f746e9}{%
+           family={Pino},
+           familyi={P\bibinitperiod},
+           given={Nicole\bibnamedelima M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d88446f1ef2a965f963b2ec53e496f3}{%
+           family={Battista},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab52eb8fb409f6d8f0b985d9b38e64ed}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Manuel\bibnamedelima T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e01ec405ac30dcf17bc841e08d0a237f}{%
+           family={Rainey},
+           familyi={R\bibinitperiod},
+           given={Fred\bibnamedelima A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=413d6638c772f95a5beccbae2f6bf367}{%
+           family={da\bibnamedelima Costa},
+           familyi={d\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Milton\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{54524c05d2a49ae9cd84f96cb682d589}
+      \strng{fullhash}{6517f62cba9443a0469946f615229ef9}
+      \strng{fullhashraw}{6517f62cba9443a0469946f615229ef9}
+      \strng{bibnamehash}{6517f62cba9443a0469946f615229ef9}
+      \strng{authorbibnamehash}{6517f62cba9443a0469946f615229ef9}
+      \strng{authornamehash}{54524c05d2a49ae9cd84f96cb682d589}
+      \strng{authorfullhash}{6517f62cba9443a0469946f615229ef9}
+      \strng{authorfullhashraw}{6517f62cba9443a0469946f615229ef9}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{FEMS Microbiology Letters}
+      \field{number}{2}
+      \field{title}{Truepera radiovictrix gen. nov., sp. nov., a new radiation resistant species and the proposal of Trueperaceae fam. nov}
+      \field{volume}{247}
+      \field{year}{2005}
+      \field{pages}{161\bibrangedash 169}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.femsle.2005.05.002
+      \endverb
+    \endentry
     \entry{AlKaisi2014}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=e99ebb724265df0df3c8f7e92f45782e}{%
@@ -52967,147 +54368,147 @@
     \endentry
     \entry{Amelung2023}{article}{}{}
       \name{author}{22}{}{%
-        {{un=0,uniquepart=base,hash=b7d582e678eabc4c0c9d199f4295087e}{%
+        {{un=0,uniquepart=base,hash=bea18719bf6e7e34a36119598816046c}{%
            family={Amelung},
            familyi={A\bibinitperiod},
-           given={W.},
+           given={Wulf},
            giveni={W\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=551d4b34a498dfbf3db7aa5c7b707e93}{%
+        {{un=0,uniquepart=base,hash=85fd2e08e3f7ddeb62db813815dd3d18}{%
            family={Tang},
            familyi={T\bibinitperiod},
-           given={N.},
+           given={Ni},
            giveni={N\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=37d4cf14117af6f8551487cf76e57713}{%
+        {{un=0,uniquepart=base,hash=f45f7f9af7d8bdce1c932215601ea4f0}{%
            family={Siebers},
            familyi={S\bibinitperiod},
-           given={N.},
+           given={Nina},
            giveni={N\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=fedcd37d00a47c06ba79e2e966c6519c}{%
+        {{un=0,uniquepart=base,hash=c25b6e0af3ecf3852e3f163f26705a4e}{%
            family={Aehnelt},
            familyi={A\bibinitperiod},
-           given={M.},
+           given={Michaela},
            giveni={M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=36ae0d8c0ee9843363ac44fc63afa657}{%
+        {{un=0,uniquepart=base,hash=612e43998de7a9cd61edaa77951e6e92}{%
            family={Eusterhues},
            familyi={E\bibinitperiod},
-           given={K.},
+           given={Karin},
            giveni={K\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=0ece419733aa5e4d4714d2c615fd74dd}{%
+        {{un=0,uniquepart=base,hash=0c8be51bbf80de20117c917ae5254b31}{%
            family={Felde},
            familyi={F\bibinitperiod},
-           given={V.J.M.N.L.},
-           giveni={V\bibinitperiod},
+           given={Vincent\bibnamedelimb J.\bibnamedelimi M.\bibnamedelimi N.\bibnamedelimi L.},
+           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim L\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=54816ebd0a8247314ed0b47f299150b2}{%
+        {{un=0,uniquepart=base,hash=3fdcb7f07759765ffbd181b0138bf197}{%
            family={Guggenberger},
            familyi={G\bibinitperiod},
-           given={G.},
+           given={Georg},
            giveni={G\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=541d9653fc88e497dcf50e394fb0e748}{%
+        {{un=0,uniquepart=base,hash=c94b54336a8aaaeb1627be506159222d}{%
            family={Kaiser},
            familyi={K\bibinitperiod},
-           given={K.},
+           given={Klaus},
            giveni={K\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=324fccbc7253dd1223b0ae5f366b4f11}{%
+        {{un=0,uniquepart=base,hash=8a271279e0390adca69a7d84d6901dfe}{%
            family={Kögel-Knabner},
            familyi={K\bibinithyphendelim K\bibinitperiod},
-           given={I.},
+           given={Ingrid},
            giveni={I\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=dd4fa93ed684d3adfecdbe539491969a}{%
+        {{un=0,uniquepart=base,hash=3f2e6dbcdfb47d15396c60e71cafd08b}{%
            family={Klumpp},
            familyi={K\bibinitperiod},
-           given={E.},
+           given={Erwin},
            giveni={E\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=deb822210cec54295918bc142e8a118f}{%
+        {{un=0,uniquepart=base,hash=cf4da1126811ca47c6a1fe391498ad86}{%
            family={Knief},
            familyi={K\bibinitperiod},
-           given={C.},
+           given={Claudia},
            giveni={C\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=c3f8efa10e89d216aeaa80825c311f72}{%
+        {{un=0,uniquepart=base,hash=8f7135de41d04b593b798137ecd675bd}{%
            family={Kruse},
            familyi={K\bibinitperiod},
-           given={J.},
+           given={Jens},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=5f16026f744485aaa327e48f87dbfcd0}{%
+        {{un=0,uniquepart=base,hash=9665c523e476efd1444391ed912c676e}{%
            family={Lehndorff},
            familyi={L\bibinitperiod},
-           given={E.},
+           given={Eva},
            giveni={E\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=6fe279daaa761b51fe20e6d865c2ea3c}{%
+        {{un=0,uniquepart=base,hash=cd8aaac7e82e76a01205117b4b7688ec}{%
            family={Mikutta},
            familyi={M\bibinitperiod},
-           given={R.},
+           given={Robert},
            giveni={R\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=8fee4a1829fe978eef68f4bac1645975}{%
+        {{un=0,uniquepart=base,hash=6933a74f3a505d328888202c08b20b2c}{%
            family={Peth},
            familyi={P\bibinitperiod},
-           given={S.},
+           given={Stephan},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=0c7665b27dd515a89a8a967ee88253a3}{%
+        {{un=0,uniquepart=base,hash=57c1b89f247b3efc6646c23859c64bf4}{%
            family={Ray},
            familyi={R\bibinitperiod},
-           given={N.},
+           given={Nadja},
            giveni={N\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=dc3a22fd3248d540b60cc5b87ff523ad}{%
+        {{un=0,uniquepart=base,hash=4a945a66073369e1444a158a83940ef8}{%
            family={Prechtel},
            familyi={P\bibinitperiod},
-           given={A.},
+           given={Alexander},
            giveni={A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=9cae87d6e18a0863952479621ef9fa7e}{%
+        {{un=0,uniquepart=base,hash=4fe514e0a5147b0650e9d3fd64941439}{%
            family={Ritschel},
            familyi={R\bibinitperiod},
-           given={T.},
+           given={Thomas},
            giveni={T\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=be1d3084fa05e3065aa56915a0e488b9}{%
+        {{un=0,uniquepart=base,hash=50edab2c3de539064f2ac883e13eae58}{%
            family={Schweizer},
            familyi={S\bibinitperiod},
-           given={S.A.},
-           giveni={S\bibinitperiod},
+           given={Steffen\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=3ffaed5c84d37919f6d913732f3cfd62}{%
+        {{un=0,uniquepart=base,hash=c0cab5dce29361451df5befdafb51dfa}{%
            family={Woche},
            familyi={W\bibinitperiod},
-           given={S.K.},
-           giveni={S\bibinitperiod},
+           given={Susanne\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=4e31f6e2351bdd7652825d00350a02fd}{%
+        {{un=0,uniquepart=base,hash=d8e80ac2dab2706f612c662da475659a}{%
            family={Wu},
            familyi={W\bibinitperiod},
-           given={B.},
+           given={Bei},
            giveni={B\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=af4fcb9831aa6a7ad6053f89b39060cc}{%
+        {{un=0,uniquepart=base,hash=83459d24219f18bd48f10a2e6297b9bf}{%
            family={Totsche},
            familyi={T\bibinitperiod},
-           given={K.U.},
-           giveni={K\bibinitperiod},
+           given={Kai\bibnamedelima U.},
+           giveni={K\bibinitperiod\bibinitdelim U\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{0f5ee5eff240f4e60d15ce4dddae387d}
-      \strng{fullhash}{e5e7730633b1071a4abf011c6c935969}
-      \strng{fullhashraw}{e5e7730633b1071a4abf011c6c935969}
-      \strng{bibnamehash}{97a8c0d601ed45d7fa9f277971a6776f}
-      \strng{authorbibnamehash}{97a8c0d601ed45d7fa9f277971a6776f}
-      \strng{authornamehash}{0f5ee5eff240f4e60d15ce4dddae387d}
-      \strng{authorfullhash}{e5e7730633b1071a4abf011c6c935969}
-      \strng{authorfullhashraw}{e5e7730633b1071a4abf011c6c935969}
+      \strng{namehash}{b7cae19027155363209e5bceed6cec70}
+      \strng{fullhash}{6eef94d160abe5d9dbf5eb9b06df34a4}
+      \strng{fullhashraw}{6eef94d160abe5d9dbf5eb9b06df34a4}
+      \strng{bibnamehash}{eaee40625e6a133dc385b2bdaa904327}
+      \strng{authorbibnamehash}{eaee40625e6a133dc385b2bdaa904327}
+      \strng{authornamehash}{b7cae19027155363209e5bceed6cec70}
+      \strng{authorfullhash}{6eef94d160abe5d9dbf5eb9b06df34a4}
+      \strng{authorfullhashraw}{6eef94d160abe5d9dbf5eb9b06df34a4}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -53115,14 +54516,27 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{abstract}{Abstract The functions of soils are intimately linked to their three-dimensional pore space and the associated biogeochemical interfaces, mirrored in the complex structure that developed during pedogenesis. Under stress overload, soil disintegrates into smaller compound structures, conventionally named aggregates. Microaggregates (<250 µm) are recognized as the most stable soil structural units. They are built of mineral, organic, and biotic materials, provide habitats for a vast diversity of microorganisms, and are closely involved in the cycling of matter and energy. However, exploring the architecture of soil microaggregates and their linkage to soil functions remains a challenging but demanding scientific endeavor. With the advent of complementary spectromicroscopic and tomographic techniques, we can now assess and visualize the size, composition, and porosity of microaggregates and the spatial arrangement of their interior building units. Their combinations with advanced experimental pedology, multi-isotope labeling experiments, and computational approaches pave the way to investigate microaggregate turnover and stability, explore their role in element cycling, and unravel the intricate linkage between structure and function. However, spectromicroscopic techniques operate at different scales and resolutions, and have specific requirements for sample preparation and microaggregate isolation; hence, special attention must be paid to both the separation of microaggregates in a reproducible manner and the synopsis of the geography of information that originates from the diverse complementary instrumental techniques. The latter calls for further development of strategies for synlocation and synscaling beyond the present state of correlative analysis. Here, we present examples of recent scientific progress and review both options and challenges of the joint application of cutting-edge techniques to achieve a sophisticated picture of the properties and functions of soil microaggregates.}
       \field{journaltitle}{Journal of Plant Nutrition and Soil Science}
-      \field{title}{Architecture of soil microaggregates: {Advanced} methodologies to explore properties and functions}
-      \field{year}{2023}
-      \field{pages}{1\bibrangedash 34}
+      \field{number}{1}
+      \field{title}{Architecture of soil microaggregates: Advanced methodologies to explore properties and functions}
+      \field{volume}{187}
+      \field{year}{2024}
+      \field{pages}{17\bibrangedash 50}
       \range{pages}{34}
       \verb{doi}
       \verb 10.1002/jpln.202300149
       \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/jpln.202300149
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jpln.202300149
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jpln.202300149
+      \endverb
+      \keyw{aggregate dispersion and fractionation,in silico soil aggregates,microbial biogeography of aggregates,soil interfaces,spectromicroscopy}
     \endentry
     \entry{Amezketa1999}{article}{}{}
       \name{author}{1}{}{%
@@ -59996,6 +61410,83 @@
     \endentry
   \enddatalist
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{Albuquerque2005}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=9d130a2e8f9a0284469813386a19cabc}{%
+           family={Albuquerque},
+           familyi={A\bibinitperiod},
+           given={Luciana},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a7bd0bf6d2f0fcc6ba07db9eba8eb15}{%
+           family={Simões},
+           familyi={S\bibinitperiod},
+           given={Catarina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3aff1ca827ea77dcf0beac2d4650c52d}{%
+           family={Nobre},
+           familyi={N\bibinitperiod},
+           given={M.\bibnamedelimi Fernanda},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b750cd0f32159063085018de56f746e9}{%
+           family={Pino},
+           familyi={P\bibinitperiod},
+           given={Nicole\bibnamedelima M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d88446f1ef2a965f963b2ec53e496f3}{%
+           family={Battista},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab52eb8fb409f6d8f0b985d9b38e64ed}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Manuel\bibnamedelima T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e01ec405ac30dcf17bc841e08d0a237f}{%
+           family={Rainey},
+           familyi={R\bibinitperiod},
+           given={Fred\bibnamedelima A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=413d6638c772f95a5beccbae2f6bf367}{%
+           family={da\bibnamedelima Costa},
+           familyi={d\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Milton\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{54524c05d2a49ae9cd84f96cb682d589}
+      \strng{fullhash}{6517f62cba9443a0469946f615229ef9}
+      \strng{fullhashraw}{6517f62cba9443a0469946f615229ef9}
+      \strng{bibnamehash}{6517f62cba9443a0469946f615229ef9}
+      \strng{authorbibnamehash}{6517f62cba9443a0469946f615229ef9}
+      \strng{authornamehash}{54524c05d2a49ae9cd84f96cb682d589}
+      \strng{authorfullhash}{6517f62cba9443a0469946f615229ef9}
+      \strng{authorfullhashraw}{6517f62cba9443a0469946f615229ef9}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{FEMS Microbiology Letters}
+      \field{number}{2}
+      \field{title}{Truepera radiovictrix gen. nov., sp. nov., a new radiation resistant species and the proposal of Trueperaceae fam. nov}
+      \field{volume}{247}
+      \field{year}{2005}
+      \field{pages}{161\bibrangedash 169}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.femsle.2005.05.002
+      \endverb
+    \endentry
     \entry{AlKaisi2014}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=e99ebb724265df0df3c8f7e92f45782e}{%
@@ -60044,147 +61535,147 @@
     \endentry
     \entry{Amelung2023}{article}{}{}
       \name{author}{22}{}{%
-        {{un=0,uniquepart=base,hash=b7d582e678eabc4c0c9d199f4295087e}{%
+        {{un=0,uniquepart=base,hash=bea18719bf6e7e34a36119598816046c}{%
            family={Amelung},
            familyi={A\bibinitperiod},
-           given={W.},
+           given={Wulf},
            giveni={W\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=551d4b34a498dfbf3db7aa5c7b707e93}{%
+        {{un=0,uniquepart=base,hash=85fd2e08e3f7ddeb62db813815dd3d18}{%
            family={Tang},
            familyi={T\bibinitperiod},
-           given={N.},
+           given={Ni},
            giveni={N\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=37d4cf14117af6f8551487cf76e57713}{%
+        {{un=0,uniquepart=base,hash=f45f7f9af7d8bdce1c932215601ea4f0}{%
            family={Siebers},
            familyi={S\bibinitperiod},
-           given={N.},
+           given={Nina},
            giveni={N\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=fedcd37d00a47c06ba79e2e966c6519c}{%
+        {{un=0,uniquepart=base,hash=c25b6e0af3ecf3852e3f163f26705a4e}{%
            family={Aehnelt},
            familyi={A\bibinitperiod},
-           given={M.},
+           given={Michaela},
            giveni={M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=36ae0d8c0ee9843363ac44fc63afa657}{%
+        {{un=0,uniquepart=base,hash=612e43998de7a9cd61edaa77951e6e92}{%
            family={Eusterhues},
            familyi={E\bibinitperiod},
-           given={K.},
+           given={Karin},
            giveni={K\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=0ece419733aa5e4d4714d2c615fd74dd}{%
+        {{un=0,uniquepart=base,hash=0c8be51bbf80de20117c917ae5254b31}{%
            family={Felde},
            familyi={F\bibinitperiod},
-           given={V.J.M.N.L.},
-           giveni={V\bibinitperiod},
+           given={Vincent\bibnamedelimb J.\bibnamedelimi M.\bibnamedelimi N.\bibnamedelimi L.},
+           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim L\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=54816ebd0a8247314ed0b47f299150b2}{%
+        {{un=0,uniquepart=base,hash=3fdcb7f07759765ffbd181b0138bf197}{%
            family={Guggenberger},
            familyi={G\bibinitperiod},
-           given={G.},
+           given={Georg},
            giveni={G\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=541d9653fc88e497dcf50e394fb0e748}{%
+        {{un=0,uniquepart=base,hash=c94b54336a8aaaeb1627be506159222d}{%
            family={Kaiser},
            familyi={K\bibinitperiod},
-           given={K.},
+           given={Klaus},
            giveni={K\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=324fccbc7253dd1223b0ae5f366b4f11}{%
+        {{un=0,uniquepart=base,hash=8a271279e0390adca69a7d84d6901dfe}{%
            family={Kögel-Knabner},
            familyi={K\bibinithyphendelim K\bibinitperiod},
-           given={I.},
+           given={Ingrid},
            giveni={I\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=dd4fa93ed684d3adfecdbe539491969a}{%
+        {{un=0,uniquepart=base,hash=3f2e6dbcdfb47d15396c60e71cafd08b}{%
            family={Klumpp},
            familyi={K\bibinitperiod},
-           given={E.},
+           given={Erwin},
            giveni={E\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=deb822210cec54295918bc142e8a118f}{%
+        {{un=0,uniquepart=base,hash=cf4da1126811ca47c6a1fe391498ad86}{%
            family={Knief},
            familyi={K\bibinitperiod},
-           given={C.},
+           given={Claudia},
            giveni={C\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=c3f8efa10e89d216aeaa80825c311f72}{%
+        {{un=0,uniquepart=base,hash=8f7135de41d04b593b798137ecd675bd}{%
            family={Kruse},
            familyi={K\bibinitperiod},
-           given={J.},
+           given={Jens},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=5f16026f744485aaa327e48f87dbfcd0}{%
+        {{un=0,uniquepart=base,hash=9665c523e476efd1444391ed912c676e}{%
            family={Lehndorff},
            familyi={L\bibinitperiod},
-           given={E.},
+           given={Eva},
            giveni={E\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=6fe279daaa761b51fe20e6d865c2ea3c}{%
+        {{un=0,uniquepart=base,hash=cd8aaac7e82e76a01205117b4b7688ec}{%
            family={Mikutta},
            familyi={M\bibinitperiod},
-           given={R.},
+           given={Robert},
            giveni={R\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=8fee4a1829fe978eef68f4bac1645975}{%
+        {{un=0,uniquepart=base,hash=6933a74f3a505d328888202c08b20b2c}{%
            family={Peth},
            familyi={P\bibinitperiod},
-           given={S.},
+           given={Stephan},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=0c7665b27dd515a89a8a967ee88253a3}{%
+        {{un=0,uniquepart=base,hash=57c1b89f247b3efc6646c23859c64bf4}{%
            family={Ray},
            familyi={R\bibinitperiod},
-           given={N.},
+           given={Nadja},
            giveni={N\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=dc3a22fd3248d540b60cc5b87ff523ad}{%
+        {{un=0,uniquepart=base,hash=4a945a66073369e1444a158a83940ef8}{%
            family={Prechtel},
            familyi={P\bibinitperiod},
-           given={A.},
+           given={Alexander},
            giveni={A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=9cae87d6e18a0863952479621ef9fa7e}{%
+        {{un=0,uniquepart=base,hash=4fe514e0a5147b0650e9d3fd64941439}{%
            family={Ritschel},
            familyi={R\bibinitperiod},
-           given={T.},
+           given={Thomas},
            giveni={T\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=be1d3084fa05e3065aa56915a0e488b9}{%
+        {{un=0,uniquepart=base,hash=50edab2c3de539064f2ac883e13eae58}{%
            family={Schweizer},
            familyi={S\bibinitperiod},
-           given={S.A.},
-           giveni={S\bibinitperiod},
+           given={Steffen\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=3ffaed5c84d37919f6d913732f3cfd62}{%
+        {{un=0,uniquepart=base,hash=c0cab5dce29361451df5befdafb51dfa}{%
            family={Woche},
            familyi={W\bibinitperiod},
-           given={S.K.},
-           giveni={S\bibinitperiod},
+           given={Susanne\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=4e31f6e2351bdd7652825d00350a02fd}{%
+        {{un=0,uniquepart=base,hash=d8e80ac2dab2706f612c662da475659a}{%
            family={Wu},
            familyi={W\bibinitperiod},
-           given={B.},
+           given={Bei},
            giveni={B\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=af4fcb9831aa6a7ad6053f89b39060cc}{%
+        {{un=0,uniquepart=base,hash=83459d24219f18bd48f10a2e6297b9bf}{%
            family={Totsche},
            familyi={T\bibinitperiod},
-           given={K.U.},
-           giveni={K\bibinitperiod},
+           given={Kai\bibnamedelima U.},
+           giveni={K\bibinitperiod\bibinitdelim U\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{0f5ee5eff240f4e60d15ce4dddae387d}
-      \strng{fullhash}{e5e7730633b1071a4abf011c6c935969}
-      \strng{fullhashraw}{e5e7730633b1071a4abf011c6c935969}
-      \strng{bibnamehash}{97a8c0d601ed45d7fa9f277971a6776f}
-      \strng{authorbibnamehash}{97a8c0d601ed45d7fa9f277971a6776f}
-      \strng{authornamehash}{0f5ee5eff240f4e60d15ce4dddae387d}
-      \strng{authorfullhash}{e5e7730633b1071a4abf011c6c935969}
-      \strng{authorfullhashraw}{e5e7730633b1071a4abf011c6c935969}
+      \strng{namehash}{b7cae19027155363209e5bceed6cec70}
+      \strng{fullhash}{6eef94d160abe5d9dbf5eb9b06df34a4}
+      \strng{fullhashraw}{6eef94d160abe5d9dbf5eb9b06df34a4}
+      \strng{bibnamehash}{eaee40625e6a133dc385b2bdaa904327}
+      \strng{authorbibnamehash}{eaee40625e6a133dc385b2bdaa904327}
+      \strng{authornamehash}{b7cae19027155363209e5bceed6cec70}
+      \strng{authorfullhash}{6eef94d160abe5d9dbf5eb9b06df34a4}
+      \strng{authorfullhashraw}{6eef94d160abe5d9dbf5eb9b06df34a4}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -60192,14 +61683,27 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{abstract}{Abstract The functions of soils are intimately linked to their three-dimensional pore space and the associated biogeochemical interfaces, mirrored in the complex structure that developed during pedogenesis. Under stress overload, soil disintegrates into smaller compound structures, conventionally named aggregates. Microaggregates (<250 µm) are recognized as the most stable soil structural units. They are built of mineral, organic, and biotic materials, provide habitats for a vast diversity of microorganisms, and are closely involved in the cycling of matter and energy. However, exploring the architecture of soil microaggregates and their linkage to soil functions remains a challenging but demanding scientific endeavor. With the advent of complementary spectromicroscopic and tomographic techniques, we can now assess and visualize the size, composition, and porosity of microaggregates and the spatial arrangement of their interior building units. Their combinations with advanced experimental pedology, multi-isotope labeling experiments, and computational approaches pave the way to investigate microaggregate turnover and stability, explore their role in element cycling, and unravel the intricate linkage between structure and function. However, spectromicroscopic techniques operate at different scales and resolutions, and have specific requirements for sample preparation and microaggregate isolation; hence, special attention must be paid to both the separation of microaggregates in a reproducible manner and the synopsis of the geography of information that originates from the diverse complementary instrumental techniques. The latter calls for further development of strategies for synlocation and synscaling beyond the present state of correlative analysis. Here, we present examples of recent scientific progress and review both options and challenges of the joint application of cutting-edge techniques to achieve a sophisticated picture of the properties and functions of soil microaggregates.}
       \field{journaltitle}{Journal of Plant Nutrition and Soil Science}
-      \field{title}{Architecture of soil microaggregates: {Advanced} methodologies to explore properties and functions}
-      \field{year}{2023}
-      \field{pages}{1\bibrangedash 34}
+      \field{number}{1}
+      \field{title}{Architecture of soil microaggregates: Advanced methodologies to explore properties and functions}
+      \field{volume}{187}
+      \field{year}{2024}
+      \field{pages}{17\bibrangedash 50}
       \range{pages}{34}
       \verb{doi}
       \verb 10.1002/jpln.202300149
       \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/jpln.202300149
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jpln.202300149
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jpln.202300149
+      \endverb
+      \keyw{aggregate dispersion and fractionation,in silico soil aggregates,microbial biogeography of aggregates,soil interfaces,spectromicroscopy}
     \endentry
     \entry{Amezketa1999}{article}{}{}
       \name{author}{1}{}{%
@@ -67072,7 +68576,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Albuquerque2005}
 \endrefsection
 
 \refsection{6}
