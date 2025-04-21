@@ -85,6 +85,58 @@
       \verb https://doi.org/10.2113/gselements.3.5.327
       \endverb
     \endentry
+    \entry{Apprill2015}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ebefc18d2b0628982a0f71ad7e59833c}{%
+           family={Apprill},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30e78ba68f338354eb5145b20f32c373}{%
+           family={Mcnally},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28cf06f733492a9ccba22e5cb202125f}{%
+           family={Parsons},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4758fecb182842c1075df08e0eed6b52}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{93b4afbd42f151f0f673e993cf7df7b4}
+      \strng{fullhash}{20e01b90fdb51b472f94686accec7d6c}
+      \strng{fullhashraw}{20e01b90fdb51b472f94686accec7d6c}
+      \strng{bibnamehash}{20e01b90fdb51b472f94686accec7d6c}
+      \strng{authorbibnamehash}{20e01b90fdb51b472f94686accec7d6c}
+      \strng{authornamehash}{93b4afbd42f151f0f673e993cf7df7b4}
+      \strng{authorfullhash}{20e01b90fdb51b472f94686accec7d6c}
+      \strng{authorfullhashraw}{20e01b90fdb51b472f94686accec7d6c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Aquatic Microbial Ecology}
+      \field{title}{Minor revision to {V4} region {Ssu} {<}span class="nocase"{>}rrna{<}/span{>} {806R} gene primer greatly increases detection of {Sar11} bacterioplankton}
+      \field{volume}{75}
+      \field{year}{2015}
+      \field{pages}{129\bibrangedash 137}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.3354/ame01753
+      \endverb
+    \endentry
     \entry{Ardiles2014}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=693480a10bd21b9c1ce53a4996949d1b}{%
@@ -1081,6 +1133,50 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0341816218302509
       \endverb
       \keyw{Climate Topography Soil texture Total organic carbon Carbon isotope ratio (δC) Microbial abundance}
+    \endentry
+    \entry{Birch1958}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=36ee7433cb0fbaf963d2f14ac0ceb286}{%
+           family={Birch},
+           familyi={B\bibinitperiod},
+           given={H.\bibnamedelimi F.},
+           giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{36ee7433cb0fbaf963d2f14ac0ceb286}
+      \strng{fullhash}{36ee7433cb0fbaf963d2f14ac0ceb286}
+      \strng{fullhashraw}{36ee7433cb0fbaf963d2f14ac0ceb286}
+      \strng{bibnamehash}{36ee7433cb0fbaf963d2f14ac0ceb286}
+      \strng{authorbibnamehash}{36ee7433cb0fbaf963d2f14ac0ceb286}
+      \strng{authornamehash}{36ee7433cb0fbaf963d2f14ac0ceb286}
+      \strng{authorfullhash}{36ee7433cb0fbaf963d2f14ac0ceb286}
+      \strng{authorfullhashraw}{36ee7433cb0fbaf963d2f14ac0ceb286}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Respirometer experiments show that when a dry soil is moistened a characteristic pattern of decomposition occurs in which an initial period of relatively rapid decomposition (Stage 1) falls, during a few days, to a slow steady rate (Stage 2). This pattern is repetitive with successive dryings and rewettings and is common to all soils so far investigated. The magnitude of decomposition depends in the percent carbon in the soil and on the drying conditions, air-drying being less effective than oven-drying. Decomposition during Stage 1 conforms approximately to a first-order reaction and proportionate amounts of nitrogen are mineralised. A similar pattern of decomposition occurs under field conditions throughout successive wet and dry seasons.}
+      \field{issn}{1573-5036}
+      \field{journaltitle}{Plant and Soil}
+      \field{number}{1}
+      \field{title}{The effect of soil drying on humus decomposition and nitrogen availability}
+      \field{type}{Journal Article}
+      \field{volume}{10}
+      \field{year}{1958}
+      \field{pages}{9\bibrangedash 31}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1007/BF01343734
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF01343734
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF01343734
+      \endverb
     \endentry
     \entry{Blake1986}{inbook}{}{}
       \name{author}{2}{}{%
@@ -3503,6 +3599,66 @@
       \field{title}{Factors of soil formation: a system of quantitative pedology}
       \field{year}{1941}
     \endentry
+    \entry{Jing2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=db28684e72f3e21cc081f932db1a4af7}{%
+           family={Jing},
+           familyi={J\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45fc0568f15b89712e9e67375ff0d1ca}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a20b7e0adbbf1b97792e70bf81be06d}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Ling},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24c18772715a357fd8146ccdcadee6c5}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Zhengyi},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{85542dbd7d6e39951336652f5796d0e7}
+      \strng{fullhash}{75a127e0f0e989e4433b9ca4648f542a}
+      \strng{fullhashraw}{75a127e0f0e989e4433b9ca4648f542a}
+      \strng{bibnamehash}{75a127e0f0e989e4433b9ca4648f542a}
+      \strng{authorbibnamehash}{75a127e0f0e989e4433b9ca4648f542a}
+      \strng{authornamehash}{85542dbd7d6e39951336652f5796d0e7}
+      \strng{authorfullhash}{75a127e0f0e989e4433b9ca4648f542a}
+      \strng{authorfullhashraw}{75a127e0f0e989e4433b9ca4648f542a}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-1694}
+      \field{journaltitle}{Journal of Hydrology}
+      \field{title}{Binary response of runoff generation and erosion processes to karst vegetation-soil-rock structure and its hydrodynamic mechanisms}
+      \field{volume}{647}
+      \field{year}{2025}
+      \field{pages}{132319}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jhydrol.2024.132319
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022169424017153
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022169424017153
+      \endverb
+      \keyw{Rocky desertification,Underground leakage,Runoff-sediment relationship,Runoff sediment distribution ratio,Hydrodynamic characteristics}
+    \endentry
     \entry{Kidron2021}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=916c166d024f4d7dcdc26e883839be06}{%
@@ -3624,6 +3780,71 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0012825222001842
       \endverb
       \keyw{Biological soil crusts Hydrophobicity Infiltration Pore clogging Water repellency}
+    \endentry
+    \entry{Kogler2025}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=c2f1e1e4b891444213d9ed9bb9bccf9d}{%
+           family={Kögler},
+           familyi={K\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d156a31b975dbf0224205d021126084}{%
+           family={Ruby},
+           familyi={R\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=648c3236748d7c7f58413d338859e4af}{%
+           family={Iserloh},
+           familyi={I\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fdef0fc892755336e085a990f55959bd}{%
+           family={Seeger},
+           familyi={S\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74180d4f3ccc78faae083bc5bc13ddf8}{%
+           family={Ries},
+           familyi={R\bibinitperiod},
+           given={Johannes\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f260bfed171ce96d9c3669a132ee8795}
+      \strng{fullhash}{3c4b15d2ba28759150365ce43538fd76}
+      \strng{fullhashraw}{3c4b15d2ba28759150365ce43538fd76}
+      \strng{bibnamehash}{3c4b15d2ba28759150365ce43538fd76}
+      \strng{authorbibnamehash}{3c4b15d2ba28759150365ce43538fd76}
+      \strng{authornamehash}{f260bfed171ce96d9c3669a132ee8795}
+      \strng{authorfullhash}{3c4b15d2ba28759150365ce43538fd76}
+      \strng{authorfullhashraw}{3c4b15d2ba28759150365ce43538fd76}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Hydrology and Hydromechanics}
+      \field{number}{1}
+      \field{title}{Laboratory flume experiments for detection and quantification of subsurface particle transport in steep-slope vineyards}
+      \field{volume}{73}
+      \field{year}{2025}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.2478/johh-2024-0031
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2478/johh-2024-0031
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2478/johh-2024-0031
+      \endverb
     \endentry
     \entry{Kohn1929}{article}{}{}
       \name{author}{1}{}{%
@@ -4644,6 +4865,52 @@
       \endverb
       \verb{url}
       \verb https://www.ncbi.nlm.nih.gov/pubmed/21676830
+      \endverb
+    \endentry
+    \entry{Parada2016}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2a4264934d178d92f36488e354505a44}{%
+           family={Parada},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=526049944f6a09132b1b29da7d489424}{%
+           family={Needham},
+           familyi={N\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9b99d2c9779bf002ab3ebee33dc566f}{%
+           family={Fuhrman},
+           familyi={F\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7a3f32bad8ac22fc5765a78f8e67f66f}
+      \strng{fullhash}{a1881a1dd4738581bbc1b29c437054e6}
+      \strng{fullhashraw}{a1881a1dd4738581bbc1b29c437054e6}
+      \strng{bibnamehash}{a1881a1dd4738581bbc1b29c437054e6}
+      \strng{authorbibnamehash}{a1881a1dd4738581bbc1b29c437054e6}
+      \strng{authornamehash}{7a3f32bad8ac22fc5765a78f8e67f66f}
+      \strng{authorfullhash}{a1881a1dd4738581bbc1b29c437054e6}
+      \strng{authorfullhashraw}{a1881a1dd4738581bbc1b29c437054e6}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Microbiology}
+      \field{title}{Every base matters: assessing small subunit rRNA primers for marine microbiomes with mock communities, time series and global field samples}
+      \field{volume}{18}
+      \field{year}{2016}
+      \field{pages}{1403\bibrangedash 1414}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/1462-2920.13023
       \endverb
     \endentry
     \entry{Pearce2012}{article}{}{}
@@ -7026,6 +7293,60 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0016706122003226
       \endverb
       \keyw{Biological soil crust Soil multifunctionality Dryland hydrology Soil erosion Soil carbon cycling Human disturbance Global climate change}
+    \endentry
+    \entry{Yang2022}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c871c5250af09b016c00fe46d50ee9bf}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f11861a1ae309c02bbae0d05cfde74c}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Yunge},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c145ba2b26accafe12d56c1ff48cbf5}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Liqian},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c56335511ced9e4e017802e02c97e88}
+      \strng{fullhash}{5138ed7df41ef7d06d35764537792b00}
+      \strng{fullhashraw}{5138ed7df41ef7d06d35764537792b00}
+      \strng{bibnamehash}{5138ed7df41ef7d06d35764537792b00}
+      \strng{authorbibnamehash}{5138ed7df41ef7d06d35764537792b00}
+      \strng{authornamehash}{0c56335511ced9e4e017802e02c97e88}
+      \strng{authorfullhash}{5138ed7df41ef7d06d35764537792b00}
+      \strng{authorfullhashraw}{5138ed7df41ef7d06d35764537792b00}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0167-1987}
+      \field{journaltitle}{Soil and Tillage Research}
+      \field{title}{Biocrust succession improves soil aggregate stability of subsurface after “Grain for Green” Project in the Hilly Loess Plateau, China}
+      \field{volume}{217}
+      \field{year}{2022}
+      \field{pages}{105290}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.still.2021.105290
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167198721003639
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167198721003639
+      \endverb
+      \keyw{Moss crust,Cyanobacterial crust,Mean weight diameter,Erodibility,Wet sieving}
     \endentry
     \entry{Young2022}{article}{}{}
       \name{author}{7}{}{%
@@ -7239,6 +7560,58 @@
       \verb https://doi.org/10.2113/gselements.3.5.327
       \endverb
     \endentry
+    \entry{Apprill2015}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ebefc18d2b0628982a0f71ad7e59833c}{%
+           family={Apprill},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30e78ba68f338354eb5145b20f32c373}{%
+           family={Mcnally},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28cf06f733492a9ccba22e5cb202125f}{%
+           family={Parsons},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4758fecb182842c1075df08e0eed6b52}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{93b4afbd42f151f0f673e993cf7df7b4}
+      \strng{fullhash}{20e01b90fdb51b472f94686accec7d6c}
+      \strng{fullhashraw}{20e01b90fdb51b472f94686accec7d6c}
+      \strng{bibnamehash}{20e01b90fdb51b472f94686accec7d6c}
+      \strng{authorbibnamehash}{20e01b90fdb51b472f94686accec7d6c}
+      \strng{authornamehash}{93b4afbd42f151f0f673e993cf7df7b4}
+      \strng{authorfullhash}{20e01b90fdb51b472f94686accec7d6c}
+      \strng{authorfullhashraw}{20e01b90fdb51b472f94686accec7d6c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Aquatic Microbial Ecology}
+      \field{title}{Minor revision to {V4} region {Ssu} {<}span class="nocase"{>}rrna{<}/span{>} {806R} gene primer greatly increases detection of {Sar11} bacterioplankton}
+      \field{volume}{75}
+      \field{year}{2015}
+      \field{pages}{129\bibrangedash 137}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.3354/ame01753
+      \endverb
+    \endentry
     \entry{Ardiles2014}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=693480a10bd21b9c1ce53a4996949d1b}{%
@@ -8235,6 +8608,50 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0341816218302509
       \endverb
       \keyw{Climate Topography Soil texture Total organic carbon Carbon isotope ratio (δC) Microbial abundance}
+    \endentry
+    \entry{Birch1958}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=36ee7433cb0fbaf963d2f14ac0ceb286}{%
+           family={Birch},
+           familyi={B\bibinitperiod},
+           given={H.\bibnamedelimi F.},
+           giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{36ee7433cb0fbaf963d2f14ac0ceb286}
+      \strng{fullhash}{36ee7433cb0fbaf963d2f14ac0ceb286}
+      \strng{fullhashraw}{36ee7433cb0fbaf963d2f14ac0ceb286}
+      \strng{bibnamehash}{36ee7433cb0fbaf963d2f14ac0ceb286}
+      \strng{authorbibnamehash}{36ee7433cb0fbaf963d2f14ac0ceb286}
+      \strng{authornamehash}{36ee7433cb0fbaf963d2f14ac0ceb286}
+      \strng{authorfullhash}{36ee7433cb0fbaf963d2f14ac0ceb286}
+      \strng{authorfullhashraw}{36ee7433cb0fbaf963d2f14ac0ceb286}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Respirometer experiments show that when a dry soil is moistened a characteristic pattern of decomposition occurs in which an initial period of relatively rapid decomposition (Stage 1) falls, during a few days, to a slow steady rate (Stage 2). This pattern is repetitive with successive dryings and rewettings and is common to all soils so far investigated. The magnitude of decomposition depends in the percent carbon in the soil and on the drying conditions, air-drying being less effective than oven-drying. Decomposition during Stage 1 conforms approximately to a first-order reaction and proportionate amounts of nitrogen are mineralised. A similar pattern of decomposition occurs under field conditions throughout successive wet and dry seasons.}
+      \field{issn}{1573-5036}
+      \field{journaltitle}{Plant and Soil}
+      \field{number}{1}
+      \field{title}{The effect of soil drying on humus decomposition and nitrogen availability}
+      \field{type}{Journal Article}
+      \field{volume}{10}
+      \field{year}{1958}
+      \field{pages}{9\bibrangedash 31}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1007/BF01343734
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF01343734
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF01343734
+      \endverb
     \endentry
     \entry{Blake1986}{inbook}{}{}
       \name{author}{2}{}{%
@@ -10657,6 +11074,66 @@
       \field{title}{Factors of soil formation: a system of quantitative pedology}
       \field{year}{1941}
     \endentry
+    \entry{Jing2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=db28684e72f3e21cc081f932db1a4af7}{%
+           family={Jing},
+           familyi={J\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45fc0568f15b89712e9e67375ff0d1ca}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a20b7e0adbbf1b97792e70bf81be06d}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Ling},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24c18772715a357fd8146ccdcadee6c5}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Zhengyi},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{85542dbd7d6e39951336652f5796d0e7}
+      \strng{fullhash}{75a127e0f0e989e4433b9ca4648f542a}
+      \strng{fullhashraw}{75a127e0f0e989e4433b9ca4648f542a}
+      \strng{bibnamehash}{75a127e0f0e989e4433b9ca4648f542a}
+      \strng{authorbibnamehash}{75a127e0f0e989e4433b9ca4648f542a}
+      \strng{authornamehash}{85542dbd7d6e39951336652f5796d0e7}
+      \strng{authorfullhash}{75a127e0f0e989e4433b9ca4648f542a}
+      \strng{authorfullhashraw}{75a127e0f0e989e4433b9ca4648f542a}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-1694}
+      \field{journaltitle}{Journal of Hydrology}
+      \field{title}{Binary response of runoff generation and erosion processes to karst vegetation-soil-rock structure and its hydrodynamic mechanisms}
+      \field{volume}{647}
+      \field{year}{2025}
+      \field{pages}{132319}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jhydrol.2024.132319
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022169424017153
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022169424017153
+      \endverb
+      \keyw{Rocky desertification,Underground leakage,Runoff-sediment relationship,Runoff sediment distribution ratio,Hydrodynamic characteristics}
+    \endentry
     \entry{Kidron2022}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=916c166d024f4d7dcdc26e883839be06}{%
@@ -10777,6 +11254,71 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.2478/johh-2021-0031
+      \endverb
+    \endentry
+    \entry{Kogler2025}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=c2f1e1e4b891444213d9ed9bb9bccf9d}{%
+           family={Kögler},
+           familyi={K\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d156a31b975dbf0224205d021126084}{%
+           family={Ruby},
+           familyi={R\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=648c3236748d7c7f58413d338859e4af}{%
+           family={Iserloh},
+           familyi={I\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fdef0fc892755336e085a990f55959bd}{%
+           family={Seeger},
+           familyi={S\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74180d4f3ccc78faae083bc5bc13ddf8}{%
+           family={Ries},
+           familyi={R\bibinitperiod},
+           given={Johannes\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f260bfed171ce96d9c3669a132ee8795}
+      \strng{fullhash}{3c4b15d2ba28759150365ce43538fd76}
+      \strng{fullhashraw}{3c4b15d2ba28759150365ce43538fd76}
+      \strng{bibnamehash}{3c4b15d2ba28759150365ce43538fd76}
+      \strng{authorbibnamehash}{3c4b15d2ba28759150365ce43538fd76}
+      \strng{authornamehash}{f260bfed171ce96d9c3669a132ee8795}
+      \strng{authorfullhash}{3c4b15d2ba28759150365ce43538fd76}
+      \strng{authorfullhashraw}{3c4b15d2ba28759150365ce43538fd76}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Hydrology and Hydromechanics}
+      \field{number}{1}
+      \field{title}{Laboratory flume experiments for detection and quantification of subsurface particle transport in steep-slope vineyards}
+      \field{volume}{73}
+      \field{year}{2025}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.2478/johh-2024-0031
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2478/johh-2024-0031
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2478/johh-2024-0031
       \endverb
     \endentry
     \entry{Kohn1929}{article}{}{}
@@ -11798,6 +12340,52 @@
       \endverb
       \verb{url}
       \verb https://www.ncbi.nlm.nih.gov/pubmed/21676830
+      \endverb
+    \endentry
+    \entry{Parada2016}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2a4264934d178d92f36488e354505a44}{%
+           family={Parada},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=526049944f6a09132b1b29da7d489424}{%
+           family={Needham},
+           familyi={N\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9b99d2c9779bf002ab3ebee33dc566f}{%
+           family={Fuhrman},
+           familyi={F\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7a3f32bad8ac22fc5765a78f8e67f66f}
+      \strng{fullhash}{a1881a1dd4738581bbc1b29c437054e6}
+      \strng{fullhashraw}{a1881a1dd4738581bbc1b29c437054e6}
+      \strng{bibnamehash}{a1881a1dd4738581bbc1b29c437054e6}
+      \strng{authorbibnamehash}{a1881a1dd4738581bbc1b29c437054e6}
+      \strng{authornamehash}{7a3f32bad8ac22fc5765a78f8e67f66f}
+      \strng{authorfullhash}{a1881a1dd4738581bbc1b29c437054e6}
+      \strng{authorfullhashraw}{a1881a1dd4738581bbc1b29c437054e6}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Microbiology}
+      \field{title}{Every base matters: assessing small subunit rRNA primers for marine microbiomes with mock communities, time series and global field samples}
+      \field{volume}{18}
+      \field{year}{2016}
+      \field{pages}{1403\bibrangedash 1414}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/1462-2920.13023
       \endverb
     \endentry
     \entry{Pearce2012}{article}{}{}
@@ -14180,6 +14768,60 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0016706122003226
       \endverb
       \keyw{Biological soil crust Soil multifunctionality Dryland hydrology Soil erosion Soil carbon cycling Human disturbance Global climate change}
+    \endentry
+    \entry{Yang2022}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c871c5250af09b016c00fe46d50ee9bf}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f11861a1ae309c02bbae0d05cfde74c}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Yunge},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c145ba2b26accafe12d56c1ff48cbf5}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Liqian},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c56335511ced9e4e017802e02c97e88}
+      \strng{fullhash}{5138ed7df41ef7d06d35764537792b00}
+      \strng{fullhashraw}{5138ed7df41ef7d06d35764537792b00}
+      \strng{bibnamehash}{5138ed7df41ef7d06d35764537792b00}
+      \strng{authorbibnamehash}{5138ed7df41ef7d06d35764537792b00}
+      \strng{authornamehash}{0c56335511ced9e4e017802e02c97e88}
+      \strng{authorfullhash}{5138ed7df41ef7d06d35764537792b00}
+      \strng{authorfullhashraw}{5138ed7df41ef7d06d35764537792b00}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0167-1987}
+      \field{journaltitle}{Soil and Tillage Research}
+      \field{title}{Biocrust succession improves soil aggregate stability of subsurface after “Grain for Green” Project in the Hilly Loess Plateau, China}
+      \field{volume}{217}
+      \field{year}{2022}
+      \field{pages}{105290}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.still.2021.105290
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167198721003639
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167198721003639
+      \endverb
+      \keyw{Moss crust,Cyanobacterial crust,Mean weight diameter,Erodibility,Wet sieving}
     \endentry
     \entry{Young2022}{article}{}{}
       \name{author}{7}{}{%
