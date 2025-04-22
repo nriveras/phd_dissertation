@@ -211,11 +211,17 @@ Pla-no-coc-ca-ceae
 \selectlanguage{english}
 \include{tex/Acknowledgments}
 
+\addto\captionsenglish{%
+  \renewcommand{\contentsname}{table of contents}%
+  \renewcommand{\listfigurename}{list of figures}%
+  \renewcommand{\listtablename}{list of tables}%
+}
 % --- Tables of Contents, Figures, Tables ---
 \tableofcontents
 \listoffigures
 \listoftables
-% \include{tex/Abbreviations}
+
+\include{tex/Abbreviations}
 \include{tex/Publications}
 
 \mainmatter
@@ -228,7 +234,7 @@ Pla-no-coc-ca-ceae
 
     % --- Main Bibliography ---
     % \nocite{*} % This will include every entry from literatur_all_clean.bib
-    \printbibliography[heading=subbibliography, title={Bibliography}]
+    \printbibliography[heading=subbibliography, title={References}]
 \end{refsection}
 
 \appendix % Start the appendix environment
@@ -279,7 +285,7 @@ Pla-no-coc-ca-ceae
 \begin{refsection}
     \include{tex/Manuscript-1}
     
-    \printbibliography[heading=subbibliography, title={Bibliography for Manuscript 1}]
+    \printbibliography[heading=subbibliography, title={References for Manuscript 1}]
   \end{refsection}
   
   %========================
@@ -288,7 +294,7 @@ Pla-no-coc-ca-ceae
   \begin{refsection}
     \include{tex/Manuscript-2}
     
-    \printbibliography[heading=subbibliography, title={Bibliography for Manuscript 2}]
+    \printbibliography[heading=subbibliography, title={References for Manuscript 2}]
   \end{refsection}
   
   %========================
@@ -297,7 +303,7 @@ Pla-no-coc-ca-ceae
   \begin{refsection}
     \include{tex/Manuscript-3}
     
-    \printbibliography[heading=subbibliography, title={Bibliography for Manuscript 3}]
+    \printbibliography[heading=subbibliography, title={References for Manuscript 3}]
   \end{refsection}
   
   %========================
@@ -306,7 +312,7 @@ Pla-no-coc-ca-ceae
   \begin{refsection}
     \include{tex/Manuscript-4}
     
-    \printbibliography[heading=subbibliography, title={Bibliography for Manuscript 4}]
+    \printbibliography[heading=subbibliography, title={References for Manuscript 4}]
   \end{refsection}
   
   %========================
@@ -315,7 +321,7 @@ Pla-no-coc-ca-ceae
   \begin{refsection}
     \include{tex/Manuscript-5}
     
-    \printbibliography[heading=subbibliography, title={Bibliography for Manuscript 5}]
+    \printbibliography[heading=subbibliography, title={References for Manuscript 5}]
   \end{refsection}
 
 % --- Restore Original Chapter Formatting ---
