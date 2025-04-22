@@ -21,7 +21,11 @@
 \usepackage[utf8]{inputenc} % Input encoding. CRITICAL.
 \usepackage[T1]{fontenc}    % Output font encoding. CRITICAL.
 \usepackage[ngerman, english]{babel} % Language support. CRITICAL, load ONCE here.
-
+\addto\captionsenglish{%
+  \renewcommand{\contentsname}{Table of contents}%
+  \renewcommand{\listfigurename}{List of figures}%
+  \renewcommand{\listtablename}{List of tables}%
+}
 
 \usepackage{amsmath} % <--- Needed for \textsubscript
 \usepackage{booktabs}
@@ -209,13 +213,9 @@ Pla-no-coc-ca-ceae
 \selectlanguage{ngerman}
 \include{tex/Kurzfassung}
 \selectlanguage{english}
-\include{tex/Acknowledgments}
+% \include{tex/Acknowledgments}
 
-\addto\captionsenglish{%
-  \renewcommand{\contentsname}{table of contents}%
-  \renewcommand{\listfigurename}{list of figures}%
-  \renewcommand{\listtablename}{list of tables}%
-}
+
 % --- Tables of Contents, Figures, Tables ---
 \tableofcontents
 \listoffigures
