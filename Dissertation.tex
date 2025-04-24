@@ -14,7 +14,8 @@
   chapterprefix,          % Use "Chapter X" prefix
   appendixprefix,         % Use "Appendix X" prefix
   index=totoc,            % Add index to table of contents
-  bibliography=totoc      % Add bibliography to table of contents
+  bibliography=totoc,      % Add bibliography to table of contents
+  open=right,    % <-- force all chapters (numbered or via \addchap) to start on odd pages
 ]{scrbook}
 
 % --- Essential Setup ---
@@ -36,9 +37,11 @@
 \usepackage{caption}
 \usepackage{tocbasic} % Added to resolve \sf@counterlist issue
 \usepackage{geometry} % Optional, for margins
-\usepackage{hyperref} % For \href if used elsewhere, though not in table notes now
+% Removed redundant \usepackage{hyperref} to avoid option clash
+% \usepackage{hyperref} % For \href if used elsewhere, though not in table notes now
 \usepackage{scrhack}
 \usepackage{natbib}
+\usepackage{scrlayer-scrpage} % Required for scrheadings pagestyle
 
 % --- Custom Dissertation Style ---
 % Loads most packages as defined in dissertation.sty
@@ -51,8 +54,7 @@
 \usepackage{enumitem}       % REQUIRED. Load explicitly.
 \usepackage{threeparttable} % REQUIRED. Load explicitly for tables with notes (\tnote).
 \usepackage{makecell}       % REQUIRED. Load explicitly for multi-line cells.
-
-
+\usepackage{longtable}      % Allows tables to span multiple pages
 
 \usepackage{cleveref} % For smarter referencing like \cref{}
 \usepackage[version=4]{mhchem}
@@ -220,7 +222,13 @@ Pla-no-coc-ca-ceae
 \tableofcontents
 \listoffigures
 \listoftables
+
+% Ensure the Abbreviations section starts on a new right-hand page
+\cleardoublepage
 \include{tex/Abbreviations}
+
+% Ensure the Publications section starts on a new right-hand page
+\cleardoublepage
 \include{tex/Publications}
 
 \mainmatter
