@@ -104,39 +104,29 @@ Before commencing experimental manipulations, a suite of baseline soil propertie
 
 Various methods were utilized to evaluate soil aggregate stability and to physically separate soil into different fractions based on aggregate size or density, tailored to the specific research objectives of each study. To assess overall aggregate stability across the climate gradient (Manuscript 1), a large-sample (\SI{200}{\gram}, homogenized $<$\SI{30}{\milli\meter}) two-stage sieving method based on \citet{Hartge2009} and \citet{Six2000} was employed. Samples underwent initial dry sieving through a nested stack of sieves (ranging from \SI{19.0}{\milli\meter} down to \SI{2.0}{\milli\meter}), followed by a repetition of the sieving process underwater. Water-stable aggregates (WSA\textsubscript{\SI{2.0}{\milli\meter}}) were determined, and several stability indices were calculated from the dry and wet sieving results. The difference in mean weight diameter (MWD), representing the average size of aggregates weighted by their mass proportion, was calculated as:
 
-\begin{itemize}
-  \item Difference in mean weight diameter ($\Delta$MWD)
-    $$\Delta MWD = \frac{\sum_{i=1}^{n} X_i*W_i}{\sum_{i=1}^{n} W_i}$$
-    were:
-    \begin{itemize}
-        \item $X_i$: The mean diameter of the stable aggregate fraction $i$.
-        \item $W_i$: The corrected mass proportion of the stable aggregate fraction $i$ within the total considered range (e.g., 2-30 mm).
-        \item $n$: The total number of aggregate size fractions being analyzed.
-    \end{itemize}
-  \item Difference in geometric mean diameter ($\Delta$GMD):
-    $$\Delta GMD = exp \left[\frac{\sum_{i=1}^{n} X_i\lg W_i}{\sum_{i=1}^{n} W_i}\right]$$
-    were:
-    \begin{itemize}
-        \item $X_i$: The mean diameter of the stable aggregate fraction $i$.
-        \item $W_i$: The corrected mass proportion of the stable aggregate fraction $i$ within the total considered range (e.g., 2-30 mm).
-        \item $n$: The total number of aggregate size fractions being analyzed.
-    \end{itemize}
-  \item Water stability aggregate ratio (WSAR):
-    $$WSAR = \frac{WSA}{A}*100$$
-    were:
-    \begin{itemize}
-        \item $WSA$: The content (mass or weight) of water-stable aggregates larger than 2 mm after a stability test.
-        \item $A$: The content (mass or weight) of dry aggregates larger than 2 mm before the stability test.
-    \end{itemize}
-  \item Proportion of soil macroaggregate of a diameter less than 2 mm (R$_{<2mm}$)
-    $$R_{<2mm}=\frac{W_{r>2}}{W_T}*100 = \left(1-\frac{W_{r<2}}{W_T}\right)$$
-    were:
-    \begin{itemize}
-        \item $W_{r>2}$: The content (mass or weight) of water-stable aggregates larger than 2 mm after a stability test.
-        \item $W_T$: The content (mass or weight) of dry aggregates larger than 2 mm before the stability test.
-        \item $W_{r<2}$: The weight of microaggregates and primary particles with a diameter less than 2 mm.
-    \end{itemize}
-\end{itemize}
+The \emph{difference in mean weight diameter} ($\Delta\mathrm{MWD}$) is calculated as
+\[
+\Delta\mathrm{MWD} = \frac{\sum_{i=1}^{n} X_i\,W_i}{\sum_{i=1}^{n} W_i},
+\]
+where $X_i$ represents the mean diameter of the $i$th stable aggregate fraction, $W_i$ is the corrected mass proportion of that fraction within the total considered range (e.g., 2--30\,mm), and $n$ is the total number of size fractions analyzed.
+
+The \emph{difference in geometric mean diameter} ($\Delta\mathrm{GMD}$) is given by
+\[
+\Delta\mathrm{GMD} = \exp\!\biggl[\frac{\sum_{i=1}^{n} X_i\,\lg W_i}{\sum_{i=1}^{n} W_i}\biggr],
+\]
+using the same definitions for $X_i$, $W_i$, and $n$.
+
+The \emph{water stability aggregate ratio} (WSAR) expresses the percentage of aggregates that remain stable in water and is defined as
+\[
+\mathrm{WSAR} = \frac{\mathrm{WSA}}{A}\times100,
+\]
+where $\mathrm{WSA}$ is the mass of water-stable aggregates larger than 2\,mm after a stability test and $A$ is the mass of dry aggregates larger than 2\,mm before the test.
+
+The \emph{proportion of soil macroaggregates with diameter less than 2\,mm} ($R_{<2\mathrm{mm}}$) can be written as
+\[
+R_{<2\mathrm{mm}} = \frac{W_{r>2}}{W_T}\times100 = \biggl(1-\frac{W_{r<2}}{W_T}\biggr),
+\]
+where $W_{r>2}$ is the mass of water-stable aggregates larger than 2\,mm after testing, $W_T$ is the mass of dry aggregates larger than 2\,mm before testing, and $W_{r<2}$ is the mass of microaggregates and primary particles smaller than 2\,mm.
 
 For other investigations focusing on aggregate turnover dynamics and the association of microbial communities or organic matter with specific aggregate sizes (Manuscripts 3, 4 and 5), wet sieving techniques were applied to smaller soil samples (\SIrange{5}{10}{\gram}). One approach utilized a modified Casagrande apparatus, shaking \SI{5}{\gram} of soil on stacked sieves (\SIrange{250}{53}{\micro\metre}) through 1000 cycles at \SI{2}{\hertz}. This yielded fractions defined as macroaggregates ($>$\SI{250}{\micro\metre}), large microaggregates (\SIrange[range-phrase=--,range-units=single]{250}{53}{\micro\metre}), and a combined fraction of small microaggregates and primary particles ($<$\SI{53}{\micro\metre}) (Manuscript 3). Another frequently used method, adapted from \citet{Elliott1986}, involved pre-wetting \SI{10}{\gram} of soil, followed by manual immersion sieving. This typically involved moving a stack of sieves ($>$\SI{500}{\micro\metre}, \SIrange[range-phrase=--]{500}{250}{\micro\metre}, \SIrange[range-phrase=--,range-units=single]{250}{53}{\micro\metre}, \SIrange[range-phrase=--,range-units=single]{53}{20}{\micro\metre}) gently up and down in water for a set number of repetitions (30 strokes over 5 minutes), with the finest fraction ($<$\SI{20}{\micro\metre}) captured on a filter paper (Manuscript 4). Following separation by either method, the recovered aggregate fractions were carefully oven-dried (at \SI{40}{\degreeCelsius} or \SI{105}{\degreeCelsius}) and weighed. The MWD was often calculated from the resulting mass distribution across the obtained size classes.
 
