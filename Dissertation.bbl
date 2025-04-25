@@ -1743,7 +1743,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Biological soil crusts: {An} organizing principle in drylands}
-      \field{isbn}{978-3-319-30212-6 978-3-319-30214-0}
+      \field{isbn}{978-3-319-30212-6}
       \field{section}{4}
       \field{series}{Ecological studies}
       \field{title}{Cyanobacteria and algae of biological soil crusts}
@@ -2241,51 +2241,51 @@
     \endentry
     \entry{DelgadoBaquerizo2018}{article}{}{}
       \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=d834dade6cb11e99d94046c424b3e028}{%
+        {{un=0,uniquepart=base,hash=7456132e1435061eda346ba08e8b5eb0}{%
            family={Delgado-Baquerizo},
            familyi={D\bibinithyphendelim B\bibinitperiod},
-           given={M.},
+           given={Manuel},
            giveni={M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=987e63fd9dd1977a6d6db42257a9d40e}{%
+        {{un=0,uniquepart=base,hash=05c8e3dd3f9f1d48eef19719d03fa2e3}{%
+           family={Maestre},
+           familyi={M\bibinitperiod},
+           given={Fernando\bibnamedelima T.},
+           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00abf8a2b963feb5ab85c4f68f7f7276}{%
            family={Eldridge},
            familyi={E\bibinitperiod},
-           given={D.\bibnamedelimi J.},
+           given={David\bibnamedelima J.},
            giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=db305fba36f4eb0176333aa875495b80}{%
-           family={Travers},
-           familyi={T\bibinitperiod},
-           given={S.\bibnamedelimi K.},
-           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1290047b3ae67f80a154a325b3a05aee}{%
-           family={Val},
-           familyi={V\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5c296587a803e7d6907c53fa77cb8c09}{%
-           family={Oliver},
-           familyi={O\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a1bf7adcb7db5f5a6ff4b6b50b887835}{%
-           family={Bissett},
+        {{un=0,uniquepart=base,hash=0b031238076ac5b62cb756792fb5f656}{%
+           family={Bowker},
            familyi={B\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
+           given={Matthew\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b796d797e04c530e032f9d7063333f9c}{%
+           family={Jeffries},
+           familyi={J\bibinitperiod},
+           given={Thomas\bibnamedelima C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56ead789a2ddf3bf8a02ff6e5b4425c2}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Brajesh\bibnamedelima K.},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{9359acd6bd086d7cf461224c9199eaa6}
-      \strng{fullhash}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{fullhashraw}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{bibnamehash}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{authorbibnamehash}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{authornamehash}{9359acd6bd086d7cf461224c9199eaa6}
-      \strng{authorfullhash}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{authorfullhashraw}{7bffc890d70f890b4db6110179fe68fc}
+      \strng{namehash}{a4223f03aed0f8f028601dfefcef7ccd}
+      \strng{fullhash}{636b61883b17a3788f99692fec9bff70}
+      \strng{fullhashraw}{636b61883b17a3788f99692fec9bff70}
+      \strng{bibnamehash}{636b61883b17a3788f99692fec9bff70}
+      \strng{authorbibnamehash}{636b61883b17a3788f99692fec9bff70}
+      \strng{authornamehash}{a4223f03aed0f8f028601dfefcef7ccd}
+      \strng{authorfullhash}{636b61883b17a3788f99692fec9bff70}
+      \strng{authorfullhashraw}{636b61883b17a3788f99692fec9bff70}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -2293,15 +2293,27 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Global Change Biology}
-      \field{title}{Effects of climate legacies on above-and belowground community assembly}
-      \field{volume}{24}
+      \field{abstract}{Summary Recent research indicates that increased aridity linked to climate change will reduce the diversity of soil microbial communities and shift their community composition in drylands, Earth's largest biome. However, we lack both a theoretical framework and solid empirical evidence of how important biotic components from drylands, such as biocrust-forming mosses, will regulate the responses of microbial communities to expected increases in aridity with climate change. Here we report results from a cross-continental (North America, Europe and Australia) survey of 39 locations from arid to humid ecosystems, where we evaluated how biocrust-forming mosses regulate the relationship between aridity and the community composition and diversity of soil bacteria and fungi in dryland ecosystems. Increasing aridity was negatively related to the richness of fungi, and either positively or negatively related to the relative abundance of selected microbial phyla, when biocrust-forming mosses were absent. Conversely, we found an overall lack of relationship between aridity and the relative abundance and richness of microbial communities under biocrust-forming mosses. Our results suggest that biocrust-forming mosses mitigate the impact of aridity on the community composition of globally distributed microbial taxa, and the diversity of fungi. They emphasize the importance of maintaining biocrusts as a sanctuary for soil microbes in drylands.}
+      \field{journaltitle}{New Phytologist}
+      \field{number}{3}
+      \field{title}{Biocrust-forming mosses mitigate the impact of aridity on soil microbial communities in drylands: observational evidence from three continents}
+      \field{volume}{220}
       \field{year}{2018}
-      \field{pages}{4330\bibrangedash 4339}
-      \range{pages}{10}
+      \field{pages}{824\bibrangedash 835}
+      \range{pages}{12}
       \verb{doi}
-      \verb 10.1111/gcb.14306
+      \verb https://doi.org/10.1111/nph.15120
       \endverb
+      \verb{eprint}
+      \verb https://nph.onlinelibrary.wiley.com/doi/pdf/10.1111/nph.15120
+      \endverb
+      \verb{urlraw}
+      \verb https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.15120
+      \endverb
+      \verb{url}
+      \verb https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.15120
+      \endverb
+      \keyw{aridity,bacteria,biodiversity,drylands,fungi,microbial composition}
     \endentry
     \entry{Dietrich2006}{article}{}{}
       \name{author}{2}{}{%
@@ -3989,7 +4001,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Biological soil crusts: {An} organizing principle in drylands}
-      \field{isbn}{978-3-319-30212-6 978-3-319-30214-0}
+      \field{isbn}{978-3-319-30212-6}
       \field{section}{2}
       \field{series}{Ecological studies}
       \field{title}{How biological soil crusts became recognized as a functional unit: a selective history}
@@ -9218,7 +9230,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Biological soil crusts: {An} organizing principle in drylands}
-      \field{isbn}{978-3-319-30212-6 978-3-319-30214-0}
+      \field{isbn}{978-3-319-30212-6}
       \field{section}{4}
       \field{series}{Ecological studies}
       \field{title}{Cyanobacteria and algae of biological soil crusts}
@@ -9716,51 +9728,51 @@
     \endentry
     \entry{DelgadoBaquerizo2018}{article}{}{}
       \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=d834dade6cb11e99d94046c424b3e028}{%
+        {{un=0,uniquepart=base,hash=7456132e1435061eda346ba08e8b5eb0}{%
            family={Delgado-Baquerizo},
            familyi={D\bibinithyphendelim B\bibinitperiod},
-           given={M.},
+           given={Manuel},
            giveni={M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=987e63fd9dd1977a6d6db42257a9d40e}{%
+        {{un=0,uniquepart=base,hash=05c8e3dd3f9f1d48eef19719d03fa2e3}{%
+           family={Maestre},
+           familyi={M\bibinitperiod},
+           given={Fernando\bibnamedelima T.},
+           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00abf8a2b963feb5ab85c4f68f7f7276}{%
            family={Eldridge},
            familyi={E\bibinitperiod},
-           given={D.\bibnamedelimi J.},
+           given={David\bibnamedelima J.},
            giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=db305fba36f4eb0176333aa875495b80}{%
-           family={Travers},
-           familyi={T\bibinitperiod},
-           given={S.\bibnamedelimi K.},
-           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1290047b3ae67f80a154a325b3a05aee}{%
-           family={Val},
-           familyi={V\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5c296587a803e7d6907c53fa77cb8c09}{%
-           family={Oliver},
-           familyi={O\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a1bf7adcb7db5f5a6ff4b6b50b887835}{%
-           family={Bissett},
+        {{un=0,uniquepart=base,hash=0b031238076ac5b62cb756792fb5f656}{%
+           family={Bowker},
            familyi={B\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
+           given={Matthew\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b796d797e04c530e032f9d7063333f9c}{%
+           family={Jeffries},
+           familyi={J\bibinitperiod},
+           given={Thomas\bibnamedelima C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56ead789a2ddf3bf8a02ff6e5b4425c2}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Brajesh\bibnamedelima K.},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{9359acd6bd086d7cf461224c9199eaa6}
-      \strng{fullhash}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{fullhashraw}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{bibnamehash}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{authorbibnamehash}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{authornamehash}{9359acd6bd086d7cf461224c9199eaa6}
-      \strng{authorfullhash}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{authorfullhashraw}{7bffc890d70f890b4db6110179fe68fc}
+      \strng{namehash}{a4223f03aed0f8f028601dfefcef7ccd}
+      \strng{fullhash}{636b61883b17a3788f99692fec9bff70}
+      \strng{fullhashraw}{636b61883b17a3788f99692fec9bff70}
+      \strng{bibnamehash}{636b61883b17a3788f99692fec9bff70}
+      \strng{authorbibnamehash}{636b61883b17a3788f99692fec9bff70}
+      \strng{authornamehash}{a4223f03aed0f8f028601dfefcef7ccd}
+      \strng{authorfullhash}{636b61883b17a3788f99692fec9bff70}
+      \strng{authorfullhashraw}{636b61883b17a3788f99692fec9bff70}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -9768,15 +9780,27 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Global Change Biology}
-      \field{title}{Effects of climate legacies on above-and belowground community assembly}
-      \field{volume}{24}
+      \field{abstract}{Summary Recent research indicates that increased aridity linked to climate change will reduce the diversity of soil microbial communities and shift their community composition in drylands, Earth's largest biome. However, we lack both a theoretical framework and solid empirical evidence of how important biotic components from drylands, such as biocrust-forming mosses, will regulate the responses of microbial communities to expected increases in aridity with climate change. Here we report results from a cross-continental (North America, Europe and Australia) survey of 39 locations from arid to humid ecosystems, where we evaluated how biocrust-forming mosses regulate the relationship between aridity and the community composition and diversity of soil bacteria and fungi in dryland ecosystems. Increasing aridity was negatively related to the richness of fungi, and either positively or negatively related to the relative abundance of selected microbial phyla, when biocrust-forming mosses were absent. Conversely, we found an overall lack of relationship between aridity and the relative abundance and richness of microbial communities under biocrust-forming mosses. Our results suggest that biocrust-forming mosses mitigate the impact of aridity on the community composition of globally distributed microbial taxa, and the diversity of fungi. They emphasize the importance of maintaining biocrusts as a sanctuary for soil microbes in drylands.}
+      \field{journaltitle}{New Phytologist}
+      \field{number}{3}
+      \field{title}{Biocrust-forming mosses mitigate the impact of aridity on soil microbial communities in drylands: observational evidence from three continents}
+      \field{volume}{220}
       \field{year}{2018}
-      \field{pages}{4330\bibrangedash 4339}
-      \range{pages}{10}
+      \field{pages}{824\bibrangedash 835}
+      \range{pages}{12}
       \verb{doi}
-      \verb 10.1111/gcb.14306
+      \verb https://doi.org/10.1111/nph.15120
       \endverb
+      \verb{eprint}
+      \verb https://nph.onlinelibrary.wiley.com/doi/pdf/10.1111/nph.15120
+      \endverb
+      \verb{urlraw}
+      \verb https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.15120
+      \endverb
+      \verb{url}
+      \verb https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.15120
+      \endverb
+      \keyw{aridity,bacteria,biodiversity,drylands,fungi,microbial composition}
     \endentry
     \entry{Dietrich2006}{article}{}{}
       \name{author}{2}{}{%
@@ -11464,7 +11488,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Biological soil crusts: {An} organizing principle in drylands}
-      \field{isbn}{978-3-319-30212-6 978-3-319-30214-0}
+      \field{isbn}{978-3-319-30212-6}
       \field{section}{2}
       \field{series}{Ecological studies}
       \field{title}{How biological soil crusts became recognized as a functional unit: a selective history}
@@ -17258,7 +17282,7 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{Biological Soil Crusts: An Organizing Principle in Drylands}
       \field{chapter}{Chapter 13}
-      \field{isbn}{978-3-319-30212-6 978-3-319-30214-0}
+      \field{isbn}{978-3-319-30212-6}
       \field{series}{Ecological Studies}
       \field{title}{Microstructure and Weathering Processes Within Biological Soil Crusts}
       \field{year}{2016}
@@ -18402,7 +18426,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Biological soil crusts: {An} organizing principle in drylands}
-      \field{isbn}{978-3-319-30212-6 978-3-319-30214-0}
+      \field{isbn}{978-3-319-30212-6}
       \field{section}{2}
       \field{series}{Ecological studies}
       \field{title}{How biological soil crusts became recognized as a functional unit: a selective history}
@@ -22978,7 +23002,7 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{Biological Soil Crusts: An Organizing Principle in Drylands}
       \field{chapter}{Chapter 13}
-      \field{isbn}{978-3-319-30212-6 978-3-319-30214-0}
+      \field{isbn}{978-3-319-30212-6}
       \field{series}{Ecological Studies}
       \field{title}{Microstructure and Weathering Processes Within Biological Soil Crusts}
       \field{year}{2016}
@@ -24122,7 +24146,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Biological soil crusts: {An} organizing principle in drylands}
-      \field{isbn}{978-3-319-30212-6 978-3-319-30214-0}
+      \field{isbn}{978-3-319-30212-6}
       \field{section}{2}
       \field{series}{Ecological studies}
       \field{title}{How biological soil crusts became recognized as a functional unit: a selective history}
@@ -28709,7 +28733,7 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{Biological Soil Crusts: An Organizing Principle in Drylands}
       \field{chapter}{Chapter 13}
-      \field{isbn}{978-3-319-30212-6 978-3-319-30214-0}
+      \field{isbn}{978-3-319-30212-6}
       \field{series}{Ecological Studies}
       \field{title}{Microstructure and Weathering Processes Within Biological Soil Crusts}
       \field{year}{2016}
@@ -35442,7 +35466,7 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{Biological Soil Crusts: An Organizing Principle in Drylands}
       \field{chapter}{Chapter 13}
-      \field{isbn}{978-3-319-30212-6 978-3-319-30214-0}
+      \field{isbn}{978-3-319-30212-6}
       \field{series}{Ecological Studies}
       \field{title}{Microstructure and Weathering Processes Within Biological Soil Crusts}
       \field{year}{2016}
@@ -41606,7 +41630,6 @@
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Ecology \& Evolution}
@@ -41672,7 +41695,6 @@
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Science Advances}
@@ -41739,7 +41761,6 @@
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Communications}
@@ -41754,68 +41775,79 @@
     \endentry
     \entry{DelgadoBaquerizo2018}{article}{}{}
       \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=d834dade6cb11e99d94046c424b3e028}{%
+        {{un=0,uniquepart=base,hash=7456132e1435061eda346ba08e8b5eb0}{%
            family={Delgado-Baquerizo},
            familyi={D\bibinithyphendelim B\bibinitperiod},
-           given={M.},
+           given={Manuel},
            giveni={M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=987e63fd9dd1977a6d6db42257a9d40e}{%
+        {{un=0,uniquepart=base,hash=05c8e3dd3f9f1d48eef19719d03fa2e3}{%
+           family={Maestre},
+           familyi={M\bibinitperiod},
+           given={Fernando\bibnamedelima T.},
+           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00abf8a2b963feb5ab85c4f68f7f7276}{%
            family={Eldridge},
            familyi={E\bibinitperiod},
-           given={D.\bibnamedelimi J.},
+           given={David\bibnamedelima J.},
            giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=db305fba36f4eb0176333aa875495b80}{%
-           family={Travers},
-           familyi={T\bibinitperiod},
-           given={S.\bibnamedelimi K.},
-           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1290047b3ae67f80a154a325b3a05aee}{%
-           family={Val},
-           familyi={V\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5c296587a803e7d6907c53fa77cb8c09}{%
-           family={Oliver},
-           familyi={O\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a1bf7adcb7db5f5a6ff4b6b50b887835}{%
-           family={Bissett},
+        {{un=0,uniquepart=base,hash=0b031238076ac5b62cb756792fb5f656}{%
+           family={Bowker},
            familyi={B\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
+           given={Matthew\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b796d797e04c530e032f9d7063333f9c}{%
+           family={Jeffries},
+           familyi={J\bibinitperiod},
+           given={Thomas\bibnamedelima C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56ead789a2ddf3bf8a02ff6e5b4425c2}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Brajesh\bibnamedelima K.},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{9359acd6bd086d7cf461224c9199eaa6}
-      \strng{fullhash}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{fullhashraw}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{bibnamehash}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{authorbibnamehash}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{authornamehash}{9359acd6bd086d7cf461224c9199eaa6}
-      \strng{authorfullhash}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{authorfullhashraw}{7bffc890d70f890b4db6110179fe68fc}
+      \strng{namehash}{a4223f03aed0f8f028601dfefcef7ccd}
+      \strng{fullhash}{636b61883b17a3788f99692fec9bff70}
+      \strng{fullhashraw}{636b61883b17a3788f99692fec9bff70}
+      \strng{bibnamehash}{636b61883b17a3788f99692fec9bff70}
+      \strng{authorbibnamehash}{636b61883b17a3788f99692fec9bff70}
+      \strng{authornamehash}{a4223f03aed0f8f028601dfefcef7ccd}
+      \strng{authorfullhash}{636b61883b17a3788f99692fec9bff70}
+      \strng{authorfullhashraw}{636b61883b17a3788f99692fec9bff70}
       \field{extraname}{2}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Global Change Biology}
-      \field{title}{Effects of climate legacies on above-and belowground community assembly}
-      \field{volume}{24}
+      \field{abstract}{Summary Recent research indicates that increased aridity linked to climate change will reduce the diversity of soil microbial communities and shift their community composition in drylands, Earth's largest biome. However, we lack both a theoretical framework and solid empirical evidence of how important biotic components from drylands, such as biocrust-forming mosses, will regulate the responses of microbial communities to expected increases in aridity with climate change. Here we report results from a cross-continental (North America, Europe and Australia) survey of 39 locations from arid to humid ecosystems, where we evaluated how biocrust-forming mosses regulate the relationship between aridity and the community composition and diversity of soil bacteria and fungi in dryland ecosystems. Increasing aridity was negatively related to the richness of fungi, and either positively or negatively related to the relative abundance of selected microbial phyla, when biocrust-forming mosses were absent. Conversely, we found an overall lack of relationship between aridity and the relative abundance and richness of microbial communities under biocrust-forming mosses. Our results suggest that biocrust-forming mosses mitigate the impact of aridity on the community composition of globally distributed microbial taxa, and the diversity of fungi. They emphasize the importance of maintaining biocrusts as a sanctuary for soil microbes in drylands.}
+      \field{journaltitle}{New Phytologist}
+      \field{number}{3}
+      \field{title}{Biocrust-forming mosses mitigate the impact of aridity on soil microbial communities in drylands: observational evidence from three continents}
+      \field{volume}{220}
       \field{year}{2018}
-      \field{pages}{4330\bibrangedash 4339}
-      \range{pages}{10}
+      \field{pages}{824\bibrangedash 835}
+      \range{pages}{12}
       \verb{doi}
-      \verb 10.1111/gcb.14306
+      \verb https://doi.org/10.1111/nph.15120
       \endverb
+      \verb{eprint}
+      \verb https://nph.onlinelibrary.wiley.com/doi/pdf/10.1111/nph.15120
+      \endverb
+      \verb{urlraw}
+      \verb https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.15120
+      \endverb
+      \verb{url}
+      \verb https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.15120
+      \endverb
+      \keyw{aridity,bacteria,biodiversity,drylands,fungi,microbial composition}
     \endentry
     \entry{DiniAndreote2014}{article}{}{}
       \true{moreauthor}
@@ -49105,7 +49137,6 @@
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Ecology \& Evolution}
@@ -49171,7 +49202,6 @@
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Science Advances}
@@ -49182,71 +49212,6 @@
       \range{pages}{-1}
       \verb{doi}
       \verb 10.1126/sciadv.1602008
-      \endverb
-    \endentry
-    \entry{DelgadoBaquerizo2018}{article}{}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=d834dade6cb11e99d94046c424b3e028}{%
-           family={Delgado-Baquerizo},
-           familyi={D\bibinithyphendelim B\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=987e63fd9dd1977a6d6db42257a9d40e}{%
-           family={Eldridge},
-           familyi={E\bibinitperiod},
-           given={D.\bibnamedelimi J.},
-           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=db305fba36f4eb0176333aa875495b80}{%
-           family={Travers},
-           familyi={T\bibinitperiod},
-           given={S.\bibnamedelimi K.},
-           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1290047b3ae67f80a154a325b3a05aee}{%
-           family={Val},
-           familyi={V\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5c296587a803e7d6907c53fa77cb8c09}{%
-           family={Oliver},
-           familyi={O\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a1bf7adcb7db5f5a6ff4b6b50b887835}{%
-           family={Bissett},
-           familyi={B\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{9359acd6bd086d7cf461224c9199eaa6}
-      \strng{fullhash}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{fullhashraw}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{bibnamehash}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{authorbibnamehash}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{authornamehash}{9359acd6bd086d7cf461224c9199eaa6}
-      \strng{authorfullhash}{7bffc890d70f890b4db6110179fe68fc}
-      \strng{authorfullhashraw}{7bffc890d70f890b4db6110179fe68fc}
-      \field{extraname}{1}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Global Change Biology}
-      \field{title}{Effects of climate legacies on above-and belowground community assembly}
-      \field{volume}{24}
-      \field{year}{2018}
-      \field{pages}{4330\bibrangedash 4339}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1111/gcb.14306
       \endverb
     \endentry
     \entry{DelgadoBaquerizo2016}{article}{}{}
@@ -49298,12 +49263,11 @@
       \strng{authornamehash}{9359acd6bd086d7cf461224c9199eaa6}
       \strng{authorfullhash}{168e5b43372131e78bc16e3eab63e750}
       \strng{authorfullhashraw}{168e5b43372131e78bc16e3eab63e750}
-      \field{extraname}{2}
+      \field{extraname}{1}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Communications}
@@ -49315,6 +49279,82 @@
       \verb{doi}
       \verb 10.1038/ncomms10541
       \endverb
+    \endentry
+    \entry{DelgadoBaquerizo2018}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=7456132e1435061eda346ba08e8b5eb0}{%
+           family={Delgado-Baquerizo},
+           familyi={D\bibinithyphendelim B\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05c8e3dd3f9f1d48eef19719d03fa2e3}{%
+           family={Maestre},
+           familyi={M\bibinitperiod},
+           given={Fernando\bibnamedelima T.},
+           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00abf8a2b963feb5ab85c4f68f7f7276}{%
+           family={Eldridge},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b031238076ac5b62cb756792fb5f656}{%
+           family={Bowker},
+           familyi={B\bibinitperiod},
+           given={Matthew\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b796d797e04c530e032f9d7063333f9c}{%
+           family={Jeffries},
+           familyi={J\bibinitperiod},
+           given={Thomas\bibnamedelima C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56ead789a2ddf3bf8a02ff6e5b4425c2}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Brajesh\bibnamedelima K.},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a4223f03aed0f8f028601dfefcef7ccd}
+      \strng{fullhash}{636b61883b17a3788f99692fec9bff70}
+      \strng{fullhashraw}{636b61883b17a3788f99692fec9bff70}
+      \strng{bibnamehash}{636b61883b17a3788f99692fec9bff70}
+      \strng{authorbibnamehash}{636b61883b17a3788f99692fec9bff70}
+      \strng{authornamehash}{a4223f03aed0f8f028601dfefcef7ccd}
+      \strng{authorfullhash}{636b61883b17a3788f99692fec9bff70}
+      \strng{authorfullhashraw}{636b61883b17a3788f99692fec9bff70}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Summary Recent research indicates that increased aridity linked to climate change will reduce the diversity of soil microbial communities and shift their community composition in drylands, Earth's largest biome. However, we lack both a theoretical framework and solid empirical evidence of how important biotic components from drylands, such as biocrust-forming mosses, will regulate the responses of microbial communities to expected increases in aridity with climate change. Here we report results from a cross-continental (North America, Europe and Australia) survey of 39 locations from arid to humid ecosystems, where we evaluated how biocrust-forming mosses regulate the relationship between aridity and the community composition and diversity of soil bacteria and fungi in dryland ecosystems. Increasing aridity was negatively related to the richness of fungi, and either positively or negatively related to the relative abundance of selected microbial phyla, when biocrust-forming mosses were absent. Conversely, we found an overall lack of relationship between aridity and the relative abundance and richness of microbial communities under biocrust-forming mosses. Our results suggest that biocrust-forming mosses mitigate the impact of aridity on the community composition of globally distributed microbial taxa, and the diversity of fungi. They emphasize the importance of maintaining biocrusts as a sanctuary for soil microbes in drylands.}
+      \field{journaltitle}{New Phytologist}
+      \field{number}{3}
+      \field{title}{Biocrust-forming mosses mitigate the impact of aridity on soil microbial communities in drylands: observational evidence from three continents}
+      \field{volume}{220}
+      \field{year}{2018}
+      \field{pages}{824\bibrangedash 835}
+      \range{pages}{12}
+      \verb{doi}
+      \verb https://doi.org/10.1111/nph.15120
+      \endverb
+      \verb{eprint}
+      \verb https://nph.onlinelibrary.wiley.com/doi/pdf/10.1111/nph.15120
+      \endverb
+      \verb{urlraw}
+      \verb https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.15120
+      \endverb
+      \verb{url}
+      \verb https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.15120
+      \endverb
+      \keyw{aridity,bacteria,biodiversity,drylands,fungi,microbial composition}
     \endentry
     \entry{DiniAndreote2014}{article}{}{}
       \true{moreauthor}
