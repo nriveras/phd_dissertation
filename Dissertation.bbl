@@ -26644,6 +26644,98 @@
       \endverb
       \keyw{Carbon/metabolism *Desert Climate *Ecosystem Nitrogen/metabolism Particle Size *Rain Seasons Soil/*analysis *Soil Microbiology Water/metabolism}
     \endentry
+    \entry{Barger2016}{inbook}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=9399e5b0be9bf976c0f8d7b2b3a395ff}{%
+           family={Barger},
+           familyi={B\bibinitperiod},
+           given={Nichole\bibnamedelima N.},
+           giveni={N\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ebacc8407a7a6bcc6c18a22831d777f}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Bettina},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e773bd3a11653d22a8ffb85d96bdad8a}{%
+           family={Garcia-Pichel},
+           familyi={G\bibinithyphendelim P\bibinitperiod},
+           given={Ferran},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=953cfad3764268cab17a47a1dd09dec1}{%
+           family={Zaady},
+           familyi={Z\bibinitperiod},
+           given={Eli},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddd72c23333c53568c22461f2e9f7616}{%
+           family={Belnap},
+           familyi={B\bibinitperiod},
+           given={Jayne},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=4ebacc8407a7a6bcc6c18a22831d777f}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Bettina},
+           giveni={B\bibinitperiod}}}%
+        {{hash=aca8d959301b8df38c3aca666c1724ab}{%
+           family={Büdel},
+           familyi={B\bibinitperiod},
+           given={Burkhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ddd72c23333c53568c22461f2e9f7616}{%
+           family={Belnap},
+           familyi={B\bibinitperiod},
+           given={Jayne},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{6cd0d34f1bf8507de7163d54ce1870bf}
+      \strng{fullhash}{c7fba42e42443557c82198163c0bdd6e}
+      \strng{fullhashraw}{c7fba42e42443557c82198163c0bdd6e}
+      \strng{bibnamehash}{c7fba42e42443557c82198163c0bdd6e}
+      \strng{authorbibnamehash}{c7fba42e42443557c82198163c0bdd6e}
+      \strng{authornamehash}{6cd0d34f1bf8507de7163d54ce1870bf}
+      \strng{authorfullhash}{c7fba42e42443557c82198163c0bdd6e}
+      \strng{authorfullhashraw}{c7fba42e42443557c82198163c0bdd6e}
+      \strng{editorbibnamehash}{61f9ae33810e62f031f472371cfe246a}
+      \strng{editornamehash}{cfcb2f0bd5118171f987e03f2f7b785f}
+      \strng{editorfullhash}{61f9ae33810e62f031f472371cfe246a}
+      \strng{editorfullhashraw}{61f9ae33810e62f031f472371cfe246a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In low-nutrient environments with few vascular plant symbiotic N fixers, biocrusts play an important role in ecosystem N cycling. A large number of studies across a wide range of biomes clearly confirm that not only the presence of biocrusts but biocrust community composition strongly influences N-fixation activity, with N fixation increasing with level of development (cyanobacterial-lichen biocrusts ¿ dark cyanobacterial biocrust (e.g., Nostoc spp. and Collema spp.) ¿ light Microcoleus-dominated biocrust). Nitrogen fixation by biocrusts results in N release to the soil in a variety of N forms (inorganic and organic N), thus elevating soil inorganic N pools in the top few millimeters of soil. The influence of N release on the bulk soil at greater soil depths is less clear, with biocrusts either elevating or having no influence on bulk soil inorganic N pools. The fate of N fixed and released by biocrusts, and whether this N is retained in the ecosystem in either soils or plants, determines ecosystem N balance over longer time scales, and results on the influence of biocrusts are mixed. Whereas we have multiple studies that examine a single compartment of N budgets, we lack studies that simultaneously address N inputs, losses, and soil and plant pools, thus precluding the construction of definitive N balances. One of the most consistent impact biocrusts have on ecosystem N is reducing N loss via wind and water erosion, with such losses consistently decreasing with increasing biocrust development.}
+      \field{booktitle}{Biological soil crusts: {An} organizing principle in drylands}
+      \field{isbn}{978-3-319-30214-0}
+      \field{title}{Patterns and controls on nitrogen cycling of biological soil crusts}
+      \field{year}{2016}
+      \field{pages}{257\bibrangedash 285}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1007/978-3-319-30214-0_14
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-30214-0_14
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-30214-0_14
+      \endverb
+    \endentry
     \entry{Bauer1974}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6122a091b2c4f49860139c17d8016f80}{%
@@ -26878,38 +26970,47 @@
       \field{volume}{110}
       \field{year}{2001}
     \endentry
-    \entry{Belnap2016}{book}{}{}
-      \name{author}{3}{}{%
+    \entry{Belnap2007}{article}{}{}
+      \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=ddd72c23333c53568c22461f2e9f7616}{%
            family={Belnap},
            familyi={B\bibinitperiod},
            given={Jayne},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=4ebacc8407a7a6bcc6c18a22831d777f}{%
-           family={Weber},
-           familyi={W\bibinitperiod},
-           given={Bettina},
-           giveni={B\bibinitperiod},
+        {{un=0,uniquepart=base,hash=c4577d17b2d2811fd95b4693f563b412}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={Susan\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=aca8d959301b8df38c3aca666c1724ab}{%
-           family={Büdel},
-           familyi={B\bibinitperiod},
-           given={Burkhard},
-           giveni={B\bibinitperiod},
+        {{un=0,uniquepart=base,hash=9db5ee7acc83c384772c3748b54a8ee9}{%
+           family={Flint},
+           familyi={F\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod},
            givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
+        {{un=0,uniquepart=base,hash=3324ee90a1e7deb1037de419ccfcaee9}{%
+           family={Money},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fca47c1e1a23f4071dc318bd6c204d5c}{%
+           family={Caldwell},
+           familyi={C\bibinitperiod},
+           given={Martyn},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ba0d1426535e5de835d84a5f4b98f88}
-      \strng{fullhash}{df2c6f2a1af2dbd965f7cfef6b403c28}
-      \strng{fullhashraw}{df2c6f2a1af2dbd965f7cfef6b403c28}
-      \strng{bibnamehash}{df2c6f2a1af2dbd965f7cfef6b403c28}
-      \strng{authorbibnamehash}{df2c6f2a1af2dbd965f7cfef6b403c28}
+      \strng{fullhash}{bf94f952351a5d52c786c440645e43a6}
+      \strng{fullhashraw}{bf94f952351a5d52c786c440645e43a6}
+      \strng{bibnamehash}{bf94f952351a5d52c786c440645e43a6}
+      \strng{authorbibnamehash}{bf94f952351a5d52c786c440645e43a6}
       \strng{authornamehash}{3ba0d1426535e5de835d84a5f4b98f88}
-      \strng{authorfullhash}{df2c6f2a1af2dbd965f7cfef6b403c28}
-      \strng{authorfullhashraw}{df2c6f2a1af2dbd965f7cfef6b403c28}
+      \strng{authorfullhash}{bf94f952351a5d52c786c440645e43a6}
+      \strng{authorfullhashraw}{bf94f952351a5d52c786c440645e43a6}
       \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
@@ -26917,11 +27018,22 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{3-319-30212-4}
-      \field{title}{Biological soil crusts as an organizing principle in drylands}
-      \field{year}{2016}
+      \field{issn}{1354-1013 1365-2486}
+      \field{journaltitle}{Global Change Biology}
+      \field{number}{3}
+      \field{title}{Global change and biological soil crusts: effects of ultraviolet augmentation under altered precipitation regimes and nitrogen additions}
+      \field{volume}{14}
+      \field{year}{2007}
+      \field{pages}{670\bibrangedash 686}
+      \range{pages}{17}
       \verb{doi}
-      \verb 10.1007/978-3-319-30214-0_1
+      \verb 10.1111/j.1365-2486.2007.01509.x
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2486.2007.01509.x
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2486.2007.01509.x
       \endverb
     \endentry
     \entry{Bernal2005}{article}{}{}
@@ -28662,6 +28774,64 @@
       \verb 10.1002/jpln.202200252
       \endverb
     \endentry
+    \entry{Gall2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=8631e485eeaabc4381ce20e161253d7a}{%
+           family={Gall},
+           familyi={G\bibinitperiod},
+           given={Corinna},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=050c5b449f07cf70e3f8cd620dabd3f8}{%
+           family={Nebel},
+           familyi={N\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2051b6bf97d4c94edd6ac8d56c6bb8a9}{%
+           family={Scholten},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e26ec78b4e139f7df423b7c7416b455}{%
+           family={Seitz},
+           familyi={S\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4690f21562af1a617e3082c62237391b}
+      \strng{fullhash}{32cabe51dd72e5e8b80cadef206639c6}
+      \strng{fullhashraw}{32cabe51dd72e5e8b80cadef206639c6}
+      \strng{bibnamehash}{32cabe51dd72e5e8b80cadef206639c6}
+      \strng{authorbibnamehash}{32cabe51dd72e5e8b80cadef206639c6}
+      \strng{authornamehash}{4690f21562af1a617e3082c62237391b}
+      \strng{authorfullhash}{32cabe51dd72e5e8b80cadef206639c6}
+      \strng{authorfullhashraw}{32cabe51dd72e5e8b80cadef206639c6}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2624-893X}
+      \field{journaltitle}{Frontiers in Forests and Global Change}
+      \field{title}{The effect of mosses on the relocation of {SOC} and total {N} due to soil erosion and percolation in a disturbed temperate forest}
+      \field{volume}{7}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.3389/ffgc.2024.1379513
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/forests-and-global-change/articles/10.3389/ffgc.2024.1379513
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/forests-and-global-change/articles/10.3389/ffgc.2024.1379513
+      \endverb
+      \keyw{Bryophytes,dissolved organic carbon,rainfall simulation,Soil erosion,Soil Organic Carbon}
+    \endentry
     \entry{GarciaPichel2016}{inbook}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=e773bd3a11653d22a8ffb85d96bdad8a}{%
@@ -28747,48 +28917,6 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1007/978-3-319-30214-0_13
-      \endverb
-    \endentry
-    \entry{Gholzom2012}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=b06040b6b890725d66947267ae3033b3}{%
-           family={Gholzom},
-           familyi={G\bibinitperiod},
-           given={Esmaeili\bibnamedelima Hoseen},
-           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=aa5fb1b189a270a2f561d34de4809ec9}{%
-           family={Gholami},
-           familyi={G\bibinitperiod},
-           given={Vahid},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{1db9cf93d72229a01818f7f3133e199c}
-      \strng{fullhash}{1db9cf93d72229a01818f7f3133e199c}
-      \strng{fullhashraw}{1db9cf93d72229a01818f7f3133e199c}
-      \strng{bibnamehash}{1db9cf93d72229a01818f7f3133e199c}
-      \strng{authorbibnamehash}{1db9cf93d72229a01818f7f3133e199c}
-      \strng{authornamehash}{1db9cf93d72229a01818f7f3133e199c}
-      \strng{authorfullhash}{1db9cf93d72229a01818f7f3133e199c}
-      \strng{authorfullhashraw}{1db9cf93d72229a01818f7f3133e199c}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1805-9384}
-      \field{journaltitle}{Soil and Water Research}
-      \field{number}{4}
-      \field{title}{A comparison between natural forests and reforested lands in terms of runoff generation potential and hydrologic response (case study: {Kasilian} watershed)}
-      \field{volume}{7}
-      \field{year}{2012}
-      \field{pages}{166\bibrangedash 173}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.17221/18/2012-SWR
       \endverb
     \endentry
     \entry{Godt2009}{article}{}{}
@@ -29199,78 +29327,6 @@
       \endverb
       \keyw{*Data Interpretation,Statistical,Statistical Humans *Models}
     \endentry
-    \entry{Hu2022}{article}{}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=dfe1e2a76be9aed8970e4bef4d658800}{%
-           family={Hu},
-           familyi={H\bibinitperiod},
-           given={Wenfeng},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=267942393f8b2936f1105219070cf430}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Lingling},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5f73d4e80e71bf8a322696c13b72dd55}{%
-           family={Shen},
-           familyi={S\bibinitperiod},
-           given={Jianyun},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6f742d07f9a6e32a92cd7fb4d1214cd6}{%
-           family={Yao},
-           familyi={Y\bibinitperiod},
-           given={Junqiang},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7c27f1b2b48feefb0593a05e9c6a8b12}{%
-           family={He},
-           familyi={H\bibinitperiod},
-           given={Qing},
-           giveni={Q\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=11c05b885f1bc92570da26e49722e81d}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Jing},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{35e5d4c02fb649b6f9a0642fc15dd3f7}
-      \strng{fullhash}{2bc39dd0d49d4cebdeec80d7328c5161}
-      \strng{fullhashraw}{2bc39dd0d49d4cebdeec80d7328c5161}
-      \strng{bibnamehash}{2bc39dd0d49d4cebdeec80d7328c5161}
-      \strng{authorbibnamehash}{2bc39dd0d49d4cebdeec80d7328c5161}
-      \strng{authornamehash}{35e5d4c02fb649b6f9a0642fc15dd3f7}
-      \strng{authorfullhash}{2bc39dd0d49d4cebdeec80d7328c5161}
-      \strng{authorfullhashraw}{2bc39dd0d49d4cebdeec80d7328c5161}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2073-4441}
-      \field{journaltitle}{Water}
-      \field{number}{16}
-      \field{title}{Changes in {Extreme} {Precipitation} on the {Tibetan} {Plateau} and {Its} {Surroundings}: {Trends}, {Patterns}, and {Relationship} with {Ocean} {Oscillation} {Factors}}
-      \field{volume}{14}
-      \field{year}{2022}
-      \field{pages}{2509}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/w14162509
-      \endverb
-      \verb{urlraw}
-      \verb https://www.mdpi.com/2073-4441/14/16/2509
-      \endverb
-      \verb{url}
-      \verb https://www.mdpi.com/2073-4441/14/16/2509
-      \endverb
-    \endentry
     \entry{Iserloh2013}{article}{}{}
       \name{author}{10}{}{%
         {{un=0,uniquepart=base,hash=90d4c97a505aecdb5a0c2bada622a8e8}{%
@@ -29597,54 +29653,6 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0304420310000678
       \endverb
       \keyw{Boston Harbor,Erosion chamber,Sediment resuspension,Silver,Trace metals}
-    \endentry
-    \entry{Khaleghi2018}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=4e257b52ef93bc485679f20b6f947eed}{%
-           family={Khaleghi},
-           familyi={K\bibinitperiod},
-           given={M.\bibnamedelimi R.},
-           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e283a3c9cc267b0667ecdfc2e5a133b2}{%
-           family={Varvani},
-           familyi={V\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{84232f6e732f2758ae32b3b1506ec414}
-      \strng{fullhash}{84232f6e732f2758ae32b3b1506ec414}
-      \strng{fullhashraw}{84232f6e732f2758ae32b3b1506ec414}
-      \strng{bibnamehash}{84232f6e732f2758ae32b3b1506ec414}
-      \strng{authorbibnamehash}{84232f6e732f2758ae32b3b1506ec414}
-      \strng{authornamehash}{84232f6e732f2758ae32b3b1506ec414}
-      \strng{authorfullhash}{84232f6e732f2758ae32b3b1506ec414}
-      \strng{authorfullhashraw}{84232f6e732f2758ae32b3b1506ec414}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2193-567X 2191-4281}
-      \field{journaltitle}{Arabian Journal for Science and Engineering}
-      \field{number}{7}
-      \field{title}{Sediment rating curve parameters relationship with watershed characteristics in the semiarid river watersheds}
-      \field{volume}{43}
-      \field{year}{2018}
-      \field{pages}{3725\bibrangedash 3737}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1007/s13369-018-3092-7
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/s13369-018-3092-7
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/s13369-018-3092-7
-      \endverb
     \endentry
     \entry{Kheirfam2017}{article}{}{}
       \name{author}{4}{}{%
@@ -30065,7 +30073,7 @@
       \endverb
       \keyw{Biological soil crust Micro-lysimeter Soil moisture Water flow pattern Soil field capacity Loess Plateau}
     \endentry
-    \entry{Liu2020b}{article}{}{}
+    \entry{Liu2020}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=54f92e9a7c252fe33b770a627443940b}{%
            family={Liu},
@@ -30098,7 +30106,6 @@
       \field{issn}{00221694}
       \field{journaltitle}{Journal of Hydrology}
       \field{title}{Combined effects of moss crusts and pine needles on evaporation of carbonate-derived laterite from karst mountainous lands}
-      \field{type}{Journal Article}
       \field{volume}{586}
       \field{year}{2020}
       \field{pages}{124859}
@@ -30113,78 +30120,6 @@
       \verb https://www.sciencedirect.com/science/article/pii/S002216942030319X
       \endverb
       \keyw{Moss crust Pine needle Evaporation process Karst mountainous land}
-    \endentry
-    \entry{Luetzenburg2020}{article}{}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=cde2f2cbc0fb1467a21665ed0d666891}{%
-           family={Luetzenburg},
-           familyi={L\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=677d1be680af9761aaa14b8c067be6ef}{%
-           family={Bittner},
-           familyi={B\bibinitperiod},
-           given={M.\bibnamedelimi J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=89ed754fdeeb79d480d8ef0d6bfb2767}{%
-           family={Calsamiglia},
-           familyi={C\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2dd5addd95acf6744520bdc6bddf41ac}{%
-           family={Renschler},
-           familyi={R\bibinitperiod},
-           given={C.\bibnamedelimi S.},
-           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=74ca823cfb6e76c719220c4562d27bf2}{%
-           family={Estrany},
-           familyi={E\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=47de75ec9d08596c022e536b6d3270df}{%
-           family={Poeppl},
-           familyi={P\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b9a4b463a71fe675dbf82449e35d2a9f}
-      \strng{fullhash}{34af63e1fe9acb7ffab3bf805b2e2f23}
-      \strng{fullhashraw}{34af63e1fe9acb7ffab3bf805b2e2f23}
-      \strng{bibnamehash}{34af63e1fe9acb7ffab3bf805b2e2f23}
-      \strng{authorbibnamehash}{34af63e1fe9acb7ffab3bf805b2e2f23}
-      \strng{authornamehash}{b9a4b463a71fe675dbf82449e35d2a9f}
-      \strng{authorfullhash}{34af63e1fe9acb7ffab3bf805b2e2f23}
-      \strng{authorfullhashraw}{34af63e1fe9acb7ffab3bf805b2e2f23}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1879-1026 (Electronic) 0048-9697 (Linking)}
-      \field{journaltitle}{The Science of the total environment}
-      \field{title}{Climate and land use change effects on soil erosion in two small agricultural catchment systems {Fugnitz} - {Austria}, {Can} {Revull} - {Spain}}
-      \field{volume}{704}
-      \field{year}{2020}
-      \field{pages}{135389}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/j.scitotenv.2019.135389
-      \endverb
-      \verb{urlraw}
-      \verb https://www.ncbi.nlm.nih.gov/pubmed/31810709
-      \endverb
-      \verb{url}
-      \verb https://www.ncbi.nlm.nih.gov/pubmed/31810709
-      \endverb
-      \keyw{GeoWEPP Global change Sediment discharge Soil erosion modeling Soil loss}
     \endentry
     \entry{MeseguerRuiz2020}{article}{}{}
       \name{author}{8}{}{%
@@ -30397,7 +30332,7 @@
       \verb https://doi.org/10.1007/s10706-018-0465-3
       \endverb
     \endentry
-    \entry{MunozMartin2019}{article}{}{}
+    \entry{Munoz-Martin2019}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=b5f4d07df768e7413a899f9c965e3c60}{%
            family={Munoz-Martin},
@@ -30452,10 +30387,9 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1469-8137 (Electronic) 0028-646X (Linking)}
-      \field{journaltitle}{New Phytol}
+      \field{journaltitle}{The New phytologist}
       \field{number}{1}
-      \field{title}{Cyanobacterial biocrust diversity in Mediterranean ecosystems along a latitudinal and climatic gradient}
-      \field{type}{Journal Article}
+      \field{title}{Cyanobacterial biocrust diversity in {Mediterranean} ecosystems along a latitudinal and climatic gradient}
       \field{volume}{221}
       \field{year}{2019}
       \field{pages}{123\bibrangedash 141}
@@ -31015,6 +30949,104 @@
       \verb https://www.mdpi.com/2073-4441/12/7/1887
       \endverb
     \endentry
+    \entry{Riveras-Munoz2022}{article}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=240b784ca32abf23f59239fcc20fec3c}{%
+           family={Riveras-Muñoz},
+           familyi={R\bibinithyphendelim M\bibinitperiod},
+           given={Nicolás},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e26ec78b4e139f7df423b7c7416b455}{%
+           family={Seitz},
+           familyi={S\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69ca1fc277ec3cecb5b0e4160ba08e2c}{%
+           family={Witzgall},
+           familyi={W\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=457693611876534a004d08455f93d1ad}{%
+           family={Rodríguez},
+           familyi={R\bibinitperiod},
+           given={Victoria},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d3ca7f67d33e8ae8d60659405a10932}{%
+           family={Kühn},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c284a33166342de4ec267e24d69f66a7}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Carsten\bibnamedelima W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28bcb9548dc3098ba5be9a283322595c}{%
+           family={Oses},
+           familyi={O\bibinitperiod},
+           given={Rómulo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df7f308e459271eadcb0b5cdfd61bf33}{%
+           family={Seguel},
+           familyi={S\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6062013ff79cd727310f999a9ac5e6e6}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2051b6bf97d4c94edd6ac8d56c6bb8a9}{%
+           family={Scholten},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3e8d522737587a9f8e134b5d481ae462}
+      \strng{fullhash}{d4a19bf865a3078dd158dc42d3c27dbb}
+      \strng{fullhashraw}{d4a19bf865a3078dd158dc42d3c27dbb}
+      \strng{bibnamehash}{d4a19bf865a3078dd158dc42d3c27dbb}
+      \strng{authorbibnamehash}{d4a19bf865a3078dd158dc42d3c27dbb}
+      \strng{authornamehash}{3e8d522737587a9f8e134b5d481ae462}
+      \strng{authorfullhash}{d4a19bf865a3078dd158dc42d3c27dbb}
+      \strng{authorfullhashraw}{d4a19bf865a3078dd158dc42d3c27dbb}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2199-398X}
+      \field{journaltitle}{Soil}
+      \field{number}{2}
+      \field{title}{Biocrust-linked changes in soil aggregate stability along a climatic gradient in the {Chilean} {Coastal} {Range}}
+      \field{volume}{8}
+      \field{year}{2022}
+      \field{pages}{717\bibrangedash 731}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.5194/soil-8-717-2022
+      \endverb
+      \verb{urlraw}
+      \verb https://soil.copernicus.org/articles/8/717/2022/
+      \endverb
+      \verb{url}
+      \verb https://soil.copernicus.org/articles/8/717/2022/
+      \endverb
+    \endentry
     \entry{RiverasMunoz2022}{article}{}{}
       \name{author}{10}{}{%
         {{un=0,uniquepart=base,hash=240b784ca32abf23f59239fcc20fec3c}{%
@@ -31086,8 +31118,10 @@
       \strng{authornamehash}{3e8d522737587a9f8e134b5d481ae462}
       \strng{authorfullhash}{d4a19bf865a3078dd158dc42d3c27dbb}
       \strng{authorfullhashraw}{d4a19bf865a3078dd158dc42d3c27dbb}
+      \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -31689,54 +31723,6 @@
       \field{title}{Atlas agroclimático de Chile. Estado actual y tendencias del clima. Tomo II: Regiones de Atacama y Coquimbo}
       \field{type}{Book}
       \field{year}{2017}
-    \endentry
-    \entry{Scholten2019}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=2051b6bf97d4c94edd6ac8d56c6bb8a9}{%
-           family={Scholten},
-           familyi={S\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6e26ec78b4e139f7df423b7c7416b455}{%
-           family={Seitz},
-           familyi={S\bibinitperiod},
-           given={Steffen},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{3e53dde927236a44f4210966d459677b}
-      \strng{fullhash}{3e53dde927236a44f4210966d459677b}
-      \strng{fullhashraw}{3e53dde927236a44f4210966d459677b}
-      \strng{bibnamehash}{3e53dde927236a44f4210966d459677b}
-      \strng{authorbibnamehash}{3e53dde927236a44f4210966d459677b}
-      \strng{authornamehash}{3e53dde927236a44f4210966d459677b}
-      \strng{authorfullhash}{3e53dde927236a44f4210966d459677b}
-      \strng{authorfullhashraw}{3e53dde927236a44f4210966d459677b}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2571-8789}
-      \field{journaltitle}{Soil Systems}
-      \field{number}{4}
-      \field{title}{Soil erosion and land degradation}
-      \field{volume}{3}
-      \field{year}{2019}
-      \field{pages}{68}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/soilsystems3040068
-      \endverb
-      \verb{urlraw}
-      \verb https://www.mdpi.com/2571-8789/3/4/68
-      \endverb
-      \verb{url}
-      \verb https://www.mdpi.com/2571-8789/3/4/68
-      \endverb
     \endentry
     \entry{Seitz2015}{thesis}{}{}
       \name{author}{1}{}{%
@@ -32608,121 +32594,6 @@
       \verb{url}
       \verb https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.4145
       \endverb
-    \endentry
-    \entry{Witzgall2024}{article}{}{}
-      \name{author}{13}{}{%
-        {{un=0,uniquepart=base,hash=f5638288db604e1827df96b7b82e0a5b}{%
-           family={Witzgall},
-           familyi={W\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=59505ce8ee5146e8bfaca3a34502e450}{%
-           family={Hesse},
-           familyi={H\bibinitperiod},
-           given={B.\bibnamedelimi D.},
-           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=51581cf2a61b4900baa1e781d57c9c72}{%
-           family={Pacay-Barrientos},
-           familyi={P\bibinithyphendelim B\bibinitperiod},
-           given={N.\bibnamedelimi L.},
-           giveni={N\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b3c663ee3179585f02057a7310602583}{%
-           family={Jansa},
-           familyi={J\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=13111d31cca4a1e49cd4c01dcc543dcd}{%
-           family={Seguel},
-           familyi={S\bibinitperiod},
-           given={O.},
-           giveni={O\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4a05639ff21dd1b12243e6aa6d16207c}{%
-           family={Oses},
-           familyi={O\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e8a74d7407c0f34d3e73d79501ea81c5}{%
-           family={Buegger},
-           familyi={B\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d62a15db16b8d0fb5a7fbcd5302a4d63}{%
-           family={Guigue},
-           familyi={G\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=66141a50dc09318f2ba204b9a6e555ef}{%
-           family={Rojas},
-           familyi={R\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d903ceede5bdac11239d46f2b72404f9}{%
-           family={Rousk},
-           familyi={R\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6deccf79a833b16d6d3171f8205307d7}{%
-           family={Grams},
-           familyi={G\bibinitperiod},
-           given={T.\bibnamedelimi E.\bibnamedelimi E.},
-           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bd06045ff0b1f86bb23732660b9adc8a}{%
-           family={Pietrasiak},
-           familyi={P\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=53c7306f441282a73a06d2633de035ee}{%
-           family={Mueller},
-           familyi={M\bibinitperiod},
-           given={C.\bibnamedelimi W.},
-           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{67bfbab73cb02d3669d8266a69bb27ae}
-      \strng{fullhash}{db85fc70b3a6a72220b9e54d4abf675e}
-      \strng{fullhashraw}{db85fc70b3a6a72220b9e54d4abf675e}
-      \strng{bibnamehash}{db85fc70b3a6a72220b9e54d4abf675e}
-      \strng{authorbibnamehash}{db85fc70b3a6a72220b9e54d4abf675e}
-      \strng{authornamehash}{67bfbab73cb02d3669d8266a69bb27ae}
-      \strng{authorfullhash}{db85fc70b3a6a72220b9e54d4abf675e}
-      \strng{authorfullhashraw}{db85fc70b3a6a72220b9e54d4abf675e}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1365-2486 (Electronic) 1354-1013 (Linking)}
-      \field{journaltitle}{Global change biology}
-      \field{number}{10}
-      \field{title}{Soil carbon and nitrogen cycling at the atmosphere-soil interface: {Quantifying} the responses of biocrust-soil interactions to global change}
-      \field{volume}{30}
-      \field{year}{2024}
-      \field{pages}{e17519}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1111/gcb.17519
-      \endverb
-      \verb{urlraw}
-      \verb https://www.ncbi.nlm.nih.gov/pubmed/39381885
-      \endverb
-      \verb{url}
-      \verb https://www.ncbi.nlm.nih.gov/pubmed/39381885
-      \endverb
-      \keyw{*Soil/chemistry *Climate Change *Nitrogen Cycle *Soil Microbiology *Carbon Cycle *Droughts *Atmosphere/chemistry Carbon/metabolism/analysis Carbon Dioxide/metabolism/analysis Nitrogen/metabolism/analysis Ecosystem C cycle Plfa biocrust biological soil crusts climate change dryland dual labeling soil organic matter}
     \endentry
     \entry{Xiao2019}{article}{}{}
       \name{author}{3}{}{%
@@ -33377,6 +33248,98 @@
       \endverb
       \keyw{Carbon/metabolism *Desert Climate *Ecosystem Nitrogen/metabolism Particle Size *Rain Seasons Soil/*analysis *Soil Microbiology Water/metabolism}
     \endentry
+    \entry{Barger2016}{inbook}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=9399e5b0be9bf976c0f8d7b2b3a395ff}{%
+           family={Barger},
+           familyi={B\bibinitperiod},
+           given={Nichole\bibnamedelima N.},
+           giveni={N\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ebacc8407a7a6bcc6c18a22831d777f}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Bettina},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e773bd3a11653d22a8ffb85d96bdad8a}{%
+           family={Garcia-Pichel},
+           familyi={G\bibinithyphendelim P\bibinitperiod},
+           given={Ferran},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=953cfad3764268cab17a47a1dd09dec1}{%
+           family={Zaady},
+           familyi={Z\bibinitperiod},
+           given={Eli},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddd72c23333c53568c22461f2e9f7616}{%
+           family={Belnap},
+           familyi={B\bibinitperiod},
+           given={Jayne},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=4ebacc8407a7a6bcc6c18a22831d777f}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Bettina},
+           giveni={B\bibinitperiod}}}%
+        {{hash=aca8d959301b8df38c3aca666c1724ab}{%
+           family={Büdel},
+           familyi={B\bibinitperiod},
+           given={Burkhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ddd72c23333c53568c22461f2e9f7616}{%
+           family={Belnap},
+           familyi={B\bibinitperiod},
+           given={Jayne},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{6cd0d34f1bf8507de7163d54ce1870bf}
+      \strng{fullhash}{c7fba42e42443557c82198163c0bdd6e}
+      \strng{fullhashraw}{c7fba42e42443557c82198163c0bdd6e}
+      \strng{bibnamehash}{c7fba42e42443557c82198163c0bdd6e}
+      \strng{authorbibnamehash}{c7fba42e42443557c82198163c0bdd6e}
+      \strng{authornamehash}{6cd0d34f1bf8507de7163d54ce1870bf}
+      \strng{authorfullhash}{c7fba42e42443557c82198163c0bdd6e}
+      \strng{authorfullhashraw}{c7fba42e42443557c82198163c0bdd6e}
+      \strng{editorbibnamehash}{61f9ae33810e62f031f472371cfe246a}
+      \strng{editornamehash}{cfcb2f0bd5118171f987e03f2f7b785f}
+      \strng{editorfullhash}{61f9ae33810e62f031f472371cfe246a}
+      \strng{editorfullhashraw}{61f9ae33810e62f031f472371cfe246a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In low-nutrient environments with few vascular plant symbiotic N fixers, biocrusts play an important role in ecosystem N cycling. A large number of studies across a wide range of biomes clearly confirm that not only the presence of biocrusts but biocrust community composition strongly influences N-fixation activity, with N fixation increasing with level of development (cyanobacterial-lichen biocrusts ¿ dark cyanobacterial biocrust (e.g., Nostoc spp. and Collema spp.) ¿ light Microcoleus-dominated biocrust). Nitrogen fixation by biocrusts results in N release to the soil in a variety of N forms (inorganic and organic N), thus elevating soil inorganic N pools in the top few millimeters of soil. The influence of N release on the bulk soil at greater soil depths is less clear, with biocrusts either elevating or having no influence on bulk soil inorganic N pools. The fate of N fixed and released by biocrusts, and whether this N is retained in the ecosystem in either soils or plants, determines ecosystem N balance over longer time scales, and results on the influence of biocrusts are mixed. Whereas we have multiple studies that examine a single compartment of N budgets, we lack studies that simultaneously address N inputs, losses, and soil and plant pools, thus precluding the construction of definitive N balances. One of the most consistent impact biocrusts have on ecosystem N is reducing N loss via wind and water erosion, with such losses consistently decreasing with increasing biocrust development.}
+      \field{booktitle}{Biological soil crusts: {An} organizing principle in drylands}
+      \field{isbn}{978-3-319-30214-0}
+      \field{title}{Patterns and controls on nitrogen cycling of biological soil crusts}
+      \field{year}{2016}
+      \field{pages}{257\bibrangedash 285}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1007/978-3-319-30214-0_14
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-30214-0_14
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-30214-0_14
+      \endverb
+    \endentry
     \entry{Bauer1974}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6122a091b2c4f49860139c17d8016f80}{%
@@ -33611,38 +33574,47 @@
       \field{volume}{110}
       \field{year}{2001}
     \endentry
-    \entry{Belnap2016}{book}{}{}
-      \name{author}{3}{}{%
+    \entry{Belnap2007}{article}{}{}
+      \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=ddd72c23333c53568c22461f2e9f7616}{%
            family={Belnap},
            familyi={B\bibinitperiod},
            given={Jayne},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=4ebacc8407a7a6bcc6c18a22831d777f}{%
-           family={Weber},
-           familyi={W\bibinitperiod},
-           given={Bettina},
-           giveni={B\bibinitperiod},
+        {{un=0,uniquepart=base,hash=c4577d17b2d2811fd95b4693f563b412}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={Susan\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=aca8d959301b8df38c3aca666c1724ab}{%
-           family={Büdel},
-           familyi={B\bibinitperiod},
-           given={Burkhard},
-           giveni={B\bibinitperiod},
+        {{un=0,uniquepart=base,hash=9db5ee7acc83c384772c3748b54a8ee9}{%
+           family={Flint},
+           familyi={F\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod},
            givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
+        {{un=0,uniquepart=base,hash=3324ee90a1e7deb1037de419ccfcaee9}{%
+           family={Money},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fca47c1e1a23f4071dc318bd6c204d5c}{%
+           family={Caldwell},
+           familyi={C\bibinitperiod},
+           given={Martyn},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ba0d1426535e5de835d84a5f4b98f88}
-      \strng{fullhash}{df2c6f2a1af2dbd965f7cfef6b403c28}
-      \strng{fullhashraw}{df2c6f2a1af2dbd965f7cfef6b403c28}
-      \strng{bibnamehash}{df2c6f2a1af2dbd965f7cfef6b403c28}
-      \strng{authorbibnamehash}{df2c6f2a1af2dbd965f7cfef6b403c28}
+      \strng{fullhash}{bf94f952351a5d52c786c440645e43a6}
+      \strng{fullhashraw}{bf94f952351a5d52c786c440645e43a6}
+      \strng{bibnamehash}{bf94f952351a5d52c786c440645e43a6}
+      \strng{authorbibnamehash}{bf94f952351a5d52c786c440645e43a6}
       \strng{authornamehash}{3ba0d1426535e5de835d84a5f4b98f88}
-      \strng{authorfullhash}{df2c6f2a1af2dbd965f7cfef6b403c28}
-      \strng{authorfullhashraw}{df2c6f2a1af2dbd965f7cfef6b403c28}
+      \strng{authorfullhash}{bf94f952351a5d52c786c440645e43a6}
+      \strng{authorfullhashraw}{bf94f952351a5d52c786c440645e43a6}
       \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
@@ -33650,11 +33622,22 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{3-319-30212-4}
-      \field{title}{Biological soil crusts as an organizing principle in drylands}
-      \field{year}{2016}
+      \field{issn}{1354-1013 1365-2486}
+      \field{journaltitle}{Global Change Biology}
+      \field{number}{3}
+      \field{title}{Global change and biological soil crusts: effects of ultraviolet augmentation under altered precipitation regimes and nitrogen additions}
+      \field{volume}{14}
+      \field{year}{2007}
+      \field{pages}{670\bibrangedash 686}
+      \range{pages}{17}
       \verb{doi}
-      \verb 10.1007/978-3-319-30214-0_1
+      \verb 10.1111/j.1365-2486.2007.01509.x
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2486.2007.01509.x
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2486.2007.01509.x
       \endverb
     \endentry
     \entry{Bernal2005}{article}{}{}
@@ -35311,6 +35294,64 @@
       \verb 10.5194/bg-19-3225-2022
       \endverb
     \endentry
+    \entry{Gall2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=8631e485eeaabc4381ce20e161253d7a}{%
+           family={Gall},
+           familyi={G\bibinitperiod},
+           given={Corinna},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=050c5b449f07cf70e3f8cd620dabd3f8}{%
+           family={Nebel},
+           familyi={N\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2051b6bf97d4c94edd6ac8d56c6bb8a9}{%
+           family={Scholten},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e26ec78b4e139f7df423b7c7416b455}{%
+           family={Seitz},
+           familyi={S\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4690f21562af1a617e3082c62237391b}
+      \strng{fullhash}{32cabe51dd72e5e8b80cadef206639c6}
+      \strng{fullhashraw}{32cabe51dd72e5e8b80cadef206639c6}
+      \strng{bibnamehash}{32cabe51dd72e5e8b80cadef206639c6}
+      \strng{authorbibnamehash}{32cabe51dd72e5e8b80cadef206639c6}
+      \strng{authornamehash}{4690f21562af1a617e3082c62237391b}
+      \strng{authorfullhash}{32cabe51dd72e5e8b80cadef206639c6}
+      \strng{authorfullhashraw}{32cabe51dd72e5e8b80cadef206639c6}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2624-893X}
+      \field{journaltitle}{Frontiers in Forests and Global Change}
+      \field{title}{The effect of mosses on the relocation of {SOC} and total {N} due to soil erosion and percolation in a disturbed temperate forest}
+      \field{volume}{7}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.3389/ffgc.2024.1379513
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/forests-and-global-change/articles/10.3389/ffgc.2024.1379513
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/forests-and-global-change/articles/10.3389/ffgc.2024.1379513
+      \endverb
+      \keyw{Bryophytes,dissolved organic carbon,rainfall simulation,Soil erosion,Soil Organic Carbon}
+    \endentry
     \entry{Gall2022a}{article}{}{}
       \name{author}{9}{ul=2}{%
         {{un=0,uniquepart=base,hash=8631e485eeaabc4381ce20e161253d7a}{%
@@ -35480,48 +35521,6 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1007/978-3-319-30214-0_13
-      \endverb
-    \endentry
-    \entry{Gholzom2012}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=b06040b6b890725d66947267ae3033b3}{%
-           family={Gholzom},
-           familyi={G\bibinitperiod},
-           given={Esmaeili\bibnamedelima Hoseen},
-           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=aa5fb1b189a270a2f561d34de4809ec9}{%
-           family={Gholami},
-           familyi={G\bibinitperiod},
-           given={Vahid},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{1db9cf93d72229a01818f7f3133e199c}
-      \strng{fullhash}{1db9cf93d72229a01818f7f3133e199c}
-      \strng{fullhashraw}{1db9cf93d72229a01818f7f3133e199c}
-      \strng{bibnamehash}{1db9cf93d72229a01818f7f3133e199c}
-      \strng{authorbibnamehash}{1db9cf93d72229a01818f7f3133e199c}
-      \strng{authornamehash}{1db9cf93d72229a01818f7f3133e199c}
-      \strng{authorfullhash}{1db9cf93d72229a01818f7f3133e199c}
-      \strng{authorfullhashraw}{1db9cf93d72229a01818f7f3133e199c}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1805-9384}
-      \field{journaltitle}{Soil and Water Research}
-      \field{number}{4}
-      \field{title}{A comparison between natural forests and reforested lands in terms of runoff generation potential and hydrologic response (case study: {Kasilian} watershed)}
-      \field{volume}{7}
-      \field{year}{2012}
-      \field{pages}{166\bibrangedash 173}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.17221/18/2012-SWR
       \endverb
     \endentry
     \entry{Godt2009}{article}{}{}
@@ -35932,78 +35931,6 @@
       \endverb
       \keyw{*Data Interpretation,Statistical,Statistical Humans *Models}
     \endentry
-    \entry{Hu2022}{article}{}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=dfe1e2a76be9aed8970e4bef4d658800}{%
-           family={Hu},
-           familyi={H\bibinitperiod},
-           given={Wenfeng},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=267942393f8b2936f1105219070cf430}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Lingling},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5f73d4e80e71bf8a322696c13b72dd55}{%
-           family={Shen},
-           familyi={S\bibinitperiod},
-           given={Jianyun},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6f742d07f9a6e32a92cd7fb4d1214cd6}{%
-           family={Yao},
-           familyi={Y\bibinitperiod},
-           given={Junqiang},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7c27f1b2b48feefb0593a05e9c6a8b12}{%
-           family={He},
-           familyi={H\bibinitperiod},
-           given={Qing},
-           giveni={Q\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=11c05b885f1bc92570da26e49722e81d}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Jing},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{35e5d4c02fb649b6f9a0642fc15dd3f7}
-      \strng{fullhash}{2bc39dd0d49d4cebdeec80d7328c5161}
-      \strng{fullhashraw}{2bc39dd0d49d4cebdeec80d7328c5161}
-      \strng{bibnamehash}{2bc39dd0d49d4cebdeec80d7328c5161}
-      \strng{authorbibnamehash}{2bc39dd0d49d4cebdeec80d7328c5161}
-      \strng{authornamehash}{35e5d4c02fb649b6f9a0642fc15dd3f7}
-      \strng{authorfullhash}{2bc39dd0d49d4cebdeec80d7328c5161}
-      \strng{authorfullhashraw}{2bc39dd0d49d4cebdeec80d7328c5161}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2073-4441}
-      \field{journaltitle}{Water}
-      \field{number}{16}
-      \field{title}{Changes in {Extreme} {Precipitation} on the {Tibetan} {Plateau} and {Its} {Surroundings}: {Trends}, {Patterns}, and {Relationship} with {Ocean} {Oscillation} {Factors}}
-      \field{volume}{14}
-      \field{year}{2022}
-      \field{pages}{2509}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/w14162509
-      \endverb
-      \verb{urlraw}
-      \verb https://www.mdpi.com/2073-4441/14/16/2509
-      \endverb
-      \verb{url}
-      \verb https://www.mdpi.com/2073-4441/14/16/2509
-      \endverb
-    \endentry
     \entry{Iserloh2013}{article}{}{}
       \name{author}{10}{}{%
         {{un=0,uniquepart=base,hash=90d4c97a505aecdb5a0c2bada622a8e8}{%
@@ -36330,54 +36257,6 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0304420310000678
       \endverb
       \keyw{Boston Harbor,Erosion chamber,Sediment resuspension,Silver,Trace metals}
-    \endentry
-    \entry{Khaleghi2018}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=4e257b52ef93bc485679f20b6f947eed}{%
-           family={Khaleghi},
-           familyi={K\bibinitperiod},
-           given={M.\bibnamedelimi R.},
-           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e283a3c9cc267b0667ecdfc2e5a133b2}{%
-           family={Varvani},
-           familyi={V\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{84232f6e732f2758ae32b3b1506ec414}
-      \strng{fullhash}{84232f6e732f2758ae32b3b1506ec414}
-      \strng{fullhashraw}{84232f6e732f2758ae32b3b1506ec414}
-      \strng{bibnamehash}{84232f6e732f2758ae32b3b1506ec414}
-      \strng{authorbibnamehash}{84232f6e732f2758ae32b3b1506ec414}
-      \strng{authornamehash}{84232f6e732f2758ae32b3b1506ec414}
-      \strng{authorfullhash}{84232f6e732f2758ae32b3b1506ec414}
-      \strng{authorfullhashraw}{84232f6e732f2758ae32b3b1506ec414}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2193-567X 2191-4281}
-      \field{journaltitle}{Arabian Journal for Science and Engineering}
-      \field{number}{7}
-      \field{title}{Sediment rating curve parameters relationship with watershed characteristics in the semiarid river watersheds}
-      \field{volume}{43}
-      \field{year}{2018}
-      \field{pages}{3725\bibrangedash 3737}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1007/s13369-018-3092-7
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/s13369-018-3092-7
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/s13369-018-3092-7
-      \endverb
     \endentry
     \entry{Kheirfam2017}{article}{}{}
       \name{author}{4}{}{%
@@ -36798,7 +36677,7 @@
       \endverb
       \keyw{Biological soil crust Micro-lysimeter Soil moisture Water flow pattern Soil field capacity Loess Plateau}
     \endentry
-    \entry{Liu2020b}{article}{}{}
+    \entry{Liu2020}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=54f92e9a7c252fe33b770a627443940b}{%
            family={Liu},
@@ -36831,7 +36710,6 @@
       \field{issn}{00221694}
       \field{journaltitle}{Journal of Hydrology}
       \field{title}{Combined effects of moss crusts and pine needles on evaporation of carbonate-derived laterite from karst mountainous lands}
-      \field{type}{Journal Article}
       \field{volume}{586}
       \field{year}{2020}
       \field{pages}{124859}
@@ -36846,78 +36724,6 @@
       \verb https://www.sciencedirect.com/science/article/pii/S002216942030319X
       \endverb
       \keyw{Moss crust Pine needle Evaporation process Karst mountainous land}
-    \endentry
-    \entry{Luetzenburg2020}{article}{}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=cde2f2cbc0fb1467a21665ed0d666891}{%
-           family={Luetzenburg},
-           familyi={L\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=677d1be680af9761aaa14b8c067be6ef}{%
-           family={Bittner},
-           familyi={B\bibinitperiod},
-           given={M.\bibnamedelimi J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=89ed754fdeeb79d480d8ef0d6bfb2767}{%
-           family={Calsamiglia},
-           familyi={C\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2dd5addd95acf6744520bdc6bddf41ac}{%
-           family={Renschler},
-           familyi={R\bibinitperiod},
-           given={C.\bibnamedelimi S.},
-           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=74ca823cfb6e76c719220c4562d27bf2}{%
-           family={Estrany},
-           familyi={E\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=47de75ec9d08596c022e536b6d3270df}{%
-           family={Poeppl},
-           familyi={P\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b9a4b463a71fe675dbf82449e35d2a9f}
-      \strng{fullhash}{34af63e1fe9acb7ffab3bf805b2e2f23}
-      \strng{fullhashraw}{34af63e1fe9acb7ffab3bf805b2e2f23}
-      \strng{bibnamehash}{34af63e1fe9acb7ffab3bf805b2e2f23}
-      \strng{authorbibnamehash}{34af63e1fe9acb7ffab3bf805b2e2f23}
-      \strng{authornamehash}{b9a4b463a71fe675dbf82449e35d2a9f}
-      \strng{authorfullhash}{34af63e1fe9acb7ffab3bf805b2e2f23}
-      \strng{authorfullhashraw}{34af63e1fe9acb7ffab3bf805b2e2f23}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1879-1026 (Electronic) 0048-9697 (Linking)}
-      \field{journaltitle}{The Science of the total environment}
-      \field{title}{Climate and land use change effects on soil erosion in two small agricultural catchment systems {Fugnitz} - {Austria}, {Can} {Revull} - {Spain}}
-      \field{volume}{704}
-      \field{year}{2020}
-      \field{pages}{135389}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/j.scitotenv.2019.135389
-      \endverb
-      \verb{urlraw}
-      \verb https://www.ncbi.nlm.nih.gov/pubmed/31810709
-      \endverb
-      \verb{url}
-      \verb https://www.ncbi.nlm.nih.gov/pubmed/31810709
-      \endverb
-      \keyw{GeoWEPP Global change Sediment discharge Soil erosion modeling Soil loss}
     \endentry
     \entry{MeseguerRuiz2020}{article}{}{}
       \name{author}{8}{}{%
@@ -37130,7 +36936,7 @@
       \verb https://doi.org/10.1007/s10706-018-0465-3
       \endverb
     \endentry
-    \entry{MunozMartin2019}{article}{}{}
+    \entry{Munoz-Martin2019}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=b5f4d07df768e7413a899f9c965e3c60}{%
            family={Munoz-Martin},
@@ -37185,10 +36991,9 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1469-8137 (Electronic) 0028-646X (Linking)}
-      \field{journaltitle}{New Phytol}
+      \field{journaltitle}{The New phytologist}
       \field{number}{1}
-      \field{title}{Cyanobacterial biocrust diversity in Mediterranean ecosystems along a latitudinal and climatic gradient}
-      \field{type}{Journal Article}
+      \field{title}{Cyanobacterial biocrust diversity in {Mediterranean} ecosystems along a latitudinal and climatic gradient}
       \field{volume}{221}
       \field{year}{2019}
       \field{pages}{123\bibrangedash 141}
@@ -37748,6 +37553,104 @@
       \verb https://www.mdpi.com/2073-4441/12/7/1887
       \endverb
     \endentry
+    \entry{Riveras-Munoz2022}{article}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=240b784ca32abf23f59239fcc20fec3c}{%
+           family={Riveras-Muñoz},
+           familyi={R\bibinithyphendelim M\bibinitperiod},
+           given={Nicolás},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e26ec78b4e139f7df423b7c7416b455}{%
+           family={Seitz},
+           familyi={S\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69ca1fc277ec3cecb5b0e4160ba08e2c}{%
+           family={Witzgall},
+           familyi={W\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=457693611876534a004d08455f93d1ad}{%
+           family={Rodríguez},
+           familyi={R\bibinitperiod},
+           given={Victoria},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d3ca7f67d33e8ae8d60659405a10932}{%
+           family={Kühn},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c284a33166342de4ec267e24d69f66a7}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Carsten\bibnamedelima W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28bcb9548dc3098ba5be9a283322595c}{%
+           family={Oses},
+           familyi={O\bibinitperiod},
+           given={Rómulo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df7f308e459271eadcb0b5cdfd61bf33}{%
+           family={Seguel},
+           familyi={S\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6062013ff79cd727310f999a9ac5e6e6}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2051b6bf97d4c94edd6ac8d56c6bb8a9}{%
+           family={Scholten},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3e8d522737587a9f8e134b5d481ae462}
+      \strng{fullhash}{d4a19bf865a3078dd158dc42d3c27dbb}
+      \strng{fullhashraw}{d4a19bf865a3078dd158dc42d3c27dbb}
+      \strng{bibnamehash}{d4a19bf865a3078dd158dc42d3c27dbb}
+      \strng{authorbibnamehash}{d4a19bf865a3078dd158dc42d3c27dbb}
+      \strng{authornamehash}{3e8d522737587a9f8e134b5d481ae462}
+      \strng{authorfullhash}{d4a19bf865a3078dd158dc42d3c27dbb}
+      \strng{authorfullhashraw}{d4a19bf865a3078dd158dc42d3c27dbb}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2199-398X}
+      \field{journaltitle}{Soil}
+      \field{number}{2}
+      \field{title}{Biocrust-linked changes in soil aggregate stability along a climatic gradient in the {Chilean} {Coastal} {Range}}
+      \field{volume}{8}
+      \field{year}{2022}
+      \field{pages}{717\bibrangedash 731}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.5194/soil-8-717-2022
+      \endverb
+      \verb{urlraw}
+      \verb https://soil.copernicus.org/articles/8/717/2022/
+      \endverb
+      \verb{url}
+      \verb https://soil.copernicus.org/articles/8/717/2022/
+      \endverb
+    \endentry
     \entry{RiverasMunoz2022}{article}{}{}
       \name{author}{10}{}{%
         {{un=0,uniquepart=base,hash=240b784ca32abf23f59239fcc20fec3c}{%
@@ -37819,8 +37722,10 @@
       \strng{authornamehash}{3e8d522737587a9f8e134b5d481ae462}
       \strng{authorfullhash}{d4a19bf865a3078dd158dc42d3c27dbb}
       \strng{authorfullhashraw}{d4a19bf865a3078dd158dc42d3c27dbb}
+      \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -38422,54 +38327,6 @@
       \field{title}{Atlas agroclimático de Chile. Estado actual y tendencias del clima. Tomo II: Regiones de Atacama y Coquimbo}
       \field{type}{Book}
       \field{year}{2017}
-    \endentry
-    \entry{Scholten2019}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=2051b6bf97d4c94edd6ac8d56c6bb8a9}{%
-           family={Scholten},
-           familyi={S\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6e26ec78b4e139f7df423b7c7416b455}{%
-           family={Seitz},
-           familyi={S\bibinitperiod},
-           given={Steffen},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{3e53dde927236a44f4210966d459677b}
-      \strng{fullhash}{3e53dde927236a44f4210966d459677b}
-      \strng{fullhashraw}{3e53dde927236a44f4210966d459677b}
-      \strng{bibnamehash}{3e53dde927236a44f4210966d459677b}
-      \strng{authorbibnamehash}{3e53dde927236a44f4210966d459677b}
-      \strng{authornamehash}{3e53dde927236a44f4210966d459677b}
-      \strng{authorfullhash}{3e53dde927236a44f4210966d459677b}
-      \strng{authorfullhashraw}{3e53dde927236a44f4210966d459677b}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2571-8789}
-      \field{journaltitle}{Soil Systems}
-      \field{number}{4}
-      \field{title}{Soil erosion and land degradation}
-      \field{volume}{3}
-      \field{year}{2019}
-      \field{pages}{68}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/soilsystems3040068
-      \endverb
-      \verb{urlraw}
-      \verb https://www.mdpi.com/2571-8789/3/4/68
-      \endverb
-      \verb{url}
-      \verb https://www.mdpi.com/2571-8789/3/4/68
-      \endverb
     \endentry
     \entry{Seitz2015}{thesis}{}{}
       \name{author}{1}{}{%
@@ -39341,121 +39198,6 @@
       \verb{url}
       \verb https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.4145
       \endverb
-    \endentry
-    \entry{Witzgall2024}{article}{}{}
-      \name{author}{13}{}{%
-        {{un=0,uniquepart=base,hash=f5638288db604e1827df96b7b82e0a5b}{%
-           family={Witzgall},
-           familyi={W\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=59505ce8ee5146e8bfaca3a34502e450}{%
-           family={Hesse},
-           familyi={H\bibinitperiod},
-           given={B.\bibnamedelimi D.},
-           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=51581cf2a61b4900baa1e781d57c9c72}{%
-           family={Pacay-Barrientos},
-           familyi={P\bibinithyphendelim B\bibinitperiod},
-           given={N.\bibnamedelimi L.},
-           giveni={N\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b3c663ee3179585f02057a7310602583}{%
-           family={Jansa},
-           familyi={J\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=13111d31cca4a1e49cd4c01dcc543dcd}{%
-           family={Seguel},
-           familyi={S\bibinitperiod},
-           given={O.},
-           giveni={O\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4a05639ff21dd1b12243e6aa6d16207c}{%
-           family={Oses},
-           familyi={O\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e8a74d7407c0f34d3e73d79501ea81c5}{%
-           family={Buegger},
-           familyi={B\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d62a15db16b8d0fb5a7fbcd5302a4d63}{%
-           family={Guigue},
-           familyi={G\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=66141a50dc09318f2ba204b9a6e555ef}{%
-           family={Rojas},
-           familyi={R\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d903ceede5bdac11239d46f2b72404f9}{%
-           family={Rousk},
-           familyi={R\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6deccf79a833b16d6d3171f8205307d7}{%
-           family={Grams},
-           familyi={G\bibinitperiod},
-           given={T.\bibnamedelimi E.\bibnamedelimi E.},
-           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bd06045ff0b1f86bb23732660b9adc8a}{%
-           family={Pietrasiak},
-           familyi={P\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=53c7306f441282a73a06d2633de035ee}{%
-           family={Mueller},
-           familyi={M\bibinitperiod},
-           given={C.\bibnamedelimi W.},
-           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{67bfbab73cb02d3669d8266a69bb27ae}
-      \strng{fullhash}{db85fc70b3a6a72220b9e54d4abf675e}
-      \strng{fullhashraw}{db85fc70b3a6a72220b9e54d4abf675e}
-      \strng{bibnamehash}{db85fc70b3a6a72220b9e54d4abf675e}
-      \strng{authorbibnamehash}{db85fc70b3a6a72220b9e54d4abf675e}
-      \strng{authornamehash}{67bfbab73cb02d3669d8266a69bb27ae}
-      \strng{authorfullhash}{db85fc70b3a6a72220b9e54d4abf675e}
-      \strng{authorfullhashraw}{db85fc70b3a6a72220b9e54d4abf675e}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1365-2486 (Electronic) 1354-1013 (Linking)}
-      \field{journaltitle}{Global change biology}
-      \field{number}{10}
-      \field{title}{Soil carbon and nitrogen cycling at the atmosphere-soil interface: {Quantifying} the responses of biocrust-soil interactions to global change}
-      \field{volume}{30}
-      \field{year}{2024}
-      \field{pages}{e17519}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1111/gcb.17519
-      \endverb
-      \verb{urlraw}
-      \verb https://www.ncbi.nlm.nih.gov/pubmed/39381885
-      \endverb
-      \verb{url}
-      \verb https://www.ncbi.nlm.nih.gov/pubmed/39381885
-      \endverb
-      \keyw{*Soil/chemistry *Climate Change *Nitrogen Cycle *Soil Microbiology *Carbon Cycle *Droughts *Atmosphere/chemistry Carbon/metabolism/analysis Carbon Dioxide/metabolism/analysis Nitrogen/metabolism/analysis Ecosystem C cycle Plfa biocrust biological soil crusts climate change dryland dual labeling soil organic matter}
     \endentry
     \entry{Xiao2022}{article}{}{}
       \name{author}{5}{}{%
