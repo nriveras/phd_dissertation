@@ -37,5 +37,5 @@ sips -Z 640 *.png
 ```
 
 ## ToDo
-### Feedback from CG
-Reviewed file is available in </Users/nico/Desktop/Projects/PhD/Dissertation/Defense process/Dissertation_Riveras_Muñoz_20250403_cg.pdf>
+
++ when there are two parentheses in a row, is it necessary to add space between them? -> it has to be an space between them, but it seems like latex include it anyways when rendering.
