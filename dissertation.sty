@@ -3,7 +3,18 @@
 %% ... (license text) ...
 %%
 \NeedsTeXFormat{LaTeX2e}[1999/12/01]
-\ProvidesPackage{dissertation}[2010/??/?? Custom Dissertation Style]
+\ProvidesPackage{dissertation}[2010/01/01 Custom Dissertation Style]
+
+% Default metadata values so commands are defined before user assignment.
+\providecommand{\thedegree}{}
+\providecommand{\thename}{}
+\providecommand{\thethesis}{}
+\providecommand{\thekeywordlist}{}
+\providecommand{\thehometown}{}
+\providecommand{\theoralexamdate}{}
+\providecommand{\thedean}{}
+\providecommand{\thereviewerone}{}
+\providecommand{\thereviewertwo}{}
 
 % --- Metadata Command DEFINITIONS --- (These DEFINE the commands)
 \newcommand{\degree}[1]{\def\thedegree{#1}}
@@ -11,6 +22,7 @@
 \newcommand{\thesis}[1]{\def\thethesis{#1}}
 \newcommand{\keywordlist}[1]{\def\thekeywordlist{#1}}
 \newcommand{\hometown}[1]{\def\thehometown{#1}}
+\newcommand{\oralexamdate}[1]{\def\theoralexamdate{#1}}
 \newcommand{\dean}[1]{\def\thedean{#1}}
 \newcommand{\reviewerone}[1]{\def\thereviewerone{#1}}
 \newcommand{\reviewertwo}[1]{\def\thereviewertwo{#1}}

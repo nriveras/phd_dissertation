@@ -1,5 +1,6 @@
 %%
 %% Copyright (C) 2010 by Andreas Dräger
+%% Modified by Nicolás Riveras Muñoz, 2024
 %% ... (license header) ...
 %%
 \documentclass[ % MUST BE THE VERY FIRST COMMAND
@@ -42,10 +43,17 @@
 \usepackage{scrhack}
 % \usepackage{natbib} % REMOVED: Incompatible with biblatex
 \usepackage{scrlayer-scrpage} % Required for scrheadings pagestyle
+\makeatletter
+\providecommand\sf@counterlist{}
+\makeatother
 
 % --- Custom Dissertation Style ---
 % Loads most packages as defined in dissertation.sty
 \usepackage{dissertation}
+
+% --- Font Setup (pdfLaTeX fallback to Arial-like sans) ---
+% dissertation.sty already loads Helvetica; set it as the document default.
+\renewcommand{\familydefault}{\sfdefault}
 
 % --- Packages NOT loaded by dissertation.sty ---
 \usepackage{siunitx}        % REQUIRED. Load explicitly.
@@ -75,6 +83,19 @@
     sorting=nyt]{biblatex}
 
 \addbibresource{literatur.bib}
+
+% Allow long DOIs/URLs in the bibliography to break across lines instead of
+% running into the margin. By default biblatex only breaks URLs at punctuation;
+% lowering these penalties lets a break also happen before any digit / upper- /
+% lower-case letter, which is what the long doi.org/... strings need.
+\setcounter{biburlnumpenalty}{7000}
+\setcounter{biburlucpenalty}{7000}
+\setcounter{biburllcpenalty}{7000}
+
+% Last-resort stretch the line breaker may add to avoid overfull lines (e.g.
+% long Latin family names and hyphen-less author strings). It only kicks in when
+% a line cannot otherwise be set, so well-fitting lines are left untouched.
+\setlength{\emergencystretch}{3em}
 
 % Define aliases for natbib-style commands
 \let\citet\textcite
@@ -126,11 +147,11 @@
 % --- Metadata Setup ---
 % CALL the commands defined in dissertation.sty to set document specifics.
 % <<<--- THIS BLOCK BELONGS HERE
-\degree{M.Sc.}
 \name{Nicolás Riveras Muñoz}
-\thesis{Biological soil crust and climate effects on soil stabilization, erosion, and nutrient dynamics across the Chilean Coastal Range}
+\thesis{Biological Soil Crusts and Climate Effects on Soil Stabilization, Erosion, and Nutrient Dynamics across the Chilean Coastal Range}
 \keywordlist{list, of, comma, separated, keywords}
-\hometown{Puente Alto}
+\hometown{Puente Alto, Chile}
+\oralexamdate{04.12.2025}
 \dean{Prof.~Dr.~Thilo Stehle}
 \reviewerone{Prof.~Dr.~Thomas Scholten}
 \reviewertwo{PD~Dr.~Harald Neidhardt}
@@ -140,63 +161,129 @@
 % --- Hyphenation ---
 \selectlanguage{english}
 \hyphenation{
-con-cen-tra-ti-ons
+approach
+A-li-cy-clo-bac-ill-a-ceae
+Ar-den-ti-ca-te-na-ceae
+Be-ris-tain
 Bio-crusts
 bio-crusts
-Pseu-do-no-car-di-a-ceae
-So-li-ru-bro-bac-te-ra-ceae
-True-per-a-ceae
-Cau-lo-bac-te-ra-ceae
-Rho-do-bac-te-ra-ceae
-Co-ma-mo-na-da-ceae
+bio-lo-gi-cal
+Blas-to-cat-ell-a-ceae
 Cald-i-li-ne-a-ceae
-A-li-cy-clo-bac-ill-a-ceae
-Plan-o-coc-ca-ceae
-Rey-ra-nel-la-e-ceae
-Ni-tro-so-mo-nad-e-a-ceae
-Ar-den-ti-ca-te-na-ceae
-Sol-i-ru-bro-bac-te-ral-es
+Cau-lo-bac-te-ra-ceae
+Co-ma-mo-na-da-ceae
+con-cen-tra-ti-ons
+chlo-ro-li-chens
 Cy-to-phag-al-es
-Therm-o-mi-cro-bi-o-ma-les
+eco-sys-tem
+Euz-e-by-e-a-ceae
+Gem-ma-ti-mo-na-da-ceae
 Gem-ma-ti-mo-no-da-to-ta
+hy-dro-pho-bi-ci-ty
 Lo-ngi-mi-cro-bi-a-ceae
 My-xoc-oc-ca-ceae
-Po-ly-an-gi-i-a-ceae
-Rh-o-do-mi-cro-bi-a-ceae
+Ni-tro-so-mo-nad-e-a-ceae
 Ni-tro-so-spha-er-a-ceae
-Blas-to-cat-ell-a-ceae
-Pyr-i-no-mo-na-da-ceae
-Vi-ci-na-mi-bac-te-ri-a-ceae
-Euz-e-by-e-a-ceae
 Noc-ar-di-oi-da-ceae
-Rub-ro-bac-te-ri-a-ceae
 Ped-o-spha-e-ra-ceae
-Gem-ma-ti-mo-na-da-ceae
-Plan-trov-a-ceae 
 Pla-no-coc-ca-ceae
+Plan-o-coc-ca-ceae
+Plan-trov-a-ceae
+Po-ly-an-gi-i-a-ceae
+Pseu-do-no-car-di-a-ceae
+Pyr-i-no-mo-na-da-ceae
+Rey-ra-nel-la-e-ceae
+Rh-o-do-mi-cro-bi-a-ceae
+Rho-do-bac-te-ra-ceae
+Rub-ro-bac-te-ri-a-ceae
+Schwei-zer
+Schwei-zer-bart
+So-li-ru-bro-bac-te-ra-ceae
+Sol-i-ru-bro-bac-te-ral-es
+Therm-o-mi-cro-bi-o-ma-les
+True-per-a-ceae
+Vi-ci-na-mi-bac-te-ri-a-ceae
+Vi-lla-dan-gos
+Wet-trock-nungs-zy-klen
 }
 
+% Hyphenation exceptions for German text (e.g., Kurzfassung)
+\selectlanguage{ngerman}
+\hyphenation{
+Wett-rock-nungs-zy-klen
+Labor-Wett-rock-nungs-zy-klen
+Boden-sta-bi-li-sie-rung
+N\"ahr-stoff-dy-na-mik
+Um-welt-gra-di-en-ten
+K\"us-ten-kor-di-lle-re
+Re-gen-sze-na-rio-si-mu-la-tio-nen
+Wur-zel-mi-kro-kos-men
+A-na-ly-se-tech-ni-ken
+Ober-fl\"a-chen-ab-fluss
+sta-bi-li-sie-ren-der
+Ve-ge-ta-tions-de-cke
+Ober-fl\"a-chen-ero-sion
+un-ter-ir-di-schen
+Se-di-ment-ge-bun-de-ne
+Steri-li-sa-tions-ver-su-che
+Ag-gre-gat-bil-dung
+Kli-ma-le-gat-Ef-fek-te
+Ma-kro-ag-gre-ga-tion
+gram-po-si-ti-ven
+par-ti-ku-l\"a-rer
+}
+\selectlanguage{english}
+
 % --- Title Page Setup ---
-\title{\thethesis}
-\author{\Large Dissertation\\ % Content for the author field
-\normalsize der Mathematisch-Naturwissenschaftlichen Fakult\"at\\
-\normalsize der Eberhard Karls Universit\"at T\"ubingen\\
-\normalsize zur Erlangung des Grades eines\\
-\normalsize Doktors der Naturwissenschaften\\
-\normalsize (Dr.~rer.~nat.)}
-\date{\ \\[2ex]\normalsize vorgelegt von\\ % Content for the date field
-\thedegree~\thename\\
-\normalsize aus \thehometown}
-\publishers{\normalsize T\"ubingen\\\normalsize 2025} % Content for the publishers field
+% \fontsize REQUIRES two arguments: {<size>}{<baselineskip>}. The previous
+% \fontsize{18pt}\selectfont was missing the baselineskip, so \selectfont got
+% read as the (illegal) baselineskip -> "! Missing number" / "! Illegal unit"
+% while \maketitle shipped out. 22pt is ~1.2x leading for an 18pt title.
+\title{{\fontsize{18pt}{22pt}\selectfont\bfseries \thethesis}}
+\author{\\[2.4cm]
+  \normalsize\textbf{Dissertation}\\
+  \normalsize der Mathematisch-Naturwissenschaftlichen Fakult\"at\\
+  \normalsize der Eberhard Karls Universit\"at T\"ubingen\\
+  \normalsize zur Erlangung des Grades eines\\
+  \normalsize Doktors der Naturwissenschaften\\
+  \normalsize (Dr.~rer.~nat.)
+}
+% NOTE: the date/publishers content is wrapped in a tabular so the line
+% spacing matches the author block. KOMA typesets \author inside a tabular
+% (locking row spacing to the surrounding font), but sets \date/\publishers
+% as plain paragraphs -- so a bare \normalsize...\\ collapses to the tighter
+% normalsize leading. Putting \normalsize *inside* the cells keeps the
+% generous, uniform spacing while still shrinking the glyphs.
+% \vspace{\stretch{N}} pushes these blocks toward the bottom of the title page
+% so the layout matches the reference. (\vspace vs \vspace* makes no difference
+% here since the glue sits mid-page inside \maketitle, never at a page top.)
+\date{\vspace{\stretch{6}}% Content for the date field
+  \begin{tabular}[t]{@{}c@{}}
+    \normalsize vorgelegt von\\
+    \normalsize \thename\\
+    \normalsize aus \thehometown
+  \end{tabular}}
+\publishers{\vspace{\stretch{4}}%
+  \begin{tabular}[t]{@{}c@{}}
+    \normalsize T\"ubingen\\
+    \normalsize 2025
+  \end{tabular}}
+
 \lowertitleback{ % Content for the back of the title page
     Gedruckt mit Genehmigung der Mathematisch-Naturwissenschaftlichen Fakult\"at der
     Eberhard Karls Universit\"at T\"ubingen. \\ \\ \\
-    \begin{tabular}{@{}lp{.8\textwidth}@{}}
-    Tag der m\"undlichen Qualifikation:& XX.XX.2025\\
-    Dekan:                             & \thedean\\
-    1.~Berichterstatter:               & \thereviewerone\\
-    2.~Berichterstatter:               & \thereviewertwo\\
-\end{tabular}}
+    % Same spacing trick as \date/\publishers above: the surrounding \Large
+    % sets the tabular's row baseline (the rows inherit its generous leading),
+    % while \normalsize in each cell keeps the actual text at its normal size.
+    % Value column is a natural-width l (not p{.8\textwidth}); the wide fixed
+    % column previously reserved more than \textwidth beside the label column,
+    % overrunning the right margin (a 97.9pt overfull box).
+    {\Large\begin{tabular}{@{}l@{\hspace{1.5em}}l@{}}
+  \normalsize Tag der m\"undlichen Qualifikation:& \normalsize \theoralexamdate\\
+    \normalsize Dekan:                             & \normalsize \thedean\\
+    \normalsize 1.~Berichterstatter:               & \normalsize \thereviewerone\\
+    \normalsize 2.~Berichterstatter:               & \normalsize \thereviewertwo\\
+\end{tabular}}}
 
 % --- Selective Compilation ---
 % \includeonly{tex/Introduction, tex/Methodology}
@@ -207,13 +294,23 @@ Pla-no-coc-ca-ceae
 
 \frontmatter
 % \selectlanguage{ngerman} % Usually not needed here unless \maketitle uses language-specific terms
+\newgeometry{
+  top=20mm,
+  bottom=20mm,
+  left=35mm,
+  right=30mm
+}
 \maketitle
+\restoregeometry
 \selectlanguage{english} % Ensure English is active for main content
 
 % --- Front Matter Sections ---
 \include{tex/Abstract}
 \selectlanguage{ngerman}
+\begingroup
+\setlength{\emergencystretch}{0.5em}
 \include{tex/Kurzfassung}
+\endgroup
 \selectlanguage{english}
 % \include{tex/Acknowledgments}
 
@@ -258,20 +355,21 @@ Pla-no-coc-ca-ceae
 % This prevents the "Appendix A: Title" text from being printed on the page
 \renewcommand{\chapterlinesformat}[3]{%
     \ifstr{#1}{chapter}{% Check if the sectioning level is 'chapter'
-        % If it IS a chapter, do nothing to suppress the heading on the page
-        \@afterindentfalse % Standard KOMA internal setting
-        \@afterheading     % Standard KOMA internal command
+    % If it IS a chapter, suppress heading text on the page.
     }{% If it's NOT a chapter (e.g., part), use the original command
         \originalchapterlinesformat{#1}{#2}{#3}%
     }%
 }
-\renewcommand{\chapterlineswithprefixformat}[4]{%
+% NOTE: KOMA-Script's \chapterlineswithprefixformat takes THREE arguments
+% (level, prefix line, title) -- not four. Declaring it with [4] made the
+% argument scanner consume the \par after the heading as a bogus 4th argument,
+% producing "! Argument ... has an extra }" + "! Paragraph ended before ...
+% complete" for every manuscript chapter. Use [3] to match KOMA.
+\renewcommand{\chapterlineswithprefixformat}[3]{%
      \ifstr{#1}{chapter}{% Check if the sectioning level is 'chapter'
-        % If it IS a chapter, do nothing to suppress the heading on the page
-        \@afterindentfalse % Standard KOMA internal setting
-        \@afterheading     % Standard KOMA internal command
+    % If it IS a chapter, suppress heading text on the page.
      }{% If it's NOT a chapter (e.g., part), use the original command
-        \originalchapterlineswithprefixformat{#1}{#2}{#3}{#4}%
+        \originalchapterlineswithprefixformat{#1}{#2}{#3}%
      }%
 }
 \makeatother

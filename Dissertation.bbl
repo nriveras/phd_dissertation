@@ -565,7 +565,7 @@
       \field{issn}{12900796}
       \field{journaltitle}{Cryptogamie Bryologie}
       \field{number}{2}
-      \field{title}{A note on the moss genus Codriophorus P. Beauv}
+      \field{title}{A note on the moss genus \textit{Codriophorus} P. Beauv}
       \field{type}{Journal Article}
       \field{volume}{22}
       \field{year}{2001}
@@ -1225,7 +1225,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Methods of Soil Analysis, Part 1: Physical and Mineralogical Methods}
+      \field{booktitle}{Methods of Soil Analysis, {Part 1}: {Physical} and Mineralogical Methods}
       \field{edition}{2nd}
       \field{isbn}{0891188118}
       \field{series}{Agronomy Monograph}
@@ -2042,7 +2042,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{0960-3115}
       \field{journaltitle}{Biodiversity and conservation}
-      \field{title}{Climate and small scale factors determine functional diversity shifts of biological soil crusts in Iberian drylands}
+      \field{title}{Climate and small scale factors determine functional diversity shifts of biological soil crusts in {Iberian} drylands}
       \field{type}{Journal Article}
       \field{volume}{23}
       \field{year}{2014}
@@ -3126,6 +3126,9 @@
       \field{annotation}{R package version 4.3-0}
       \field{title}{Package ‘hmisc’}
       \field{year}{2019}
+      \verb{doi}
+      \verb 10.32614/CRAN.package.Hmisc
+      \endverb
     \endentry
     \entry{He1998}{article}{}{}
       \name{author}{1}{}{%
@@ -3246,7 +3249,7 @@
       \field{labeltitlesource}{title}
       \field{isbn}{9783510652464}
       \field{month}{12}
-      \field{title}{Die physikalische Untersuchung von Böden}
+      \field{title}{Die physikalische {Untersuchung} von {B}öden}
       \field{year}{2009}
       \verb{urlraw}
       \verb http://www.schweizerbart.de//publications/detail/isbn/9783510652464/Hartge\_Horn\_Die\_physikalische\_Untersuc
@@ -3927,7 +3930,7 @@
       \field{abstract}{Soils are the most heterogeneous parts of the biosphere, with an extremely high differentiation of properties and processes within nano- to macroscales. The spatial and temporal heterogeneity of input of labile organics by plants creates microbial hotspots over short periods of time – the hot moments. We define microbial hotspots as small soil volumes with much faster process rates and much more intensive interactions compared to the average soil conditions. Such hotspots are found in the rhizosphere, detritusphere, biopores (including drilosphere) and on aggregate surfaces, but hotspots are frequently of mixed origin. Hot moments are short-term events or sequences of events inducing accelerated process rates as compared to the average rates. Thus, hotspots and hot moments are defined by dynamic characteristics, i.e. by process rates. For this hotspot concept we extensively reviewed and examined the localization and size of hotspots, spatial distribution and visualization approaches, transport of labile C to and from hotspots, lifetime and process intensities, with a special focus on process rates and microbial activities. The fraction of active microorganisms in hotspots is 2–20 times higher than in the bulk soil, and their specific activities (i.e. respiration, microbial growth, mineralization potential, enzyme activities, RNA/DNA ratio) may also be much higher. The duration of hot moments in the rhizosphere is limited and is controlled by the length of the input of labile organics. It can last a few hours up to a few days. In the detritusphere, however, the duration of hot moments is regulated by the output – by decomposition rates of litter – and lasts for weeks and months. Hot moments induce succession in microbial communities and intense intra- and interspecific competition affecting C use efficiency, microbial growth and turnover. The faster turnover and lower C use efficiency in hotspots counterbalances the high C inputs, leading to the absence of strong increases in C stocks. Consequently, the intensification of fluxes is much stronger than the increase of pools. Maintenance of stoichiometric ratios by accelerated microbial growth in hotspots requires additional nutrients (e.g. N and P), causing their microbial mining from soil organic matter, i.e. priming effects. Consequently, priming effects are localized in microbial hotspots and are consequences of hot moments. We estimated the contribution of the hotspots to the whole soil profile and suggested that, irrespective of their volume, the hotspots are mainly responsible for the ecologically relevant processes in soil. By this review, we raised the importance of concepts and ecological theory of distribution and functioning of microorganisms in soil.}
       \field{issn}{0038-0717}
       \field{journaltitle}{Soil Biology and Biochemistry}
-      \field{title}{Microbial hotspots and hot moments in soil: Concept & review}
+      \field{title}{Microbial hotspots and hot moments in soil: {Concept} \& review}
       \field{volume}{83}
       \field{year}{2015}
       \field{pages}{184\bibrangedash 199}
@@ -4916,7 +4919,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Environmental Microbiology}
-      \field{title}{Every base matters: assessing small subunit rRNA primers for marine microbiomes with mock communities, time series and global field samples}
+      \field{title}{Every base matters: assessing small subunit {rRNA} primers for marine microbiomes with mock communities, time series and global field samples}
       \field{volume}{18}
       \field{year}{2016}
       \field{pages}{1403\bibrangedash 1414}
@@ -5147,7 +5150,7 @@
       \field{issn}{2073-4441}
       \field{journaltitle}{Water}
       \field{number}{7}
-      \field{title}{A Rainfall Intensity Data Rescue Initiative for {Central Chile} Utilizing a Pluviograph Strip Charts Reader {(PSCR)}}
+      \field{title}{A Rainfall Intensity Data Rescue Initiative for {Central Chile} Utilizing a {Pluviograph Strip Charts Reader} {(PSCR)}}
       \field{type}{Journal Article}
       \field{volume}{12}
       \field{year}{2020}
@@ -5226,7 +5229,7 @@
       \field{issn}{1726-4170}
       \field{journaltitle}{Biogeosciences}
       \field{number}{13}
-      \field{title}{From fibrous plant residues to mineral-associated organic carbon–the fate of organic matter in {Arctic} permafrost soils}
+      \field{title}{From fibrous plant residues to mineral-associated organic carbon – the fate of organic matter in {Arctic} permafrost soils}
       \field{volume}{17}
       \field{year}{2020}
       \field{pages}{3367\bibrangedash 3383}
@@ -5714,7 +5717,7 @@
       \field{issn}{1936-0584 1936-0592}
       \field{journaltitle}{Ecohydrology}
       \field{number}{6}
-      \field{title}{Runoff from biocrust: A vital resource for vegetation performance on Mediterranean steppes}
+      \field{title}{Runoff from biocrust: A vital resource for vegetation performance on {Mediterranean} steppes}
       \field{type}{Journal Article}
       \field{volume}{11}
       \field{year}{2018}
@@ -5845,7 +5848,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Atlas agroclimático de Chile. Estado actual y tendencias del clima. Tomo II: Regiones de Atacama y Coquimbo}
+      \field{title}{Atlas agroclimático de {Chile}. Estado actual y tendencias del clima. {Tomo II}: Regiones de {Atacama} y {Coquimbo}}
       \field{type}{Book}
       \field{year}{2017}
     \endentry
@@ -6661,7 +6664,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{R: A language and environment for statistical computing}
+      \field{title}{R: {A} language and environment for statistical computing}
       \field{type}{Computer Program}
       \field{year}{2018}
       \field{pages}{2}
@@ -7344,7 +7347,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{0167-1987}
       \field{journaltitle}{Soil and Tillage Research}
-      \field{title}{Biocrust succession improves soil aggregate stability of subsurface after “Grain for Green” Project in the Hilly Loess Plateau, China}
+      \field{title}{Biocrust succession improves soil aggregate stability of subsurface after {“Grain for Green”} Project in the {Hilly Loess Plateau}, {China}}
       \field{volume}{217}
       \field{year}{2022}
       \field{pages}{105290}
@@ -8052,7 +8055,7 @@
       \field{issn}{12900796}
       \field{journaltitle}{Cryptogamie Bryologie}
       \field{number}{2}
-      \field{title}{A note on the moss genus Codriophorus P. Beauv}
+      \field{title}{A note on the moss genus \textit{Codriophorus} P. Beauv}
       \field{type}{Journal Article}
       \field{volume}{22}
       \field{year}{2001}
@@ -8712,7 +8715,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Methods of Soil Analysis, Part 1: Physical and Mineralogical Methods}
+      \field{booktitle}{Methods of Soil Analysis, {Part 1}: {Physical} and Mineralogical Methods}
       \field{edition}{2nd}
       \field{isbn}{0891188118}
       \field{series}{Agronomy Monograph}
@@ -9529,7 +9532,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{0960-3115}
       \field{journaltitle}{Biodiversity and conservation}
-      \field{title}{Climate and small scale factors determine functional diversity shifts of biological soil crusts in Iberian drylands}
+      \field{title}{Climate and small scale factors determine functional diversity shifts of biological soil crusts in {Iberian} drylands}
       \field{type}{Journal Article}
       \field{volume}{23}
       \field{year}{2014}
@@ -10613,6 +10616,9 @@
       \field{annotation}{R package version 4.3-0}
       \field{title}{Package ‘hmisc’}
       \field{year}{2019}
+      \verb{doi}
+      \verb 10.32614/CRAN.package.Hmisc
+      \endverb
     \endentry
     \entry{He1998}{article}{}{}
       \name{author}{1}{}{%
@@ -10733,7 +10739,7 @@
       \field{labeltitlesource}{title}
       \field{isbn}{9783510652464}
       \field{month}{12}
-      \field{title}{Die physikalische Untersuchung von Böden}
+      \field{title}{Die physikalische {Untersuchung} von {B}öden}
       \field{year}{2009}
       \verb{urlraw}
       \verb http://www.schweizerbart.de//publications/detail/isbn/9783510652464/Hartge\_Horn\_Die\_physikalische\_Untersuc
@@ -11414,7 +11420,7 @@
       \field{abstract}{Soils are the most heterogeneous parts of the biosphere, with an extremely high differentiation of properties and processes within nano- to macroscales. The spatial and temporal heterogeneity of input of labile organics by plants creates microbial hotspots over short periods of time – the hot moments. We define microbial hotspots as small soil volumes with much faster process rates and much more intensive interactions compared to the average soil conditions. Such hotspots are found in the rhizosphere, detritusphere, biopores (including drilosphere) and on aggregate surfaces, but hotspots are frequently of mixed origin. Hot moments are short-term events or sequences of events inducing accelerated process rates as compared to the average rates. Thus, hotspots and hot moments are defined by dynamic characteristics, i.e. by process rates. For this hotspot concept we extensively reviewed and examined the localization and size of hotspots, spatial distribution and visualization approaches, transport of labile C to and from hotspots, lifetime and process intensities, with a special focus on process rates and microbial activities. The fraction of active microorganisms in hotspots is 2–20 times higher than in the bulk soil, and their specific activities (i.e. respiration, microbial growth, mineralization potential, enzyme activities, RNA/DNA ratio) may also be much higher. The duration of hot moments in the rhizosphere is limited and is controlled by the length of the input of labile organics. It can last a few hours up to a few days. In the detritusphere, however, the duration of hot moments is regulated by the output – by decomposition rates of litter – and lasts for weeks and months. Hot moments induce succession in microbial communities and intense intra- and interspecific competition affecting C use efficiency, microbial growth and turnover. The faster turnover and lower C use efficiency in hotspots counterbalances the high C inputs, leading to the absence of strong increases in C stocks. Consequently, the intensification of fluxes is much stronger than the increase of pools. Maintenance of stoichiometric ratios by accelerated microbial growth in hotspots requires additional nutrients (e.g. N and P), causing their microbial mining from soil organic matter, i.e. priming effects. Consequently, priming effects are localized in microbial hotspots and are consequences of hot moments. We estimated the contribution of the hotspots to the whole soil profile and suggested that, irrespective of their volume, the hotspots are mainly responsible for the ecologically relevant processes in soil. By this review, we raised the importance of concepts and ecological theory of distribution and functioning of microorganisms in soil.}
       \field{issn}{0038-0717}
       \field{journaltitle}{Soil Biology and Biochemistry}
-      \field{title}{Microbial hotspots and hot moments in soil: Concept & review}
+      \field{title}{Microbial hotspots and hot moments in soil: {Concept} \& review}
       \field{volume}{83}
       \field{year}{2015}
       \field{pages}{184\bibrangedash 199}
@@ -12403,7 +12409,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Environmental Microbiology}
-      \field{title}{Every base matters: assessing small subunit rRNA primers for marine microbiomes with mock communities, time series and global field samples}
+      \field{title}{Every base matters: assessing small subunit {rRNA} primers for marine microbiomes with mock communities, time series and global field samples}
       \field{volume}{18}
       \field{year}{2016}
       \field{pages}{1403\bibrangedash 1414}
@@ -12634,7 +12640,7 @@
       \field{issn}{2073-4441}
       \field{journaltitle}{Water}
       \field{number}{7}
-      \field{title}{A Rainfall Intensity Data Rescue Initiative for {Central Chile} Utilizing a Pluviograph Strip Charts Reader {(PSCR)}}
+      \field{title}{A Rainfall Intensity Data Rescue Initiative for {Central Chile} Utilizing a {Pluviograph Strip Charts Reader} {(PSCR)}}
       \field{type}{Journal Article}
       \field{volume}{12}
       \field{year}{2020}
@@ -12713,7 +12719,7 @@
       \field{issn}{1726-4170}
       \field{journaltitle}{Biogeosciences}
       \field{number}{13}
-      \field{title}{From fibrous plant residues to mineral-associated organic carbon–the fate of organic matter in {Arctic} permafrost soils}
+      \field{title}{From fibrous plant residues to mineral-associated organic carbon – the fate of organic matter in {Arctic} permafrost soils}
       \field{volume}{17}
       \field{year}{2020}
       \field{pages}{3367\bibrangedash 3383}
@@ -13201,7 +13207,7 @@
       \field{issn}{1936-0584 1936-0592}
       \field{journaltitle}{Ecohydrology}
       \field{number}{6}
-      \field{title}{Runoff from biocrust: A vital resource for vegetation performance on Mediterranean steppes}
+      \field{title}{Runoff from biocrust: A vital resource for vegetation performance on {Mediterranean} steppes}
       \field{type}{Journal Article}
       \field{volume}{11}
       \field{year}{2018}
@@ -13332,7 +13338,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Atlas agroclimático de Chile. Estado actual y tendencias del clima. Tomo II: Regiones de Atacama y Coquimbo}
+      \field{title}{Atlas agroclimático de {Chile}. Estado actual y tendencias del clima. {Tomo II}: Regiones de {Atacama} y {Coquimbo}}
       \field{type}{Book}
       \field{year}{2017}
     \endentry
@@ -14148,7 +14154,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{R: A language and environment for statistical computing}
+      \field{title}{R: {A} language and environment for statistical computing}
       \field{type}{Computer Program}
       \field{year}{2018}
       \field{pages}{2}
@@ -14831,7 +14837,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{0167-1987}
       \field{journaltitle}{Soil and Tillage Research}
-      \field{title}{Biocrust succession improves soil aggregate stability of subsurface after “Grain for Green” Project in the Hilly Loess Plateau, China}
+      \field{title}{Biocrust succession improves soil aggregate stability of subsurface after {“Grain for Green”} Project in the {Hilly Loess Plateau}, {China}}
       \field{volume}{217}
       \field{year}{2022}
       \field{pages}{105290}
@@ -16383,7 +16389,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{The ISME Journal}
       \field{number}{10}
-      \field{title}{Habitat stress initiates changes in composition, {CO}{\textbackslash}textsubscript2 gas exchange and {C}-allocation as life traits in biological soil crusts}
+      \field{title}{Habitat stress initiates changes in composition, {CO}\textsubscript{2} gas exchange and {C}-allocation as life traits in biological soil crusts}
       \field{volume}{8}
       \field{year}{2014}
       \field{pages}{2104\bibrangedash 2115}
@@ -17329,7 +17335,7 @@
       \field{issn}{1435-0661}
       \field{journaltitle}{Soil Science Society of America Journal}
       \field{number}{2}
-      \field{title}{Representation of {Soil} {Aggregate}-{Size} {Distribution} by a {Logarithmic}-{Normal} {Distribution}}
+      \field{title}{Representation of soil aggregate-size distribution by a {Logarithmic}-{Normal} distribution}
       \field{urlday}{4}
       \field{urlmonth}{4}
       \field{urlyear}{2025}
@@ -17696,7 +17702,7 @@
       \field{labeltitlesource}{title}
       \field{isbn}{9783510652464}
       \field{month}{12}
-      \field{title}{Die physikalische Untersuchung von Böden}
+      \field{title}{Die physikalische {Untersuchung} von {B}öden}
       \field{year}{2009}
       \verb{urlraw}
       \verb http://www.schweizerbart.de//publications/detail/isbn/9783510652464/Hartge\_Horn\_Die\_physikalische\_Untersuc
@@ -17996,7 +18002,7 @@
       \endverb
       \keyw{gas exchange,ITS,lichen,lichenicolous fungi,rbcL,Trebouxia}
     \endentry
-    \entry{Jung2020a}{article}{}{}
+    \entry{Jung2020b}{article}{}{}
       \name{author}{13}{}{%
         {{un=0,uniquepart=base,hash=8cba1e15d448d8d74b29fcaf0ea1430c}{%
            family={Jung},
@@ -18094,16 +18100,19 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Abstract The Atacama Desert is the driest non-polar desert on Earth, presenting precarious conditions for biological activity. In the arid coastal belt, life is restricted to areas with fog events that cause almost daily wet-dry cycles. In such an area, we discovered a hitherto unknown and unique ground covering biocenosis dominated by lichens, fungi, and algae attached to grit-sized ( 6 mm) quartz and granitoid stones. Comparable biocenosis forming a kind of a layer on top of soil and rock surfaces in general is summarized as cryptogamic ground covers (CGC) in literature. In contrast to known CGC from arid environments to which frequent cyclic wetting events are lethal, in the Atacama Desert every fog event is answered by photosynthetic activity of the soil community and thus considered as the desert's breath. Photosynthesis of the new CGC type is activated by the lowest amount of water known for such a community worldwide thus enabling the unique biocenosis to fulfill a variety of ecosystem services. In a considerable portion of the coastal Atacama Desert, it protects the soil from sporadically occurring splash erosion and contributes to the accumulation of soil carbon and nitrogen as well as soil formation through bio-weathering. The structure and function of the new CGC type are discussed, and we suggest the name grit-crust. We conclude that this type of CGC can be expected in all non-polar fog deserts of the world and may resemble the cryptogam communities that shaped ancient Earth. It may thus represent a relevant player in current and ancient biogeochemical cycling.}
+      \field{abstract}{Abstract The Atacama Desert is the driest non-polar desert on Earth, presenting precarious conditions for biological activity. In the arid coastal belt, life is restricted to areas with fog events that cause almost daily wet-dry cycles. In such an area, we discovered a hitherto unknown and unique ground covering biocenosis dominated by lichens, fungi, and algae attached to grit-sized (~6 mm) quartz and granitoid stones. Comparable biocenosis forming a kind of a layer on top of soil and rock surfaces in general is summarized as cryptogamic ground covers (CGC) in literature. In contrast to known CGC from arid environments to which frequent cyclic wetting events are lethal, in the Atacama Desert every fog event is answered by photosynthetic activity of the soil community and thus considered as the desert's breath. Photosynthesis of the new CGC type is activated by the lowest amount of water known for such a community worldwide thus enabling the unique biocenosis to fulfill a variety of ecosystem services. In a considerable portion of the coastal Atacama Desert, it protects the soil from sporadically occurring splash erosion and contributes to the accumulation of soil carbon and nitrogen as well as soil formation through bio-weathering. The structure and function of the new CGC type are discussed, and we suggest the name grit-crust. We conclude that this type of CGC can be expected in all non-polar fog deserts of the world and may resemble the cryptogam communities that shaped ancient Earth. It may thus represent a relevant player in current and ancient biogeochemical cycling.}
       \field{journaltitle}{Geobiology}
       \field{number}{1}
-      \field{title}{Desert breath—{How} fog promotes a novel type of soil biocenosis, forming the coastal {Atacama} {Desert}'s living skin}
+      \field{title}{Desert breath — {How} fog promotes a novel type of soil biocenosis, forming the coastal {Atacama} {Desert}'s living skin}
       \field{volume}{18}
       \field{year}{2020}
       \field{pages}{113\bibrangedash 124}
       \range{pages}{12}
       \verb{doi}
       \verb 10.1111/gbi.12368
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/gbi.12368
       \endverb
       \verb{urlraw}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/gbi.12368
@@ -18112,7 +18121,7 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/gbi.12368
       \endverb
     \endentry
-    \entry{Jung2020b}{article}{}{}
+    \entry{Jung2020a}{article}{}{}
       \name{author}{13}{}{%
         {{un=0,uniquepart=base,hash=8cba1e15d448d8d74b29fcaf0ea1430c}{%
            family={Jung},
@@ -18210,19 +18219,16 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Abstract The Atacama Desert is the driest non-polar desert on Earth, presenting precarious conditions for biological activity. In the arid coastal belt, life is restricted to areas with fog events that cause almost daily wet-dry cycles. In such an area, we discovered a hitherto unknown and unique ground covering biocenosis dominated by lichens, fungi, and algae attached to grit-sized (~6 mm) quartz and granitoid stones. Comparable biocenosis forming a kind of a layer on top of soil and rock surfaces in general is summarized as cryptogamic ground covers (CGC) in literature. In contrast to known CGC from arid environments to which frequent cyclic wetting events are lethal, in the Atacama Desert every fog event is answered by photosynthetic activity of the soil community and thus considered as the desert's breath. Photosynthesis of the new CGC type is activated by the lowest amount of water known for such a community worldwide thus enabling the unique biocenosis to fulfill a variety of ecosystem services. In a considerable portion of the coastal Atacama Desert, it protects the soil from sporadically occurring splash erosion and contributes to the accumulation of soil carbon and nitrogen as well as soil formation through bio-weathering. The structure and function of the new CGC type are discussed, and we suggest the name grit-crust. We conclude that this type of CGC can be expected in all non-polar fog deserts of the world and may resemble the cryptogam communities that shaped ancient Earth. It may thus represent a relevant player in current and ancient biogeochemical cycling.}
+      \field{abstract}{Abstract The Atacama Desert is the driest non-polar desert on Earth, presenting precarious conditions for biological activity. In the arid coastal belt, life is restricted to areas with fog events that cause almost daily wet-dry cycles. In such an area, we discovered a hitherto unknown and unique ground covering biocenosis dominated by lichens, fungi, and algae attached to grit-sized ( 6 mm) quartz and granitoid stones. Comparable biocenosis forming a kind of a layer on top of soil and rock surfaces in general is summarized as cryptogamic ground covers (CGC) in literature. In contrast to known CGC from arid environments to which frequent cyclic wetting events are lethal, in the Atacama Desert every fog event is answered by photosynthetic activity of the soil community and thus considered as the desert's breath. Photosynthesis of the new CGC type is activated by the lowest amount of water known for such a community worldwide thus enabling the unique biocenosis to fulfill a variety of ecosystem services. In a considerable portion of the coastal Atacama Desert, it protects the soil from sporadically occurring splash erosion and contributes to the accumulation of soil carbon and nitrogen as well as soil formation through bio-weathering. The structure and function of the new CGC type are discussed, and we suggest the name grit-crust. We conclude that this type of CGC can be expected in all non-polar fog deserts of the world and may resemble the cryptogam communities that shaped ancient Earth. It may thus represent a relevant player in current and ancient biogeochemical cycling.}
       \field{journaltitle}{Geobiology}
       \field{number}{1}
-      \field{title}{Desert breath—How fog promotes a novel type of soil biocenosis, forming the coastal Atacama Desert's living skin}
+      \field{title}{Desert breath—{How} fog promotes a novel type of soil biocenosis, forming the coastal {Atacama} {Desert}'s living skin}
       \field{volume}{18}
       \field{year}{2020}
       \field{pages}{113\bibrangedash 124}
       \range{pages}{12}
       \verb{doi}
       \verb 10.1111/gbi.12368
-      \endverb
-      \verb{eprint}
-      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/gbi.12368
       \endverb
       \verb{urlraw}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/gbi.12368
@@ -19050,7 +19056,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Flora {Criptogámica} de {Tierra} del {Fuego}}
-      \field{title}{Bryophyta, {Musci}: {Amblystegiaceae}}
+      \field{title}{Bryophyta, {Musci}: \textit{Amblystegiaceae}}
       \field{volume}{14}
       \field{year}{2001}
       \field{pages}{1\bibrangedash 96}
@@ -19263,7 +19269,7 @@
       \field{abstract}{The Chilean Coastal Cordillera features a spectacular climate and vegetation gradient, ranging from arid and unvegetated areas in the north to humid and forested areas in the south. The EarthShape project (“Earth Surface Shaping by Biota”) uses this natural gradient to investigate how climate and biological processes shape the Earth's surface. We explored the Critical Zone, the Earth's uppermost layer, in four key sites located in desert, semidesert, Mediterranean, and temperate climate zones of the Coastal Cordillera, with the focus on weathering of granitic rock. Here, we present first results from 16 approximately 2 m-deep regolith profiles to document: (1) architecture of weathering zone; (2) degree and rate of rock weathering, thus the release of mineral-derived nutrients to the terrestrial ecosystems; (3) denudation rates; and (4) microbial abundances of bacteria and archaea in the saprolite. From north to south, denudation rates from cosmogenic nuclides are ~10 t km-2 yr-1 at the arid Pan de Azúcar site, ~20 t km-2 yr-1 at the semi-arid site of Santa Gracia, ~60 t km-2 yr-1 at the Mediterranean climate site of La Campana, and ~30 t km-2 yr-1 at the humid site of Nahuelbuta. A and B horizons increase in thickness and elemental depletion or enrichment increases from north (~26°S) to south (~38°S) in these horizons. Differences in the degree of chemical weathering, quantified by the chemical depletion fraction (CDF), are significant only between the arid and sparsely vegetated site and the other three sites. Differences in the CDF between the sites, and elemental depletion within the sites are sometimes smaller than the variations induced by the bedrock heterogeneity. Microbial abundances (bacteria and archaea) in saprolite substantially increase from the arid to the semi-arid sites. With this study, we provide a comprehensive dataset characterizing the Critical Zone geochemistry in the Chilean Coastal Cordillera. This dataset confirms climatic controls on weathering and denudation rates and provides prerequisites to quantify the role of biota in future studies.}
       \field{issn}{0341-8162}
       \field{journaltitle}{CATENA}
-      \field{title}{Chemistry and microbiology of the Critical Zone along a steep climate and vegetation gradient in the Chilean Coastal Cordillera}
+      \field{title}{Chemistry and microbiology of the {Critical} {Zone} along a steep climate and vegetation gradient in the {Chilean} {Coastal} {Cordillera}}
       \field{volume}{170}
       \field{year}{2018}
       \field{pages}{183\bibrangedash 203}
@@ -20263,7 +20269,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{R: A language and environment for statistical computing}
+      \field{title}{R: {A} language and environment for statistical computing}
       \field{type}{Computer Program}
       \field{year}{2018}
       \field{pages}{2}
@@ -20471,7 +20477,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Soil Science Society of America Journal}
       \field{number}{C}
-      \field{title}{Mean Weight-Diameter of Soil Aggregates as a Statistical Index of Aggregation}
+      \field{title}{{Mean Weight-Diameter} of Soil Aggregates as a Statistical Index of Aggregation}
       \field{volume}{14}
       \field{year}{1950}
       \field{pages}{20\bibrangedash 23}
@@ -22103,7 +22109,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{The ISME Journal}
       \field{number}{10}
-      \field{title}{Habitat stress initiates changes in composition, {CO}{\textbackslash}textsubscript2 gas exchange and {C}-allocation as life traits in biological soil crusts}
+      \field{title}{Habitat stress initiates changes in composition, {CO}\textsubscript{2} gas exchange and {C}-allocation as life traits in biological soil crusts}
       \field{volume}{8}
       \field{year}{2014}
       \field{pages}{2104\bibrangedash 2115}
@@ -23049,7 +23055,7 @@
       \field{issn}{1435-0661}
       \field{journaltitle}{Soil Science Society of America Journal}
       \field{number}{2}
-      \field{title}{Representation of {Soil} {Aggregate}-{Size} {Distribution} by a {Logarithmic}-{Normal} {Distribution}}
+      \field{title}{Representation of soil aggregate-size distribution by a {Logarithmic}-{Normal} distribution}
       \field{urlday}{4}
       \field{urlmonth}{4}
       \field{urlyear}{2025}
@@ -23416,7 +23422,7 @@
       \field{labeltitlesource}{title}
       \field{isbn}{9783510652464}
       \field{month}{12}
-      \field{title}{Die physikalische Untersuchung von Böden}
+      \field{title}{Die physikalische {Untersuchung} von {B}öden}
       \field{year}{2009}
       \verb{urlraw}
       \verb http://www.schweizerbart.de//publications/detail/isbn/9783510652464/Hartge\_Horn\_Die\_physikalische\_Untersuc
@@ -23606,7 +23612,7 @@
       \field{title}{Guidelines for soil description}
       \field{year}{2006}
     \endentry
-    \entry{Jung2020a}{article}{}{}
+    \entry{Jung2020b}{article}{}{}
       \name{author}{13}{}{%
         {{un=0,uniquepart=base,hash=8cba1e15d448d8d74b29fcaf0ea1430c}{%
            family={Jung},
@@ -23704,16 +23710,19 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Abstract The Atacama Desert is the driest non-polar desert on Earth, presenting precarious conditions for biological activity. In the arid coastal belt, life is restricted to areas with fog events that cause almost daily wet-dry cycles. In such an area, we discovered a hitherto unknown and unique ground covering biocenosis dominated by lichens, fungi, and algae attached to grit-sized ( 6 mm) quartz and granitoid stones. Comparable biocenosis forming a kind of a layer on top of soil and rock surfaces in general is summarized as cryptogamic ground covers (CGC) in literature. In contrast to known CGC from arid environments to which frequent cyclic wetting events are lethal, in the Atacama Desert every fog event is answered by photosynthetic activity of the soil community and thus considered as the desert's breath. Photosynthesis of the new CGC type is activated by the lowest amount of water known for such a community worldwide thus enabling the unique biocenosis to fulfill a variety of ecosystem services. In a considerable portion of the coastal Atacama Desert, it protects the soil from sporadically occurring splash erosion and contributes to the accumulation of soil carbon and nitrogen as well as soil formation through bio-weathering. The structure and function of the new CGC type are discussed, and we suggest the name grit-crust. We conclude that this type of CGC can be expected in all non-polar fog deserts of the world and may resemble the cryptogam communities that shaped ancient Earth. It may thus represent a relevant player in current and ancient biogeochemical cycling.}
+      \field{abstract}{Abstract The Atacama Desert is the driest non-polar desert on Earth, presenting precarious conditions for biological activity. In the arid coastal belt, life is restricted to areas with fog events that cause almost daily wet-dry cycles. In such an area, we discovered a hitherto unknown and unique ground covering biocenosis dominated by lichens, fungi, and algae attached to grit-sized (~6 mm) quartz and granitoid stones. Comparable biocenosis forming a kind of a layer on top of soil and rock surfaces in general is summarized as cryptogamic ground covers (CGC) in literature. In contrast to known CGC from arid environments to which frequent cyclic wetting events are lethal, in the Atacama Desert every fog event is answered by photosynthetic activity of the soil community and thus considered as the desert's breath. Photosynthesis of the new CGC type is activated by the lowest amount of water known for such a community worldwide thus enabling the unique biocenosis to fulfill a variety of ecosystem services. In a considerable portion of the coastal Atacama Desert, it protects the soil from sporadically occurring splash erosion and contributes to the accumulation of soil carbon and nitrogen as well as soil formation through bio-weathering. The structure and function of the new CGC type are discussed, and we suggest the name grit-crust. We conclude that this type of CGC can be expected in all non-polar fog deserts of the world and may resemble the cryptogam communities that shaped ancient Earth. It may thus represent a relevant player in current and ancient biogeochemical cycling.}
       \field{journaltitle}{Geobiology}
       \field{number}{1}
-      \field{title}{Desert breath—{How} fog promotes a novel type of soil biocenosis, forming the coastal {Atacama} {Desert}'s living skin}
+      \field{title}{Desert breath — {How} fog promotes a novel type of soil biocenosis, forming the coastal {Atacama} {Desert}'s living skin}
       \field{volume}{18}
       \field{year}{2020}
       \field{pages}{113\bibrangedash 124}
       \range{pages}{12}
       \verb{doi}
       \verb 10.1111/gbi.12368
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/gbi.12368
       \endverb
       \verb{urlraw}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/gbi.12368
@@ -23722,7 +23731,7 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/gbi.12368
       \endverb
     \endentry
-    \entry{Jung2020b}{article}{}{}
+    \entry{Jung2020a}{article}{}{}
       \name{author}{13}{}{%
         {{un=0,uniquepart=base,hash=8cba1e15d448d8d74b29fcaf0ea1430c}{%
            family={Jung},
@@ -23820,19 +23829,16 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Abstract The Atacama Desert is the driest non-polar desert on Earth, presenting precarious conditions for biological activity. In the arid coastal belt, life is restricted to areas with fog events that cause almost daily wet-dry cycles. In such an area, we discovered a hitherto unknown and unique ground covering biocenosis dominated by lichens, fungi, and algae attached to grit-sized (~6 mm) quartz and granitoid stones. Comparable biocenosis forming a kind of a layer on top of soil and rock surfaces in general is summarized as cryptogamic ground covers (CGC) in literature. In contrast to known CGC from arid environments to which frequent cyclic wetting events are lethal, in the Atacama Desert every fog event is answered by photosynthetic activity of the soil community and thus considered as the desert's breath. Photosynthesis of the new CGC type is activated by the lowest amount of water known for such a community worldwide thus enabling the unique biocenosis to fulfill a variety of ecosystem services. In a considerable portion of the coastal Atacama Desert, it protects the soil from sporadically occurring splash erosion and contributes to the accumulation of soil carbon and nitrogen as well as soil formation through bio-weathering. The structure and function of the new CGC type are discussed, and we suggest the name grit-crust. We conclude that this type of CGC can be expected in all non-polar fog deserts of the world and may resemble the cryptogam communities that shaped ancient Earth. It may thus represent a relevant player in current and ancient biogeochemical cycling.}
+      \field{abstract}{Abstract The Atacama Desert is the driest non-polar desert on Earth, presenting precarious conditions for biological activity. In the arid coastal belt, life is restricted to areas with fog events that cause almost daily wet-dry cycles. In such an area, we discovered a hitherto unknown and unique ground covering biocenosis dominated by lichens, fungi, and algae attached to grit-sized ( 6 mm) quartz and granitoid stones. Comparable biocenosis forming a kind of a layer on top of soil and rock surfaces in general is summarized as cryptogamic ground covers (CGC) in literature. In contrast to known CGC from arid environments to which frequent cyclic wetting events are lethal, in the Atacama Desert every fog event is answered by photosynthetic activity of the soil community and thus considered as the desert's breath. Photosynthesis of the new CGC type is activated by the lowest amount of water known for such a community worldwide thus enabling the unique biocenosis to fulfill a variety of ecosystem services. In a considerable portion of the coastal Atacama Desert, it protects the soil from sporadically occurring splash erosion and contributes to the accumulation of soil carbon and nitrogen as well as soil formation through bio-weathering. The structure and function of the new CGC type are discussed, and we suggest the name grit-crust. We conclude that this type of CGC can be expected in all non-polar fog deserts of the world and may resemble the cryptogam communities that shaped ancient Earth. It may thus represent a relevant player in current and ancient biogeochemical cycling.}
       \field{journaltitle}{Geobiology}
       \field{number}{1}
-      \field{title}{Desert breath—How fog promotes a novel type of soil biocenosis, forming the coastal Atacama Desert's living skin}
+      \field{title}{Desert breath—{How} fog promotes a novel type of soil biocenosis, forming the coastal {Atacama} {Desert}'s living skin}
       \field{volume}{18}
       \field{year}{2020}
       \field{pages}{113\bibrangedash 124}
       \range{pages}{12}
       \verb{doi}
       \verb 10.1111/gbi.12368
-      \endverb
-      \verb{eprint}
-      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/gbi.12368
       \endverb
       \verb{urlraw}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/gbi.12368
@@ -24770,7 +24776,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Flora {Criptogámica} de {Tierra} del {Fuego}}
-      \field{title}{Bryophyta, {Musci}: {Amblystegiaceae}}
+      \field{title}{Bryophyta, {Musci}: \textit{Amblystegiaceae}}
       \field{volume}{14}
       \field{year}{2001}
       \field{pages}{1\bibrangedash 96}
@@ -24983,7 +24989,7 @@
       \field{abstract}{The Chilean Coastal Cordillera features a spectacular climate and vegetation gradient, ranging from arid and unvegetated areas in the north to humid and forested areas in the south. The EarthShape project (“Earth Surface Shaping by Biota”) uses this natural gradient to investigate how climate and biological processes shape the Earth's surface. We explored the Critical Zone, the Earth's uppermost layer, in four key sites located in desert, semidesert, Mediterranean, and temperate climate zones of the Coastal Cordillera, with the focus on weathering of granitic rock. Here, we present first results from 16 approximately 2 m-deep regolith profiles to document: (1) architecture of weathering zone; (2) degree and rate of rock weathering, thus the release of mineral-derived nutrients to the terrestrial ecosystems; (3) denudation rates; and (4) microbial abundances of bacteria and archaea in the saprolite. From north to south, denudation rates from cosmogenic nuclides are ~10 t km-2 yr-1 at the arid Pan de Azúcar site, ~20 t km-2 yr-1 at the semi-arid site of Santa Gracia, ~60 t km-2 yr-1 at the Mediterranean climate site of La Campana, and ~30 t km-2 yr-1 at the humid site of Nahuelbuta. A and B horizons increase in thickness and elemental depletion or enrichment increases from north (~26°S) to south (~38°S) in these horizons. Differences in the degree of chemical weathering, quantified by the chemical depletion fraction (CDF), are significant only between the arid and sparsely vegetated site and the other three sites. Differences in the CDF between the sites, and elemental depletion within the sites are sometimes smaller than the variations induced by the bedrock heterogeneity. Microbial abundances (bacteria and archaea) in saprolite substantially increase from the arid to the semi-arid sites. With this study, we provide a comprehensive dataset characterizing the Critical Zone geochemistry in the Chilean Coastal Cordillera. This dataset confirms climatic controls on weathering and denudation rates and provides prerequisites to quantify the role of biota in future studies.}
       \field{issn}{0341-8162}
       \field{journaltitle}{CATENA}
-      \field{title}{Chemistry and microbiology of the Critical Zone along a steep climate and vegetation gradient in the Chilean Coastal Cordillera}
+      \field{title}{Chemistry and microbiology of the {Critical} {Zone} along a steep climate and vegetation gradient in the {Chilean} {Coastal} {Cordillera}}
       \field{volume}{170}
       \field{year}{2018}
       \field{pages}{183\bibrangedash 203}
@@ -25983,7 +25989,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{R: A language and environment for statistical computing}
+      \field{title}{R: {A} language and environment for statistical computing}
       \field{type}{Computer Program}
       \field{year}{2018}
       \field{pages}{2}
@@ -26191,7 +26197,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Soil Science Society of America Journal}
       \field{number}{C}
-      \field{title}{Mean Weight-Diameter of Soil Aggregates as a Statistical Index of Aggregation}
+      \field{title}{{Mean Weight-Diameter} of Soil Aggregates as a Statistical Index of Aggregation}
       \field{volume}{14}
       \field{year}{1950}
       \field{pages}{20\bibrangedash 23}
@@ -28094,7 +28100,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{0960-3115}
       \field{journaltitle}{Biodiversity and conservation}
-      \field{title}{Climate and small scale factors determine functional diversity shifts of biological soil crusts in Iberian drylands}
+      \field{title}{Climate and small scale factors determine functional diversity shifts of biological soil crusts in {Iberian} drylands}
       \field{type}{Journal Article}
       \field{volume}{23}
       \field{year}{2014}
@@ -29521,7 +29527,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{1879-1026 (Electronic) 0048-9697 (Linking)}
       \field{journaltitle}{Sci Total Environ}
-      \field{title}{Hydrophobicity of soils affected by fires: An assessment using molecular markers from ultra-high resolution mass spectrometry}
+      \field{title}{Hydrophobicity of soils affected by fires: {An} assessment using molecular markers from ultra-high resolution mass spectrometry}
       \field{type}{Journal Article}
       \field{volume}{817}
       \field{year}{2022}
@@ -30190,7 +30196,7 @@
       \field{issn}{0930-7575 1432-0894}
       \field{journaltitle}{Climate Dynamics}
       \field{number}{11-12}
-      \field{title}{Synoptic attributions of extreme precipitation in the Atacama Desert (Chile)}
+      \field{title}{Synoptic attributions of extreme precipitation in the {Atacama} {Desert} ({Chile})}
       \field{type}{Journal Article}
       \field{volume}{55}
       \field{year}{2020}
@@ -30689,7 +30695,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Soil carbon storage is a vital ecosystem service, resulting from interactions of ecological processes. Human activities affecting these processes can lead to carbon loss or improved storage.}
-      \field{title}{Soil {Carbon} {Storage} {|} {Learn} {Science} at {Scitable}}
+      \field{title}{Soil carbon storage}
       \field{urlday}{6}
       \field{urlmonth}{4}
       \field{urlyear}{2025}
@@ -30933,7 +30939,7 @@
       \field{issn}{2073-4441}
       \field{journaltitle}{Water}
       \field{number}{7}
-      \field{title}{A Rainfall Intensity Data Rescue Initiative for {Central Chile} Utilizing a Pluviograph Strip Charts Reader {(PSCR)}}
+      \field{title}{A Rainfall Intensity Data Rescue Initiative for {Central Chile} Utilizing a {Pluviograph Strip Charts Reader} {(PSCR)}}
       \field{type}{Journal Article}
       \field{volume}{12}
       \field{year}{2020}
@@ -31385,7 +31391,7 @@
       \field{issn}{1432-9840 1435-0629}
       \field{journaltitle}{Ecosystems}
       \field{number}{4}
-      \field{title}{Soil Loss and Runoff in Semiarid Ecosystems: A Complex Interaction Between Biological Soil Crusts, Micro-topography, and Hydrological Drivers}
+      \field{title}{Soil Loss and Runoff in Semiarid Ecosystems: {A} Complex Interaction Between Biological Soil Crusts, Micro-topography, and Hydrological Drivers}
       \field{type}{Journal Article}
       \field{volume}{16}
       \field{year}{2013}
@@ -31453,7 +31459,7 @@
       \field{issn}{1936-0584 1936-0592}
       \field{journaltitle}{Ecohydrology}
       \field{number}{6}
-      \field{title}{Runoff from biocrust: A vital resource for vegetation performance on Mediterranean steppes}
+      \field{title}{Runoff from biocrust: A vital resource for vegetation performance on {Mediterranean} steppes}
       \field{type}{Journal Article}
       \field{volume}{11}
       \field{year}{2018}
@@ -31720,7 +31726,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Atlas agroclimático de Chile. Estado actual y tendencias del clima. Tomo II: Regiones de Atacama y Coquimbo}
+      \field{title}{Atlas agroclimático de {Chile}. Estado actual y tendencias del clima. {Tomo II}: Regiones de {Atacama} y {Coquimbo}}
       \field{type}{Book}
       \field{year}{2017}
     \endentry
@@ -32022,7 +32028,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{number}{11/28/2022}
-      \field{title}{R: A Language and Environment for Statistical Computing}
+      \field{title}{R: {A} Language and Environment for Statistical Computing}
       \field{type}{Web Page}
       \field{volume}{2022}
       \field{year}{2022}
@@ -32768,7 +32774,7 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 2022 International Conference on Green Building, Civil Engineering and Smart City}
       \field{isbn}{978-981-19-5217-3}
-      \field{title}{Hydrophobicity Assessment of Sands Treated with Tung Oil}
+      \field{title}{Hydrophobicity Assessment of Sands Treated with {Tung} Oil}
       \field{type}{Conference Proceedings}
       \field{year}{2023}
       \field{pages}{1084\bibrangedash 1090}
@@ -34698,7 +34704,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{0960-3115}
       \field{journaltitle}{Biodiversity and conservation}
-      \field{title}{Climate and small scale factors determine functional diversity shifts of biological soil crusts in Iberian drylands}
+      \field{title}{Climate and small scale factors determine functional diversity shifts of biological soil crusts in {Iberian} drylands}
       \field{type}{Journal Article}
       \field{volume}{23}
       \field{year}{2014}
@@ -36125,7 +36131,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{1879-1026 (Electronic) 0048-9697 (Linking)}
       \field{journaltitle}{Sci Total Environ}
-      \field{title}{Hydrophobicity of soils affected by fires: An assessment using molecular markers from ultra-high resolution mass spectrometry}
+      \field{title}{Hydrophobicity of soils affected by fires: {An} assessment using molecular markers from ultra-high resolution mass spectrometry}
       \field{type}{Journal Article}
       \field{volume}{817}
       \field{year}{2022}
@@ -36794,7 +36800,7 @@
       \field{issn}{0930-7575 1432-0894}
       \field{journaltitle}{Climate Dynamics}
       \field{number}{11-12}
-      \field{title}{Synoptic attributions of extreme precipitation in the Atacama Desert (Chile)}
+      \field{title}{Synoptic attributions of extreme precipitation in the {Atacama} {Desert} ({Chile})}
       \field{type}{Journal Article}
       \field{volume}{55}
       \field{year}{2020}
@@ -37293,7 +37299,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Soil carbon storage is a vital ecosystem service, resulting from interactions of ecological processes. Human activities affecting these processes can lead to carbon loss or improved storage.}
-      \field{title}{Soil {Carbon} {Storage} {|} {Learn} {Science} at {Scitable}}
+      \field{title}{Soil carbon storage}
       \field{urlday}{6}
       \field{urlmonth}{4}
       \field{urlyear}{2025}
@@ -37537,7 +37543,7 @@
       \field{issn}{2073-4441}
       \field{journaltitle}{Water}
       \field{number}{7}
-      \field{title}{A Rainfall Intensity Data Rescue Initiative for {Central Chile} Utilizing a Pluviograph Strip Charts Reader {(PSCR)}}
+      \field{title}{A Rainfall Intensity Data Rescue Initiative for {Central Chile} Utilizing a {Pluviograph Strip Charts Reader} {(PSCR)}}
       \field{type}{Journal Article}
       \field{volume}{12}
       \field{year}{2020}
@@ -37989,7 +37995,7 @@
       \field{issn}{1432-9840 1435-0629}
       \field{journaltitle}{Ecosystems}
       \field{number}{4}
-      \field{title}{Soil Loss and Runoff in Semiarid Ecosystems: A Complex Interaction Between Biological Soil Crusts, Micro-topography, and Hydrological Drivers}
+      \field{title}{Soil Loss and Runoff in Semiarid Ecosystems: {A} Complex Interaction Between Biological Soil Crusts, Micro-topography, and Hydrological Drivers}
       \field{type}{Journal Article}
       \field{volume}{16}
       \field{year}{2013}
@@ -38057,7 +38063,7 @@
       \field{issn}{1936-0584 1936-0592}
       \field{journaltitle}{Ecohydrology}
       \field{number}{6}
-      \field{title}{Runoff from biocrust: A vital resource for vegetation performance on Mediterranean steppes}
+      \field{title}{Runoff from biocrust: A vital resource for vegetation performance on {Mediterranean} steppes}
       \field{type}{Journal Article}
       \field{volume}{11}
       \field{year}{2018}
@@ -38324,7 +38330,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Atlas agroclimático de Chile. Estado actual y tendencias del clima. Tomo II: Regiones de Atacama y Coquimbo}
+      \field{title}{Atlas agroclimático de {Chile}. Estado actual y tendencias del clima. {Tomo II}: Regiones de {Atacama} y {Coquimbo}}
       \field{type}{Book}
       \field{year}{2017}
     \endentry
@@ -38626,7 +38632,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{number}{11/28/2022}
-      \field{title}{R: A Language and Environment for Statistical Computing}
+      \field{title}{R: {A} Language and Environment for Statistical Computing}
       \field{type}{Web Page}
       \field{volume}{2022}
       \field{year}{2022}
@@ -39372,7 +39378,7 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 2022 International Conference on Green Building, Civil Engineering and Smart City}
       \field{isbn}{978-981-19-5217-3}
-      \field{title}{Hydrophobicity Assessment of Sands Treated with Tung Oil}
+      \field{title}{Hydrophobicity Assessment of Sands Treated with {Tung} Oil}
       \field{type}{Conference Proceedings}
       \field{year}{2023}
       \field{pages}{1084\bibrangedash 1090}
@@ -42506,11 +42512,14 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Gayana Botánica}
       \field{number}{1}
-      \field{title}{The effects of fire-related cues on seed germination and viability of \textit{Helenium aromaticum} (Hook.) H.~L.~Bailey (Asteraceae)}
+      \field{title}{The effects of fire-related cues on seed germination and viability of \textit{Helenium aromaticum} ({Hook.}) {H.~L.~Bailey} (Asteraceae)}
       \field{volume}{68}
       \field{year}{2011}
       \field{pages}{86\bibrangedash 88}
       \range{pages}{3}
+      \verb{doi}
+      \verb 10.4067/S0717-66432011000100007
+      \endverb
     \endentry
     \entry{Harrell2019}{misc}{}{}
       \name{author}{2}{}{%
@@ -42545,6 +42554,9 @@
       \field{annotation}{R package version 4.3-0}
       \field{title}{Package ‘hmisc’}
       \field{year}{2019}
+      \verb{doi}
+      \verb 10.32614/CRAN.package.Hmisc
+      \endverb
     \endentry
     \entry{Hartley2005}{article}{}{}
       \name{author}{4}{}{%
@@ -44349,7 +44361,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The ISME Journal}
-      \field{title}{Decreases in average bacterial community rRNA operon copy number during succession}
+      \field{title}{Decreases in average bacterial community {rRNA} operon copy number during succession}
       \field{volume}{10}
       \field{year}{2016}
       \field{pages}{1147\bibrangedash 1156}
@@ -44565,7 +44577,7 @@
       \field{abstract}{The Chilean Coastal Cordillera features a spectacular climate and vegetation gradient, ranging from arid and unvegetated areas in the north to humid and forested areas in the south. The EarthShape project (“Earth Surface Shaping by Biota”) uses this natural gradient to investigate how climate and biological processes shape the Earth's surface. We explored the Critical Zone, the Earth's uppermost layer, in four key sites located in desert, semidesert, Mediterranean, and temperate climate zones of the Coastal Cordillera, with the focus on weathering of granitic rock. Here, we present first results from 16 approximately 2 m-deep regolith profiles to document: (1) architecture of weathering zone; (2) degree and rate of rock weathering, thus the release of mineral-derived nutrients to the terrestrial ecosystems; (3) denudation rates; and (4) microbial abundances of bacteria and archaea in the saprolite. From north to south, denudation rates from cosmogenic nuclides are ~10 t km-2 yr-1 at the arid Pan de Azúcar site, ~20 t km-2 yr-1 at the semi-arid site of Santa Gracia, ~60 t km-2 yr-1 at the Mediterranean climate site of La Campana, and ~30 t km-2 yr-1 at the humid site of Nahuelbuta. A and B horizons increase in thickness and elemental depletion or enrichment increases from north (~26°S) to south (~38°S) in these horizons. Differences in the degree of chemical weathering, quantified by the chemical depletion fraction (CDF), are significant only between the arid and sparsely vegetated site and the other three sites. Differences in the CDF between the sites, and elemental depletion within the sites are sometimes smaller than the variations induced by the bedrock heterogeneity. Microbial abundances (bacteria and archaea) in saprolite substantially increase from the arid to the semi-arid sites. With this study, we provide a comprehensive dataset characterizing the Critical Zone geochemistry in the Chilean Coastal Cordillera. This dataset confirms climatic controls on weathering and denudation rates and provides prerequisites to quantify the role of biota in future studies.}
       \field{issn}{0341-8162}
       \field{journaltitle}{CATENA}
-      \field{title}{Chemistry and microbiology of the Critical Zone along a steep climate and vegetation gradient in the Chilean Coastal Cordillera}
+      \field{title}{Chemistry and microbiology of the {Critical} {Zone} along a steep climate and vegetation gradient in the {Chilean} {Coastal} {Cordillera}}
       \field{volume}{170}
       \field{year}{2018}
       \field{pages}{183\bibrangedash 203}
@@ -44727,7 +44739,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Global and Planetary Change}
-      \field{title}{Extreme ENSO-driven torrential rainfalls at the southern edge of the Atacama Desert during the Late Holocene and their projection into the 21th century}
+      \field{title}{Extreme {ENSO-driven} torrential rainfalls at the southern edge of the {Atacama Desert} during the {Late Holocene} and their projection into the {21st century}}
       \field{volume}{175}
       \field{year}{2019}
       \field{pages}{226\bibrangedash 237}
@@ -44819,7 +44831,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Systematic and Evolutionary Microbiology}
-      \field{title}{Mucilaginibacter paludis gen. nov., sp. nov. and Mucilaginibacter gracilis sp. nov., pectin-, xylan- and laminarin-degrading members of the family Sphingobacteriaceae from acidic Sphagnum peat bog}
+      \field{title}{\textit{Mucilaginibacter paludis} gen. nov., sp. nov. and \textit{Mucilaginibacter gracilis} sp. nov., pectin-, xylan- and laminarin-degrading members of the family \textit{Sphingobacteriaceae} from acidic \textit{Sphagnum} peat bog}
       \field{volume}{57}
       \field{year}{2007}
       \field{pages}{2349\bibrangedash 2354}
@@ -44865,7 +44877,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Environmental Microbiology}
-      \field{title}{Every base matters: assessing small subunit rRNA primers for marine microbiomes with mock communities, time series and global field samples}
+      \field{title}{Every base matters: assessing small subunit {rRNA} primers for marine microbiomes with mock communities, time series and global field samples}
       \field{volume}{18}
       \field{year}{2016}
       \field{pages}{1403\bibrangedash 1414}
@@ -45916,7 +45928,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Geoderma}
-      \field{title}{N2 fixation is less sensitive to changes in soil water content than carbon and net nitrogen mineralization}
+      \field{title}{N\textsubscript{2} fixation is less sensitive to changes in soil water content than carbon and net nitrogen mineralization}
       \field{volume}{424}
       \field{year}{2022}
       \field{pages}{115973}
@@ -50013,11 +50025,14 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Gayana Botánica}
       \field{number}{1}
-      \field{title}{The effects of fire-related cues on seed germination and viability of \textit{Helenium aromaticum} (Hook.) H.~L.~Bailey (Asteraceae)}
+      \field{title}{The effects of fire-related cues on seed germination and viability of \textit{Helenium aromaticum} ({Hook.}) {H.~L.~Bailey} (Asteraceae)}
       \field{volume}{68}
       \field{year}{2011}
       \field{pages}{86\bibrangedash 88}
       \range{pages}{3}
+      \verb{doi}
+      \verb 10.4067/S0717-66432011000100007
+      \endverb
     \endentry
     \entry{Harrell2019}{misc}{}{}
       \name{author}{2}{}{%
@@ -50052,6 +50067,9 @@
       \field{annotation}{R package version 4.3-0}
       \field{title}{Package ‘hmisc’}
       \field{year}{2019}
+      \verb{doi}
+      \verb 10.32614/CRAN.package.Hmisc
+      \endverb
     \endentry
     \entry{Hartley2005}{article}{}{}
       \name{author}{4}{}{%
@@ -51856,7 +51874,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The ISME Journal}
-      \field{title}{Decreases in average bacterial community rRNA operon copy number during succession}
+      \field{title}{Decreases in average bacterial community {rRNA} operon copy number during succession}
       \field{volume}{10}
       \field{year}{2016}
       \field{pages}{1147\bibrangedash 1156}
@@ -52072,7 +52090,7 @@
       \field{abstract}{The Chilean Coastal Cordillera features a spectacular climate and vegetation gradient, ranging from arid and unvegetated areas in the north to humid and forested areas in the south. The EarthShape project (“Earth Surface Shaping by Biota”) uses this natural gradient to investigate how climate and biological processes shape the Earth's surface. We explored the Critical Zone, the Earth's uppermost layer, in four key sites located in desert, semidesert, Mediterranean, and temperate climate zones of the Coastal Cordillera, with the focus on weathering of granitic rock. Here, we present first results from 16 approximately 2 m-deep regolith profiles to document: (1) architecture of weathering zone; (2) degree and rate of rock weathering, thus the release of mineral-derived nutrients to the terrestrial ecosystems; (3) denudation rates; and (4) microbial abundances of bacteria and archaea in the saprolite. From north to south, denudation rates from cosmogenic nuclides are ~10 t km-2 yr-1 at the arid Pan de Azúcar site, ~20 t km-2 yr-1 at the semi-arid site of Santa Gracia, ~60 t km-2 yr-1 at the Mediterranean climate site of La Campana, and ~30 t km-2 yr-1 at the humid site of Nahuelbuta. A and B horizons increase in thickness and elemental depletion or enrichment increases from north (~26°S) to south (~38°S) in these horizons. Differences in the degree of chemical weathering, quantified by the chemical depletion fraction (CDF), are significant only between the arid and sparsely vegetated site and the other three sites. Differences in the CDF between the sites, and elemental depletion within the sites are sometimes smaller than the variations induced by the bedrock heterogeneity. Microbial abundances (bacteria and archaea) in saprolite substantially increase from the arid to the semi-arid sites. With this study, we provide a comprehensive dataset characterizing the Critical Zone geochemistry in the Chilean Coastal Cordillera. This dataset confirms climatic controls on weathering and denudation rates and provides prerequisites to quantify the role of biota in future studies.}
       \field{issn}{0341-8162}
       \field{journaltitle}{CATENA}
-      \field{title}{Chemistry and microbiology of the Critical Zone along a steep climate and vegetation gradient in the Chilean Coastal Cordillera}
+      \field{title}{Chemistry and microbiology of the {Critical} {Zone} along a steep climate and vegetation gradient in the {Chilean} {Coastal} {Cordillera}}
       \field{volume}{170}
       \field{year}{2018}
       \field{pages}{183\bibrangedash 203}
@@ -52234,7 +52252,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Global and Planetary Change}
-      \field{title}{Extreme ENSO-driven torrential rainfalls at the southern edge of the Atacama Desert during the Late Holocene and their projection into the 21th century}
+      \field{title}{Extreme {ENSO-driven} torrential rainfalls at the southern edge of the {Atacama Desert} during the {Late Holocene} and their projection into the {21st century}}
       \field{volume}{175}
       \field{year}{2019}
       \field{pages}{226\bibrangedash 237}
@@ -52326,7 +52344,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Systematic and Evolutionary Microbiology}
-      \field{title}{Mucilaginibacter paludis gen. nov., sp. nov. and Mucilaginibacter gracilis sp. nov., pectin-, xylan- and laminarin-degrading members of the family Sphingobacteriaceae from acidic Sphagnum peat bog}
+      \field{title}{\textit{Mucilaginibacter paludis} gen. nov., sp. nov. and \textit{Mucilaginibacter gracilis} sp. nov., pectin-, xylan- and laminarin-degrading members of the family \textit{Sphingobacteriaceae} from acidic \textit{Sphagnum} peat bog}
       \field{volume}{57}
       \field{year}{2007}
       \field{pages}{2349\bibrangedash 2354}
@@ -52372,7 +52390,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Environmental Microbiology}
-      \field{title}{Every base matters: assessing small subunit rRNA primers for marine microbiomes with mock communities, time series and global field samples}
+      \field{title}{Every base matters: assessing small subunit {rRNA} primers for marine microbiomes with mock communities, time series and global field samples}
       \field{volume}{18}
       \field{year}{2016}
       \field{pages}{1403\bibrangedash 1414}
@@ -53423,7 +53441,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Geoderma}
-      \field{title}{N2 fixation is less sensitive to changes in soil water content than carbon and net nitrogen mineralization}
+      \field{title}{N\textsubscript{2} fixation is less sensitive to changes in soil water content than carbon and net nitrogen mineralization}
       \field{volume}{424}
       \field{year}{2022}
       \field{pages}{115973}
@@ -54735,7 +54753,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{FEMS Microbiology Letters}
       \field{number}{2}
-      \field{title}{Truepera radiovictrix gen. nov., sp. nov., a new radiation resistant species and the proposal of Trueperaceae fam. nov}
+      \field{title}{\textit{Truepera radiovictrix} gen. nov., sp. nov., a new radiation resistant species and the proposal of \textit{Trueperaceae} fam. nov}
       \field{volume}{247}
       \field{year}{2005}
       \field{pages}{161\bibrangedash 169}
@@ -54943,7 +54961,7 @@
       \field{abstract}{Abstract The functions of soils are intimately linked to their three-dimensional pore space and the associated biogeochemical interfaces, mirrored in the complex structure that developed during pedogenesis. Under stress overload, soil disintegrates into smaller compound structures, conventionally named aggregates. Microaggregates (<250 µm) are recognized as the most stable soil structural units. They are built of mineral, organic, and biotic materials, provide habitats for a vast diversity of microorganisms, and are closely involved in the cycling of matter and energy. However, exploring the architecture of soil microaggregates and their linkage to soil functions remains a challenging but demanding scientific endeavor. With the advent of complementary spectromicroscopic and tomographic techniques, we can now assess and visualize the size, composition, and porosity of microaggregates and the spatial arrangement of their interior building units. Their combinations with advanced experimental pedology, multi-isotope labeling experiments, and computational approaches pave the way to investigate microaggregate turnover and stability, explore their role in element cycling, and unravel the intricate linkage between structure and function. However, spectromicroscopic techniques operate at different scales and resolutions, and have specific requirements for sample preparation and microaggregate isolation; hence, special attention must be paid to both the separation of microaggregates in a reproducible manner and the synopsis of the geography of information that originates from the diverse complementary instrumental techniques. The latter calls for further development of strategies for synlocation and synscaling beyond the present state of correlative analysis. Here, we present examples of recent scientific progress and review both options and challenges of the joint application of cutting-edge techniques to achieve a sophisticated picture of the properties and functions of soil microaggregates.}
       \field{journaltitle}{Journal of Plant Nutrition and Soil Science}
       \field{number}{1}
-      \field{title}{Architecture of soil microaggregates: Advanced methodologies to explore properties and functions}
+      \field{title}{Architecture of soil microaggregates: {Advanced} methodologies to explore properties and functions}
       \field{volume}{187}
       \field{year}{2024}
       \field{pages}{17\bibrangedash 50}
@@ -55128,7 +55146,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Critical Reviews in Biotechnology}
-      \field{title}{Sphingomonas: from diversity and genomics to functional role in environmental remediation and plant growth}
+      \field{title}{\textit{Sphingomonas}: from diversity and genomics to functional role in environmental remediation and plant growth}
       \field{volume}{40}
       \field{year}{2020}
       \field{pages}{138\bibrangedash 152}
@@ -58183,7 +58201,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Frontiers in Microbiology}
-      \field{title}{Effects of Carbon/Nitrogen Ratio on Growth, Intestinal Microbiota and Metabolome of Shrimp (Litopenaeus vannamei)}
+      \field{title}{Effects of Carbon/Nitrogen Ratio on Growth, Intestinal Microbiota and Metabolome of Shrimp (\textit{Litopenaeus vannamei})}
       \field{volume}{11}
       \field{year}{2020}
       \field{pages}{652}
@@ -58270,7 +58288,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Palaeontologia Electronica}
       \field{number}{1}
-      \field{title}{{PAST}: {Paleontological} {Statistics} {Software} {Package} for {Education} and {Data} {Analysis}}
+      \field{title}{{PAST}: {Paleontological} statistics software package for education and data analysis}
       \field{volume}{4}
       \field{year}{2001}
       \field{pages}{1\bibrangedash 9}
@@ -59953,7 +59971,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Data supplement to: {Chemistry} and {Microbiology} of the {Critical} {Zone} along a steep climate and vegetation gradient in the {Chilean} {Coastal} {Cordillera}}
+      \field{title}{Data supplement to: {Chemistry} and {microbiology} of the {Critical} {Zone} along a steep climate and vegetation gradient in the {Chilean} {Coastal} {Cordillera}}
       \field{year}{2018}
       \verb{doi}
       \verb 10.5880/GFZ.3.3.2018.001
@@ -60084,7 +60102,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Systematic and Evolutionary Microbiology}
-      \field{title}{Mucilaginibacter paludis gen. nov., sp. nov. and Mucilaginibacter gracilis sp. nov., pectin-, xylan- and laminarin-degrading members of the family Sphingobacteriaceae from acidic Sphagnum peat bog}
+      \field{title}{\textit{Mucilaginibacter paludis} gen. nov., sp. nov. and \textit{Mucilaginibacter gracilis} sp. nov., pectin-, xylan- and laminarin-degrading members of the family \textit{Sphingobacteriaceae} from acidic \textit{Sphagnum} peat bog}
       \field{volume}{57}
       \field{year}{2007}
       \field{pages}{2349\bibrangedash 2354}
@@ -60194,7 +60212,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Standards in Genomic Sciences}
-      \field{title}{Draft genome sequence of the cellulolytic endophyte Chitinophaga costaii {A37T2T}}
+      \field{title}{Draft genome sequence of the cellulolytic endophyte \textit{Chitinophaga costaii} {A37T2\textsuperscript{T}}}
       \field{volume}{12}
       \field{year}{2017}
       \field{pages}{53}
@@ -60846,7 +60864,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Geoderma}
-      \field{title}{N2 fixation is less sensitive to changes in soil water content than carbon and net nitrogen mineralization}
+      \field{title}{N\textsubscript{2} fixation is less sensitive to changes in soil water content than carbon and net nitrogen mineralization}
       \field{volume}{424}
       \field{year}{2022}
       \field{pages}{115973}
@@ -61902,7 +61920,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{FEMS Microbiology Letters}
       \field{number}{2}
-      \field{title}{Truepera radiovictrix gen. nov., sp. nov., a new radiation resistant species and the proposal of Trueperaceae fam. nov}
+      \field{title}{\textit{Truepera radiovictrix} gen. nov., sp. nov., a new radiation resistant species and the proposal of \textit{Trueperaceae} fam. nov}
       \field{volume}{247}
       \field{year}{2005}
       \field{pages}{161\bibrangedash 169}
@@ -62110,7 +62128,7 @@
       \field{abstract}{Abstract The functions of soils are intimately linked to their three-dimensional pore space and the associated biogeochemical interfaces, mirrored in the complex structure that developed during pedogenesis. Under stress overload, soil disintegrates into smaller compound structures, conventionally named aggregates. Microaggregates (<250 µm) are recognized as the most stable soil structural units. They are built of mineral, organic, and biotic materials, provide habitats for a vast diversity of microorganisms, and are closely involved in the cycling of matter and energy. However, exploring the architecture of soil microaggregates and their linkage to soil functions remains a challenging but demanding scientific endeavor. With the advent of complementary spectromicroscopic and tomographic techniques, we can now assess and visualize the size, composition, and porosity of microaggregates and the spatial arrangement of their interior building units. Their combinations with advanced experimental pedology, multi-isotope labeling experiments, and computational approaches pave the way to investigate microaggregate turnover and stability, explore their role in element cycling, and unravel the intricate linkage between structure and function. However, spectromicroscopic techniques operate at different scales and resolutions, and have specific requirements for sample preparation and microaggregate isolation; hence, special attention must be paid to both the separation of microaggregates in a reproducible manner and the synopsis of the geography of information that originates from the diverse complementary instrumental techniques. The latter calls for further development of strategies for synlocation and synscaling beyond the present state of correlative analysis. Here, we present examples of recent scientific progress and review both options and challenges of the joint application of cutting-edge techniques to achieve a sophisticated picture of the properties and functions of soil microaggregates.}
       \field{journaltitle}{Journal of Plant Nutrition and Soil Science}
       \field{number}{1}
-      \field{title}{Architecture of soil microaggregates: Advanced methodologies to explore properties and functions}
+      \field{title}{Architecture of soil microaggregates: {Advanced} methodologies to explore properties and functions}
       \field{volume}{187}
       \field{year}{2024}
       \field{pages}{17\bibrangedash 50}
@@ -62295,7 +62313,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Critical Reviews in Biotechnology}
-      \field{title}{Sphingomonas: from diversity and genomics to functional role in environmental remediation and plant growth}
+      \field{title}{\textit{Sphingomonas}: from diversity and genomics to functional role in environmental remediation and plant growth}
       \field{volume}{40}
       \field{year}{2020}
       \field{pages}{138\bibrangedash 152}
@@ -65350,7 +65368,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Frontiers in Microbiology}
-      \field{title}{Effects of Carbon/Nitrogen Ratio on Growth, Intestinal Microbiota and Metabolome of Shrimp (Litopenaeus vannamei)}
+      \field{title}{Effects of Carbon/Nitrogen Ratio on Growth, Intestinal Microbiota and Metabolome of Shrimp (\textit{Litopenaeus vannamei})}
       \field{volume}{11}
       \field{year}{2020}
       \field{pages}{652}
@@ -65437,7 +65455,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Palaeontologia Electronica}
       \field{number}{1}
-      \field{title}{{PAST}: {Paleontological} {Statistics} {Software} {Package} for {Education} and {Data} {Analysis}}
+      \field{title}{{PAST}: {Paleontological} statistics software package for education and data analysis}
       \field{volume}{4}
       \field{year}{2001}
       \field{pages}{1\bibrangedash 9}
@@ -67120,7 +67138,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Data supplement to: {Chemistry} and {Microbiology} of the {Critical} {Zone} along a steep climate and vegetation gradient in the {Chilean} {Coastal} {Cordillera}}
+      \field{title}{Data supplement to: {Chemistry} and {microbiology} of the {Critical} {Zone} along a steep climate and vegetation gradient in the {Chilean} {Coastal} {Cordillera}}
       \field{year}{2018}
       \verb{doi}
       \verb 10.5880/GFZ.3.3.2018.001
@@ -67251,7 +67269,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Systematic and Evolutionary Microbiology}
-      \field{title}{Mucilaginibacter paludis gen. nov., sp. nov. and Mucilaginibacter gracilis sp. nov., pectin-, xylan- and laminarin-degrading members of the family Sphingobacteriaceae from acidic Sphagnum peat bog}
+      \field{title}{\textit{Mucilaginibacter paludis} gen. nov., sp. nov. and \textit{Mucilaginibacter gracilis} sp. nov., pectin-, xylan- and laminarin-degrading members of the family \textit{Sphingobacteriaceae} from acidic \textit{Sphagnum} peat bog}
       \field{volume}{57}
       \field{year}{2007}
       \field{pages}{2349\bibrangedash 2354}
@@ -67361,7 +67379,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Standards in Genomic Sciences}
-      \field{title}{Draft genome sequence of the cellulolytic endophyte Chitinophaga costaii {A37T2T}}
+      \field{title}{Draft genome sequence of the cellulolytic endophyte \textit{Chitinophaga costaii} {A37T2\textsuperscript{T}}}
       \field{volume}{12}
       \field{year}{2017}
       \field{pages}{53}
@@ -68013,7 +68031,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Geoderma}
-      \field{title}{N2 fixation is less sensitive to changes in soil water content than carbon and net nitrogen mineralization}
+      \field{title}{N\textsubscript{2} fixation is less sensitive to changes in soil water content than carbon and net nitrogen mineralization}
       \field{volume}{424}
       \field{year}{2022}
       \field{pages}{115973}
@@ -69124,7 +69142,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Geoderma}
-      \field{title}{Spatial distribution and chemical composition of soil organic matter fractions in rhizosphere and non-rhizosphere soil under European beech (\textit{Fagus sylvatica}~L.)}
+      \field{title}{Spatial distribution and chemical composition of soil organic matter fractions in rhizosphere and non-rhizosphere soil under European beech (\textit{Fagus sylvatica}~{L.})}
       \field{volume}{264}
       \field{year}{2016}
       \field{pages}{179\bibrangedash 187}
@@ -70913,7 +70931,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Soil processes and the carbon cycle}
-      \field{title}{A model linking organic matter decomposition, {Chemistry}, and {Aggregate} {Dynamics}}
+      \field{title}{A model linking organic matter decomposition, chemistry, and aggregate dynamics}
       \field{year}{1997}
       \field{pages}{245\bibrangedash 266}
       \range{pages}{22}
@@ -72060,7 +72078,7 @@
       \field{abstract}{The Chilean Coastal Cordillera features a spectacular climate and vegetation gradient, ranging from arid and unvegetated areas in the north to humid and forested areas in the south. The EarthShape project (“Earth Surface Shaping by Biota”) uses this natural gradient to investigate how climate and biological processes shape the Earth's surface. We explored the Critical Zone, the Earth's uppermost layer, in four key sites located in desert, semidesert, Mediterranean, and temperate climate zones of the Coastal Cordillera, with the focus on weathering of granitic rock. Here, we present first results from 16 approximately 2 m-deep regolith profiles to document: (1) architecture of weathering zone; (2) degree and rate of rock weathering, thus the release of mineral-derived nutrients to the terrestrial ecosystems; (3) denudation rates; and (4) microbial abundances of bacteria and archaea in the saprolite. From north to south, denudation rates from cosmogenic nuclides are ~10 t km-2 yr-1 at the arid Pan de Azúcar site, ~20 t km-2 yr-1 at the semi-arid site of Santa Gracia, ~60 t km-2 yr-1 at the Mediterranean climate site of La Campana, and ~30 t km-2 yr-1 at the humid site of Nahuelbuta. A and B horizons increase in thickness and elemental depletion or enrichment increases from north (~26°S) to south (~38°S) in these horizons. Differences in the degree of chemical weathering, quantified by the chemical depletion fraction (CDF), are significant only between the arid and sparsely vegetated site and the other three sites. Differences in the CDF between the sites, and elemental depletion within the sites are sometimes smaller than the variations induced by the bedrock heterogeneity. Microbial abundances (bacteria and archaea) in saprolite substantially increase from the arid to the semi-arid sites. With this study, we provide a comprehensive dataset characterizing the Critical Zone geochemistry in the Chilean Coastal Cordillera. This dataset confirms climatic controls on weathering and denudation rates and provides prerequisites to quantify the role of biota in future studies.}
       \field{issn}{0341-8162}
       \field{journaltitle}{CATENA}
-      \field{title}{Chemistry and microbiology of the Critical Zone along a steep climate and vegetation gradient in the Chilean Coastal Cordillera}
+      \field{title}{Chemistry and microbiology of the {Critical} {Zone} along a steep climate and vegetation gradient in the {Chilean} {Coastal} {Cordillera}}
       \field{volume}{170}
       \field{year}{2018}
       \field{pages}{183\bibrangedash 203}
@@ -72541,7 +72559,7 @@
       \field{issn}{1726-4170}
       \field{journaltitle}{Biogeosciences}
       \field{number}{13}
-      \field{title}{From fibrous plant residues to mineral-associated organic carbon–the fate of organic matter in {Arctic} permafrost soils}
+      \field{title}{From fibrous plant residues to mineral-associated organic carbon – the fate of organic matter in {Arctic} permafrost soils}
       \field{volume}{17}
       \field{year}{2020}
       \field{pages}{3367\bibrangedash 3383}
@@ -74189,7 +74207,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Geoderma}
-      \field{title}{Spatial distribution and chemical composition of soil organic matter fractions in rhizosphere and non-rhizosphere soil under European beech (\textit{Fagus sylvatica}~L.)}
+      \field{title}{Spatial distribution and chemical composition of soil organic matter fractions in rhizosphere and non-rhizosphere soil under European beech (\textit{Fagus sylvatica}~{L.})}
       \field{volume}{264}
       \field{year}{2016}
       \field{pages}{179\bibrangedash 187}
@@ -75978,7 +75996,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Soil processes and the carbon cycle}
-      \field{title}{A model linking organic matter decomposition, {Chemistry}, and {Aggregate} {Dynamics}}
+      \field{title}{A model linking organic matter decomposition, chemistry, and aggregate dynamics}
       \field{year}{1997}
       \field{pages}{245\bibrangedash 266}
       \range{pages}{22}
@@ -77125,7 +77143,7 @@
       \field{abstract}{The Chilean Coastal Cordillera features a spectacular climate and vegetation gradient, ranging from arid and unvegetated areas in the north to humid and forested areas in the south. The EarthShape project (“Earth Surface Shaping by Biota”) uses this natural gradient to investigate how climate and biological processes shape the Earth's surface. We explored the Critical Zone, the Earth's uppermost layer, in four key sites located in desert, semidesert, Mediterranean, and temperate climate zones of the Coastal Cordillera, with the focus on weathering of granitic rock. Here, we present first results from 16 approximately 2 m-deep regolith profiles to document: (1) architecture of weathering zone; (2) degree and rate of rock weathering, thus the release of mineral-derived nutrients to the terrestrial ecosystems; (3) denudation rates; and (4) microbial abundances of bacteria and archaea in the saprolite. From north to south, denudation rates from cosmogenic nuclides are ~10 t km-2 yr-1 at the arid Pan de Azúcar site, ~20 t km-2 yr-1 at the semi-arid site of Santa Gracia, ~60 t km-2 yr-1 at the Mediterranean climate site of La Campana, and ~30 t km-2 yr-1 at the humid site of Nahuelbuta. A and B horizons increase in thickness and elemental depletion or enrichment increases from north (~26°S) to south (~38°S) in these horizons. Differences in the degree of chemical weathering, quantified by the chemical depletion fraction (CDF), are significant only between the arid and sparsely vegetated site and the other three sites. Differences in the CDF between the sites, and elemental depletion within the sites are sometimes smaller than the variations induced by the bedrock heterogeneity. Microbial abundances (bacteria and archaea) in saprolite substantially increase from the arid to the semi-arid sites. With this study, we provide a comprehensive dataset characterizing the Critical Zone geochemistry in the Chilean Coastal Cordillera. This dataset confirms climatic controls on weathering and denudation rates and provides prerequisites to quantify the role of biota in future studies.}
       \field{issn}{0341-8162}
       \field{journaltitle}{CATENA}
-      \field{title}{Chemistry and microbiology of the Critical Zone along a steep climate and vegetation gradient in the Chilean Coastal Cordillera}
+      \field{title}{Chemistry and microbiology of the {Critical} {Zone} along a steep climate and vegetation gradient in the {Chilean} {Coastal} {Cordillera}}
       \field{volume}{170}
       \field{year}{2018}
       \field{pages}{183\bibrangedash 203}
@@ -77606,7 +77624,7 @@
       \field{issn}{1726-4170}
       \field{journaltitle}{Biogeosciences}
       \field{number}{13}
-      \field{title}{From fibrous plant residues to mineral-associated organic carbon–the fate of organic matter in {Arctic} permafrost soils}
+      \field{title}{From fibrous plant residues to mineral-associated organic carbon – the fate of organic matter in {Arctic} permafrost soils}
       \field{volume}{17}
       \field{year}{2020}
       \field{pages}{3367\bibrangedash 3383}
