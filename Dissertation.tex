@@ -120,6 +120,23 @@
 % --- Robustify Commands ---
 % \robustify{\pm} % <<<--- COMMENTED OUT FOR NOW to avoid 'not a macro' error.
 
+% --- Metadata Setup ---
+% CALL the commands defined in dissertation.sty to set document specifics.
+% IMPORTANT: This block MUST come BEFORE \hypersetup, because hyperref expands
+% \thethesis / \thename / \thekeywordlist at the moment \hypersetup runs. If the
+% metadata is defined afterwards, hyperref captures the empty defaults and the
+% PDF's Title/Author/Keywords fields come out blank.
+\name{Nicolás Riveras Muñoz}
+\thesis{Biological Soil Crusts and Climate Effects on Soil Stabilization, Erosion, and Nutrient Dynamics across the Chilean Coastal Range}
+\keywordlist{%
+biological soil crusts, biocrusts, soil stabilization, soil aggregate stability, soil erosion, soil erosion control, climate gradient, climatic gradient, Chilean Coastal Range, Chile, aridity gradient, arid to humid, soil microbial communities, soil microbiome, nutrient dynamics, carbon and nitrogen cycling, carbon and nitrogen fluxes, soil organic matter, particulate organic matter, soil aggregation, macroaggregation, microbially induced soil aggregation, plant roots, rhizosphere, detritusphere, root decomposition, soil hydrology, infiltration, surface runoff, rainfall simulation, wetting-drying cycles, sediment loss, nutrient leaching, dissolved organic carbon, climate legacy effects, soil structure and function, soil formation, initial soil formation, climate change, ecohydrology, soil ecology, biogeochemistry, how do biocrusts reduce soil erosion, effect of biocrusts on soil aggregate stability, role of microbes in soil aggregation, how climate affects soil stabilization, biocrusts and nutrient cycling, R, Rstudio, ggplot2, Linear Mixed Models%
+}
+\hometown{Puente Alto, Chile}
+\oralexamdate{04.12.2025}
+\dean{Prof.~Dr.~Thilo Stehle}
+\reviewerone{Prof.~Dr.~Thomas Scholten}
+\reviewertwo{PD~Dr.~Harald Neidhardt}
+
 % --- Hyperref Setup ---
 % Apply detailed settings AFTER hyperref has been loaded by dissertation.sty
 \hypersetup{ % <<<--- THIS BLOCK BELONGS HERE
@@ -149,18 +166,6 @@
 % --- KOMA-Script Compatibility ---
 % Load scrhack late. MUST be loaded explicitly.
 \usepackage{scrhack}
-
-% --- Metadata Setup ---
-% CALL the commands defined in dissertation.sty to set document specifics.
-% <<<--- THIS BLOCK BELONGS HERE
-\name{Nicolás Riveras Muñoz}
-\thesis{Biological Soil Crusts and Climate Effects on Soil Stabilization, Erosion, and Nutrient Dynamics across the Chilean Coastal Range}
-\keywordlist{list, of, comma, separated, keywords}
-\hometown{Puente Alto, Chile}
-\oralexamdate{04.12.2025}
-\dean{Prof.~Dr.~Thilo Stehle}
-\reviewerone{Prof.~Dr.~Thomas Scholten}
-\reviewertwo{PD~Dr.~Harald Neidhardt}
 
 % \doublespacing
 
@@ -289,7 +294,11 @@ par-ti-ku-l\"a-rer
     \normalsize Dekan:                             & \normalsize \thedean\\
     \normalsize 1.~Berichterstatter:               & \normalsize \thereviewerone\\
     \normalsize 2.~Berichterstatter:               & \normalsize \thereviewertwo\\
-\end{tabular}}}
+\end{tabular}}%
+% Push the block up so the empty space below it matches the bottom margin of
+% the title page. \lowertitleback anchors its content to the page bottom, so a
+% trailing \vspace* injects fixed whitespace underneath. Tune the value to taste.
+\vspace*{3cm}}
 
 % --- Selective Compilation ---
 % \includeonly{tex/Introduction, tex/Methodology}
