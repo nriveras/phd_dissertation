@@ -1,41 +1,58 @@
 # PhD Dissertation of Nicolas Riveras Muñoz at the University of Tübingen
 
-## To compile the .pdf file in local:
+The build is fully reproducible: a pinned **Docker** image (TeX Live 2025 + the
+matching `biber`, plus ImageMagick) provides the exact toolchain, and a
+**Makefile** drives every task. You do **not** need LaTeX installed locally.
+
+## Prerequisites
+
+- [Docker](https://docs.docker.com/get-docker/) installed and running.
+
+## One-time setup
+
+Build the pinned image (downloads a few GB the first time, then it's cached):
 
 ```bash
-pdflatex Dissertation.tex
-biber Dissertation
-pdflatex Dissertation.tex
-pdflatex Dissertation.tex
+make image
 ```
-or 
+
+## Compile the PDF
 
 ```bash
-/Users/nico/Desktop/Projects/PhD/Dissertation/phd_dissertation/compile.sh
+make render
 ```
+
+This produces `Dissertation.pdf` and copies it to the final filename
+**`Dissertation Nicolas Riveras Munoz.pdf`**.
+
+## Fast / low-resolution render ("SD")
+
+For a much smaller PDF (e.g. to fit Overleaf's free-tier 20-second render limit),
+shrink the figures on the fly. Images are downscaled so their longest side is at
+most the given pixel size, used for that build only, then discarded:
+
+```bash
+make sd            # default: 1600 px on the long side
+make sd RES=1200   # custom resolution
+```
+
+This produces **`Dissertation Nicolas Riveras Munoz (SD).pdf`**. The temporary
+downscaled images live in `build/sd/` and are deleted automatically afterwards,
+so the original full-resolution images in `img/` are never touched.
 
 ## Clean temporary files
 
 ```bash
-find . -type f \( -name "*.aux" -o -name "*.log" -o -name "*.out" -o -name "*.toc" \
-  -o -name "*.lof" -o -name "*.lot" -o -name "*.blg" -o -name "*.nav" \
-  -o -name "*.snm" -o -name "*.vrb" -o -name "*.dvi" -o -name "*.fls" \
-  -o -name "*.fdb_latexmk" -o -name "*.xdv" -o -name "*.synctex.gz" \
-  -o -name "*.synctex\(busy\)" -o -name "*.bcf" -o -name "*.run.xml" \
-  -o -name "*.idx" -o -name "*.ilg" -o -name "*.ind" -o -name "*.brf" \
-  -o -name ".DS_Store" -o -name "*.bbl-SAVE-ERROR" \) -delete
+make clean       # remove LaTeX aux/temp files (keeps the PDFs)
+make clean-all   # also remove build/ and the generated PDFs
 ```
 
-## Fast render
+## Running without Docker (native fallback)
 
-The `img_sd` folder contain low resolution version of all the images in order to render it with the free tier of [overleaf](https://www.overleaf.com/) restricted to 20 seconds of rendering time.
+If you already have TeX Live and ImageMagick installed locally, append
+`USE_DOCKER=0` to run the same targets against your local tools:
 
-To reduce images:
 ```bash
-sips -Z 640 *.jpg
-sips -Z 640 *.png
+make render USE_DOCKER=0
+make sd USE_DOCKER=0
 ```
-
-## ToDo
-
-+ when there are two parentheses in a row, is it necessary to add space between them? -> it has to be an space between them, but it seems like latex include it anyways when rendering.

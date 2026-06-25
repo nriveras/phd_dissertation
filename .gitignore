@@ -1,3 +1,7 @@
-img_SD/
-dissertation_20MB/
 .DS_Store
+
+# Throwaway build tree (downscaled images + aux files for the SD render)
+build/
+
+# Generated friendly-name renders (large; rebuild with `make render` / `make sd`)
+Dissertation Nicolas Riveras Munoz*.pdf

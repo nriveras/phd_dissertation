@@ -34,6 +34,12 @@
 \usepackage{multirow}
 \usepackage{rotating}
 \usepackage{graphicx}
+% Image search root. Empty for a normal full-resolution build (figures resolve
+% from img/ as written). The Makefile's `make sd` target overrides \GraphicsRoot
+% on the command line (latexmk -usepretex) to point at a low-res copy of the
+% images, so figures resolve from build/sd/img/ instead -- no per-file edits.
+\providecommand{\GraphicsRoot}{}
+\graphicspath{{\GraphicsRoot}{./}}
 \usepackage{subcaption}
 \usepackage{caption}
 \usepackage{tocbasic} % Added to resolve \sf@counterlist issue
