@@ -251,7 +251,7 @@ par-ti-ku-l\"a-rer
 % read as the (illegal) baselineskip -> "! Missing number" / "! Illegal unit"
 % while \maketitle shipped out. 22pt is ~1.2x leading for an 18pt title.
 \title{{\fontsize{18pt}{22pt}\selectfont\bfseries \thethesis}}
-\author{\\[2.4cm]
+\author{\\[3.8cm]
   \normalsize\textbf{Dissertation}\\
   \normalsize der Mathematisch-Naturwissenschaftlichen Fakult\"at\\
   \normalsize der Eberhard Karls Universit\"at T\"ubingen\\
@@ -281,6 +281,13 @@ par-ti-ku-l\"a-rer
   \end{tabular}}
 
 \lowertitleback{ % Content for the back of the title page
+    % Match the front page's line spacing. KOMA typesets \author/\date/\publishers
+    % inside \Large, so those lines sit \Large's 22pt baselineskip apart even though
+    % the glyphs are forced back to \normalsize. The tabular trick used above only
+    % controls space *between* rows -- it can't widen the leading *inside* this
+    % wrapping sentence -- so we set the leading directly: 12pt glyphs (\normalsize)
+    % on a 22pt baseline (\Large), the same decoupling \title uses with 18pt/22pt.
+    \fontsize{12pt}{22pt}\selectfont
     Gedruckt mit Genehmigung der Mathematisch-Naturwissenschaftlichen Fakult\"at der
     Eberhard Karls Universit\"at T\"ubingen. \\ \\ \\
     % Same spacing trick as \date/\publishers above: the surrounding \Large
@@ -298,7 +305,7 @@ par-ti-ku-l\"a-rer
 % Push the block up so the empty space below it matches the bottom margin of
 % the title page. \lowertitleback anchors its content to the page bottom, so a
 % trailing \vspace* injects fixed whitespace underneath. Tune the value to taste.
-\vspace*{3cm}}
+\vspace*{2cm}}
 
 % --- Selective Compilation ---
 % \includeonly{tex/Introduction, tex/Methodology}
@@ -309,11 +316,16 @@ par-ti-ku-l\"a-rer
 
 \frontmatter
 % \selectlanguage{ngerman} % Usually not needed here unless \maketitle uses language-specific terms
+% Use inner/outer (not left/right) so the side margins mirror by page parity,
+% exactly like the main body. The class is twoside, so geometry maps inner ->
+% left on odd pages (the title, page 1/recto) and inner -> right on even pages
+% (the lowertitleback, page 2/verso). 35mm is the binding-side (inner) margin,
+% 30mm the outer. Vertical margins are left untouched.
 \newgeometry{
-  top=20mm,
-  bottom=20mm,
-  left=35mm,
-  right=30mm
+  top=0.28in,
+  bottom=0.48in,
+  inner=0.98in,
+  outer=0.98in
 }
 \maketitle
 \restoregeometry

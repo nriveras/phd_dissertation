@@ -3,5 +3,4 @@
 # Throwaway build tree (downscaled images + aux files for the SD render)
 build/
 
-# Generated friendly-name renders (large; rebuild with `make render` / `make sd`)
-Dissertation Nicolas Riveras Munoz*.pdf
+# Dissertation Nicolas Riveras Munoz*.pdf

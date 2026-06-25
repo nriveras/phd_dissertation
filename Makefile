@@ -6,7 +6,7 @@
 #     make render           # full-resolution PDF  -> "Dissertation Nicolas Riveras Munoz.pdf"
 #     make sd               # low-res PDF (images shrunk to 1600 px on the long side)
 #     make sd RES=1200      # low-res PDF at a custom resolution
-#     make clean            # remove LaTeX aux/temp files
+#     make clean            # remove aux/temp files + the working Dissertation.pdf
 #     make clean-all        # also remove build/ and the generated PDFs
 #     make shell            # open a shell inside the container (debugging)
 #
@@ -53,29 +53,47 @@ render:
 	$(RUN) $(LATEXMK) $(DOC).tex
 	cp "$(DOC).pdf" "$(OUT_FULL)"
 	@echo ">> wrote: $(OUT_FULL)"
+	$(MAKE) clean
 
-## Low-resolution ("SD") render. Downscales images into a throwaway build/sd/
-## tree, points \GraphicsRoot at it via latexmk -usepretex, then deletes the
-## temporary tree so only the final (SD) PDF survives. The EXIT trap guarantees
-## cleanup even if the build fails.
+## Low-resolution ("SD") render. Downscales images, builds, and copies out the
+## final PDF.
+##
+## All intermediate I/O (the 46 shrunk images, every .aux/.bcf/.bbl, and the
+## working PDF) is written to /tmp INSIDE the container, not to the host bind
+## mount. On Docker Desktop for Mac the bind mount (osxfs/VirtioFS) intermittently
+## throws "Input/output error" under the heavy write traffic this target
+## generates, which made `make sd` fail unpredictably mid-build. Keeping that
+## traffic on the container's own filesystem and only copying the single final
+## PDF back across the mount removes that flakiness. /tmp is already $HOME (see
+## the RUN definition) and is wiped automatically when the --rm container exits,
+## so there is nothing to clean up on the host. mogrify + latexmk must share one
+## `docker run` because /tmp does not persist between containers.
+##
+## The build log is copied to build/$(DOC)-sd.log (even on failure) for debugging.
 sd:
-	@set -e; \
-	trap 'rm -rf build/sd' EXIT; \
-	$(RUN) bash -c 'shopt -s nullglob; mkdir -p build/sd/img; magick mogrify -path build/sd/img -resize "$(RES)x$(RES)>" img/*.png img/*.jpg img/*.jpeg'; \
-	$(RUN) $(LATEXMK) -usepretex='\def\GraphicsRoot{build/sd/}' -auxdir=build/sd -outdir=build/sd $(DOC).tex; \
-	cp "build/sd/$(DOC).pdf" "$(OUT_SD)"; \
-	echo ">> wrote: $(OUT_SD)"
+	@$(RUN) bash -c 'set -e; shopt -s nullglob; \
+		mkdir -p /tmp/sd/img build; \
+		magick mogrify -path /tmp/sd/img -resize "$(RES)x$(RES)>" img/*.png img/*.jpg img/*.jpeg; \
+		rc=0; \
+		$(LATEXMK) -usepretex="\def\GraphicsRoot{/tmp/sd/}" -auxdir=/tmp/sd -outdir=/tmp/sd $(DOC).tex || rc=$$?; \
+		cp -f /tmp/sd/$(DOC).log "build/$(DOC)-sd.log" 2>/dev/null || true; \
+		if [ $$rc -ne 0 ]; then echo ">> SD build failed (see build/$(DOC)-sd.log)"; exit $$rc; fi; \
+		for i in 1 2 3; do cp /tmp/sd/$(DOC).pdf "$(OUT_SD)" && break || sleep 1; done'
+	@echo ">> wrote: $(OUT_SD)"
+	$(MAKE) clean
 
 ## Open an interactive shell in the container.
 shell:
 	docker run --rm -it -v "$(CURDIR)":/workdir -w /workdir -u $(shell id -u):$(shell id -g) -e HOME=/tmp $(IMAGE) bash
 
-## Remove LaTeX aux/temp files (keeps the PDFs).
+## Remove LaTeX aux/temp files and the regenerable working PDF ($(DOC).pdf).
+## Keeps the final renamed deliverables (use clean-all to remove those too).
 clean:
 	$(TMP_FIND)
 	-$(RUN) latexmk -c $(DOC).tex
+	rm -f "$(DOC).pdf"
 
 ## Remove everything generated: aux/temp, build/, and the produced PDFs.
 clean-all: clean
 	rm -rf build
-	rm -f "$(DOC).pdf" "$(OUT_FULL)" "$(OUT_SD)"
+	rm -f "$(OUT_FULL)" "$(OUT_SD)"
