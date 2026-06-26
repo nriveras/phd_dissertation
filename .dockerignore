@@ -1,5 +1,5 @@
 # The build context only needs the Dockerfile to build the image.
-# Figures and sources are mounted at run time (see the Makefile's docker -v),
+# Figures and sources are mounted at run time (see the README's docker -v),
 # NOT copied into the image, so keep the context tiny and the build fast.
 .git
 *.pdf

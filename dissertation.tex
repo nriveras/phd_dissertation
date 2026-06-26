@@ -1,0 +1,477 @@
+%%
+%% Copyright (C) 2010 by Andreas Dräger
+%% Modified by Nicolás Riveras Muñoz, 2024
+%% ... (license header) ...
+%%
+\documentclass[ % MUST BE THE VERY FIRST COMMAND
+  a4paper,                % Paper size
+  12pt,                   % Base font size
+  headsepline,            % Line under header
+  numbers=noenddot,       % Chapter/section numbers without trailing dot
+  captions=oneline,       % One-line captions if they fit
+  captions=tableheading,  % Table captions above table (KOMA style)
+  BCOR=12mm,              % Binding correction
+  headinclude,            % Header part of type area calculation
+  chapterprefix,          % Use "Chapter X" prefix
+  appendixprefix,         % Use "Appendix X" prefix
+  index=totoc,            % Add index to table of contents
+  bibliography=totoc,      % Add bibliography to table of contents
+  open=right,    % <-- force all chapters (numbered or via \addchap) to start on odd pages
+]{scrbook}
+
+% --- Essential Setup ---
+\usepackage[utf8]{inputenc} % Input encoding. CRITICAL.
+\usepackage[T1]{fontenc}    % Output font encoding. CRITICAL.
+\usepackage[ngerman, english]{babel} % Language support. CRITICAL, load ONCE here.
+\addto\captionsenglish{%
+  \renewcommand{\contentsname}{Table of contents}%
+  \renewcommand{\listfigurename}{List of figures}%
+  \renewcommand{\listtablename}{List of tables}%
+}
+
+\usepackage{amsmath} % <--- Needed for \textsubscript
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{graphicx}
+% Image search root. Empty for a normal full-resolution build (figures resolve
+% from img/ as written). The `SD=1` render (see .latexmkrc) injects a value via
+% pdflatex's pretex (%P) so figures resolve from a low-res copy of the images
+% instead -- no per-file edits.
+\providecommand{\GraphicsRoot}{}
+\graphicspath{{\GraphicsRoot}{./}}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage{tocbasic} % Added to resolve \sf@counterlist issue
+\usepackage{geometry} % Optional, for margins
+% Removed redundant \usepackage{hyperref} to avoid option clash
+% \usepackage{hyperref} % For \href if used elsewhere, though not in table notes now
+\usepackage{scrhack}
+% \usepackage{natbib} % REMOVED: Incompatible with biblatex
+\usepackage{scrlayer-scrpage} % Required for scrheadings pagestyle
+\makeatletter
+\providecommand\sf@counterlist{}
+\makeatother
+
+% --- Custom Dissertation Style ---
+% Loads most packages as defined in dissertation.sty
+\usepackage{dissertation}
+
+% --- Font Setup (pdfLaTeX fallback to Arial-like sans) ---
+% dissertation.sty already loads Helvetica; set it as the document default.
+\renewcommand{\familydefault}{\sfdefault}
+
+% --- Packages NOT loaded by dissertation.sty ---
+\usepackage{siunitx}        % REQUIRED. Load explicitly.
+\usepackage{svg}            % REQUIRED. Load explicitly.
+\usepackage{ragged2e}       % REQUIRED. Load explicitly.
+\usepackage{enumitem}       % REQUIRED. Load explicitly.
+\usepackage{threeparttable} % REQUIRED. Load explicitly for tables with notes (\tnote).
+\usepackage{makecell}       % REQUIRED. Load explicitly for multi-line cells.
+\usepackage{longtable}      % Allows tables to span multiple pages
+
+\usepackage{cleveref} % For smarter referencing like \cref{}
+\usepackage[version=4]{mhchem}
+\usepackage{float}
+
+\usepackage{csquotes}
+
+% Citaitons
+% Use biblatex with biber as backend
+\usepackage[
+    backend=biber,
+    style=apa,
+    natbib=true,
+    url=false, 
+    doi=true,
+    eprint=false,
+    % sorting by name -> year -> title
+    sorting=nyt]{biblatex}
+
+\addbibresource{bibliography/references.bib}
+
+% Allow long DOIs/URLs in the bibliography to break across lines instead of
+% running into the margin. By default biblatex only breaks URLs at punctuation;
+% lowering these penalties lets a break also happen before any digit / upper- /
+% lower-case letter, which is what the long doi.org/... strings need.
+\setcounter{biburlnumpenalty}{7000}
+\setcounter{biburlucpenalty}{7000}
+\setcounter{biburllcpenalty}{7000}
+
+% Last-resort stretch the line breaker may add to avoid overfull lines (e.g.
+% long Latin family names and hyphen-less author strings). It only kicks in when
+% a line cannot otherwise be set, so well-fitting lines are left untouched.
+\setlength{\emergencystretch}{3em}
+
+% Define aliases for natbib-style commands
+\let\citet\textcite
+\let\citep\parencite
+
+% --- SIunitx Configuration ---
+\DeclareSIUnit{\year}{yr}
+\DeclareSIUnit{\hour}{h}
+\DeclareSIUnit{\liter}{L}
+\sisetup{
+  separate-uncertainty = true,
+  table-align-uncertainty = true,
+  table-align-exponent = false,
+}
+
+% --- Robustify Commands ---
+% \robustify{\pm} % <<<--- COMMENTED OUT FOR NOW to avoid 'not a macro' error.
+
+% --- Metadata Setup ---
+% CALL the commands defined in dissertation.sty to set document specifics.
+% IMPORTANT: This block MUST come BEFORE \hypersetup, because hyperref expands
+% \thethesis / \thename / \thekeywordlist at the moment \hypersetup runs. If the
+% metadata is defined afterwards, hyperref captures the empty defaults and the
+% PDF's Title/Author/Keywords fields come out blank.
+\name{Nicolás Riveras Muñoz}
+\thesis{Biological Soil Crusts and Climate Effects on Soil Stabilization, Erosion, and Nutrient Dynamics across the Chilean Coastal Range}
+\keywordlist{%
+biological soil crusts, biocrusts, soil stabilization, soil aggregate stability, soil erosion, soil erosion control, climate gradient, climatic gradient, Chilean Coastal Range, Chile, aridity gradient, arid to humid, soil microbial communities, soil microbiome, nutrient dynamics, carbon and nitrogen cycling, carbon and nitrogen fluxes, soil organic matter, particulate organic matter, soil aggregation, macroaggregation, microbially induced soil aggregation, plant roots, rhizosphere, detritusphere, root decomposition, soil hydrology, infiltration, surface runoff, rainfall simulation, wetting-drying cycles, sediment loss, nutrient leaching, dissolved organic carbon, climate legacy effects, soil structure and function, soil formation, initial soil formation, climate change, ecohydrology, soil ecology, biogeochemistry, how do biocrusts reduce soil erosion, effect of biocrusts on soil aggregate stability, role of microbes in soil aggregation, how climate affects soil stabilization, biocrusts and nutrient cycling, R, Rstudio, ggplot2, Linear Mixed Models%
+}
+\hometown{Puente Alto, Chile}
+\oralexamdate{04.12.2025}
+\dean{Prof.~Dr.~Thilo Stehle}
+\reviewerone{Prof.~Dr.~Thomas Scholten}
+\reviewertwo{PD~Dr.~Harald Neidhardt}
+
+% --- Hyperref Setup ---
+% Apply detailed settings AFTER hyperref has been loaded by dissertation.sty
+\hypersetup{ % <<<--- THIS BLOCK BELONGS HERE
+    bookmarksopen={true},
+    bookmarksopenlevel={0},
+    bookmarksnumbered={true},
+    breaklinks={true},
+    colorlinks={false},
+    pdfborder={0 0 0},
+    linkcolor={blue},
+    citecolor={blue},
+    urlcolor={blue},
+    pdfpagemode={UseOutlines},
+    pdftitle={\thethesis},
+    pdfauthor={\thename},
+    pdfsubject={Dissertation},
+    pdfkeywords={\thekeywordlist},
+    pdfview={FitV},
+    pdffitwindow={true},
+    pdfstartview={FitV},
+    pdfnewwindow={false},
+    pdfdisplaydoctitle={true},
+    plainpages={false},
+    unicode={true}
+}
+
+% --- KOMA-Script Compatibility ---
+% Load scrhack late. MUST be loaded explicitly.
+\usepackage{scrhack}
+
+% \doublespacing
+
+% --- Hyphenation ---
+\selectlanguage{english}
+\hyphenation{
+approach
+A-li-cy-clo-bac-ill-a-ceae
+Ar-den-ti-ca-te-na-ceae
+Be-ris-tain
+Bio-crusts
+bio-crusts
+bio-lo-gi-cal
+Blas-to-cat-ell-a-ceae
+Cald-i-li-ne-a-ceae
+Cau-lo-bac-te-ra-ceae
+Co-ma-mo-na-da-ceae
+con-cen-tra-ti-ons
+chlo-ro-li-chens
+Cy-to-phag-al-es
+eco-sys-tem
+Euz-e-by-e-a-ceae
+Gem-ma-ti-mo-na-da-ceae
+Gem-ma-ti-mo-no-da-to-ta
+hy-dro-pho-bi-ci-ty
+Lo-ngi-mi-cro-bi-a-ceae
+My-xoc-oc-ca-ceae
+Ni-tro-so-mo-nad-e-a-ceae
+Ni-tro-so-spha-er-a-ceae
+Noc-ar-di-oi-da-ceae
+Ped-o-spha-e-ra-ceae
+Pla-no-coc-ca-ceae
+Plan-o-coc-ca-ceae
+Plan-trov-a-ceae
+Po-ly-an-gi-i-a-ceae
+Pseu-do-no-car-di-a-ceae
+Pyr-i-no-mo-na-da-ceae
+Rey-ra-nel-la-e-ceae
+Rh-o-do-mi-cro-bi-a-ceae
+Rho-do-bac-te-ra-ceae
+Rub-ro-bac-te-ri-a-ceae
+Schwei-zer
+Schwei-zer-bart
+So-li-ru-bro-bac-te-ra-ceae
+Sol-i-ru-bro-bac-te-ral-es
+Therm-o-mi-cro-bi-o-ma-les
+True-per-a-ceae
+Vi-ci-na-mi-bac-te-ri-a-ceae
+Vi-lla-dan-gos
+Wet-trock-nungs-zy-klen
+}
+
+% Hyphenation exceptions for German text (e.g., Kurzfassung)
+\selectlanguage{ngerman}
+\hyphenation{
+Wett-rock-nungs-zy-klen
+Labor-Wett-rock-nungs-zy-klen
+Boden-sta-bi-li-sie-rung
+N\"ahr-stoff-dy-na-mik
+Um-welt-gra-di-en-ten
+K\"us-ten-kor-di-lle-re
+Re-gen-sze-na-rio-si-mu-la-tio-nen
+Wur-zel-mi-kro-kos-men
+A-na-ly-se-tech-ni-ken
+Ober-fl\"a-chen-ab-fluss
+sta-bi-li-sie-ren-der
+Ve-ge-ta-tions-de-cke
+Ober-fl\"a-chen-ero-sion
+un-ter-ir-di-schen
+Se-di-ment-ge-bun-de-ne
+Steri-li-sa-tions-ver-su-che
+Ag-gre-gat-bil-dung
+Kli-ma-le-gat-Ef-fek-te
+Ma-kro-ag-gre-ga-tion
+gram-po-si-ti-ven
+par-ti-ku-l\"a-rer
+}
+\selectlanguage{english}
+
+% --- Title Page Setup ---
+% \fontsize REQUIRES two arguments: {<size>}{<baselineskip>}. The previous
+% \fontsize{18pt}\selectfont was missing the baselineskip, so \selectfont got
+% read as the (illegal) baselineskip -> "! Missing number" / "! Illegal unit"
+% while \maketitle shipped out. 22pt is ~1.2x leading for an 18pt title.
+\title{{\fontsize{18pt}{22pt}\selectfont\bfseries \thethesis}}
+\author{\\[3.8cm]
+  \normalsize\textbf{Dissertation}\\
+  \normalsize der Mathematisch-Naturwissenschaftlichen Fakult\"at\\
+  \normalsize der Eberhard Karls Universit\"at T\"ubingen\\
+  \normalsize zur Erlangung des Grades eines\\
+  \normalsize Doktors der Naturwissenschaften\\
+  \normalsize (Dr.~rer.~nat.)
+}
+% NOTE: the date/publishers content is wrapped in a tabular so the line
+% spacing matches the author block. KOMA typesets \author inside a tabular
+% (locking row spacing to the surrounding font), but sets \date/\publishers
+% as plain paragraphs -- so a bare \normalsize...\\ collapses to the tighter
+% normalsize leading. Putting \normalsize *inside* the cells keeps the
+% generous, uniform spacing while still shrinking the glyphs.
+% \vspace{\stretch{N}} pushes these blocks toward the bottom of the title page
+% so the layout matches the reference. (\vspace vs \vspace* makes no difference
+% here since the glue sits mid-page inside \maketitle, never at a page top.)
+\date{\vspace{\stretch{6}}% Content for the date field
+  \begin{tabular}[t]{@{}c@{}}
+    \normalsize vorgelegt von\\
+    \normalsize \thename\\
+    \normalsize aus \thehometown
+  \end{tabular}}
+\publishers{\vspace{\stretch{4}}%
+  \begin{tabular}[t]{@{}c@{}}
+    \normalsize T\"ubingen\\
+    \normalsize 2025
+  \end{tabular}}
+
+\lowertitleback{ % Content for the back of the title page
+    % Match the front page's line spacing. KOMA typesets \author/\date/\publishers
+    % inside \Large, so those lines sit \Large's 22pt baselineskip apart even though
+    % the glyphs are forced back to \normalsize. The tabular trick used above only
+    % controls space *between* rows -- it can't widen the leading *inside* this
+    % wrapping sentence -- so we set the leading directly: 12pt glyphs (\normalsize)
+    % on a 22pt baseline (\Large), the same decoupling \title uses with 18pt/22pt.
+    \fontsize{12pt}{22pt}\selectfont
+    Gedruckt mit Genehmigung der Mathematisch-Naturwissenschaftlichen Fakult\"at der
+    Eberhard Karls Universit\"at T\"ubingen. \\ \\ \\
+    % Same spacing trick as \date/\publishers above: the surrounding \Large
+    % sets the tabular's row baseline (the rows inherit its generous leading),
+    % while \normalsize in each cell keeps the actual text at its normal size.
+    % Value column is a natural-width l (not p{.8\textwidth}); the wide fixed
+    % column previously reserved more than \textwidth beside the label column,
+    % overrunning the right margin (a 97.9pt overfull box).
+    {\Large\begin{tabular}{@{}l@{\hspace{1.5em}}l@{}}
+  \normalsize Tag der m\"undlichen Qualifikation:& \normalsize \theoralexamdate\\
+    \normalsize Dekan:                             & \normalsize \thedean\\
+    \normalsize 1.~Berichterstatter:               & \normalsize \thereviewerone\\
+    \normalsize 2.~Berichterstatter:               & \normalsize \thereviewertwo\\
+\end{tabular}}%
+% Push the block up so the empty space below it matches the bottom margin of
+% the title page. \lowertitleback anchors its content to the page bottom, so a
+% trailing \vspace* injects fixed whitespace underneath. Tune the value to taste.
+\vspace*{1.2cm}}
+
+% --- Selective Compilation ---
+% \includeonly{tex/introduction, tex/methodology}
+
+% ==============================================================================
+\begin{document} % <<<--- MARKS THE START OF THE ACTUAL DOCUMENT CONTENT
+% ==============================================================================
+
+\frontmatter
+% \selectlanguage{ngerman} % Usually not needed here unless \maketitle uses language-specific terms
+% Use inner/outer (not left/right) so the side margins mirror by page parity,
+% exactly like the main body. The class is twoside, so geometry maps inner ->
+% left on odd pages (the title, page 1/recto) and inner -> right on even pages
+% (the lowertitleback, page 2/verso). 35mm is the binding-side (inner) margin,
+% 30mm the outer. Vertical margins are left untouched.
+\newgeometry{
+  top=0.28in,
+  bottom=0.47in,
+  inner=0.98in,
+  outer=0.98in
+}
+\maketitle
+\restoregeometry
+\selectlanguage{english} % Ensure English is active for main content
+
+% --- Front Matter Sections ---
+\include{tex/abstract}
+\selectlanguage{ngerman}
+\begingroup
+\setlength{\emergencystretch}{0.5em}
+\include{tex/kurzfassung}
+\endgroup
+\selectlanguage{english}
+% \include{tex/Acknowledgments}
+
+
+% --- Tables of Contents, Figures, Tables ---
+\tableofcontents
+\listoffigures
+\listoftables
+
+% Ensure the Abbreviations section starts on a new right-hand page
+\cleardoublepage
+\include{tex/abbreviations}
+
+% Ensure the Publications section starts on a new right-hand page
+\cleardoublepage
+\include{tex/publications}
+
+\mainmatter
+
+\begin{refsection}
+    \include{tex/introduction}
+    \include{tex/methodology}
+    \include{tex/results_discussion}
+    \include{tex/conclusions}
+
+    % --- Main Bibliography ---
+    % \nocite{*} % This will include every entry from literatur_all_clean.bib
+    \printbibliography[heading=subbibliography, title={References}]
+\end{refsection}
+
+\appendix % Start the appendix environment
+\include{tex/appendices}
+
+% --- Code to Suppress Appendix Chapter Titles on First Page ---
+\makeatletter % Need access to internal KOMA commands
+
+% Store the original definitions
+\let\originalchapterlinesformat\chapterlinesformat
+\let\originalchapterlineswithprefixformat\chapterlineswithprefixformat
+
+% Redefine the commands to do nothing *only for chapters*
+% This prevents the "Appendix A: Title" text from being printed on the page
+\renewcommand{\chapterlinesformat}[3]{%
+    \ifstr{#1}{chapter}{% Check if the sectioning level is 'chapter'
+    % If it IS a chapter, suppress heading text on the page.
+    }{% If it's NOT a chapter (e.g., part), use the original command
+        \originalchapterlinesformat{#1}{#2}{#3}%
+    }%
+}
+% NOTE: KOMA-Script's \chapterlineswithprefixformat takes THREE arguments
+% (level, prefix line, title) -- not four. Declaring it with [4] made the
+% argument scanner consume the \par after the heading as a bogus 4th argument,
+% producing "! Argument ... has an extra }" + "! Paragraph ended before ...
+% complete" for every manuscript chapter. Use [3] to match KOMA.
+\renewcommand{\chapterlineswithprefixformat}[3]{%
+     \ifstr{#1}{chapter}{% Check if the sectioning level is 'chapter'
+    % If it IS a chapter, suppress heading text on the page.
+     }{% If it's NOT a chapter (e.g., part), use the original command
+        \originalchapterlineswithprefixformat{#1}{#2}{#3}%
+     }%
+}
+\makeatother
+% --- End of Suppression Code ---
+
+% REMOVE the general "Appendix" ToC entry if you don't want it,
+% as each \chapter inside the included files will add its own entry like "Appendix A Title".
+% \addcontentsline{toc}{chapter}{Appendix} % <<< Consider removing this line
+
+% --- Appendices ---
+% INCLUDE each manuscript file DIRECTLY
+% These files should contain their own \chapter{Manuscript Title} command.
+% That command will now correctly number (A, B, ...), add to ToC, and set headers,
+% but the redefinition above prevents the title from printing on the first page.
+%========================
+% Manuscript 1 Bibliography
+%========================
+\begin{refsection}
+    \include{tex/manuscript-1}
+    
+    \printbibliography[heading=subbibliography, title={References for Manuscript 1}]
+  \end{refsection}
+  
+  %========================
+  % Manuscript 2 Bibliography
+  %========================
+  \begin{refsection}
+    \include{tex/manuscript-2}
+    
+    \printbibliography[heading=subbibliography, title={References for Manuscript 2}]
+  \end{refsection}
+  
+  %========================
+  % Manuscript 3 Bibliography
+  %========================
+  \begin{refsection}
+    \include{tex/manuscript-3}
+    
+    \printbibliography[heading=subbibliography, title={References for Manuscript 3}]
+  \end{refsection}
+  
+  %========================
+  % Manuscript 4 Bibliography
+  %========================
+  \begin{refsection}
+    \include{tex/manuscript-4}
+    
+    \printbibliography[heading=subbibliography, title={References for Manuscript 4}]
+  \end{refsection}
+  
+  %========================
+  % Manuscript 5 Bibliography
+  %========================
+  \begin{refsection}
+    \include{tex/manuscript-5}
+    
+    \printbibliography[heading=subbibliography, title={References for Manuscript 5}]
+  \end{refsection}
+
+% --- Restore Original Chapter Formatting ---
+% IMPORTANT: If you have any \chapter commands *after* this point
+% (e.g., in \backmatter) that you *want* to have titles printed,
+% you MUST restore the original definitions.
+\makeatletter
+\let\chapterlinesformat\originalchapterlinesformat
+\let\chapterlineswithprefixformat\originalchapterlineswithprefixformat
+\makeatother
+% --- End of Restoration Code ---
+
+
+% Other potential appendix sections:
+% \include{tex/abbreviations} % If these use \chapter, their titles would also be suppressed unless placed after restoration
+% \include{tex/Glossary}
+% \include{tex/Supplementary}
+
+\backmatter
+\include{tex/acknowledgements}
+\end{document}

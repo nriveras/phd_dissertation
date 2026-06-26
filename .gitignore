@@ -1,6 +1,5 @@
 .DS_Store
 
-# Throwaway build tree (downscaled images + aux files for the SD render)
+# Build scratch lives in /tmp; the finished deliverable PDFs are written here.
+# Both are kept out of git (the PDFs are large -- CI publishes them as artifacts).
 build/
-
-# Dissertation Nicolas Riveras Munoz*.pdf

@@ -9,7 +9,7 @@
 # digest from `docker images --digests texlive/texlive`.
 FROM texlive/texlive:latest
 
-# ImageMagick is used by `make sd` to downscale figures for the low-res render.
+# ImageMagick is used by the `SD=1` render (in .latexmkrc) to downscale figures.
 # It is not part of the TeX Live image, so install it here (cross-platform
 # replacement for macOS-only `sips`).
 RUN apt-get update \

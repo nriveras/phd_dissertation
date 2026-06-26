@@ -1,0 +1,41 @@
+# Build the dissertation on GitHub's servers for every push / pull request.
+#
+# It reuses the project's own toolchain exactly: it builds the pinned Docker
+# image from the repo's Dockerfile and renders through build.sh, so CI compiles
+# the document the same way you do locally (no separate, drifting TeX setup to
+# keep in sync). The finished PDF is published as a downloadable artifact.
+name: Build dissertation
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:        # adds a manual "Run workflow" button in the Actions tab
+
+# If you push again before a run finishes, cancel the older one -- no point
+# spending minutes rendering a commit that's already been superseded.
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60     # a full clean render pulls TeX Live (~GBs) + builds 277 pages
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      # build.sh auto-builds the Docker image on first run, then renders the
+      # full-resolution PDF into build/ via latexmk (see .latexmkrc).
+      - name: Render the full-resolution PDF
+        run: |
+          chmod +x build.sh
+          ./build.sh render
+
+      - name: Upload the rendered PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: dissertation-pdf
+          path: build/*.pdf
+          if-no-files-found: error   # fail loudly if the render produced nothing
